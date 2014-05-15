@@ -1,0 +1,120 @@
+---
+layout: default
+blog: true
+---
+<h2>{{ page.title }}</h2>
+
+<div class="row">
+
+  <div class="col-md-8">
+    <p class="visible-xs">
+      {{ page.date | date_to_string }}
+    </p>
+    <article>
+      {{ content }}
+    </article>
+
+    <hr />
+
+    <div>
+      Share this on <a href="https://plus.google.com/share?url={{site.url}}{{page.url}}">
+        Google+
+      </a>
+      <br><br>
+    </div>
+
+    <div class="pull-left">
+      {% if page.previous %}
+        <a href="{{ page.previous.url }}">&larr; {{page.previous.title}}</a>
+      {% endif %}
+    </div>
+
+    <div class="pull-right">
+      {% if page.next %}
+        <a href="{{ page.next.url }}">{{page.next.title}} &rarr;</a>
+      {% endif %}
+    </div>
+    <div class="clearfix"></div>
+  </div>
+
+  <div class="col-md-4">
+    <div class="panel panel-default post-details hidden-xs">
+      <div class="panel-heading">
+        <h3 class="panel-title">Meta</h3>
+      </div>
+      <div class="panel-body">
+        <dl>
+          <dt>Posted</dt>
+          <dd>{{ page.date | date_to_string }}</dd>
+        </dl>
+        {% if page.updated %}
+        <dl>
+          <dt>Updated</dt>
+          <dd>{{ page.updated | date_to_string }}</dt>
+        </dl>
+        {% endif %}
+        <dl>
+          <dt>Share</dt>
+          <dd>
+            <ul class="list-inline">
+              <li>
+                <a href="https://plus.google.com/share?url={{site.url}}{{page.url}}">
+                  Google+
+                </a>
+              </li>
+              <li>
+                <a href="http://www.twitter.com/share?url={{site.url}}{{page.url}}">
+                  Twitter
+                </a>
+              </li>
+            </ul>
+          </dd>
+        </dl>
+        <dl>
+          <dt>Tags</dt>
+          <dd>
+            <ul class="list-inline">
+            {% for tag in page.tags %}
+              <li>#{{ tag }}</li>
+            {% endfor %}
+            </ul>
+          </dd>
+        </dl>
+        <dl>
+          <dt>Related Posts</dt>
+          <dd>
+            <ul class="list-unstyled">
+              {% for post in site.related_posts %}
+                <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+              {% endfor %}
+            </ul>
+          </dd>
+        </dl>
+      </div>
+    </div> <!-- meta -->
+
+    <div class="panel panel-default recent-posts hidden-xs">
+      <div class="panel-heading">
+        <h3 class="panel-title">Recent Posts</h3>
+      </div>
+      <div class="panel-body">
+        <ul class="list-unstyled">
+          {% assign posts = site.categories.blog | sort "date" %}
+          {% for post in posts %}
+            <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+          {% endfor %}
+        </ul>
+      </div>
+    </div> <!-- recent-posts -->
+
+  </div> <!-- col4 -->
+</div> <!-- row -->
+
+<ul class="pager" hidden>
+  <li class="previous {% unless page.previous %}disabled{% endunless %}">
+    <a href="{{ page.previous.url }}">&larr; Older</a>
+  </li>
+  <li class="next {% unless page.next %}disabled{% endunless %}">
+    <a href="{{ page.next.url }}">Newer &rarr;</a>
+  </li>
+</ul>
