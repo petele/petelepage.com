@@ -6,3 +6,6 @@ paginate_path: "blog/page:num"
 permalink: /blog/:year/:month/:title.html
 destination: _build/
 url: https://www.petelepage.com
+rss_path: static/
+sitemap:
+    file: static/sitemap.xml
