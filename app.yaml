@@ -15,27 +15,6 @@ libraries:
 
 
 handlers:
-- url: /blog/
-  static_files: blog/index.html
-  upload: blog/index.html
-
-- url: /blog/
-  static_dir: blog
-
-- url: /photography/
-  static_files: photography/index.html
-  upload: photography/index.html
-
-- url: /photography/
-  static_dir: photography
-
-- url: /scratch/
-  static_files: scratch/index.html
-  upload: scratch/index.html
-
-- url: /scratch
-  static_dir: scratch
-
 - url: /css
   static_dir: css
 
@@ -71,14 +50,6 @@ handlers:
 - url: /sitemap.xml
   static_files: static/sitemap.xml
   upload: static/sitemap.xml
-
-- url: /index.html
-  static_files: index.html
-  upload: index.html
-
-- url: /
-  static_files: index.html
-  upload: index.html
 
 - url: .*
   script: app.application
