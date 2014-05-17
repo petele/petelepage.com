@@ -99,7 +99,7 @@ blog: true
       </div>
       <div class="panel-body">
         <ul class="list-unstyled">
-          {% for post in site.posts %}
+          {% for post in site.posts limit:8 %}
             <li><a href="{{ post.url }}">{{ post.title }}</a></li>
           {% endfor %}
         </ul>
