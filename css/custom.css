@@ -24,3 +24,7 @@ footer {
 .panel.recent-posts .panel-heading {
   background: inherit;
 }
+
+code {
+  white-space: normal;
+}
