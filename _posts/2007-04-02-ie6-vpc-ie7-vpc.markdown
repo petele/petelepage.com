@@ -1,0 +1,25 @@
+---
+layout: post
+status: publish
+published: true
+title: IE6 VPC &amp; IE7 VPC
+author: Pete
+author_login: Pete
+author_email: pete.lepage@pobox.com
+author_url: http://petelepage.com
+wordpress_id: 1412
+wordpress_url: 91d46819-8472-40ad-a661-2c78acb4018c:2014255
+date: '2007-04-02 16:44:00 -0400'
+date_gmt: '2007-04-02 23:44:00 -0400'
+categories:
+- Web Design &amp; Development
+- Microsoft
+tags:
+- MSDNBlogPost
+comments: []
+---
+<p>We've seen a few reports of people having problems with the recently released IE6 VPC image.  At first I thought it was because people were running the image on non-Microsoft virtualization software, which causes the image to be invalidated.  But, I got a report internally from someone who confirmed they were running the VPC on Virual PC 2007, and sure enough.</p>
+<p>Obviously, that's not the problem, and I'm not sure what the problem is.  I'm going to spend a few hours this week trying to track it down, but the short answer I think it that I'll end up having to release a new image.  Sucky, I know.  But, I do have one peice of good news.  I'm going to build two Windows XP images in parallel.  One for IE6, and we're going to release an IE7 on Windows XP virutal PC image as well!</p>
+<p>I suspect it'll take about 2 weeks to get it done.  It takes me about 2 full days to build the image, shrink it down as much as possible and get it to a place where we can apply the time bombing, and then the time bombing process takes about 48-72 hours.  After that, there is about another hour to two worth of work to do, and the upload process starts.</p>
+<p>I'll get a post up here and on the IE blog once it's done, but look for something mid to late next week.</p>
+<p><img src="http://blogs.msdn.com/aggbug.aspx?PostID=2014255" alt="" width="1" height="1" /></p>

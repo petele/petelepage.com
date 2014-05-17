@@ -1,0 +1,28 @@
+---
+layout: post
+status: publish
+published: true
+title: I'm Back!
+author: Pete
+author_login: Pete
+author_email: pete.lepage@pobox.com
+author_url: http://petelepage.com
+wordpress_id: 1291
+wordpress_url: 91d46819-8472-40ad-a661-2c78acb4018c:8800831
+date: '2008-08-01 13:04:00 -0400'
+date_gmt: '2008-08-01 20:04:00 -0400'
+categories:
+- Web Design &amp; Development
+tags:
+- MSDNBlogPost
+comments: []
+---
+<p>&lt;pokes head above blog wall&gt;</p>
+<p>&lt;moves some cob webs aside&gt;</p>
+<p>hello! i'm back.  :)</p>
+<p>a couple of months ago, I did an interview with Craig shoemaker about one of the session I did at TechEd this year, and he posted the interview a few weeks ago.  I figured this would be a good place to start my blogging again!</p>
+<p class="MsoNormal" style="margin: 0in 0in 0pt;"><strong><span style="font-size: small;"> </span><span style="font-family: Calibri;">Top Web Design Mistakes&lt; ?xml:namespace prefix = o ns = "urn:schemas-microsoft-com:office:office" /&gt;</span></strong></p>
+<p class="MsoNormal" style="margin: 0in 0in 0pt;"><a href="http://getpixel8ed.com/shows/mistakes"><span style="font-family: Calibri; font-size: small;">http://getpixel8ed.com/shows/mistakes</span></a></p>
+<p class="MsoNormal" style="margin: 0in 0in 0pt;"><span style="font-family: Calibri; font-size: small;"> </span></p>
+<p class="MsoNormal" style="margin: 0in 0in 0pt;"><em><span style="font-family: Calibri;">Pete LePage is Product Manager of Internet Explorer Developer Division and he doesn’t want your web site to stink. Sharing from his talk given at TechEd 2008, Pete highlights 10 common web design mistakes and tells you how you can bypass the same blunders. Pete also tells us how future features of Internet Explorer will help your visitors leave your site with a smile.</span></em></p>
+<p><img src="http://blogs.msdn.com/aggbug.aspx?PostID=8800831" alt="" width="1" height="1" /></p>

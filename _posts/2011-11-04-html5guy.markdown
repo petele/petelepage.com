@@ -1,0 +1,40 @@
+---
+layout: post
+status: publish
+published: true
+title: Happy Friday from the HTML5 Guy
+author: Pete
+author_login: Pete
+author_email: pete.lepage@pobox.com
+author_url: http://petelepage.com
+wordpress_id: 2739
+wordpress_url: http://petelepage.com/blog/?p=2739
+date: '2011-11-04 05:58:21 -0400'
+date_gmt: '2011-11-04 12:58:21 -0400'
+categories:
+- HTML5
+tags: []
+comments:
+- id: 4764
+  author: John Bristowe
+  author_email: john@bristowe.com
+  author_url: http://bristowe.com/
+  date: '2011-11-06 20:14:08 -0500'
+  date_gmt: '2011-11-07 04:14:08 -0500'
+  content: PNG?! For shame. Where's the SVG or Canvas, bro?
+- id: 4765
+  author: Pete
+  author_email: pete.lepage@pobox.com
+  author_url: http://petelepage.com/blog/
+  date: '2011-11-07 07:58:16 -0500'
+  date_gmt: '2011-11-07 15:58:16 -0500'
+  content: "<blockquote>\r\n<a href=\"#comment-4764\" rel=\"nofollow\">\r\n<strong><em>John
+    Bristowe:</em></strong>\r\n</a>\r\n PNG?! For shame. Where’s the SVG or Canvas,
+    bro?\r\n</blockquote>\r\n\r\nIt's coming! Now that I've figured out the proportions
+    and such, I want to make an HTML5ify web app that'll build these guys for you,
+    then let you download either a vector based or bitmap image.  The Android team
+    released all their artwork for the Androdify app, so it's just a matter of webifying
+    it... so to speak! :)"
+---
+<p><a href="http://petelepage.com/blog/wp-content/uploads/2011/11/HTML5-Guy.png"><br />
+<img class="aligncenter size-medium wp-image-2740" title="HTML5-Guy" src="http://petelepage.com/blog/wp-content/uploads/2011/11/HTML5-Guy-237x300.png" alt="" width="237" height="300" /></a></p>

@@ -1,0 +1,24 @@
+---
+layout: post
+status: publish
+published: true
+title: '"IE8" and VPC''s'
+author: Pete
+author_login: Pete
+author_email: pete.lepage@pobox.com
+author_url: http://petelepage.com
+wordpress_id: 1293
+wordpress_url: 91d46819-8472-40ad-a661-2c78acb4018c:6672435
+date: '2007-12-05 20:16:03 -0500'
+date_gmt: '2007-12-06 03:16:03 -0500'
+categories:
+- Web Design &amp; Development
+tags:
+- MSDNBlogPost
+comments: []
+---
+<p>Two quick notes that I wanted to get out there.</p>
+<p>IE8.  Yep, it officially has a name now.  Check out the <a href="http://blogs.msdn.com/ie/archive/2007/12/05/internet-explorer-8.aspx">post</a> from Dean on the IE blog.</p>
+<p>I've uploaded the new VPC images and am just waiting for them to propagate through the severs, now.  I expect it to be live within the next 24 hours.</p>
+<p>PEte</p>
+<p><img src="http://blogs.msdn.com/aggbug.aspx?PostID=6672435" alt="" width="1" height="1" /></p>

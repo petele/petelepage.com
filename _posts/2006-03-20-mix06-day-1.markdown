@@ -1,0 +1,25 @@
+---
+layout: post
+status: publish
+published: true
+title: 'Mix06: Day 1'
+author: Pete
+author_login: Pete
+author_email: pete.lepage@pobox.com
+author_url: http://petelepage.com
+wordpress_id: 1828
+wordpress_url: http://petelepage.com/blog/2006/03/mix06-day-1/
+date: '2006-03-20 07:32:00 -0500'
+date_gmt: '2006-03-20 14:32:00 -0500'
+categories:
+- General
+tags:
+- MSDNBlogPost
+comments: []
+---
+<p>Well, we're about 1/2 way through day one here at Mix06 and all I can do is say WOW.</p>
+<p>WOW!</p>
+<p>The keynotes this morning were pretty good, I'm not a big keynote fan, I'd much rather get my info seeing demos one-on-one or hearing about cool stuff in real environements, but today kicked butt.&nbsp; Bill was Bill.&nbsp; And everyone laughed when somebody in the audience yelled at the MySpace.com crew that they wanted some open API's.&nbsp; And thats a great point, as we move towards the next generation web, we're going to need API's that are stable, and open, available to anyone and everyone. Not something that I have to sign some kind of developer "first born child" license for.&nbsp; The MySpace guys have done some neat things with ASP.NET 2.0, and they've got some more cool stuff coming down the pipe.&nbsp; As much as I dislike the bad UI on most MySpace pages, I mihgt have to check it out again soon</p>
+<p>After Bill's keynote, the IE guys got up and did theirs, including about 20 minutes with ScottGu (my GM).&nbsp; I know a bit about Atlas, and I can talk about it, but I've not done much work with it.&nbsp; Well, Scott created a quick web application, and then "atlas-ized" it, and holy CRAP!&nbsp; It was so freakin' easy and cool!&nbsp; By simply adding a few additional controls to his page, and wrapping another control inside an atlas update panel, and BAM!&nbsp; It was done, full fledge atlas app good to go!&nbsp; It gave me some neat ideas on some stuff that I want to play with over the next few days/weeks.&nbsp; I think I want to rewrite some of my on line web applications!!!! :)</p>
+<p>The stuff that is going to come out of this conference is going to kick some serious ass!&nbsp; And I'm excited about it!&nbsp; There is a virtual Mix06 version available, so for those of you who couldn't get here, check it out.&nbsp; Sure, you don't get the Las Vegas experience, you sure do get the stuff thats worth it!</p>
+<p>If you're at Mix06, drop me a line!&nbsp; I'd love to hear from you!</p>

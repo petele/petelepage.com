@@ -1,0 +1,22 @@
+---
+layout: post
+status: publish
+published: true
+title: Welcome!
+author: Pete
+author_login: Pete
+author_email: pete.lepage@pobox.com
+author_url: http://petelepage.com
+wordpress_id: 1916
+wordpress_url: http://petelepage.com/blog/2004/06/welcome/
+date: '2004-06-17 09:14:00 -0400'
+date_gmt: '2004-06-17 16:14:00 -0400'
+categories:
+- General
+tags:
+- MSDNBlogPost
+comments: []
+---
+<p>As I think every other blogger has mentioned, there is always a first post, and its usually pretty lame.&nbsp; So here's mine.&nbsp; I'm a tester on the web designer surface of VisualStudio.&nbsp; I've been at Microsoft for about 3 years now, and have been on this team the entire time.&nbsp; We're working on some awesome stuff, and want to hear what you think about it.</p>
+<p>I also own the Designer Smart Tasks that pop up next to a number of controls when they are dropped on the page.&nbsp; They're a great way to get stuff done quickly and easily!&nbsp; They were a tonne of fun to test, as they are pretty dynamic, and useful!</p>
+<p>My main guy in crime is <a href="http://blogs.msdn.com/bencon/">BenCon</a> who is the dev for this&nbsp;area.&nbsp; If you can convince the two of us to get something done, we'll do our best to make sure it has some distinction in the way the product moves.&nbsp; </p>

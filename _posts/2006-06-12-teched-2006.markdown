@@ -1,0 +1,23 @@
+---
+layout: post
+status: publish
+published: true
+title: TechEd 2006
+author: Pete
+author_login: Pete
+author_email: pete.lepage@pobox.com
+author_url: http://petelepage.com
+wordpress_id: 1669
+wordpress_url: 91d46819-8472-40ad-a661-2c78acb4018c:628627
+date: '2006-06-12 16:41:00 -0400'
+date_gmt: '2006-06-12 23:41:00 -0400'
+categories:
+- Microsoft
+tags:
+- MSDNBlogPost
+comments: []
+---
+<p>Well, since I'm currently sitting at my desk, and not at TechEd like all the other cool kids, I figured I'd post a bit about some of the goings on at TechEd, you know, for those of us who have to work ;)</p>
+<p>Our team has a few people at TechEd this year, if you're there, say hi!  Mikhail, Sam, Jeff and Alison will all be there and answering your questions and being great resources!  Sam and Jeff aremy PM's, Mikhail is one of my dev's and Little (Alison) is a tester on the project and IDE team.</p>
+<p>So, for those of us not there, there is <a href="http://virtualteched.com/">Virtual Tech Ed</a> It's kind of neat as there are all kinds of presentations being streamed live and up to the minute.  The only sucky thing is the 3 hour time change for those of us on the west coast.  I may well be up at 7:30 for a webcast, but I'm usually out on the water around then, and well, rowing and watching Podcasts don't go together too well.</p>
+<p><img src="http://blogs.msdn.com/aggbug.aspx?PostID=628627" alt="" width="1" height="1" /></p>
