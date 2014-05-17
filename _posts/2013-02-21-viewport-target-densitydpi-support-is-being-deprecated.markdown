@@ -89,14 +89,27 @@ comments:
     and according to the comments on this JIRA issue, it will still be needed for
     [&#8230;]'
 ---
-<p>Support for <code>target-densitydpi</code> in the <code>viewport</code> meta tag was recently <a href="http://trac.webkit.org/changeset/119527" target="_blank">removed from WebKit</a> and with Chrome for Android moving forward to current revisions on WebKit, this change is now rolling out in Android. This change affects only a small number of sites because of the limited implementation of the <code>target-densitydpi</code> attribute. It brings Chrome and other WebKit based browsers in compliance with the <a href="http://dev.w3.org/csswg/css-device-adapt/#viewport-meta" target="_blank">specification</a> and matches the behavior of other modern mobile browsers.</p>
-<p>In order to to best understand what’s changed, you need to remember that a device pixel is not the same as a CSS pixel (see <a href="http://coding.smashingmagazine.com/2012/08/20/towards-retina-web/" target="_blank">CSS Pixels</a>), and that high DPI displays are able to create crisper and sharper images by fitting more device pixels into a smaller space. This means that in order for content to appear at a normal size, the browser treats each CSS pixel as multiple device pixels and the browser scaled up assets and images to fit within the correct number of CSS pixels.</p>
-<p>In Android browser and early versions of Chrome for Android, developers could use <code>target-densitydpi=device-dpi</code> viewport value to force the browser to make a CSS pixel the same size as a device pixel, which may cause content to appear incorrectly scaled on screen (as seen in figure 1).</p>
-<p>[caption id="attachment_2839" align="aligncenter" width="520"]<a href="http://petelepage.com/blog/wp-content/uploads/2013/02/targetdensitydpi.png"><img class=" wp-image-2839 " alt="Effects of target-densitydpi" src="http://petelepage.com/blog/wp-content/uploads/2013/02/targetdensitydpi.png" width="520" height="434" /></a> Figure 1 - The effects of <code>target-densitydpi</code><br /><code>&lt;meta name="viewport" content="width=device-width, target-densitydpi=device-dpi"&gt;</code><br />Left: Android Browser respects the <code>target-densitydpi</code> setting and causes content to be improperly scaled.<br />Right: Chrome for Android ignores the <code>target-densitydpi</code> setting.[/caption]</p>
-<h2>An Easy, Quick Fix</h2>
-<p>In most cases, if your site is affected by this change you can fix it easily by serving the same mark-up (including viewport) to Chrome for Android as you serve to mobile Safari (which never supported <code>target-densitydpi</code>).</p>
-<h2>Best Practices for Modern Mobile Web Sites</h2>
-<p>When designing a new mobile site, or updating existing pages, you should use modern techniques for dealing with high DPI displays; including always using <code>&lt;meta name="viewport" content="width=device-width"&gt;</code> and a flexible layout for mobile sites. Remember, device sizes, orientations and pixel ratios vary which means that your site may be displayed on a screen ranging from 320 to over 600 CSS pixels wide.</p>
-<p>For more information about best practices for building websites that work well on high DPI displays, check out <a href="https://twitter.com/kaishin" target="_blank">Reda Lemeden’s</a> <a href="http://coding.smashingmagazine.com/2012/08/20/towards-retina-web/" target="_blank">Towards a Rentina Web</a> article on Smashing Magazine.</p>
-<h2>One Other Little Note</h2>
-<p>While writing up this post, I accidentally did a search for sites that used <code>target-density</code> instead of <code>target-density<strong>dpi</strong></code> and I came across quite a few of them.  If you’re using <code>target-density</code> (without the dpi at the end), you can just remove it, it wasn’t doing anything!</p>
+Support for `target-densitydpi` in the `viewport` meta tag was recently [removed from WebKit](http://trac.webkit.org/changeset/119527) and with Chrome for Android moving forward to current revisions on WebKit, this change is now rolling out in Android. This change affects only a small number of sites because of the limited implementation of the `target-densitydpi` attribute. It brings Chrome and other WebKit based browsers in compliance with the [specification](http://dev.w3.org/csswg/css-device-adapt/#viewport-meta) and matches the behavior of other modern mobile browsers.
+
+In order to to best understand what’s changed, you need to remember that a device pixel is not the same as a CSS pixel (see [CSS Pixels](http://coding.smashingmagazine.com/2012/08/20/towards-retina-web/)), and that high DPI displays are able to create crisper and sharper images by fitting more device pixels into a smaller space. This means that in order for content to appear at a normal size, the browser treats each CSS pixel as multiple device pixels and the browser scaled up assets and images to fit within the correct number of CSS pixels.
+
+In Android browser and early versions of Chrome for Android, developers could use `target-densitydpi=device-dpi` viewport value to force the browser to make a CSS pixel the same size as a device pixel, which may cause content to appear incorrectly scaled on screen (as seen in figure 1).
+
+[caption id="attachment_2839" align="aligncenter" width="520"][![Effects of target-densitydpi](http://petelepage.com/blog/wp-content/uploads/2013/02/targetdensitydpi.png)](http://petelepage.com/blog/wp-content/uploads/2013/02/targetdensitydpi.png) Figure 1 - The effects of `target-densitydpi`
+`&lt;meta name="viewport" content="width=device-width, target-densitydpi=device-dpi"&gt;`
+Left: Android Browser respects the `target-densitydpi` setting and causes content to be improperly scaled.
+Right: Chrome for Android ignores the `target-densitydpi` setting.[/caption]
+
+## An Easy, Quick Fix
+
+In most cases, if your site is affected by this change you can fix it easily by serving the same mark-up (including viewport) to Chrome for Android as you serve to mobile Safari (which never supported `target-densitydpi`).
+
+## Best Practices for Modern Mobile Web Sites
+
+When designing a new mobile site, or updating existing pages, you should use modern techniques for dealing with high DPI displays; including always using `&lt;meta name="viewport" content="width=device-width"&gt;` and a flexible layout for mobile sites. Remember, device sizes, orientations and pixel ratios vary which means that your site may be displayed on a screen ranging from 320 to over 600 CSS pixels wide.
+
+For more information about best practices for building websites that work well on high DPI displays, check out [Reda Lemeden’s](https://twitter.com/kaishin) [Towards a Rentina Web](http://coding.smashingmagazine.com/2012/08/20/towards-retina-web/) article on Smashing Magazine.
+
+## One Other Little Note
+
+While writing up this post, I accidentally did a search for sites that used `target-density` instead of `target-density**dpi**` and I came across quite a few of them.  If you’re using `target-density` (without the dpi at the end), you can just remove it, it wasn’t doing anything!

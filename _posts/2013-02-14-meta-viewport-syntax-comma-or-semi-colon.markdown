@@ -32,21 +32,33 @@ comments:
   date_gmt: '2013-12-05 20:34:23 -0500'
   content: Thx, above described correct syntax is working fine for me.
 ---
-<p>
-<strong>TL;DR:</strong> If you’re using a semi-colon to separate values in your viewport meta tag, your site may break! Use a comma instead.</p>
-<p>Browsers can be pretty forgiving most days, they do their best to fix our coding mistakes; but it’s a tough job.  Most days, they manage to get it right, but trying to fix all the possible error cases is pretty hard.  Worse yet, sometimes one browser fixes our code for us, while others don’t.</p>
-<p>The viewport meta tag seems to be one of those elements that’s a little bit persnickety.  The <a href="http://dev.w3.org/csswg/css-device-adapt/" target="_blank">CSS Device Adaptation spec</a> says the correct syntax uses a comma to separate the values.  Unfortunately some sites use a semi-colon, which causes the browser to ignore your viewport settings completely!</p>
-<h3 style="color:green;">Correct Syntax</h3>
-<p>[html]<br />
-&lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1.0, maximum-scale=1.0&quot; /&gt;<br />
-[/html]</p>
-<h3 style="color:red;">Incorrect Syntax</h3>
-<p>[html]<br />
-&lt;meta name=&quot;viewport&quot; content=&quot;width=device-width; initial-scale=1.0; maximum-scale=1.0&quot; /&gt;<br />
-[/html]</p>
-<p>If you want to see this in action and how bad things can look, use the remote debugger with Chrome for Android Beta to change the comma to a semi-colon in the viewport meta tag on Google.com.  The site will suddenly go from looking good, to looking awful.  </p>
-<p><a href="http://petelepage.com/blog/wp-content/uploads/2013/02/vp-comma.png"><img src="http://petelepage.com/blog/wp-content/uploads/2013/02/vp-comma-180x300.png" alt="Good viewport syntax" width="180" height="300" class="alignleft size-medium wp-image-2824" /></a><br />
-<a href="http://petelepage.com/blog/wp-content/uploads/2013/02/vp-semicolon.png"><img src="http://petelepage.com/blog/wp-content/uploads/2013/02/vp-semicolon-180x300.png" alt="Invalid viewport syntax" width="180" height="300" class="alignright size-medium wp-image-2823" /></a></p>
+
+**TL;DR:** If you’re using a semi-colon to separate values in your viewport meta tag, your site may break! Use a comma instead.
+
+Browsers can be pretty forgiving most days, they do their best to fix our coding mistakes; but it’s a tough job.  Most days, they manage to get it right, but trying to fix all the possible error cases is pretty hard.  Worse yet, sometimes one browser fixes our code for us, while others don’t.
+
+The viewport meta tag seems to be one of those elements that’s a little bit persnickety.  The [CSS Device Adaptation spec](http://dev.w3.org/csswg/css-device-adapt/) says the correct syntax uses a comma to separate the values.  Unfortunately some sites use a semi-colon, which causes the browser to ignore your viewport settings completely!
+
+### Correct Syntax
+
+{% highlight html %}
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+{% endhighlight %}
+
+### Incorrect Syntax
+
+{% highlight html %}
+<meta name="viewport" content=width="device-width; initial-scale=1.0" />
+{% endhighlight %}
+
+If you want to see this in action and how bad things can look, use the remote debugger with Chrome for Android Beta to change the comma to a semi-colon in the viewport meta tag on Google.com.  The site will suddenly go from looking good, to looking awful.  
+
+[![Good viewport syntax](http://petelepage.com/blog/wp-content/uploads/2013/02/vp-comma-180x300.png)](http://petelepage.com/blog/wp-content/uploads/2013/02/vp-comma.png)
+
+[![Invalid viewport syntax](http://petelepage.com/blog/wp-content/uploads/2013/02/vp-semicolon-180x300.png)](http://petelepage.com/blog/wp-content/uploads/2013/02/vp-semicolon.png)
+
 <div style="clear:both;"></div>
-<p>The Developer Tools also warn you in the Console when it comes across an invalid viewport meta tag with the warning: <code>Viewport argument value "device-width;" for key "width" is invalid, and has been ignored. Note that ';' is not a separator in viewport values. The list should be comma-separated.</code></p>
-<p>Go make awesome, but use a comma!</p>
+
+The Developer Tools also warn you in the Console when it comes across an invalid viewport meta tag with the warning: `Viewport argument value "device-width;" for key "width" is invalid, and has been ignored. Note that ';' is not a separator in viewport values. The list should be comma-separated.`
+
+Go make awesome, but use a comma!
