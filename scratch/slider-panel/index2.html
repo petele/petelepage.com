@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Panel</title>
+	
+	<link rel="stylesheet" href="reset.css">
+	<link rel="stylesheet" href="style2.css">
+	
+</head>
+<body>
+
+  <div id="content">
+    <h1><a href="http://petelepage.com/blog/2011/07/showing-hiding-panels-with-html-and-css/">Showing and hiding panels with CSS and HTML (v2)</a></h1>
+    
+    <p>The original version is available <a href="index.html">here.</a></p>
+  
+    <div id="left-panel" class="this that the other thing">
+      <!--<span class="pointer">&rarr;</span>-->
+      <img src="forward_512.png" class="pointer">
+      <div onclick="showLeftPanel();" class="controller"></div> 
+      <!--<a href="#" onclick="showLeftPanel();" class="controller"></a>-->
+      <h1>Title</h1>
+      <p>Oh hey look, I'm some text in a panel!</p>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, 
+          sed do eiusmod tempor incididunt ut labore et dolore magna 
+          aliqua. Ut enim ad minim veniam, quis nostrud exercitation 
+          ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+          Duis aute irure dolor in reprehenderit in voluptate velit 
+          esse cillum dolore eu fugiat nulla pariatur. Excepteur 
+          sint occaecat cupidatat non proident, sunt in culpa qui 
+          officia deserunt mollit anim id est laborum.</p>
+    </div>
+    
+  </div>
+
+  <script type="text/javascript">
+    function showLeftPanel() {
+      var elem = document.getElementById("left-panel");
+      if (elem.classList) {
+        console.log("classList supported");
+        elem.classList.toggle("show");
+      } else {
+        var classes = elem.className;
+        if (classes.indexOf("show") >= 0) {
+          elem.className = classes.replace("show", "");
+        } else {
+          elem.className = classes + " show"; 
+        }
+        console.log(elem.className);
+      }
+    }
+  </script>
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-9988000-4']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+
+
+</body>
+</html>

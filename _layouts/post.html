@@ -99,8 +99,7 @@ blog: true
       </div>
       <div class="panel-body">
         <ul class="list-unstyled">
-          {% assign posts = site.categories.blog | sort "date" %}
-          {% for post in posts %}
+          {% for post in site.posts %}
             <li><a href="{{ post.url }}">{{ post.title }}</a></li>
           {% endfor %}
         </ul>
