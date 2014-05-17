@@ -11,10 +11,7 @@ wordpress_id: 2790
 wordpress_url: http://petelepage.com/blog/?p=2790
 date: '2012-04-17 09:53:24 -0400'
 date_gmt: '2012-04-17 16:53:24 -0400'
-categories:
-- Web Design &amp; Development
-- HTML5
-- WebApps
+categories: blog
 tags:
 - Performance
 - Fast
@@ -67,12 +64,20 @@ comments:
     rel=\"nofollow\">remoteStorage protocol</a>, you can get localStorage with the
     benefit of per-user cloud sync."
 ---
-<p>Over the last few months, I’ve spent a lot of time thinking about how to make it easier for developers to build web applications that work offline, its a tough problem to solve. The web has the features/technology to do it, but I think there are two things preventing us from getting there easily. The first is a perception issue for users, many people think that the web only works when they’re online, no internet, no web. That leads to a bit of a catch-22, users aren’t asking for it, so developers aren’t prioritizing it. The second problem is that it requires a change in the way we build web applications. Instead of building server side web applications, we need to build more client side web applications that use web-based APIs to get what they need.</p>
-<p><strong>More than just ‘offline’</strong><br />
-But applications that work offline isn’t the only reason to start using these new techniques. There are lots of other scenarios that benefit from the offline experience. For example, the intermittent connection where someone may have a connection for 5 minutes, then lose it for 2 then have it again for 3 minutes. The low bandwidth connection, for people connected maybe by dial-up or 3G modem. It also benefits the person with a great net connection - because any time you load data from the local machine, it’s almost guaranteed to be faster than if it were to come across the network. The performance benefits are pretty significant here!</p>
-<p><strong>Reuse the same code for different platforms</strong><br />
-If you’re already building native (iOS, Android, Desktop) applications, you probably already have the set of server-side APIs, build your web application to take advantage of those to get the data that it needs. Architect your web application in the same way that you’re building native applications - using the same set of APIs and XMLHTTPRequests! If you’re worried about performance (and everyone should be), you should cache data locally, so that after the first time the app is run, it only needs to get the newest data from the server, and there is some available immediately at start up.</p>
-<p><strong>Offline techniques</strong><br />
-Building applications that work offline requires two main things, a way to store the applications components (the HTML, JavaScript, CSS, images, and other assets) on the user’s machine, and some way to store data. Solving the first problem is done with the HTML5 feature application cache, which tells the browser to explicitly store the necessary files locally on the user’s computer, and instead of asking for them from the server every time, load them from the cache.</p>
-<p>HTML5 offers lots of great ways to cache data locally, localStorage, indexed DB and web SQL. Unfortunately, the only consistently available storage feature today is localStorage, but it’s got a few drawbacks. WebSQL works across most browsers, but it has been deprecated, and could go away at some point. The recommended method, is indexed DB, but it’s not available in all browsers yet, but it’s coming. Check out <a href="http://caniuse.com">http://caniuse.com</a> for more info about implementation.</p>
-<p><strong>Up next</strong> - how do we get users to demand offline?</p>
+Over the last few months, I’ve spent a lot of time thinking about how to make it easier for developers to build web applications that work offline, its a tough problem to solve. The web has the features/technology to do it, but I think there are two things preventing us from getting there easily. The first is a perception issue for users, many people think that the web only works when they’re online, no internet, no web. That leads to a bit of a catch-22, users aren’t asking for it, so developers aren’t prioritizing it. The second problem is that it requires a change in the way we build web applications. Instead of building server side web applications, we need to build more client side web applications that use web-based APIs to get what they need.
+
+**More than just ‘offline’**
+
+But applications that work offline isn’t the only reason to start using these new techniques. There are lots of other scenarios that benefit from the offline experience. For example, the intermittent connection where someone may have a connection for 5 minutes, then lose it for 2 then have it again for 3 minutes. The low bandwidth connection, for people connected maybe by dial-up or 3G modem. It also benefits the person with a great net connection - because any time you load data from the local machine, it’s almost guaranteed to be faster than if it were to come across the network. The performance benefits are pretty significant here!
+
+**Reuse the same code for different platforms**
+
+If you’re already building native (iOS, Android, Desktop) applications, you probably already have the set of server-side APIs, build your web application to take advantage of those to get the data that it needs. Architect your web application in the same way that you’re building native applications - using the same set of APIs and XMLHTTPRequests! If you’re worried about performance (and everyone should be), you should cache data locally, so that after the first time the app is run, it only needs to get the newest data from the server, and there is some available immediately at start up.
+
+**Offline techniques**
+
+Building applications that work offline requires two main things, a way to store the applications components (the HTML, JavaScript, CSS, images, and other assets) on the user’s machine, and some way to store data. Solving the first problem is done with the HTML5 feature application cache, which tells the browser to explicitly store the necessary files locally on the user’s computer, and instead of asking for them from the server every time, load them from the cache.
+
+HTML5 offers lots of great ways to cache data locally, localStorage, indexed DB and web SQL. Unfortunately, the only consistently available storage feature today is localStorage, but it’s got a few drawbacks. WebSQL works across most browsers, but it has been deprecated, and could go away at some point. The recommended method, is indexed DB, but it’s not available in all browsers yet, but it’s coming. Check out [http://caniuse.com](http://caniuse.com) for more info about implementation.
+
+**Up next** - how do we get users to demand offline?

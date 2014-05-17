@@ -1,18 +1,8 @@
 ---
 layout: post
-status: publish
-published: true
 title: Raspberry Pi Quick Start
-author: Pete
-author_login: Pete
-author_email: pete.lepage@pobox.com
-author_url: http://petelepage.com
-wordpress_id: 2917
-wordpress_url: https://petelepage.com/blog/?p=2917
 date: '2013-08-27 11:06:01 -0400'
-date_gmt: '2013-08-27 15:06:01 -0400'
-categories:
-- Raspberry Pi
+categories: blog
 tags:
 - CodeSample
 - pi

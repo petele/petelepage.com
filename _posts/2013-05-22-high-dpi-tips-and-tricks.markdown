@@ -1,21 +1,9 @@
 ---
 layout: post
-status: publish
-published: true
 title: 'High DPI: Tips and Tricks'
-author: Pete
-author_login: Pete
-author_email: pete.lepage@pobox.com
-author_url: http://petelepage.com
-wordpress_id: 2862
-wordpress_url: http://petelepage.com/blog/?p=2862
 date: '2013-05-22 07:45:43 -0400'
 date_gmt: '2013-05-22 11:45:43 -0400'
-categories:
-- Web Design &amp; Development
-- HTML5
-- Mobile
-- High DPI
+categories: blog
 tags:
 - Conferences
 - Web Design

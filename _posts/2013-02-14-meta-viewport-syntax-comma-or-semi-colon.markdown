@@ -13,10 +13,7 @@ wordpress_id: 2820
 wordpress_url: http://petelepage.com/blog/?p=2820
 date: '2013-02-14 13:25:50 -0500'
 date_gmt: '2013-02-14 21:25:50 -0500'
-categories:
-- Web Design &amp; Development
-- HTML5
-- Mobile
+categories: blog
 tags:
 - HTML5
 - TipsAndTricks
@@ -51,7 +48,7 @@ The viewport meta tag seems to be one of those elements that’s a little bit pe
 <meta name="viewport" content=width="device-width; initial-scale=1.0" />
 {% endhighlight %}
 
-If you want to see this in action and how bad things can look, use the remote debugger with Chrome for Android Beta to change the comma to a semi-colon in the viewport meta tag on Google.com.  The site will suddenly go from looking good, to looking awful.  
+If you want to see this in action and how bad things can look, use the remote debugger with Chrome for Android Beta to change the comma to a semi-colon in the viewport meta tag on Google.com.  The site will suddenly go from looking good, to looking awful.
 
 [![Good viewport syntax](http://petelepage.com/blog/wp-content/uploads/2013/02/vp-comma-180x300.png)](http://petelepage.com/blog/wp-content/uploads/2013/02/vp-comma.png)
 

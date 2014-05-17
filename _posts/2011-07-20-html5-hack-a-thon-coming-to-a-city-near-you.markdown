@@ -11,10 +11,7 @@ wordpress_id: 2675
 wordpress_url: http://petelepage.com/blog/?p=2675
 date: '2011-07-20 09:30:42 -0400'
 date_gmt: '2011-07-20 16:30:42 -0400'
-categories:
-- Web Design &amp; Development
-- HTML5
-- Chrome Web Store
+categories: blog
 tags:
 - Conferences
 - CSS3
@@ -32,13 +29,19 @@ comments:
   date_gmt: '2011-07-20 17:51:19 -0400'
   content: We'll you give some love to other countries? :) Like France. *hint* *hint*
 ---
-<p><img src="http://petelepage.com/blog/wp-content/uploads/2011/07/javascript.jpg" alt="JavaScript code on computer screen" title="" width="240" height="180" class="alignleft size-full wp-image-2676" />Well, hopefully it'll be near you - if not, let me know in the comments where you are so we can try to get some more of these events set up!</p>
-<p>Google is holding a few developer focused hack-a-thons around the US and would like to invite you to attend. At these events, we will be covering some of the latest and greatest features of HTML5, Chrome Web Store and In-App Payments. You will learn about the end to end flow of building a web app, distributing the app and monetizing it using these APIs. You will also have the opportunity to work hands on with the APIs and ask our experts (including me) questions.  I'll be helping out in Chicago and Mountain View.</p>
-<p>For more information on the events and to register, please check out the location specific links below:</p>
-<p>New York - 8/1 - <a href="http://bit.ly/nqeLGh">http://www.eventbrite.com/event/1892631913</a><br />
-Chicago - 8/3 - <a href="http://bit.ly/oS7xKh">http://www.eventbrite.com/event/1910102167</a><br />
-Seattle - 8/8 - <a href="http://bit.ly/pdc3LV">http://www.eventbrite.com/event/1910138275</a><br />
-Mountain View - 8/11 - <a href="http://bit.ly/nXuLtG">http://www.eventbrite.com/event/1910202467</a></p>
-<p><small><br />
-* Image <a href="http://www.flickr.com/photos/dmitry-baranovskiy/2378867408/">http://www.flickr.com/photos/dmitry-baranovskiy/2378867408/</a><br />
-</small></p>
+![JavaScript code on computer screen](/assets/javascript.jpg)Well, hopefully it'll be near you - if not, let me know in the comments where you are so we can try to get some more of these events set up!
+
+Google is holding a few developer focused hack-a-thons around the US and would like to invite you to attend. At these events, we will be covering some of the latest and greatest features of HTML5, Chrome Web Store and In-App Payments. You will learn about the end to end flow of building a web app, distributing the app and monetizing it using these APIs. You will also have the opportunity to work hands on with the APIs and ask our experts (including me) questions.  I'll be helping out in Chicago and Mountain View.
+
+For more information on the events and to register, please check out the location specific links below:
+
+New York - 8/1 - [http://www.eventbrite.com/event/1892631913](http://bit.ly/nqeLGh)
+
+Chicago - 8/3 - [http://www.eventbrite.com/event/1910102167](http://bit.ly/oS7xKh)
+
+Seattle - 8/8 - [http://www.eventbrite.com/event/1910138275](http://bit.ly/pdc3LV)
+
+Mountain View - 8/11 - [http://www.eventbrite.com/event/1910202467](http://bit.ly/nXuLtG)
+
+
+* Image [http://www.flickr.com/photos/dmitry-baranovskiy/2378867408/](http://www.flickr.com/photos/dmitry-baranovskiy/2378867408/)

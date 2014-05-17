@@ -11,11 +11,7 @@ wordpress_id: 2855
 wordpress_url: http://petelepage.com/blog/?p=2855
 date: '2013-05-21 11:03:55 -0400'
 date_gmt: '2013-05-21 15:03:55 -0400'
-categories:
-- Web Design &amp; Development
-- HTML5
-- Mobile
-- High DPI
+categories: blog
 tags:
 - Conferences
 - Web Design

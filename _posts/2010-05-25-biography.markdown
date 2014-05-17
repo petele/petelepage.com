@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: post
 status: publish
 published: true
 title: Biography
@@ -11,8 +11,7 @@ wordpress_id: 2120
 wordpress_url: http://petelepage.com/blog/?page_id=2120
 date: '2010-05-25 09:01:34 -0400'
 date_gmt: '2010-05-25 16:01:34 -0400'
-categories:
-- General
+categories: blog
 tags: []
 comments:
 - id: 4558
@@ -38,8 +37,12 @@ comments:
   date_gmt: '2011-08-12 05:02:38 -0400'
   content: '[...] Pete LePage, especialista en Chrome [...]'
 ---
-<p><a href="http://petelepage.com/blog/wp-content/uploads/2010/05/195990246_GkdfD-L.jpg"><img class="alignleft size-medium wp-image-2115" title="Pete LePage - Head Shot" src="http://petelepage.com/blog/wp-content/uploads/2010/05/195990246_GkdfD-L-201x300.jpg" alt="Pete LePage - Head Shot" width="201" height="300" /></a></p>
-<p>Pete joined Google in 2011 as a Developer Advocate working on the Chrome Web Store team and the open web platform. He's been designing websites since his early days in high school, evolving from overlapping &lt;blink&gt;, &lt;marquee&gt; and &lt;font&gt; tags on GeoCities to properly styled CSS, managed hosted websites. Pete works with the web developer community to build awesome new web applications using open web technologies like HTML5 and CSS3.</p>
-<p>He can often be found traveling the world with his friends, seeing both exotic and ordinary sites, or in a black and white dark room printing something he shot with a film camera!  He has studied and taught at the prestigious <a href="http://pcnw.org">Photographic Center Northwest</a> in Seattle where he completed his <a href="http://bbpphoto.com">Thesis in Fine Art Photography</a>.</p>
-<p>LePage keeps an irregular blog at <a href="http://PeteLePage.com">http://PeteLePage.com</a> and can be found on Twitter at <a href="http://twitter.com/petele">@petele</a> or <a href="http://bit.ly/petele-plus">Google+</a></p>
-<p><strong>Conference & Event Managers Please Note:</strong> If you're planning on using my bio on your site, please don't forget to encode the &lt;blink&gt; and &lt;marquee&gt; tags, otherwise you might see some odd results on your site! </p>
+[![Pete LePage - Head Shot](http://petelepage.com/blog/wp-content/uploads/2010/05/195990246_GkdfD-L-201x300.jpg "Pete LePage - Head Shot")](http://petelepage.com/blog/wp-content/uploads/2010/05/195990246_GkdfD-L.jpg)
+
+Pete joined Google in 2011 as a Developer Advocate working on the Chrome Web Store team and the open web platform. He's been designing websites since his early days in high school, evolving from overlapping &lt;blink&gt;, &lt;marquee&gt; and &lt;font&gt; tags on GeoCities to properly styled CSS, managed hosted websites. Pete works with the web developer community to build awesome new web applications using open web technologies like HTML5 and CSS3.
+
+He can often be found traveling the world with his friends, seeing both exotic and ordinary sites, or in a black and white dark room printing something he shot with a film camera!  He has studied and taught at the prestigious [Photographic Center Northwest](http://pcnw.org) in Seattle where he completed his [Thesis in Fine Art Photography](http://bbpphoto.com).
+
+LePage keeps an irregular blog at [http://PeteLePage.com](http://PeteLePage.com) and can be found on Twitter at [@petele](http://twitter.com/petele) or [Google+](http://bit.ly/petele-plus)
+
+**Conference & Event Managers Please Note:** If you're planning on using my bio on your site, please don't forget to encode the &lt;blink&gt; and &lt;marquee&gt; tags, otherwise you might see some odd results on your site!

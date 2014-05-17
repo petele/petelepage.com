@@ -14,10 +14,7 @@ wordpress_id: 2835
 wordpress_url: http://petelepage.com/blog/?p=2835
 date: '2013-02-21 05:51:20 -0500'
 date_gmt: '2013-02-21 13:51:20 -0500'
-categories:
-- Web Design &amp; Development
-- HTML5
-- Mobile
+categories: blog
 tags:
 - Web Design
 - HTML5
@@ -112,4 +109,4 @@ For more information about best practices for building websites that work well o
 
 ## One Other Little Note
 
-While writing up this post, I accidentally did a search for sites that used `target-density` instead of `target-density**dpi**` and I came across quite a few of them.  If you’re using `target-density` (without the dpi at the end), you can just remove it, it wasn’t doing anything!
+While writing up this post, I accidentally did a search for sites that used `target-density` instead of `target-densitydpi` and I came across quite a few of them.  If you’re using `target-density` (without the dpi at the end), you can just remove it, it wasn’t doing anything!

@@ -1,18 +1,8 @@
 ---
 layout: post
-status: publish
-published: true
 title: Home Automation For Geeks
-author: Pete
-author_login: Pete
-author_email: pete.lepage@pobox.com
-author_url: http://petelepage.com
-wordpress_id: 2877
-wordpress_url: http://petelepage.com/blog/?p=2877
+categories: blog
 date: '2013-07-09 10:17:31 -0400'
-date_gmt: '2013-07-09 14:17:31 -0400'
-categories:
-- General
 tags:
 - pi
 - home automation
@@ -243,11 +233,10 @@ comments:
     harness is hacky, but works well enough to demo everything the Python code did.
     \ Improvements welcome!"
 ---
-![LivingroomGPInclAppl1](http://petelepage.com/blog/wp-content/uploads/2013/07/LivingroomGPInclAppl1-1024x698.jpg)
 
 I’ve always had a fascination with home automation systems, things that make your life easier and computers that do the stuff that I’m too lazy to do.  In college, I had my tiny little apartment in Ottawa all wired up with [X10](http://en.wikipedia.org/wiki/X10_(industry_standard)) and this weekend, I “finished” my most recent creation.  Though honestly, is it ever really done?
 
-![philips-hue-lightbulbs](http://petelepage.com/blog/wp-content/uploads/2013/07/philips-hue-lightbulbs-300x169.jpg)It all started a few months ago when I picked up a set of the Philips Hue light bulbs - they’re amazing.  LED light bulbs that are fully addressable and programmable via a simple to use [REST API](http://developers.meethue.com/).  The biggest problem I had with them was that to really use them, you had to leave the light switch On and turn the lights on and off via the app.  But it gets to be a small pain in the butt if you have to pull your phone out of your pocket every time you want to turn a light bulb on or off.  
+It all started a few months ago when I picked up a set of the Philips Hue light bulbs - they’re amazing.  LED light bulbs that are fully addressable and programmable via a simple to use [REST API](http://developers.meethue.com/).  The biggest problem I had with them was that to really use them, you had to leave the light switch On and turn the lights on and off via the app.  But it gets to be a small pain in the butt if you have to pull your phone out of your pocket every time you want to turn a light bulb on or off.
 
 ### The Kit
 
@@ -264,17 +253,17 @@ I’ve always had a fascination with home automation systems, things that make y
 
 ### Okay, so what’s it do?
 
-[caption id="attachment_2884" align="alignright" width="300"]![The keypad beside the front door controlling the apartment.](http://petelepage.com/blog/wp-content/uploads/2013/07/keypad-300x225.png) The keypad beside the front door controlling the apartment.[/caption] The Raspberry Pi is effectively the brains of the apartment, it keeps simple state, and sends commands to the lights, the iTach and the Harmony hub.  The keypad are placed throughout the apartment and act like multi-function light switches.  The zero key and the enter key have special meaning though, either putting the system into Away mode or Home mode.  Away mode is just a simple macro that turns all of the Hue lights, uses the iTach to turn off the air conditioners off, shuts the TV and stereo off via the Harmony Hub, and then waits until the front door opens again.  When the front door opens, a magnetic door switch saves me from having to hit the Home button which runs another simple macro to turns the lights on, and depending on both the inside and outside temperature, turns the air conditioners on.  Oh, and it also turns one of the lights in the living room purple when I have an unread message on Google Voice.
+The Raspberry Pi is effectively the brains of the apartment, it keeps simple state, and sends commands to the lights, the iTach and the Harmony hub.  The keypad are placed throughout the apartment and act like multi-function light switches.  The zero key and the enter key have special meaning though, either putting the system into Away mode or Home mode.  Away mode is just a simple macro that turns all of the Hue lights, uses the iTach to turn off the air conditioners off, shuts the TV and stereo off via the Harmony Hub, and then waits until the front door opens again.  When the front door opens, a magnetic door switch saves me from having to hit the Home button which runs another simple macro to turns the lights on, and depending on both the inside and outside temperature, turns the air conditioners on.  Oh, and it also turns one of the lights in the living room purple when I have an unread message on Google Voice.
 
 ### Building out the system
 
-![100px-Raspberry_Pi_Logo.svg](http://petelepage.com/blog/wp-content/uploads/2013/07/100px-Raspberry_Pi_Logo.svg_.png)Building out the system, some parts were easier than others.  The API for the Philips Hue lights, _awe-some_! The iTach to control the air conditioners, it was good once I figured out how to teach it IR commands.  Google Voice, yah, there’s no API there - that required a little thinking.  And the Harmony Hub, there’s no published API for the Harmony Ultimate Hub, and wow, that one sucked.
+Building out the system, some parts were easier than others.  The API for the Philips Hue lights, _awe-some_! The iTach to control the air conditioners, it was good once I figured out how to teach it IR commands.  Google Voice, yah, there’s no API there - that required a little thinking.  And the Harmony Hub, there’s no published API for the Harmony Ultimate Hub, and wow, that one sucked.
 
 My original plan was the write a [Chrome Packaged App](http://developer.chrome.com/apps/about_apps.html) to handle the lights, and run a few USB numeric keyboards around my place.  I figured the cost of leaving a Chromebook running 24x7 would be acceptable with the energy savings I was getting from the lights.  But, I kept hitting a single and pretty simple problem, I couldn’t keep the Chromebook from locking.  I could prevent it from going to sleep, but it still locked, leaving the the USB keyboards useless, since all they could do was type passwords into the machine.  So, I pulled the Raspberry Pi I ordered months ago out of a drawer and started fiddling; within a few hours I had a working prototype - I was stoked.
 
 ### The **un-official** Google Voice API
 
-![google-voice-logo](http://petelepage.com/blog/wp-content/uploads/2013/07/google-voice-logo-150x150.png)To be clear, there isn’t a Google Voice API available to developers (boo!), though there are a few good libraries out there that are worth checking out.  Sadly, if you have two factor authentication turned on, none of them work since they depend on sending your username and password to Google and doing some unholy magic to log in.  And if you don’t have two factor turned on, **please [go turn on two factor authentication](http://www.mattcutts.com/blog/google-two-step-authentication/) RIGHT NOW**.  I’ll wait.  No seriously, I’ll wait.
+To be clear, there isn’t a Google Voice API available to developers (boo!), though there are a few good libraries out there that are worth checking out.  Sadly, if you have two factor authentication turned on, none of them work since they depend on sending your username and password to Google and doing some unholy magic to log in.  And if you don’t have two factor turned on, **please [go turn on two factor authentication](http://www.mattcutts.com/blog/google-two-step-authentication/) RIGHT NOW**.  I’ll wait.  No seriously, I’ll wait.
 
 I was pretty resigned to not being able to integrate a new message indicator to the system after spending a few days trying to figure out if there was any way possible around the two factor stuff, or if I could somehow figure out how to make a web request with the right cookies.  That is of course, until I was reading the history of browsers, and was reminded of [Lynx](http://en.wikipedia.org/wiki/Lynx_(web_browser)), the first browser I used.  Did it still exist, would it work? Would it run JavaScript?  The answer is yes!  Sure enough, I installed Lynx on my Pi, and then tried logging into Google Voice.  I figured if I could log in, I should be able to somehow scrape the results.  Sure enough, it worked.  Now to figure out how to scrape some results!
 
@@ -305,11 +294,11 @@ And **BOOM** I was off!  Unfortunately, it means I have to fork a process, start
 
 ### IP to IR with the iTach
 
-![itach](http://petelepage.com/blog/wp-content/uploads/2013/07/itach.gif)A while ago, I came across the iTach IP 2 IR controller, it’s an interesting little device, I think mostly meant for high end home automation systems, but it wasn’t that expensive and I figured I’d give it a go.  It’s pretty simple, it has a network jack, and three 1/8” jacks on the back.  The 1/8” jacks connect to IR emitters that you can either place in the immediate vicinity of a device, or connect an IR blaster and just put in the room.  The [manual](http://www.globalcache.com/files/docs/API-iTach.pdf) is pretty thorough for it, except the left out all of the important intro stuff, like the difference between a blaster and an emitter, or where the IR learning port was.  Oh, and they don’t have a Mac app, so you need to grab one from a [third party app](http://www.rmartijnr.eu/) to learn commands.
+A while ago, I came across the iTach IP 2 IR controller, it’s an interesting little device, I think mostly meant for high end home automation systems, but it wasn’t that expensive and I figured I’d give it a go.  It’s pretty simple, it has a network jack, and three 1/8” jacks on the back.  The 1/8” jacks connect to IR emitters that you can either place in the immediate vicinity of a device, or connect an IR blaster and just put in the room.  The [manual](http://www.globalcache.com/files/docs/API-iTach.pdf) is pretty thorough for it, except the left out all of the important intro stuff, like the difference between a blaster and an emitter, or where the IR learning port was.  Oh, and they don’t have a Mac app, so you need to grab one from a [third party app](http://www.rmartijnr.eu/) to learn commands.
 
 Once I got this guy somewhat figured out, the rest was pretty easy.  It sends out regular UDP multicast packets so you can find it on the network, and then you communicate with by opening a TCP socket and sending an IR command to one of the three IR ports.
 
-For example, to set the bedroom air conditioner to 72&deg;, you’d connect to the iTach on port 4998 and send: 
+For example, to set the bedroom air conditioner to 72&deg;, you’d connect to the iTach on port 4998 and send:
 
 <pre>
 sendir,1:3,1,37993,1,1,319,160,21,61,21,21,21,21,21,21,21,61,21,21,21,
@@ -323,15 +312,15 @@ The `sendir` part is pretty self explanatory, followed by `1:3` which tells the 
 completeir,1:3,1
 </pre>
 
-I mentioned the system turns the air conditioners on depending on the inside and outside temperature.  I used the [DS18B20 temperature sensor](http://www.adafruit.com/products/381) from Adafruit and followed their [awesome tutorial](http://learn.adafruit.com/adafruits-raspberry-pi-lesson-11-ds18b20-temperature-sensing?view=all) for setting it up.  For the outside temperature, I check a weather station in Brooklyn (it’s appearently closest to my place) via [WeatherUnderground](http://www.wunderground.com/weather/api/).  Their API is free to use and super simple if you’re just using it for a personal project and not hitting it very hard. 
+I mentioned the system turns the air conditioners on depending on the inside and outside temperature.  I used the [DS18B20 temperature sensor](http://www.adafruit.com/products/381) from Adafruit and followed their [awesome tutorial](http://learn.adafruit.com/adafruits-raspberry-pi-lesson-11-ds18b20-temperature-sensing?view=all) for setting it up.  For the outside temperature, I check a weather station in Brooklyn (it’s appearently closest to my place) via [WeatherUnderground](http://www.wunderground.com/weather/api/).  Their API is free to use and super simple if you’re just using it for a personal project and not hitting it very hard.
 
 ### Harmony Hub API
 
-![logitech](http://petelepage.com/blog/wp-content/uploads/2013/07/logitech-300x210.jpg) The crowning achievement came this weekend when I figured out how to query and address my Harmony Ultimate Hub.  Logitech doesn’t make an API available to developers, and in some ways, I don’t blame them - Harmony remotes are pretty complex and there’s a lot of state and other stuff involved.  But that wasn’t going to stop me.
+The crowning achievement came this weekend when I figured out how to query and address my Harmony Ultimate Hub.  Logitech doesn’t make an API available to developers, and in some ways, I don’t blame them - Harmony remotes are pretty complex and there’s a lot of state and other stuff involved.  But that wasn’t going to stop me.
 
-If you’re not familiar with the Ultimate, it’s pretty sweet, not only does the remote control everything, there’s a little ‘hub’ that sits in your living room and allows you to use your phone or tablet as an additional remote anytime you’re on your network.  
+If you’re not familiar with the Ultimate, it’s pretty sweet, not only does the remote control everything, there’s a little ‘hub’ that sits in your living room and allows you to use your phone or tablet as an additional remote anytime you’re on your network.
 
-Sadly, searching for Harmony Hub API at the time revealed nothing useful, I tried up, down and ten ways to Sunday to see if anyone else was trying to do what I did.  I couldn’t imagine I was the only one!  But nothing.  So I did what any developer would do, first I port scanned it (it's got an open port on 5222, and 8088).  I tried my damn'est on port 8088, it responded to HTTP POST requests only, but I couldn't ever get a useful response.  Then I hooked up a [packet sniffer](http://www.wireshark.org/) and tried to see what was going on with the app.  Nothing.  Nodda.  
+Sadly, searching for Harmony Hub API at the time revealed nothing useful, I tried up, down and ten ways to Sunday to see if anyone else was trying to do what I did.  I couldn’t imagine I was the only one!  But nothing.  So I did what any developer would do, first I port scanned it (it's got an open port on 5222, and 8088).  I tried my damn'est on port 8088, it responded to HTTP POST requests only, but I couldn't ever get a useful response.  Then I hooked up a [packet sniffer](http://www.wireshark.org/) and tried to see what was going on with the app.  Nothing.  Nodda.
 
 Ah right, the wireless network I have setup, was preventing my Mac from seeing packets sent from my phone to the hub.  Grrr!  Okay, share the Mac’s network and then try again. This time it can’t find the hub.  Right, different subnet.  Long story short, connect to hub, switch network, now I can see a few packets.  Great, so now I can see a few packets, let’s do a few searches to see if anyone has posted about:
 
@@ -351,10 +340,10 @@ In my home automation system, the Away macro and the Bed Time macro both check t
 
 ### Energy Efficient
 
-![Energy-Efficient-Homes](http://petelepage.com/blog/wp-content/uploads/2013/07/Energy-Efficient-Homes-300x195.jpg)Talking to some of my co-workers about the system, they were a little concerned about the power consumption of leaving the Pi on all day every day and if that would eliminate the benefit of the Hue lights.  As I was wrapping things up this weekend, I pulled out my trusty Kill-a-watt, and did some quick measurements.  The Pi uses only about 2 watts, 3 if it's really pushing it.  The lights are only about 8.5 watts each, and since the air-conditioners only come on when needed, I'm being smarter about power there too!  So overall, I'm pretty sure that this will save me a little money in the long run.
+Talking to some of my co-workers about the system, they were a little concerned about the power consumption of leaving the Pi on all day every day and if that would eliminate the benefit of the Hue lights.  As I was wrapping things up this weekend, I pulled out my trusty Kill-a-watt, and did some quick measurements.  The Pi uses only about 2 watts, 3 if it's really pushing it.  The lights are only about 8.5 watts each, and since the air-conditioners only come on when needed, I'm being smarter about power there too!  So overall, I'm pretty sure that this will save me a little money in the long run.
 
 ### Home Automation for Everyone
 
-[caption id="attachment_2894" align="alignright" width="300"]![Image courtesy of Switched On Tech Design (www.sotechdesign.com.au)](http://petelepage.com/blog/wp-content/uploads/2013/07/7513051848_9a6ef2feb8_o-1024x682-300x199.jpg) Image courtesy of Switched On Tech Design (www.sotechdesign.com.au)[/caption]There’s a whole bunch more that I want to do with my system, for example a morning alarm, connected to my calendar to make sure I get up in time for any meetings.  It could turning the lights on, tune the radio to my favorite station gently turning the sound up (until I get out of bed), the possibilities are endless. 
+There’s a whole bunch more that I want to do with my system, for example a morning alarm, connected to my calendar to make sure I get up in time for any meetings.  It could turning the lights on, tune the radio to my favorite station gently turning the sound up (until I get out of bed), the possibilities are endless.
 
 And with the price of hardware like the Raspberry Pi, door switches and such, anyone with a little geek know how can put together a pretty awesome system.  Feel free to grab my code and rip it apart and do your own thing with it, it’s not exactly pretty, but I love the fact my apartment welcomes me home at night and says Goodbye when I leave.

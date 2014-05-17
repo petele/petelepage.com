@@ -11,10 +11,7 @@ wordpress_id: 2794
 wordpress_url: http://petelepage.com/blog/?p=2794
 date: '2012-12-12 15:42:17 -0500'
 date_gmt: '2012-12-12 23:42:17 -0500'
-categories:
-- Web Design &amp; Development
-- HTML5
-- WebApps
+categories: blog
 tags:
 - Web Design
 - CodeSample
