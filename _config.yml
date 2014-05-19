@@ -10,3 +10,5 @@ rss_path: static/
 rss_post_limit: 50
 sitemap:
     file: static/sitemap.xml
+exclude: ["node_modules", "Gruntfile.js", "package.json"]
+include: [".htaccess"]
