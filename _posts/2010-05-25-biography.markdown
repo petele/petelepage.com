@@ -37,7 +37,7 @@ comments:
   date_gmt: '2011-08-12 05:02:38 -0400'
   content: '[...] Pete LePage, especialista en Chrome [...]'
 ---
-[![Pete LePage - Head Shot](http://petelepage.com/blog/wp-content/uploads/2010/05/195990246_GkdfD-L-201x300.jpg "Pete LePage - Head Shot")](http://petelepage.com/blog/wp-content/uploads/2010/05/195990246_GkdfD-L.jpg)
+[![Pete LePage - Head Shot](/assets/195990246_GkdfD-L-201x300.jpg "Pete LePage - Head Shot")](/assets/195990246_GkdfD-L.jpg)
 
 Pete joined Google in 2011 as a Developer Advocate working on the Chrome Web Store team and the open web platform. He's been designing websites since his early days in high school, evolving from overlapping &lt;blink&gt;, &lt;marquee&gt; and &lt;font&gt; tags on GeoCities to properly styled CSS, managed hosted websites. Pete works with the web developer community to build awesome new web applications using open web technologies like HTML5 and CSS3.
 

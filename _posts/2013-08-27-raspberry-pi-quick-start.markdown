@@ -11,9 +11,10 @@ tags:
 - getting started
 comments: []
 ---
+Last night, I needed to re-image the SD card for my Raspberry Pi to get things setup from a clean state.  It'd been a few months since I initially did it, and couldn't remember exactly what I'd installed, or what config changes I'd made, so I figured I'd document things a little better this time.  So, here they are.  I've pushed all of the scripts and config files up as a few Gists on GitHub to make it easier to edit or change them later.
+
 **Note:** If you don't see the scripts appearing inline, try refreshing.
 
-Last night, I needed to re-image the SD card for my Raspberry Pi to get things setup from a clean state.  It'd been a few months since I initially did it, and couldn't remember exactly what I'd installed, or what config changes I'd made, so I figured I'd document things a little better this time.  So, here they are.  I've pushed all of the scripts and config files up as a few Gists on GitHub to make it easier to edit or change them later.
 
 ## Step 1 - Create the initial disk image
 
