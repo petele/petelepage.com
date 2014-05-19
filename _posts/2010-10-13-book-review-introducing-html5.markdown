@@ -1,16 +1,7 @@
 ---
 layout: post
-status: publish
-published: true
 title: 'Book Review: Introducing HTML5'
-author: Pete
-author_login: Pete
-author_email: pete.lepage@pobox.com
-author_url: http://petelepage.com
-wordpress_id: 2513
-wordpress_url: http://petelepage.com/blog/2010/10/book-review-introducing-html5/
 date: '2010-10-13 10:25:44 -0400'
-date_gmt: '2010-10-13 17:25:44 -0400'
 categories: blog
 tags:
 - Web Design
@@ -21,21 +12,13 @@ tags:
 - Introducing HTML5
 comments:
 - id: 2257
-  author: 'Tweets that mention Book Review: Introducing HTML5 -- Topsy.com'
-  author_email: ''
-  author_url: http://topsy.com/petelepage.com/blog/2010/10/book-review-introducing-html5/?utm_source=pingback&amp;utm_campaign=L2
   date: '2010-10-14 00:16:04 -0400'
-  date_gmt: '2010-10-14 07:16:04 -0400'
   content: '[...] This post was mentioned on Twitter by bruce lawson and Mazharul
     Anwar, mattur. mattur said: @brucel &quot;Introducing HTML5 is filled with lots
     of good examples, some you’d show to your Mom, a few that you wouldn’t&quot; http://bit.ly/9q1LOd
     [...]'
 - id: 2258
-  author: bruce
-  author_email: bruce@brucelawson.co.uk
-  author_url: http://www.brucelawson.co.uk
   date: '2010-10-14 00:27:48 -0400'
-  date_gmt: '2010-10-14 07:27:48 -0400'
   content: Thanks Pete! You, sir, deserve a jolly good bottle of &lt;i lang=fr&gt;vin
     rouge&lt;/i&gt; and I shall present you with one when we next meet.
 ---

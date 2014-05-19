@@ -1,40 +1,19 @@
 ---
 layout: post
-status: publish
-published: true
 title: Biography
-author: Pete
-author_login: Pete
-author_email: pete.lepage@pobox.com
-author_url: http://petelepage.com
-wordpress_id: 2120
-wordpress_url: http://petelepage.com/blog/?page_id=2120
 date: '2010-05-25 09:01:34 -0400'
-date_gmt: '2010-05-25 16:01:34 -0400'
 categories: blog
 tags: []
 comments:
 - id: 4558
-  author: Crónica de una visita por las oficinas de Google México (I) &mdash; ALT1040
-  author_email: ''
-  author_url: http://alt1040.com/2011/08/de-visita-por-las-oficinas-de-google-mexico-parte-1
   date: '2011-08-10 09:13:30 -0400'
-  date_gmt: '2011-08-10 16:13:30 -0400'
   content: '[...] Pete LePage, especialista en Chrome [...]'
 - id: 4561
-  author: Cr&oacute;nica de una visita por las oficinas de Google M&eacute;xico (I)
     | La Isla Buscada
-  author_email: ''
-  author_url: http://laislabuscada.es/crnica-de-una-visita-por-las-oficinas-de-google-mxico-i/
   date: '2011-08-10 10:31:16 -0400'
-  date_gmt: '2011-08-10 17:31:16 -0400'
   content: '[...] Pete LePage, especialista en Chrome [...]'
 - id: 4565
-  author: Crónica de una visita por las oficinas de Google México (I) | ultimanoticia.net
-  author_email: ''
-  author_url: http://ultimanoticia.net/2011/08/cronica-de-una-visita-por-las-oficinas-de-google-mexico-i/
   date: '2011-08-11 22:02:38 -0400'
-  date_gmt: '2011-08-12 05:02:38 -0400'
   content: '[...] Pete LePage, especialista en Chrome [...]'
 ---
 [![Pete LePage - Head Shot](/assets/195990246_GkdfD-L-201x300.jpg "Pete LePage - Head Shot")](/assets/195990246_GkdfD-L.jpg)

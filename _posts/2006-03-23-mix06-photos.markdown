@@ -1,21 +1,13 @@
 ---
 layout: post
-status: publish
-published: true
 title: 'Mix06: Photos'
-author: Pete
-author_login: Pete
-author_email: pete.lepage@pobox.com
-author_url: http://petelepage.com
-wordpress_id: 1822
-wordpress_url: http://petelepage.com/blog/2006/03/mix06-photos/
 date: '2006-03-23 11:19:00 -0500'
-date_gmt: '2006-03-23 18:19:00 -0500'
-categories:
-- General
+categories: blog
 tags:
 - MSDNBlogPost
 comments: []
 ---
-<p>I've posted my Mix06 photos online at <a href="http://www.bigbackpack.ca/nGallery/albums/Mix06.aspx" target="_blank">http://www.bigbackpack.ca/nGallery/albums/Mix06.aspx</a></p>
-<p>I also put them up on <a href="http://www.flickr.com/" target="_blank">Flickr</a> as an experiment here <a href="http://www.flickr.com/photos/petele/" target="_blank">http://www.flickr.com/photos/petele/</a></p>
+
+I've posted my Mix06 photos online at [http://www.bigbackpack.ca/nGallery/albums/Mix06.aspx](http://www.bigbackpack.ca/nGallery/albums/Mix06.aspx)
+
+I also put them up on [Flickr](http://www.flickr.com/) as an experiment here [http://www.flickr.com/photos/petele/](http://www.flickr.com/photos/petele/)

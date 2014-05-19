@@ -1,63 +1,34 @@
 ---
 layout: post
-status: publish
-published: true
 title: I've seen the future.  It's in my browser.
-author: Pete
-author_login: Pete
-author_email: pete.lepage@pobox.com
-author_url: http://petelepage.com
-wordpress_id: 2520
-wordpress_url: http://petelepage.com/blog/?p=2520
 date: '2011-04-01 06:45:23 -0400'
-date_gmt: '2011-04-01 13:45:23 -0400'
 categories: blog
 tags: []
 comments:
 - id: 3042
-  author: DL Byron
-  author_email: byron@texturadesign.com
-  author_url: http://bikehugger.com
   date: '2011-04-01 10:12:28 -0400'
-  date_gmt: '2011-04-01 17:12:28 -0400'
   content: Congrats Bro -- was just talkin' bought you at the CSS dinner during An
     Event Apart
 - id: 3043
-  author: Andrex
-  author_email: emailofandrex@gmail.com
-  author_url: http://templeofandrex.com
   date: '2011-04-01 18:45:52 -0400'
-  date_gmt: '2011-04-02 01:45:52 -0400'
   content: |-
     Keep up the excellent work! The Chrome Web Store and Chrome OS philosophy are some of my biggest motivators recently.
 
     Is that a new icon for the CWS? Will we see it soon?
 - id: 3044
-  author: Andrex
-  author_email: emailofandrex@gmail.com
-  author_url: http://templeofandrex.com
   date: '2011-04-01 18:48:09 -0400'
-  date_gmt: '2011-04-02 01:48:09 -0400'
   content: By the way HTML5rocks is the best HTML5 resource for a good country mile
     (not including the HTML5 Boilerplate, I mean more in a tutorial sense.) It's my
     go-to site for learning and implementing any of the awesome new APIs, like local
     storage, notifications, etc. Tell those guys THEY rock!
 - id: 3045
-  author: Michael Kordahi
-  author_email: delicategenius@delicategeniusblog.com
-  author_url: http://delicategeniusblog.com
   date: '2011-04-02 17:20:02 -0400'
-  date_gmt: '2011-04-03 00:20:02 -0400'
   content: |-
     ohh, didn't know you'd moved on from MS.
 
     Thanks for the make awesome web plug. you rock!
 - id: 3372
-  author: Gay tech conference  ¶  Personal Weblog of Joe Clark, Toronto
-  author_email: ''
-  author_url: http://blog.fawny.org/2011/05/11/gayconf/
   date: '2011-05-11 12:01:23 -0400'
-  date_gmt: '2011-05-11 19:01:23 -0400'
   content: '[...] (so unconvinced I was shocked), James Bridle, Scott Gatz. Adorable
     Pete LePage, who for some reason moved from one tasteless monopolist to another
     and once told me he has quite given up expecting Americans to pronounce his surname

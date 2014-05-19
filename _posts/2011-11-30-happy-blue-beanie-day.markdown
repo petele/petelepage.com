@@ -1,16 +1,7 @@
 ---
 layout: post
-status: publish
-published: true
 title: Happy Blue Beanie Day
-author: Pete
-author_login: Pete
-author_email: pete.lepage@pobox.com
-author_url: http://petelepage.com
-wordpress_id: 2772
-wordpress_url: http://petelepage.com/blog/?p=2772
 date: '2011-11-30 08:52:53 -0500'
-date_gmt: '2011-11-30 16:52:53 -0500'
 categories: blog
 tags:
 - Web Design

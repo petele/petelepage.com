@@ -1,16 +1,7 @@
 ---
 layout: post
-status: publish
-published: true
 title: 'How To: HSL and HSLA Color Models'
-author: Pete
-author_login: Pete
-author_email: pete.lepage@pobox.com
-author_url: http://petelepage.com
-wordpress_id: 2397
-wordpress_url: http://petelepage.com/blog/?p=2397
 date: '2010-07-13 09:50:02 -0400'
-date_gmt: '2010-07-13 16:50:02 -0400'
 categories: blog
 tags:
 - IE9
@@ -24,28 +15,16 @@ tags:
 - Color
 comments:
 - id: 1817
-  author: Mark
-  author_email: mark@futurekode.com
-  author_url: http://www.futurekode.com
   date: '2010-07-15 17:49:40 -0400'
-  date_gmt: '2010-07-16 00:49:40 -0400'
   content: I didn't know anything about hsla until now.. thanks for posting :)
 - id: 2255
-  author: Tim Snadden
-  author_email: tim@snadden.com
-  author_url: http://Website
   date: '2010-10-12 17:18:37 -0400'
-  date_gmt: '2010-10-13 00:18:37 -0400'
   content: "\"but still have to support browsers that don’t support the HSLA color
     mode\". \n\nThere may be an elephant in the room. Maybe you could name a browser
     that might require the fallback code? And don't be disingenuous. Name the obvious
     one(s)."
 - id: 2884
-  author: HSLA Colors &#8211; Richard Choi
-  author_email: ''
-  author_url: http://richardchoi.net/hsla-colors/
   date: '2011-03-11 00:30:25 -0500'
-  date_gmt: '2011-03-11 08:30:25 -0500'
   content: '[...] http://petelepage.com/blog/2010/07/how-to-hsl-and-hsla-color-models/
     [...]'
 ---
@@ -74,7 +53,7 @@ In the samples below, if your browser supports HSLA, you'll see two color swatch
 <td style="background-color: hsla(240, 100%, 50%, 1.0);">&nbsp;</td>
 </tr>
 <tr>
-<td colspan="3"><img src="/assets/hue.png"></td>
+<td colspan="3">![](/assets/hue.png)</td>
 </tr>
 <tr>
 <td colspan="3">
@@ -101,7 +80,7 @@ The value for hue is specified as a number between 0 and 359, but you can go abo
 <td style="background-color: hsla(300, 100%, 50%, 1.0);">&nbsp;</td>
 </tr>
 <tr>
-<td colspan="5"><img src="/assets/saturation.png" alt="Saturation"></td>
+<td colspan="5">![Saturation](/assets/saturation.png)</td>
 </tr>
 <tr>
 <td colspan="5">
@@ -130,7 +109,7 @@ The saturation needs to be a percentage between 0% and 100% and defines the inte
 <td style="background-color: hsla(300, 100%, 100%, 1.0);">&nbsp;</td>
 </tr>
 <tr>
-<td colspan="5"><img src="/assets/lightness.png" alt="Lightness"></td>
+<td colspan="5">![Lightness](/assets/lightness.png)</td>
 </tr>
 <tr>
 <td colspan="5">
@@ -159,7 +138,7 @@ Like the saturation attribute, the lightness attribute is a percentage between 0
 <td style="background-color: hsla(300, 100%, 50%, 1.0);">&nbsp;</td>
 </tr>
 <tr>
-<td colspan="5"><img src="/assets/alpha.png" alt="Alpha"></td>
+<td colspan="5">![Alpha](/assets/alpha.png)</td>
 </tr>
 <tr>
 <td colspan="5">
@@ -188,7 +167,7 @@ Alpha transparency makes the object more or less transparent.  This is very usef
 <td style="background-color: hsla(0, 0%, 100%, 1.0);">&nbsp;</td>
 </tr>
 <tr>
-<td colspan="5"><img src="/assets/black.png" alt="Black"></td>
+<td colspan="5">![Black](/assets/black.png)</td>
 </tr>
 <tr>
 <td colspan="5">

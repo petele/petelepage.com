@@ -1,16 +1,7 @@
 ---
 layout: post
-status: publish
-published: true
 title: Photographic Paper Tests
-author: Pete
-author_login: Pete
-author_email: pete.lepage@pobox.com
-author_url: http://petelepage.com
-wordpress_id: 37
-wordpress_url: http://petelepage.com/blog/?page_id=37
 date: '2010-05-21 12:04:10 -0400'
-date_gmt: '2010-05-21 19:04:10 -0400'
 categories: photo
 tags:
 - photography

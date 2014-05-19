@@ -1,18 +1,9 @@
 ---
 layout: post
-status: publish
-published: true
 title: Meta viewport syntax - comma or semi-colon?
-author: Pete
-author_login: Pete
-author_email: pete.lepage@pobox.com
-author_url: http://petelepage.com
 excerpt: If you’re using a semi-colon to separate values in your viewport meta tag,
   your site may break! Use a comma instead.
-wordpress_id: 2820
-wordpress_url: http://petelepage.com/blog/?p=2820
 date: '2013-02-14 13:25:50 -0500'
-date_gmt: '2013-02-14 21:25:50 -0500'
 categories: blog
 tags:
 - HTML5
@@ -22,11 +13,7 @@ tags:
 - viewport
 comments:
 - id: 5092
-  author: Kartik
-  author_email: kartik@softnsolv.com
-  author_url: http://www.softnsolv.com
   date: '2013-12-05 15:34:23 -0500'
-  date_gmt: '2013-12-05 20:34:23 -0500'
   content: Thx, above described correct syntax is working fine for me.
 ---
 
@@ -50,9 +37,9 @@ The viewport meta tag seems to be one of those elements that’s a little bit pe
 
 If you want to see this in action and how bad things can look, use the remote debugger with Chrome for Android Beta to change the comma to a semi-colon in the viewport meta tag on Google.com.  The site will suddenly go from looking good, to looking awful.
 
-[![Good viewport syntax](http://petelepage.com/blog/wp-content/uploads/2013/02/vp-comma-180x300.png)](http://petelepage.com/blog/wp-content/uploads/2013/02/vp-comma.png)
+[![Good viewport syntax](/assets/vp-comma-180x300.png)](/assets/vp-comma.png)
 
-[![Invalid viewport syntax](http://petelepage.com/blog/wp-content/uploads/2013/02/vp-semicolon-180x300.png)](http://petelepage.com/blog/wp-content/uploads/2013/02/vp-semicolon.png)
+[![Invalid viewport syntax](/assets/vp-semicolon-180x300.png)](/assets/vp-semicolon.png)
 
 <div style="clear:both;"></div>
 

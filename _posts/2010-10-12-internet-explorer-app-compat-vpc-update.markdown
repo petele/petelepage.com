@@ -1,16 +1,7 @@
 ---
 layout: post
-status: publish
-published: true
 title: Internet Explorer App Compat VPC Update
-author: Pete
-author_login: Pete
-author_email: pete.lepage@pobox.com
-author_url: http://petelepage.com
-wordpress_id: 2510
-wordpress_url: http://petelepage.com/blog/2010/10/internet-explorer-app-compat-vpc-update/
 date: '2010-10-12 10:02:04 -0400'
-date_gmt: '2010-10-12 17:02:04 -0400'
 categories: blog
 tags:
 - Developer Tools
@@ -19,56 +10,32 @@ tags:
 - VPC
 comments:
 - id: 2252
-  author: Tweets that mention Internet Explorer App Compat VPC Update -- Topsy.com
-  author_email: ''
-  author_url: http://topsy.com/petelepage.com/blog/2010/10/internet-explorer-app-compat-vpc-update/?utm_source=pingback&amp;utm_campaign=L2
   date: '2010-10-12 12:34:12 -0400'
-  date_gmt: '2010-10-12 19:34:12 -0400'
   content: '[...] This post was mentioned on Twitter by Mark , Pete LePage. Pete LePage
     said: New blog post: Internet Explorer App Compat #VPC Update http://goo.gl/fb/DFZtD
     #internetexplorer #microsoft [...]'
 - id: 2259
-  author: martin
-  author_email: infinite.nwar@gmail.com
-  author_url: http://Website
   date: '2010-10-14 07:48:12 -0400'
-  date_gmt: '2010-10-14 14:48:12 -0400'
   content: "I just tried loading up the XP IE8 image in VirtualBox, and unfortunately
     no joy. It asks for activation due to 'changes in hardware', and eventually locks
     me out... Maybe someone more knowledgeable than me has a way around that.  \n\nOh
     well. I haven't really been needing to do IE testing lately, but those VMs *were*
     handy while they still worked."
 - id: 2636
-  author: Jason
-  author_email: chaospixel@hotmail.com
-  author_url: http://Website
   date: '2011-02-10 05:31:31 -0500'
-  date_gmt: '2011-02-10 13:31:31 -0500'
   content: Any updates on availability of the ie9 vpc?
 - id: 2803
-  author: Jonas Munk
-  author_email: jonasmunk@mac.com
-  author_url: http://jonasmunk.com/
   date: '2011-03-03 04:45:57 -0500'
-  date_gmt: '2011-03-03 12:45:57 -0500'
   content: |-
     Hi
 
     Any updates on when the IE9 image is ready, I have no other way of testing my many sites. This is really a must for the thousands of people unable to run Vista or Win 7.
 - id: 2822
-  author: Peter
-  author_email: kahi.cz@gmail.com
-  author_url: http://Website
   date: '2011-03-05 12:43:07 -0500'
-  date_gmt: '2011-03-05 20:43:07 -0500'
   content: I'm also very interested in IE9 VPC – can you Pete provide some approx.
     estimate when it might be released…? Much thanks.
 - id: 2995
-  author: Steve
-  author_email: notimportant@example.com
-  author_url: http://Website
   date: '2011-03-21 09:11:10 -0400'
-  date_gmt: '2011-03-21 16:11:10 -0400'
   content: I was able to turn the IE8-on-Vista VPC into an IE9 VPC by going through
     the process of installing Vista service packs and then IE9.  I'm hoping desperately
     that there will be an official IE9 VPC before my homemade one expires because

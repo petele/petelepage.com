@@ -1,16 +1,7 @@
 ---
 layout: post
-status: publish
-published: true
 title: HTML5 Hack-A-Thon Coming To A City Near You
-author: Pete
-author_login: Pete
-author_email: pete.lepage@pobox.com
-author_url: http://petelepage.com
-wordpress_id: 2675
-wordpress_url: http://petelepage.com/blog/?p=2675
 date: '2011-07-20 09:30:42 -0400'
-date_gmt: '2011-07-20 16:30:42 -0400'
 categories: blog
 tags:
 - Conferences
@@ -22,11 +13,7 @@ tags:
 - InAppPayments
 comments:
 - id: 4274
-  author: Thomas
-  author_email: tbassetto@gmail.com
-  author_url: http://twitter.com/tbassetto
   date: '2011-07-20 10:51:19 -0400'
-  date_gmt: '2011-07-20 17:51:19 -0400'
   content: We'll you give some love to other countries? :) Like France. *hint* *hint*
 ---
 ![JavaScript code on computer screen](/assets/javascript.jpg)Well, hopefully it'll be near you - if not, let me know in the comments where you are so we can try to get some more of these events set up!
@@ -42,6 +29,5 @@ Chicago - 8/3 - [http://www.eventbrite.com/event/1910102167](http://bit.ly/oS7xK
 Seattle - 8/8 - [http://www.eventbrite.com/event/1910138275](http://bit.ly/pdc3LV)
 
 Mountain View - 8/11 - [http://www.eventbrite.com/event/1910202467](http://bit.ly/nXuLtG)
-
 
 * Image [http://www.flickr.com/photos/dmitry-baranovskiy/2378867408/](http://www.flickr.com/photos/dmitry-baranovskiy/2378867408/)

@@ -1,16 +1,7 @@
 ---
 layout: post
-status: publish
-published: true
 title: 'Tips &amp; Tricks: Cheat Sheets For Web People'
-author: Pete
-author_login: Pete
-author_email: pete.lepage@pobox.com
-author_url: http://petelepage.com
-wordpress_id: 2505
-wordpress_url: http://petelepage.com/blog/2010/07/tips-tricks-cheat-sheets-for-web-people/
 date: '2010-07-14 20:25:50 -0400'
-date_gmt: '2010-07-15 03:25:50 -0400'
 categories: blog
 tags:
 - HTML
@@ -26,21 +17,13 @@ tags:
 - Reference
 comments:
 - id: 1999
-  author: Tim
-  author_email: tim@devcheatsheet.com
-  author_url: http://devcheatsheet.com/
   date: '2010-07-30 03:20:07 -0400'
-  date_gmt: '2010-07-30 10:20:07 -0400'
   content: |-
     More cheat sheets for web developers - http://devcheatsheet.com/
 
     Includes cheat sheets for HTML 5, CSS 3, JavaScript, SEO, and many more.
 - id: 4789
-  author: Hannelore Caine
-  author_email: Ibarra90@yahoo.com
-  author_url: http://www.imvictory.com
   date: '2011-12-05 05:21:51 -0500'
-  date_gmt: '2011-12-05 13:21:51 -0500'
   content: I agree, marvelous post
 ---
 I have a set of blogs that I read every day, some are really technical, and I learn lots, and others are more inspirational, they show me the cool stuff that we as web designers and web developers can build.

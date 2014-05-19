@@ -1,16 +1,7 @@
 ---
 layout: post
-status: publish
-published: true
 title: 'Book Review: HTML5 For Web Designers'
-author: Pete
-author_login: Pete
-author_email: pete.lepage@pobox.com
-author_url: http://petelepage.com
-wordpress_id: 2388
-wordpress_url: http://petelepage.com/blog/?p=2388
 date: '2010-07-09 08:54:35 -0400'
-date_gmt: '2010-07-09 15:54:35 -0400'
 categories: blog
 tags:
 - Web Design
@@ -21,37 +12,21 @@ tags:
 - HTML5 For Web Designers
 comments:
 - id: 1803
-  author: Jeremy Keith
-  author_email: jeremy@adactio.com
-  author_url: http://adactio.com/
   date: '2010-07-12 15:48:36 -0400'
-  date_gmt: '2010-07-12 22:48:36 -0400'
   content: Thanks, Pete. The cheque is in the mail.
 - id: 1806
-  author: Luis Abreu
-  author_email: labreu@gmail.com
-  author_url: http://msmvps.com/blogs/luisabreu
   date: '2010-07-13 01:36:45 -0400'
-  date_gmt: '2010-07-13 08:36:45 -0400'
   content: I'd also recommend taking a look into Dive Into HTML 5 book (http://diveintohtml5.org/).
     It's still work in progress, but it's also written in a way anyone can understand
     and it seems like it presents the JS and CSS concepts which aren't in Jeremy's
     book (at least, according to your review since I haven't read Jeremy's book).
 - id: 1807
-  author: Pete
-  author_email: pete.lepage@pobox.com
-  author_url: http://petelepage.com
   date: '2010-07-13 07:36:15 -0400'
-  date_gmt: '2010-07-13 14:36:15 -0400'
   content: Thanks Luis! I've got that book on order already and am looking forward
     to getting it.  I've used the http://diveintohtml5.org several times and love
     it!
 - id: 2256
-  author: 'Book Review: Introducing HTML5'
-  author_email: ''
-  author_url: http://petelepage.com/blog/2010/10/book-review-introducing-html5/
   date: '2010-10-13 10:25:52 -0400'
-  date_gmt: '2010-10-13 17:25:52 -0400'
   content: '[...] and it’s not a complex or long read, though it’s certainly longer
     and goes into more depth than HTML5 For Web Designers does.&#160; In fact, I’d
     suggest that book is great for PHB’s and folks who might write some [...]'

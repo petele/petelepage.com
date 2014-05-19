@@ -18,61 +18,37 @@ tags:
 - hue api
 comments:
 - id: 5025
-  author: itay
-  author_email: itay_bia@hotmail.com
-  author_url: ''
   date: '2013-07-20 12:50:25 -0400'
-  date_gmt: '2013-07-20 16:50:25 -0400'
   content: "Hi,\r\nawesome ideas here. i was wondering if there was a way to control
     the harmony remotes/hub somehow. ws glad to find out about the pyharmony project.\r\nso
     here's my question, since you are able to control the harmony hub, why do you
     need the iTach?"
 - id: 5031
-  author: Pete
-  author_email: pete.lepage@pobox.com
-  author_url: http://petelepage.com
   date: '2013-07-23 13:32:07 -0400'
-  date_gmt: '2013-07-23 17:32:07 -0400'
   content: I use the iTach because controlling the Air Conditioners in my apartment
     is a bit of a pain through the Harmony.  Since the Harmony is centered around
     "activities", it didn't really make sense to hook it in to there.  I wanted to
     be able to turn the AC on and off without having to start an activity.
 - id: 5046
-  author: Juergen Kienhoefer
-  author_email: juergen@aircable.net
-  author_url: http://igg.me/at/smartdimmer
   date: '2013-08-02 16:32:22 -0400'
-  date_gmt: '2013-08-02 20:32:22 -0400'
   content: "Too bad you did not see the #crowdfunding campaign on Indiegogo. The SmartDimmer
     would have given you the ability to control all lights in your apartment via a
     simple iPhone app. No keypad on the wall.\r\nAlso see live demo at http://smartdimmer.net/live.php"
 - id: 5047
-  author: Pete
-  author_email: pete.lepage@pobox.com
-  author_url: http://petelepage.com
   date: '2013-08-02 17:37:05 -0400'
-  date_gmt: '2013-08-02 21:37:05 -0400'
   content: "I'm actively trying to avoid the app experience actually - the idea of
     having to pull my phone out of my pocket as I walk into a room just to turn the
     light on sucks.  It should be as simple as either hitting a switch, or even better,
     motion detection.  \n\nThe smart dimmer looks cool and would work well for a lot
     of people I think."
 - id: 5051
-  author: Juergen Kienhoefer
-  author_email: juergen@aircable.net
-  author_url: http://igg.me/at/smartdimmer
   date: '2013-08-03 20:21:24 -0400'
-  date_gmt: '2013-08-04 00:21:24 -0400'
   content: "Did you see that we have a keyfob that can turn on/off lights too? It
     basically uses the same as the Companion Switch, just a different form factor
     and only 2 years battery life. Maybe we should make one with 4 keys...\r\n\r\nWhat
     blogs do you use on home automation?"
 - id: 5055
-  author: Pete
-  author_email: pete.lepage@pobox.com
-  author_url: http://petelepage.com
   date: '2013-08-08 09:51:13 -0400'
-  date_gmt: '2013-08-08 13:51:13 -0400'
   content: |-
     <blockquote>Did you see that we have a keyfob that can turn on/off lights too?</blockquote>
     No, I didn't see the keyfob, that's kind of interesting.  For my needs in a small apartment, having several little wall switches with 2 keys on it would be perfect.  It would eliminate the wires that I currently have running everywhere and allow more functionality in different rooms.
@@ -82,11 +58,7 @@ comments:
     <blockquote>What blogs do you use on home automation?</blockquote>
     I actually haven't come across any that I've liked, though def open to suggestions!
 - id: 5058
-  author: Bouke
-  author_email: bouke.goedhart@gmail.com
-  author_url: ''
   date: '2013-08-25 14:09:14 -0400'
-  date_gmt: '2013-08-25 18:09:14 -0400'
   content: "Hi,\r\nI've read your blog especially the part about the Harmony Hub.
     I bought it this week and want to control it with OpenRemote. The pyharmony library
     is great! I managed to access the hub and retrieve the result of show_config.
@@ -94,11 +66,7 @@ comments:
     that show_config is the only command I can use. I am new to python so maybe I'making
     a NOOB mistake. Can you help me?\r\nRegards,\r\nBouke"
 - id: 5059
-  author: Magnus
-  author_email: magnus@bop.nu
-  author_url: ''
   date: '2013-08-27 08:39:33 -0400'
-  date_gmt: '2013-08-27 12:39:33 -0400'
   content: "I'm trying to get Harmony Hub API working. I'm running latest Debian with
     the Python requirements.\r\n\r\nThe command PYTHONPATH=\".\" python harmony\r\nexecutes
     fine, but for the show_config, I get an error.\r\nDo you have any suggestion what
@@ -117,11 +85,7 @@ comments:
     login\r\n    result = resp.json().get('GetUserAuthTokenResult', None)\r\nTypeError:
     'dict' object is not callable"
 - id: 5071
-  author: Jeremy
-  author_email: Jeremy.Percival@gmail.com
-  author_url: ''
   date: '2013-09-15 18:35:04 -0400'
-  date_gmt: '2013-09-15 22:35:04 -0400'
   content: "Have you checked out Ube? http://myube.co/\r\n\r\nI've also gone a different
     direction lately with my home automation. I haven't documented my experience just
     yet but will later once I have everything up and running. I bought an android
@@ -135,20 +99,12 @@ comments:
     speakerphone. The ultimate experience would be to forget the keypad/phone/tablet
     experience altogether."
 - id: 5091
-  author: Alessandro Benedetti
-  author_email: press@almadom.us
-  author_url: http://almadom.us
   date: '2013-11-24 12:28:21 -0500'
-  date_gmt: '2013-11-24 17:28:21 -0500'
   content: 'Do you know Almadomus? It''s a new home automation product, simple, cheap
     and perfect for DIY users. Take a look at its crowdfunding campaign: http://igg.me/at/almadomus/x/3228335
     (discaimer: i''m one of the founder of the project)'
 - id: 5093
-  author: Ian
-  author_email: pyharmony@bebbs.co.uk
-  author_url: ''
   date: '2013-12-08 15:46:41 -0500'
-  date_gmt: '2013-12-08 20:46:41 -0500'
   content: "Hi Pete,\r\n\r\nAny chance you could share the Wireshark Logs you used
     to reverse engineer the Harmony Hub protocol? I'm re-implementing the Python code
     in C# and am experiencing some curious disparities. For example, I receive a 44
@@ -158,30 +114,18 @@ comments:
     doesn't seem to matter which credentials, authentication token, device name, etc
     I use to attempt to start the session I always receive this response.\r\n\r\nThanks"
 - id: 5094
-  author: Ian
-  author_email: pyharmony@bebbs.co.uk
-  author_url: ''
   date: '2013-12-08 15:48:50 -0500'
-  date_gmt: '2013-12-08 20:48:50 -0500'
   content: "^ Tried wrapping the iq response in a code section but obviously not appearing.
     In short, the iq response type is error and I receive the following payload in
     the oa element:\r\n\r\n  serverIdentity=5a7954eb-1445-433b-2f35-558ab0c5e7cc:hubId=97:identity=:status=succeeded:protocolVersion={XMPP=\"1.0\",
     HTTP=\"1.0\", RF=\"1.0\"}:hubProfiles={Harmony=\"2.0\"}:productId=Pimento:friendlyName=LivingRoom"
 - id: 5096
-  author: Tom
-  author_email: obstler@bla.net
-  author_url: ''
   date: '2013-12-27 15:36:35 -0500'
-  date_gmt: '2013-12-27 20:36:35 -0500'
   content: "Ian,\r\n\r\nWould you be willing to share your .net code (either privately
     or through github)? maybe I can help debugging the protocol -- I'm very interested
     in getting it running on .net"
 - id: 5097
-  author: RJ Cooper
-  author_email: rj@rjcooper.com
-  author_url: http://rjcooprr.com
   date: '2014-01-17 01:38:05 -0500'
-  date_gmt: '2014-01-17 06:38:05 -0500'
   content: |-
     Hi,
 
@@ -193,28 +137,16 @@ comments:
 
     RJ :-)
 - id: 5098
-  author: Jer
-  author_email: jeremy.percival@gmail.com
-  author_url: ''
   date: '2014-02-17 09:56:21 -0500'
-  date_gmt: '2014-02-17 14:56:21 -0500'
   content: Is there a way I can use this code with Tasker for android? That way if
     I come home it automatically turns on the music or combined with autovoice can
     give voice commands? Any help would be much appreciated! Thanks
 - id: 5099
-  author: Chris
-  author_email: ChrisMD123@aol.com
-  author_url: ''
   date: '2014-03-06 19:48:52 -0500'
-  date_gmt: '2014-03-07 00:48:52 -0500'
   content: Any word on the "harmony.engine" commands for button presses? I've tried
     a few things like "function=" or "IRCommand=" but no results so far.
 - id: 5100
-  author: Azizul Haque
-  author_email: smarthomegroup21@yahoo.com
-  author_url: http://www.smarthomegroup.com.au
   date: '2014-04-06 01:37:58 -0400'
-  date_gmt: '2014-04-06 05:37:58 -0400'
   content: Wow! This is a very useful page and I really enjoyed reading article and
     all users’ comments. Smart Home Group is a privately owned and operated Technology
     Distribution company offering a full range of <a href="http://www.smarthomegroup.com.au"
@@ -222,11 +154,7 @@ comments:
     the Australian market, Smart Home Group continues to provide value for money solutions
     across a growing range of products. Thank you for sharing valuable information.
 - id: 5103
-  author: Howard Durdle
-  author_email: howard@durdle.com
-  author_url: https://github.com/hdurdle/harmony
   date: '2014-05-01 13:00:53 -0400'
-  date_gmt: '2014-05-01 17:00:53 -0400'
   content: "Late to the party, but wanted to thank you for your efforts here.  I've
     implemented similar code as a .NET class library and put in on <a href=\"https://github.com/hdurdle/harmony\"
     rel=\"nofollow\">Github</a>.  \r\n\r\nIt's not pretty, and the Console app test

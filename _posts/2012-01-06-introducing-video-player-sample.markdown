@@ -1,16 +1,7 @@
 ---
 layout: post
-status: publish
-published: true
 title: Introducing Video Player Sample
-author: Pete
-author_login: Pete
-author_email: pete.lepage@pobox.com
-author_url: http://petelepage.com
-wordpress_id: 2786
-wordpress_url: http://petelepage.com/blog/?p=2786
 date: '2012-01-06 17:06:04 -0500'
-date_gmt: '2012-01-07 01:06:04 -0500'
 categories: blog
 tags:
 - CodeSample

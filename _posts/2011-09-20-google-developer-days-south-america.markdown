@@ -1,16 +1,7 @@
 ---
 layout: post
-status: publish
-published: true
 title: Google Developer Days - South America
-author: Pete
-author_login: Pete
-author_email: pete.lepage@pobox.com
-author_url: http://petelepage.com
-wordpress_id: 2690
-wordpress_url: http://petelepage.com/blog/?p=2690
 date: '2011-09-20 06:42:41 -0400'
-date_gmt: '2011-09-20 13:42:41 -0400'
 categories: blog
 tags:
 - Conferences
@@ -18,36 +9,20 @@ tags:
 - ChromeWebStore
 comments:
 - id: 4703
-  author: Marcos Loiola
-  author_email: marcos.loiola@gmail.com
-  author_url: http://marcosloiola.com
   date: '2011-09-20 07:04:12 -0400'
-  date_gmt: '2011-09-20 14:04:12 -0400'
   content: "The gdd11 was really cool.\r\n\r\nAnd I liked very much Building Modern
     Web Apps\r\n\r\nTks pete!\r\n\r\nMarcos Loiola\r\nCampinas - SP\r\nBrazil"
 - id: 4704
-  author: Ericka Guimarães
-  author_email: egsguimaraes@gmail.com
-  author_url: http://twitter.com/erickaguimaraes
   date: '2011-09-20 07:23:55 -0400'
-  date_gmt: '2011-09-20 14:23:55 -0400'
   content: "Gdd 2011 was definately great and you are welcome to come back at any
     time. It's great to have people like you here pushing us to do great stuff.\r\n\r\nEricka
     Guimarãe, Sao Paulo, Brazil"
 - id: 4712
-  author: Marcelo
-  author_email: marcelo.origoni@gmail.com
-  author_url: http://marcelo.origoni.com.ar
   date: '2011-09-22 05:31:10 -0400'
-  date_gmt: '2011-09-22 12:31:10 -0400'
   content: The GGD in Buenos Aires was great. Whenever you are coming back, please
     ping me, and we can go for a beer!
 - id: 4713
-  author: niclam
-  author_email: niclam@citycloud.com.ar
-  author_url: http://www.gamedesigntales.com
   date: '2011-09-22 10:03:08 -0400'
-  date_gmt: '2011-09-22 17:03:08 -0400'
   content: "Beer and Wine? Sure! But also a couple of great, not great, scrap that,
     excellent places to eat Argentine \"Asado\". No, you won't get that anywhere else.\r\n\r\nMore
     excuses to come back next year.\r\n\r\nP.S.: Of course, after eating such an Asado,

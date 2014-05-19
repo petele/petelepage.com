@@ -1,19 +1,10 @@
 ---
 layout: post
-status: publish
-published: true
 title: Viewport target-densitydpi support is being deprecated
-author: Pete
-author_login: Pete
-author_email: pete.lepage@pobox.com
-author_url: http://petelepage.com
 excerpt: If you're using <code>target-densitydpi</code> in your meta viewport, you
   should be aware that it's been deprecated from the specification and is being removed
   from WebKit and Chrome for Android!
-wordpress_id: 2835
-wordpress_url: http://petelepage.com/blog/?p=2835
 date: '2013-02-21 05:51:20 -0500'
-date_gmt: '2013-02-21 13:51:20 -0500'
 categories: blog
 tags:
 - Web Design
@@ -24,63 +15,35 @@ tags:
 - target-densitydpi
 comments:
 - id: 4887
-  author: William Donelson
-  author_email: donelson52@gmail.com
-  author_url: ''
   date: '2013-03-06 17:00:59 -0500'
-  date_gmt: '2013-03-06 22:00:59 -0500'
   content: Doesn’t work on Nexus 7 Chrome. I have a 1024 x 768 fixed size HTML5 page,
     which simply will not display full width properly on that device. The edges are
     cropped.
 - id: 4889
-  author: Fred
-  author_email: freddy.wang@me.com
-  author_url: http://twitter.com/freddywang
   date: '2013-03-11 00:40:23 -0400'
-  date_gmt: '2013-03-11 04:40:23 -0400'
   content: I tried on Nexus 7, latest build 25.0.x and above doesn't honor target-densitydpi
     at all. We couldn't achieve those crisp UI anymore without being able to control
     the density scaling.
 - id: 5033
-  author: Rex
-  author_email: lisa@tonytonytony.com
-  author_url: ''
   date: '2013-07-23 19:24:51 -0400'
-  date_gmt: '2013-07-23 23:24:51 -0400'
   content: Does anyone know how to tell when this will effect the Android WebView?
 - id: 5040
-  author: Pete
-  author_email: pete.lepage@pobox.com
-  author_url: http://petelepage.com
   date: '2013-07-27 11:05:55 -0400'
-  date_gmt: '2013-07-27 15:05:55 -0400'
   content: For the time being, this won't affect the WebView, it will only affect
     users who are using Chrome for Android instead of the Android Browser.
 - id: 5060
-  author: Rex
-  author_email: pasopaso@gmail.com
-  author_url: ''
   date: '2013-08-27 12:33:06 -0400'
-  date_gmt: '2013-08-27 16:33:06 -0400'
   content: "Do you know if there will be any way to programmatically detect from within
     the webpage when this feature is deprecated or removed?\r\n\r\nI'm having a hard
     time finding information on this, other than it's being removed.\r\n\r\nThanks
     for any insight."
 - id: 5095
-  author: Jo
-  author_email: marekgubala@atlas.cz
-  author_url: ''
   date: '2013-12-13 11:52:41 -0500'
-  date_gmt: '2013-12-13 16:52:41 -0500'
   content: An easy quick fix? <b>Really?! I don't think so!</b> With target-densitydpi
     I was able to set up image to be 2 inches wide. I see <b>no easy fix</b> without
     this setting.
 - id: 5101
-  author: Correct viewport setup for KendoUI Mobile &amp; Cordova | Andrew Smith
-  author_email: ''
-  author_url: http://emertechie.com/correct-viewport-setup-for-kendoui-mobile-cordova/
   date: '2014-04-06 18:18:39 -0400'
-  date_gmt: '2014-04-06 22:18:39 -0400'
   content: '[&#8230;] control was too wide on some devices. (Sidenote: I initially
     thought it was due to the use of the now-deprecated target-densitydpi but it wasn&#8217;t
     and according to the comments on this JIRA issue, it will still be needed for
@@ -92,7 +55,7 @@ In order to to best understand what’s changed, you need to remember that a dev
 
 In Android browser and early versions of Chrome for Android, developers could use `target-densitydpi=device-dpi` viewport value to force the browser to make a CSS pixel the same size as a device pixel, which may cause content to appear incorrectly scaled on screen (as seen in figure 1).
 
-[caption id="attachment_2839" align="aligncenter" width="520"][![Effects of target-densitydpi](http://petelepage.com/blog/wp-content/uploads/2013/02/targetdensitydpi.png)](http://petelepage.com/blog/wp-content/uploads/2013/02/targetdensitydpi.png) Figure 1 - The effects of `target-densitydpi`
+[caption id="attachment_2839" align="aligncenter" width="520"][![Effects of target-densitydpi](/assets/targetdensitydpi.png)](/assets/targetdensitydpi.png) Figure 1 - The effects of `target-densitydpi`
 `&lt;meta name="viewport" content="width=device-width, target-densitydpi=device-dpi"&gt;`
 Left: Android Browser respects the `target-densitydpi` setting and causes content to be improperly scaled.
 Right: Chrome for Android ignores the `target-densitydpi` setting.[/caption]

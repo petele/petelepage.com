@@ -1,16 +1,7 @@
 ---
 layout: post
-status: publish
-published: true
 title: Building A More App-y Web
-author: Pete
-author_login: Pete
-author_email: pete.lepage@pobox.com
-author_url: http://petelepage.com
-wordpress_id: 2753
-wordpress_url: http://petelepage.com/blog/?p=2753
 date: '2011-11-17 09:42:32 -0500'
-date_gmt: '2011-11-17 17:42:32 -0500'
 categories: blog
 tags:
 - HTML5

@@ -1,23 +1,17 @@
 ---
 layout: post
-status: publish
-published: true
 title: twitter
-author: Pete
-author_login: Pete
-author_email: pete.lepage@pobox.com
-author_url: http://petelepage.com
-wordpress_id: 1453
-wordpress_url: 91d46819-8472-40ad-a661-2c78acb4018c:1633497
 date: '2007-02-09 06:02:00 -0500'
-date_gmt: '2007-02-09 13:02:00 -0500'
-categories:
-- General
+categories: blog
 tags:
 - MSDNBlogPost
 comments: []
 ---
-<p>(in my personal blog style)</p>
-<p>okay, so i did it.... i signed up for twitter, not sure if it's a good thing, or a bad thing... you tell me...  petele on twitter, feel free to add me... i'll likely add you back, especailly if i know you, have met you, or you're doing some kind of web development and are dealing with IE ;)</p>
-<p>btw: more photos on flickr from web directions north.</p>
-<p><img src="http://blogs.msdn.com/aggbug.aspx?PostID=1633497" alt="" width="1" height="1" /></p>
+
+(in my personal blog style)
+
+okay, so i did it.... i signed up for twitter, not sure if it's a good thing, or a bad thing... you tell me...  petele on twitter, feel free to add me... i'll likely add you back, especailly if i know you, have met you, or you're doing some kind of web development and are dealing with IE ;)
+
+btw: more photos on flickr from web directions north.
+
+![](http://blogs.msdn.com/aggbug.aspx?PostID=1633497)

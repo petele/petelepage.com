@@ -1,16 +1,7 @@
 ---
 layout: post
-status: publish
-published: true
 title: I/O Boot Camp - Getting Started With HTML5
-author: Pete
-author_login: Pete
-author_email: pete.lepage@pobox.com
-author_url: http://petelepage.com
-wordpress_id: 2538
-wordpress_url: http://petelepage.com/blog/?p=2538
 date: '2011-05-18 10:12:39 -0400'
-date_gmt: '2011-05-18 17:12:39 -0400'
 categories: blog
 tags:
 - Conferences

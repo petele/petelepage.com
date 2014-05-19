@@ -1,16 +1,7 @@
 ---
 layout: post
-status: publish
-published: true
 title: The Anatomy of a Great Chrome Web Store Listing (Updated)
-author: Pete
-author_login: Pete
-author_email: pete.lepage@pobox.com
-author_url: http://petelepage.com
-wordpress_id: 2711
-wordpress_url: http://petelepage.com/blog/?p=2711
 date: '2011-09-29 12:20:08 -0400'
-date_gmt: '2011-09-29 19:20:08 -0400'
 categories: blog
 tags:
 - Web Design

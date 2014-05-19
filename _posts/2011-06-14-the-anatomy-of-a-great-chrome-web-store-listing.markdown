@@ -1,16 +1,7 @@
 ---
 layout: post
-status: publish
-published: true
 title: The Anatomy of a Great Chrome Web Store Listing
-author: Pete
-author_login: Pete
-author_email: pete.lepage@pobox.com
-author_url: http://petelepage.com
-wordpress_id: 2581
-wordpress_url: http://petelepage.com/blog/?p=2581
 date: '2011-06-14 09:37:43 -0400'
-date_gmt: '2011-06-14 16:37:43 -0400'
 categories: blog
 tags:
 - Web Design
@@ -21,18 +12,10 @@ tags:
 - Web App
 comments:
 - id: 3950
-  author: Great Web Apps &laquo; Ido&#039;s Blog
-  author_email: ''
-  author_url: http://greenido.wordpress.com/2011/06/17/great-web-apps/
   date: '2011-06-17 14:57:22 -0400'
-  date_gmt: '2011-06-17 21:57:22 -0400'
   content: '[...] The Anatomy of a Great Chrome Web Store Listing [...]'
 - id: 4702
-  author: Ido
-  author_email: greenido@gmail.com
-  author_url: http://greenido.wordpress.com/
   date: '2011-09-10 11:20:41 -0400'
-  date_gmt: '2011-09-10 18:20:41 -0400'
   content: "Thanks Pete!\r\nNow that I saw this post - I have a great location to
     point people at... specially, after long meetings with partners :)"
 ---
@@ -78,7 +61,7 @@ The application manifest file ([manifest.json](http://code.google.com/chrome/ext
 
 [![](/assets/header-background-image-150x150.png "Sample header background image")](/assets/header-background-image.png)You can supply a customized background for the header description that appears on the right side of the header in your application’s store listing.  The header background allows you to enhance the identity and branding elements on your listing page.  When supplying the background image, make sure your app's title and description are still readable and that the background elements don’t distract from the overall listing.
 
-The header background image should fill the entire 570x275 pixel canvas, though don’t put anything important in the bottom 60px as those are reserved for the rating, buy or install buttons.  Be sure to choose a background color that will provide the appropriate contrast with either white, or black text, though a dark or medium background color is recommended, like in this [example](http://petelepage.com/blog/wp-content/uploads/2011/06/header-in-store-screenshot.png).  Additional details can be found in the [Header background](http://code.google.com/chrome/webstore/docs/images.html#bg) section of the Chrome Web Store documentation.
+The header background image should fill the entire 570x275 pixel canvas, though don’t put anything important in the bottom 60px as those are reserved for the rating, buy or install buttons.  Be sure to choose a background color that will provide the appropriate contrast with either white, or black text, though a dark or medium background color is recommended, like in this [example](/assets/header-in-store-screenshot.png).  Additional details can be found in the [Header background](http://code.google.com/chrome/webstore/docs/images.html#bg) section of the Chrome Web Store documentation.
 
 ## Full Description
 

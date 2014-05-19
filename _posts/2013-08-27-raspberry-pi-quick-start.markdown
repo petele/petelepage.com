@@ -15,7 +15,6 @@ Last night, I needed to re-image the SD card for my Raspberry Pi to get things s
 
 **Note:** If you don't see the scripts appearing inline, try refreshing.
 
-
 ## Step 1 - Create the initial disk image
 
 1.  Download the latest Wheezy image from [http://www.raspberrypi.org/downloads](http://www.raspberrypi.org/downloads)

@@ -1,16 +1,7 @@
 ---
 layout: post
-status: publish
-published: true
 title: 1970's Retro Pong
-author: Pete
-author_login: Pete
-author_email: pete.lepage@pobox.com
-author_url: http://petelepage.com
-wordpress_id: 2525
-wordpress_url: http://petelepage.com/blog/?p=2525
 date: '2011-04-06 09:30:12 -0400'
-date_gmt: '2011-04-06 16:30:12 -0400'
 categories: blog
 tags:
 - CodeSample
@@ -19,37 +10,21 @@ tags:
 - HTML5 Games
 comments:
 - id: 3046
-  author: Seth Ladd
-  author_email: sethladd@gmail.com
-  author_url: http://sethladd.com
   date: '2011-04-07 10:59:48 -0400'
-  date_gmt: '2011-04-07 17:59:48 -0400'
   content: |-
     Yes, HTML5 Audio is broken.  See http://blog.sethladd.com/2011/03/html5-audio-needs-your-help.html
 
     Also, for the very very basics on HTML5 gaming, check out http://www.html5rocks.com/tutorials/canvas/notearsgame/
 - id: 3049
-  author: Cd-MaN
-  author_email: x_at_y_or_z@yahoo.com
-  author_url: http://hype-free.blogspot.com/
   date: '2011-04-10 22:18:41 -0400'
-  date_gmt: '2011-04-11 05:18:41 -0400'
   content: It doesn't work for me in either Firefox 4 or Chromium 10. When I visit
     the page, nothing happens and I click on "Start new game", the page simply gets
     reloaded.
 - id: 3050
-  author: Pete
-  author_email: pete.lepage@pobox.com
-  author_url: http://petelepage.com
   date: '2011-04-10 22:52:49 -0400'
-  date_gmt: '2011-04-11 05:52:49 -0400'
   content: '@Cd-MaN - thanks, looks like one of the little changes I made broke something.'
 - id: 4814
-  author: Anshu Prateek (@anshprat)
-  author_email: anshprat@gmail.com
-  author_url: http://hackalyst.info
   date: '2012-02-18 14:01:28 -0500'
-  date_gmt: '2012-02-18 22:01:28 -0500'
   content: "hi,\r\n\r\nI ve started playing around with the accelerometer on the mobile
     browsers/html 5, and I think using accelerometer for pong would be cool. I will
     be working on it this week, lets see how it comes up!\r\n\r\ncheers\r\nAnshu Prateek"

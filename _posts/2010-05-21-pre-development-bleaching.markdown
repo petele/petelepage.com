@@ -1,16 +1,7 @@
 ---
 layout: post
-status: publish
-published: true
 title: Pre-Development Bleaching
-author: Pete
-author_login: Pete
-author_email: pete.lepage@pobox.com
-author_url: http://petelepage.com
-wordpress_id: 41
-wordpress_url: http://petelepage.com/blog/?page_id=41
 date: '2010-05-21 12:06:41 -0400'
-date_gmt: '2010-05-21 19:06:41 -0400'
 categories: photo
 tags:
 - photography

@@ -1,16 +1,7 @@
 ---
 layout: post
-status: publish
-published: true
 title: Split Grade Printing
-author: Pete
-author_login: Pete
-author_email: pete.lepage@pobox.com
-author_url: http://petelepage.com
-wordpress_id: 43
-wordpress_url: http://petelepage.com/blog/?page_id=43
 date: '2010-05-21 12:08:05 -0400'
-date_gmt: '2010-05-21 19:08:05 -0400'
 categories: photo
 tags:
 - photography
@@ -20,11 +11,7 @@ tags:
 - printing
 comments:
 - id: 4037
-  author: Split grade wet-printing &laquo; pH³ &#8211; Photo Phreak&#039;s Phindings
-  author_email: ''
-  author_url: http://hearkane.wordpress.com/2011/06/26/split-grade-wet-printing/
   date: '2011-06-26 08:29:08 -0400'
-  date_gmt: '2011-06-26 15:29:08 -0400'
   content: '[...] http://petelepage.com/blog/fine-art-photography-reference/split-grade-printing/
     [...]'
 ---

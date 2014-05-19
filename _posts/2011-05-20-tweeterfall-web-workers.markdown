@@ -1,16 +1,7 @@
 ---
 layout: post
-status: publish
-published: true
 title: TweeterFall - Web Workers
-author: Pete
-author_login: Pete
-author_email: pete.lepage@pobox.com
-author_url: http://petelepage.com
-wordpress_id: 2566
-wordpress_url: http://petelepage.com/blog/?p=2566
 date: '2011-05-20 10:29:12 -0400'
-date_gmt: '2011-05-20 17:29:12 -0400'
 categories: blog
 tags:
 - JavaScript
@@ -22,11 +13,7 @@ tags:
 - webWorker
 comments:
 - id: 4804
-  author: Ciantic
-  author_email: ciantic@oksidi.com
-  author_url: ''
   date: '2012-01-03 08:17:50 -0500'
-  date_gmt: '2012-01-03 16:17:50 -0500'
   content: "Great example. \r\n\r\nYou could explore the idea of <a href=\"http://www.whatwg.org/specs/web-apps/current-work/multipage/workers.html#shared-state-using-a-shared-worker\"
     rel=\"nofollow\">shared workers</a>, with them single shared worker could provide
     tweets to all windows, with one update stream it would be smoother experience."

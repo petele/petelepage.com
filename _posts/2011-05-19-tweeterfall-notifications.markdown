@@ -1,16 +1,7 @@
 ---
 layout: post
-status: publish
-published: true
 title: TweeterFall - Notifications
-author: Pete
-author_login: Pete
-author_email: pete.lepage@pobox.com
-author_url: http://petelepage.com
-wordpress_id: 2550
-wordpress_url: http://petelepage.com/blog/?p=2550
 date: '2011-05-19 23:38:36 -0400'
-date_gmt: '2011-05-20 06:38:36 -0400'
 categories: blog
 tags:
 - CodeSample

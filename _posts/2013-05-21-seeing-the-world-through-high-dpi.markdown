@@ -1,16 +1,7 @@
 ---
 layout: post
-status: publish
-published: true
 title: Seeing the world through high DPI
-author: Pete
-author_login: Pete
-author_email: pete.lepage@pobox.com
-author_url: http://petelepage.com
-wordpress_id: 2855
-wordpress_url: http://petelepage.com/blog/?p=2855
 date: '2013-05-21 11:03:55 -0400'
-date_gmt: '2013-05-21 15:03:55 -0400'
 categories: blog
 tags:
 - Conferences

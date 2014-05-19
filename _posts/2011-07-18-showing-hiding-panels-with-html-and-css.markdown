@@ -1,16 +1,7 @@
 ---
 layout: post
-status: publish
-published: true
 title: Showing & Hiding Panels with HTML and CSS
-author: Pete
-author_login: Pete
-author_email: pete.lepage@pobox.com
-author_url: http://petelepage.com
-wordpress_id: 2657
-wordpress_url: http://petelepage.com/blog/?p=2657
 date: '2011-07-18 12:20:11 -0400'
-date_gmt: '2011-07-18 19:20:11 -0400'
 categories: blog
 tags:
 - Web Design
@@ -21,11 +12,7 @@ tags:
 - HTML5
 comments:
 - id: 4262
-  author: Steve
-  author_email: stephen.cunliffe@gmail.com
-  author_url: http://Website
   date: '2011-07-19 06:38:23 -0400'
-  date_gmt: '2011-07-19 13:38:23 -0400'
   content: |-
     Although I think there's much easier ways to pull this off with jQuery or any other framework - kudos for attempting this without them.
 
@@ -33,11 +20,7 @@ comments:
 
     On a personal note, although the rotating arrow is nifty I'd switch it to a solid triangular arrow as the open arrow looks like an HTML coding error (e.g. an extra closing bracket) vs. an intended UI element.
 - id: 4264
-  author: Pete
-  author_email: pete.lepage@pobox.com
-  author_url: http://petelepage.com
   date: '2011-07-19 08:52:00 -0400'
-  date_gmt: '2011-07-19 15:52:00 -0400'
   content: |-
     <blockquote>
     <a href="#comment-4262" rel="nofollow">
@@ -111,7 +94,7 @@ You could simply show the panel on any hover, but that always gets a little anno
 
 {% highlight html %}
 <div id="left-panel">
-  <a href="" onclick="showLeftPanel();" class="controller">&gt;</a>
+  [&gt;]()
 </div>
 {% endhighlight %}
 
@@ -198,7 +181,7 @@ The HTML
 
 {% highlight html %}
 <div id="left-panel">
-  <a href="" onclick="showLeftPanel();" class="controller">&gt;</a>
+  [&gt;]()
 </div>
 {% endhighlight %}
 

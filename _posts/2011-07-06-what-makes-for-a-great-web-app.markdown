@@ -1,16 +1,7 @@
 ---
 layout: post
-status: publish
-published: true
 title: What Makes For A Great Web App?
-author: Pete
-author_login: Pete
-author_email: pete.lepage@pobox.com
-author_url: http://petelepage.com
-wordpress_id: 2633
-wordpress_url: http://petelepage.com/blog/?p=2633
 date: '2011-07-06 17:27:55 -0400'
-date_gmt: '2011-07-07 00:27:55 -0400'
 categories: blog
 tags:
 - CSS3

@@ -1,16 +1,7 @@
 ---
 layout: post
-status: publish
-published: true
 title: GoDaddy and AppCache Manifest Files
-author: Pete
-author_login: Pete
-author_email: pete.lepage@pobox.com
-author_url: http://petelepage.com
-wordpress_id: 2609
-wordpress_url: http://petelepage.com/blog/?p=2609
 date: '2011-06-30 13:31:36 -0400'
-date_gmt: '2011-06-30 20:31:36 -0400'
 categories: blog
 tags:
 - HTML5
@@ -23,20 +14,12 @@ tags:
 - GoDaddy
 comments:
 - id: 4808
-  author: Peter
-  author_email: peter.persson@hotmail.se
-  author_url: http://www.perssonponerar.se
   date: '2012-01-12 05:15:51 -0500'
-  date_gmt: '2012-01-12 13:15:51 -0500'
   content: "Hey, I found an even slicker way, this is more RERSTful in my opinion,
     and you don't have to mess about with your web.config file at all...\r\n(with
     the new razor engine its even more straight forward than this example)\r\nhttp://deanhume.com/Home/BlogPost/mvc-and-the-html5-application-cache/59"
 - id: 5102
-  author: Smithc996
-  author_email: smithc336@gmail.com
-  author_url: http://gdggffeakkfgdfdc.blogspot.com/
   date: '2014-04-20 05:19:04 -0400'
-  date_gmt: '2014-04-20 09:19:04 -0400'
   content: There is visibly a bundle to realize about this. I assume you made certain
     nice points in features also. gdggffeakkfgdfdc
 ---

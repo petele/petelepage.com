@@ -1,16 +1,7 @@
 ---
 layout: post
-status: publish
-published: true
 title: Is It Time To Rethink Web Navigation?
-author: Pete
-author_login: Pete
-author_email: pete.lepage@pobox.com
-author_url: http://petelepage.com
-wordpress_id: 2649
-wordpress_url: http://petelepage.com/blog/?p=2649
 date: '2011-07-11 17:08:38 -0400'
-date_gmt: '2011-07-12 00:08:38 -0400'
 categories: blog
 tags: []
 comments: []

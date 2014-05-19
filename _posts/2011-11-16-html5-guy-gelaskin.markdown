@@ -1,16 +1,7 @@
 ---
 layout: post
-status: publish
-published: true
 title: HTML5 Guy + Gelaskin
-author: Pete
-author_login: Pete
-author_email: pete.lepage@pobox.com
-author_url: http://petelepage.com
-wordpress_id: 2746
-wordpress_url: http://petelepage.com/blog/?p=2746
 date: '2011-11-16 10:27:47 -0500'
-date_gmt: '2011-11-16 18:27:47 -0500'
 categories: blog
 tags: []
 comments: []

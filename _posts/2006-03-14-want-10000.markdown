@@ -1,20 +1,11 @@
 ---
 layout: post
-status: publish
-published: true
 title: Want $10,000?
-author: Pete
-author_login: Pete
-author_email: pete.lepage@pobox.com
-author_url: http://petelepage.com
-wordpress_id: 1831
-wordpress_url: http://petelepage.com/blog/2006/03/want-10000/
 date: '2006-03-14 02:17:00 -0500'
-date_gmt: '2006-03-14 09:17:00 -0500'
-categories:
-- General
+categories: blog
 tags:
 - MSDNBlogPost
 comments: []
 ---
-<p>I understand why, but I really wish that most contests did not include the line "Employees of Microsoft Corporation</p>
+
+I understand why, but I really wish that most contests did not include the line "Employees of Microsoft Corporation

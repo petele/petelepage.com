@@ -1,16 +1,7 @@
 ---
 layout: post
-status: publish
-published: true
 title: 'Thinking about the offline web '
-author: Pete
-author_login: Pete
-author_email: pete.lepage@pobox.com
-author_url: http://petelepage.com
-wordpress_id: 2790
-wordpress_url: http://petelepage.com/blog/?p=2790
 date: '2012-04-17 09:53:24 -0400'
-date_gmt: '2012-04-17 16:53:24 -0400'
 categories: blog
 tags:
 - Performance
@@ -21,11 +12,7 @@ tags:
 - indexed db
 comments:
 - id: 4830
-  author: Andrew Betts
-  author_email: andrew@trib.tv
-  author_url: http://trib.tv
   date: '2012-04-17 15:12:02 -0400'
-  date_gmt: '2012-04-17 22:12:02 -0400'
   content: interesting post.  I'd say one of the key factors you've missed here is
     the deep coupling at a business level between offline and mobile.  Product managers
     see offline as a mobile technology, because it has very little application to
@@ -35,11 +22,7 @@ comments:
     HTML5 technologies together as an 'all or nothing' endeavour, only to be considered
     for tablet or smartphone devices.
 - id: 4831
-  author: Chris Anderson
-  author_email: jchris@couchbase.com
-  author_url: http://www.couchbase.com
   date: '2012-04-17 20:54:03 -0400'
-  date_gmt: '2012-04-18 03:54:03 -0400'
   content: "Have you taken a look at the offline capabilities CouchDB provides? I
     gave a tech talk at Google in 2009, about ground computing and the benefits of
     local data: http://googlecode.blogspot.com/2009/09/chris-anderson-couchdb-relaxing-offline.html\r\n\r\nCouch
@@ -53,11 +36,7 @@ comments:
     that connect to the cloud when they want to share data or they are interested
     in a continuous data feed."
 - id: 4832
-  author: Jan-Christoph Borchardt
-  author_email: jan@unhosted.org
-  author_url: http://unhosted.org
   date: '2012-04-18 07:21:19 -0400'
-  date_gmt: '2012-04-18 14:21:19 -0400'
   content: "You should check out <a href=\"http://5apps.com\" rel=\"nofollow\">5apps</a>.
     It's a deployment platform for HTML5+JS apps, they have a feature for enabling
     AppCache by default.\r\n\r\nAnd if you use the open <a href=\"http://unhosted.org/#remotestorage\"

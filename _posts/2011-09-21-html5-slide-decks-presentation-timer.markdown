@@ -1,16 +1,7 @@
 ---
 layout: post
-status: publish
-published: true
 title: HTML5 Slide Decks & Presentation Timer
-author: Pete
-author_login: Pete
-author_email: pete.lepage@pobox.com
-author_url: http://petelepage.com
-wordpress_id: 2697
-wordpress_url: http://petelepage.com/blog/?p=2697
 date: '2011-09-21 09:06:11 -0400'
-date_gmt: '2011-09-21 16:06:11 -0400'
 categories: blog
 tags:
 - JavaScript
@@ -21,19 +12,11 @@ tags:
 - HTML5Slides
 comments:
 - id: 4707
-  author: Marcos Loiola
-  author_email: marcos.loiola@gmail.com
-  author_url: http://marcosloiola.com
   date: '2011-09-21 09:52:25 -0400'
-  date_gmt: '2011-09-21 16:52:25 -0400'
   content: "Really Great!\r\n\r\nI watched your presentations in GDD and I asked myself
     \"What is he using?\"\r\n\r\nI´ll try!\r\n\r\nMarcos Loiola - Brazil"
 - id: 4708
-  author: niclam
-  author_email: niclam@citycloud.com.ar
-  author_url: http://www.gamedesigntales.com
   date: '2011-09-21 13:25:25 -0400'
-  date_gmt: '2011-09-21 20:25:25 -0400'
   content: I loved your presentations and I really enjoyed the fact that you used
     HTML 5 slides to talk about well, HTML 5.
 ---

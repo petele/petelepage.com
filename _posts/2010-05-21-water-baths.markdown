@@ -1,16 +1,7 @@
 ---
 layout: post
-status: publish
-published: true
 title: Water Baths
-author: Pete
-author_login: Pete
-author_email: pete.lepage@pobox.com
-author_url: http://petelepage.com
-wordpress_id: 45
-wordpress_url: http://petelepage.com/blog/?page_id=45
 date: '2010-05-21 12:10:29 -0400'
-date_gmt: '2010-05-21 19:10:29 -0400'
 categories: photo
 tags:
 - photography

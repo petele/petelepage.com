@@ -1,16 +1,7 @@
 ---
 layout: post
-status: publish
-published: true
 title: Photographic Paper Speed
-author: Pete
-author_login: Pete
-author_email: pete.lepage@pobox.com
-author_url: http://petelepage.com
-wordpress_id: 35
-wordpress_url: http://petelepage.com/blog/?page_id=35
 date: '2010-05-21 12:00:07 -0400'
-date_gmt: '2010-05-21 19:00:07 -0400'
 categories: photo
 tags: 
 - photography

@@ -2,7 +2,6 @@
 layout: post
 title: 'High DPI: Tips and Tricks'
 date: '2013-05-22 07:45:43 -0400'
-date_gmt: '2013-05-22 11:45:43 -0400'
 categories: blog
 tags:
 - Conferences
@@ -15,7 +14,7 @@ tags:
 - retina
 comments: []
 ---
-![io13-logo](http://petelepage.com/blog/wp-content/uploads/2013/05/io13-logo-150x150.png)During the presentation that [John Mellor](https://plus.google.com/115120259572077332394/posts) and I did at [I/O](https://developers.google.com/events/io/2013/) this year covering building beautiful websites for high DPI displays, we summarized our talk into about 7 key points.
+![io13-logo](/assets/io13-logo-150x150.png)During the presentation that [John Mellor](https://plus.google.com/115120259572077332394/posts) and I did at [I/O](https://developers.google.com/events/io/2013/) this year covering building beautiful websites for high DPI displays, we summarized our talk into about 7 key points.
 
 If you follow these seven simple guidelines, you'll find your site looks great on any high DPI display.
 
