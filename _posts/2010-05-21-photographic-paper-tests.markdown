@@ -12,7 +12,11 @@ wordpress_url: http://petelepage.com/blog/?page_id=37
 date: '2010-05-21 12:04:10 -0400'
 date_gmt: '2010-05-21 19:04:10 -0400'
 categories: photo
-tags: []
+tags:
+- photography
+- film
+- developer
+- paper
 comments: []
 ---
 # Maximum Development Time Test (MDT)

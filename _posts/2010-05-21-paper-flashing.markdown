@@ -11,9 +11,13 @@ wordpress_id: 29
 wordpress_url: http://petelepage.com/blog/?page_id=29
 date: '2010-05-21 11:53:37 -0400'
 date_gmt: '2010-05-21 18:53:37 -0400'
-categories:
-- General
-tags: []
+categories: photo
+tags:
+- photography
+- film
+- developer
+- chemistry
+- flashing
 comments: []
 ---
 <p>Often times, burning in a small spot or an area with lots of different tones can be very difficult. You could burn it in, but you run the risk of letting your shadows go too dark, and not getting enough in the highlights, especially in very bright highlights such as skys, near lights, and other problematic spaces. Paper flashing is a really good way of dealing with this.</p>

@@ -11,8 +11,7 @@ wordpress_id: 1349
 wordpress_url: http://petelepage.com/blog/?p=1349
 date: '2010-05-21 14:38:57 -0400'
 date_gmt: '2010-05-21 21:38:57 -0400'
-categories:
-- Fine Art Photography
+categories: photo
 tags: []
 comments: []
 ---

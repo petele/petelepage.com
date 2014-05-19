@@ -11,9 +11,10 @@ wordpress_id: 3
 wordpress_url: http://petelepage.com/blog/?page_id=3
 date: '2010-05-21 10:18:29 -0400'
 date_gmt: '2010-05-21 17:18:29 -0400'
-categories:
-- General
-tags: []
+categories: photo
+tags:
+- photography
+- film
 comments:
 - id: 1579
   author: Fine Art Photography Notes Posted

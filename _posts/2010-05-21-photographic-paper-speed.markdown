@@ -12,7 +12,11 @@ wordpress_url: http://petelepage.com/blog/?page_id=35
 date: '2010-05-21 12:00:07 -0400'
 date_gmt: '2010-05-21 19:00:07 -0400'
 categories: photo
-tags: []
+tags: 
+- photography
+- film
+- developer
+- paper
 comments: []
 ---
 Most of these paper speeds have been obtained from the manufacturer.

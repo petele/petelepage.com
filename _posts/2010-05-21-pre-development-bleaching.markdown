@@ -12,7 +12,13 @@ wordpress_url: http://petelepage.com/blog/?page_id=41
 date: '2010-05-21 12:06:41 -0400'
 date_gmt: '2010-05-21 19:06:41 -0400'
 categories: photo
-tags: []
+tags:
+- photography
+- film
+- developer
+- chemistry
+- bleaching
+- predevelopment
 comments: []
 ---
 Sometimes, reducing contrast is something that a printer wants, and for one reason or another cannot obtain easily. For example, using a graded paper, or having only a high contrast developer available. When this is the case, it's possible to reduce the appearant contrast to any grade below the current value.

@@ -11,9 +11,12 @@ wordpress_id: 23
 wordpress_url: http://petelepage.com/blog/?page_id=23
 date: '2010-05-21 11:48:46 -0400'
 date_gmt: '2010-05-21 18:48:46 -0400'
-categories:
-- General
-tags: []
+categories: photo
+tags:
+- photography
+- film
+- developer
+- chemistry
 comments: []
 ---
 <table style="width:100%;" border="1">

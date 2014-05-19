@@ -11,9 +11,12 @@ wordpress_id: 25
 wordpress_url: http://petelepage.com/blog/?page_id=25
 date: '2010-05-21 11:50:23 -0400'
 date_gmt: '2010-05-21 18:50:23 -0400'
-categories:
-- General
-tags: []
+categories: photo
+tags:
+- photography
+- film
+- photographic+paper
+- printing
 comments: []
 ---
 <ul>

@@ -12,7 +12,12 @@ wordpress_url: http://petelepage.com/blog/?page_id=43
 date: '2010-05-21 12:08:05 -0400'
 date_gmt: '2010-05-21 19:08:05 -0400'
 categories: photo
-tags: []
+tags:
+- photography
+- film
+- developer
+- contrast
+- printing
 comments:
 - id: 4037
   author: Split grade wet-printing &laquo; pH³ &#8211; Photo Phreak&#039;s Phindings

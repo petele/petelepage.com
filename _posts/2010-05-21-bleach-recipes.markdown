@@ -11,9 +11,13 @@ wordpress_id: 19
 wordpress_url: http://petelepage.com/blog/?page_id=19
 date: '2010-05-21 11:46:48 -0400'
 date_gmt: '2010-05-21 18:46:48 -0400'
-categories:
-- General
-tags: []
+categories: photo
+tags:
+- photography
+- film
+- bleach
+- chemistry
+- printing
 comments:
 - id: 1580
   author: Fine Art Photography Notes Posted

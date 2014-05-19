@@ -11,9 +11,12 @@ wordpress_id: 27
 wordpress_url: http://petelepage.com/blog/?page_id=27
 date: '2010-05-21 11:52:50 -0400'
 date_gmt: '2010-05-21 18:52:50 -0400'
-categories:
-- General
-tags: []
+categories: photo
+tags:
+- photography
+- film
+- developing
+- chemistry
 comments: []
 ---
 <p>These are generic instructions for developing black and white film.  Each film and developer combination will have slightly different times and temperatures for which they give ideal results.  You will need to test your particular  film and developer combination.  The values given below are just recommendations.</p>

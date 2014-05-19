@@ -12,7 +12,13 @@ wordpress_url: http://petelepage.com/blog/?page_id=45
 date: '2010-05-21 12:10:29 -0400'
 date_gmt: '2010-05-21 19:10:29 -0400'
 categories: photo
-tags: []
+tags:
+- photography
+- film
+- developer
+- chemistry
+- water
+- bath
 comments: []
 ---
 Water baths are useful for affecting the shadows or highlights, depening on how you look at it. Water baths retard the development of shadow detail, so it allows highlight detail to develop while the shadow detail is "put on pause". During normal development, the paper is placed in the developer and agitated while in the developer, allowing fresh developer to replace areas where it has been exhausted due to the shadow development. (Note, it is important to think about this process on a very small scale.) As shadows develop, they exhaust the developer much more quickly than the slow developing highlight detail. Thus, if we don't allow that "exhausted" developer to replenish itself, it won't be able to continue developing the shadow areas, but the developer in the highlight areas won't have exhausted quite as quickly.

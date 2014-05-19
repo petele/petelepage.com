@@ -11,9 +11,13 @@ wordpress_id: 33
 wordpress_url: http://petelepage.com/blog/?page_id=33
 date: '2010-05-21 11:59:06 -0400'
 date_gmt: '2010-05-21 18:59:06 -0400'
-categories:
-- General
-tags: []
+categories: photo
+tags:
+- photography
+- film
+- developer
+- printing
+- f-stop
 comments:
 - id: 2873
   author: Anton
