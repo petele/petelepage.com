@@ -7,5 +7,6 @@ permalink: /blog/:year/:month/:title.html
 destination: _build/
 url: https://www.petelepage.com
 rss_path: static/
+rss_post_limit: 50
 sitemap:
     file: static/sitemap.xml
