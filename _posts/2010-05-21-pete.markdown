@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: post
 status: publish
 published: true
 title: Behind the name "PEte"
@@ -11,8 +11,7 @@ wordpress_id: 1345
 wordpress_url: http://petelepage.com/blog/?page_id=1345
 date: '2010-05-21 13:33:15 -0400'
 date_gmt: '2010-05-21 20:33:15 -0400'
-categories:
-- General
+categories: blog
 tags: []
 comments:
 - id: 1581

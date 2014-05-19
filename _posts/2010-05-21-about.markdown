@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: post
 status: publish
 published: true
 title: About
