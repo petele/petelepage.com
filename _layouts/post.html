@@ -84,7 +84,7 @@ blog: true
           <dt>Related Posts</dt>
           <dd>
             <ul class="list-unstyled">
-              {% for post in site.related_posts %}
+              {% for post in page.related_posts limit:5 %}
                 <li><a href="{{ post.url }}">{{ post.title }}</a></li>
               {% endfor %}
             </ul>

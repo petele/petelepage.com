@@ -1,10 +1,22 @@
 ---
 layout: default
-title: Pete LePage
+title: Home - Pete LePage
 ---
 
 <div class="jumbotron hidden-xs">
-  <h1>Hello, world!</h1>
-  <p>...</p>
-  <p><a class="btn btn-primary btn-lg" role="button">Learn more</a></p>
+  {% assign recent = site.posts[0] %}
+  <h1>{{ recent.title }}</h1>
+  <p>{{ recent.excerpt }}</p>
+  <p><a class="btn btn-primary btn-lg" role="button" href="{{ recent.url }}">Read</a></p>
+</div>
+
+<div class="row">
+  <div class="col-md-12">
+    <h2>Recent Posts</h2>
+    <ul class="list-unstyled">
+      {% for post in site.posts limit:8 %}
+        <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+      {% endfor %}
+    </ul>
+  </div>
 </div>
