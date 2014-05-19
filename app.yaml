@@ -13,6 +13,7 @@ libraries:
 - name: jinja2
   version: latest
 
+default_expiration: "30d"
 
 handlers:
 - url: /css
@@ -27,29 +28,38 @@ handlers:
 - url: /js
   static_dir: js
 
+- url: /assets
+  static_dir: assets
+
 - url: /favicon.ico
   static_files: static/favicon.ico
   upload: static/favicon.ico
+  expiration: "90d"
 
 - url: /favicon.png
   static_files: static/favicon.png
   upload: static/favicon.png
+  expiration: "90d"
 
 - url: /humans.html
   static_files: static/humans.html
   upload: static/humans.html
+  expiration: "90d"
 
 - url: /robots.txt
   static_files: static/robots.txt
   upload: static/robots.txt
+  expiration: "90d"
 
 - url: /rss.xml
   static_files: static/rss.xml
   upload: static/rss.xml
+  expiration: "1h"
 
 - url: /sitemap.xml
   static_files: static/sitemap.xml
   upload: static/sitemap.xml
+  expiration: "1h"
 
 - url: .*
   script: app.application
