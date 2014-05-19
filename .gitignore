@@ -1,2 +1,4 @@
 _site
 _build
+_deploy
+node_modules

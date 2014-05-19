@@ -1,0 +1,13 @@
+{
+  "name": "petelepage.com",
+  "version": "1.0.0",
+  "analytics_id": "UA-9988000-4",
+  "appengine_version": "20140519-1",
+  "devDependencies": {
+    "grunt": "~0.4.1",
+    "grunt-contrib-cssmin": "~0.7.0",
+    "grunt-text-replace": "~0.3.9",
+    "grunt-pagespeed": "~0.1.2",
+    "grunt-contrib-imagemin": "~0.7.0"
+  }
+}
