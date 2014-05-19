@@ -11,8 +11,7 @@ wordpress_id: 2506
 wordpress_url: http://petelepage.com/blog/2010/07/quick-perf-tip-always-add-a-trailing-slash/
 date: '2010-07-16 08:44:31 -0400'
 date_gmt: '2010-07-16 15:44:31 -0400'
-categories:
-- Web Design &amp; Development
+categories: blog
 tags:
 - HTML
 - Performance
@@ -61,10 +60,16 @@ comments:
     our site putting on the trailing links, and my thoughts are that you would not
     put a slash after an html page, but thought I would ask. \n\nCheers\nSCott"
 ---
-<p>Here’s a quick performance tip for your Friday (or Saturday for those of you across the date line) – when linking to a directory, be sure to add the trailing slash to the directory name, otherwise, it causes a redirect from the server, thus adds a bit of time to your page load!</p>
-<h2><font color="#00ff00">Do</font></h2>
-<p>&lt;a href=”http://petelepage.com/blog<strong>/</strong>”&gt;Pete’s Blog&lt;/a&gt;</p>
-<h2><font color="#ff0000">Don’t</font></h2>
-<p>&lt;a href=”http://petelepage.com/blog”&gt;Pete’s Blog&lt;/a&gt;</p>
-<h2>What’s going on?</h2>
-<p>When the browser makes a web request for a page without the slash, it responds with a 301 redirect response, which then causes the browser to make a second request for almost the exact same page, except it asks for it with the trailing slash!&#160; On a client with a slow network connection, that’s going to be really painful!&#160; Even if it’s not a slow connection, it is going to add some extra time to your page load!</p>
+Here’s a quick performance tip for your Friday (or Saturday for those of you across the date line) – when linking to a directory, be sure to add the trailing slash to the directory name, otherwise, it causes a redirect from the server, thus adds a bit of time to your page load!
+
+## <span class="text-success">Do</span>
+
+`<a href=”http://petelepage.com/blog/”>Pete’s Blog</a>
+
+## <span class="text-danger">Don’t</span>
+
+<a href=”http://petelepage.com/blog”>Pete’s Blog</a>
+
+## What’s going on?
+
+When the browser makes a web request for a page without the slash, it responds with a 301 redirect response, which then causes the browser to make a second request for almost the exact same page, except it asks for it with the trailing slash! On a client with a slow network connection, that’s going to be really painful! Even if it’s not a slow connection, it is going to add some extra time to your page load!

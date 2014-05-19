@@ -11,10 +11,7 @@ wordpress_id: 2514
 wordpress_url: http://petelepage.com/blog/2010/10/new-internet-explorer-testing-vhds-are-available/
 date: '2010-10-14 08:07:21 -0400'
 date_gmt: '2010-10-14 15:07:21 -0400'
-categories:
-- Web Design &amp; Development
-- Microsoft
-- Internet Explorer
+categories: blog
 tags:
 - Web Design
 - IE8
@@ -164,14 +161,16 @@ comments:
 
     I work with several design and development companies and everyone I speak to is fuming about this at the moment.
 ---
-<p>After a little delay, the <a href="http://go.microsoft.com/fwlink?LinkID=70868">Internet Explorer App Compat Testing VHDs</a> are now available for download on the Microsoft Download Center.&#160; Like the previous set of images, these ones are time-bombed for 90 days and will expire on January 11th, 2011.&#160; </p>
-<p>Live we’ve done in the past, there are five different images that we’ve made available…</p>
-<ul>
-<li>Internet Explorer 6 on Windows XP SP3</li>
-<li>Internet Explorer 7 on Windows XP SP3</li>
-<li>Internet Explorer 8 on Windows XP SP3</li>
-<li>Internet Explorer 7 on Windows Vista SP1</li>
-<li>Internet Explorer 8 on Windows Vista SP1</li>
-</ul>
-<p>These images are a bit different then the previous ones we last released in June, the default user account is an admin on the machine, and you have to use a password to log on to the VHD.&#160; The password and other important information is in the readme.txt file – so be sure to check that out.</p>
-<p>As you test your sites, remember that with Internet Explorer 8 and Internet Explorer 9, you can switch the rendering mode with the F12 Developer Tools and get an almost perfect replication of IE9, IE8 or even IE7.&#160; That way, you can save using the VHDs for when there may be an issue with something like Protected Mode, or you need to test IE6.</p>
+After a little delay, the [Internet Explorer App Compat Testing VHDs](http://go.microsoft.com/fwlink?LinkID=70868) are now available for download on the Microsoft Download Center. Like the previous set of images, these ones are time-bombed for 90 days and will expire on January 11th, 2011.
+
+Live we’ve done in the past, there are five different images that we’ve made available…
+
+*   Internet Explorer 6 on Windows XP SP3
+*   Internet Explorer 7 on Windows XP SP3
+*   Internet Explorer 8 on Windows XP SP3
+*   Internet Explorer 7 on Windows Vista SP1
+*   Internet Explorer 8 on Windows Vista SP1
+
+These images are a bit different then the previous ones we last released in June, the default user account is an admin on the machine, and you have to use a password to log on to the VHD. The password and other important information is in the readme.txt file – so be sure to check that out.
+
+As you test your sites, remember that with Internet Explorer 8 and Internet Explorer 9, you can switch the rendering mode with the F12 Developer Tools and get an almost perfect replication of IE9, IE8 or even IE7. That way, you can save using the VHDs for when there may be an issue with something like Protected Mode, or you need to test IE6.
