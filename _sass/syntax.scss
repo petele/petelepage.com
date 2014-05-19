@@ -1,35 +1,3 @@
-body {
-  padding-top: 70px;
-
-}
-
-footer {
-  margin-top: 2em;
-  padding: 40px 0;
-  color: #666;
-  background-color: #f9f9f9;
-  border-top: 1px solid #e5e5e5;
-}
-
-
-.post-details dl:last-of-type {
-  margin-bottom: 0;
-}
-
-.panel.post-details, .panel.recent-posts {
-  border: none;
-}
-
-.panel.post-details .panel-heading, 
-.panel.recent-posts .panel-heading {
-  background: inherit;
-}
-
-code {
-  white-space: normal;
-}
-
-
 /* Syntax highlighting for Pygments */
 .highlight  { background: #ffffff; }
 .highlight .c { color: #999988; font-style: italic } /* Comment */
