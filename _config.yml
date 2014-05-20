@@ -14,3 +14,6 @@ exclude: ["node_modules", "Gruntfile.js", "package.json"]
 include: [".htaccess"]
 sass:
     style: :compressed
+gem: ["jekyll-tagging"]
+tag_page_layout: tag
+tag_page_dir: blog/tag
