@@ -18,6 +18,7 @@ class SiteHandler(webapp2.RequestHandler):
     if request_path.endswith("/") == False:
       request_path += "/"
     result = memcache.get(request_path)
+
     if result is None:
       template_values = {}
       try:

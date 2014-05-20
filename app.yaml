@@ -31,6 +31,13 @@ handlers:
 - url: /assets
   static_dir: assets
 
+- url: /presentations/(.*)/(.*)/
+  static_files: presentations/\1/\2/index.html
+  upload: presentations/(.*)/(.*)/index.html
+
+- url: /presentations
+  static_dir: presentations
+
 - url: /favicon.ico
   static_files: static/favicon.ico
   upload: static/favicon.ico
