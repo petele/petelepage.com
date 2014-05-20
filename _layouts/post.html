@@ -75,7 +75,7 @@ blog: true
           <dd>
             <ul class="list-inline">
             {% for tag in page.tags %}
-              <li>#{{ tag }}</li>
+              <li><a href="/blog/tag/{{tag}}/">#{{ tag }}</a></li>
             {% endfor %}
             </ul>
           </dd>

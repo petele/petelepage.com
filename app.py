@@ -1,4 +1,5 @@
 import os
+import string
 import jinja2
 import logging
 import webapp2
@@ -9,6 +10,10 @@ JINJA_ENVIRONMENT = jinja2.Environment(
     loader=jinja2.FileSystemLoader(os.path.dirname(__file__)))
 
 class SiteHandler(webapp2.RequestHandler):
+  def find_tag(self, request_path):
+    request_path = string.replace(request_path, "%20", "-")
+    return self.find_file(request_path)
+
   def find_file(self, request_path):
     if request_path.endswith("/") == False:
       request_path += "/"
@@ -36,7 +41,10 @@ class SiteHandler(webapp2.RequestHandler):
 
   def get(self):
     request_path = self.request.path
-    response = self.find_file(request_path)
+    if request_path.startswith("/blog/tag/"):
+      response = self.find_tag(request_path)
+    else:
+      response = self.find_file(request_path)
     if response is None:
       self.response.set_status(404)
       response = self.find_file("/static/404.html")

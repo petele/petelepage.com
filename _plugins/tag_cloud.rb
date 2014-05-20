@@ -81,7 +81,7 @@ module Jekyll
       self.content = data.delete('content') || ''
       self.data    = data
 
-      super(site, base, dir[-1, 1] == '/' ? dir : '/' + dir, name)
+      super(site, base, dir[-1, 1] == '/' ? dir : '/' + dir, name.gsub(/ /, "-"))
 
       data['tag'] ||= basename
     end
@@ -96,25 +96,27 @@ module Jekyll
 
     def tag_cloud(site)
       active_tag_data.map { |tag, set|
-        tag_link(tag, tag_url(tag), :class => "set-#{set}")
+        tag_link(tag, tag_url(tag), :class => "set-#{set} tag-cloud")
       }.join(' ')
     end
 
     def tag_link(tag, url = tag_url(tag), html_opts = nil)
       html_opts &&= ' ' << html_opts.map { |k, v| %Q{#{k}="#{v}"} }.join(' ')
-      %Q{<a href="#{url}"#{html_opts}>#{tag}</a>}
+      %Q{<li><a href="#{url}"#{html_opts}>#{tag}</a></li>}
     end
 
     def tag_url(tag, type = :page, site = Tagger.site)
+      tag = tag.gsub(/ /, "-")
       url = File.join('', site.config["tag_#{type}_dir"], ERB::Util.u(tag))
-      site.permalink_style == :pretty ? url : url << '.html'
+      # site.permalink_style == :pretty ? url : url << '.html'
+      site.permalink_style == :pretty ? url : url << '/'
     end
 
     def tags(obj)
       tags = obj['tags'].dup
       tags.map! { |t| t.first } if tags.first.is_a?(Array)
       tags.map! { |t| tag_link(t, tag_url(t), :rel => 'tag') if t.is_a?(String) }.compact!
-      tags.join(', ')
+      tags.join(' ')
     end
 
     def active_tag_data(site = Tagger.site)

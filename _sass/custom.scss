@@ -29,5 +29,23 @@ code {
   white-space: normal;
 }
 
+.tag-item h4 {
+  font-size: 1.25em;
+  font-weight: normal;
+  margin-bottom: 5px;
+}
 
+.tag-item div {
+  margin-bottom: 1.25em;
+}
+
+/*
+a.tag-cloud {
+  margin-right: 1.25em;
+}
+*/
+
+.tag-cloud a::before {
+  content: "#"
+}
 
