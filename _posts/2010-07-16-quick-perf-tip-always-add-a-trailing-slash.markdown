@@ -38,12 +38,15 @@ comments:
 Here’s a quick performance tip for your Friday (or Saturday for those of you across the date line) – when linking to a directory, be sure to add the trailing slash to the directory name, otherwise, it causes a redirect from the server, thus adds a bit of time to your page load!
 
 ## <span class="text-success">Do</span>
-
-`[Pete’s Blog](”http://petelepage.com/blog/”)
+{% highlight html %}
+<a href="http://www.petelepage.com/blog/">Pete's Blog</a>
+{% endhighlight %}
 
 ## <span class="text-danger">Don’t</span>
+{% highlight html %}
+<a href="http://www.petelepage.com/blog">Pete's Blog</a>
+{% endhighlight %}
 
-[Pete’s Blog](”http://petelepage.com/blog”)
 
 ## What’s going on?
 

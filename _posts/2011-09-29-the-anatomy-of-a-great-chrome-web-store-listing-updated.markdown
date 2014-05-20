@@ -57,7 +57,7 @@ Remember, the icons are pretty small, so you can’t be too complex or detailed.
 
 Here are a couple of my favorite icons
 
-[![](/assets/music.png "music")](/assets/music.png)[![](/assets/goodfood.png "goodfood")](/assets/goodfood.png)[![](/assets/nytimes.png "nytimes")](/assets/nytimes.png)[![](/assets/word2.png "word2")](/assets/word2.png)
+[![](/assets/music.png "music")](/assets/music.png)[![](/assets/goodfood.png "goodfood")](/assets/goodfood.png)[![](/assets/word2.png "word2")](/assets/word2.png)
 
 Check out the [Supplying Images](http://bit.ly/poes2F) of the Chrome Web Store docs for more info.
 

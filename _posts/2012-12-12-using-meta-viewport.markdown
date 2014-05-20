@@ -34,11 +34,15 @@ comments:
 
 ## What is the viewport?
 
+{% comment %}
 [caption id="attachment_2807" align="alignleft" width="224"][![Figure 1 - If mobile browsers didn](/assets/img1.png)](/assets/img1.png) Figure 1 - If mobile browsers didn't apply a default viewport, web pages would overfill the screen.[/caption]
+{% endcomment %}
 
 Imagine if every web page you opened on your phone or tablet got the same version as your desktop, and was displayed on the small screen of your device. On a phone, that might mean you would see only the top leftmost corner, a tiny 320px by 480px view, and you’d have to scroll around the page to be able to see everything. (See figure 1). Unlike a desktop or laptop, there is no way to resize the browser window to fit the content that you want to see. Thankfully, on mobile devices, almost every modern browser scales and renders the page so that you can more easily see and interact with it, panning and zooming into the areas you’re most interested in.
 
+{% comment %}
 [caption id="attachment_2808" align="alignright" width="168"][![Figure 2](/assets/Fig2-InFocus-168x300.png "Figure 2")](/assets/Fig2-InFocus.png) Figure 2[/caption]
+{% endcomment %}
 
 Most mobile browsers define a default viewport width of 980px CSS pixels, meaning that they lay out the page on a 980px wide area, then scale it down to fit within the width of the screen. (If you’re unfamiliar with CSS pixels, device pixels, device pixels ratios, or the like, check out the Smashing Magazine article [Towards a Retina Web](http://coding.smashingmagazine.com/2012/08/20/towards-retina-web/). This works great for most desktop sites that don’t take into account mobile devices and were designed for big screens. Sites that were designed to be compatible with narrow screens however are likely to be unnecessarily stretched and scaled. For example, see figure 2 - there is no viewport set, and the image is 1600px wide, that means users need to scroll left to right to see all of the content.
 
@@ -48,25 +52,29 @@ The meta viewport tag allows you to override the browser default value, allowing
 
 ### Setting a specific viewport width
 
-To override the default viewport defined by the browser you simply need to add a viewport meta tag in the `&lt;head&gt;` section of your page:
+To override the default viewport defined by the browser you simply need to add a viewport meta tag in the `<head>` section of your page:
 
 {% highlight html %}
 <meta name="viewport" content="width=320" />
 {% endhighlight %}
 
+{% comment %}
 [caption id="attachment_2809" align="alignright" width="168"][![A page with a fixed viewport width.](/assets/vp-320-168x300.png)](/assets/vp-320.png) Figure 3- A page with a fixed viewport width.[/caption]
+{% endcomment %}
 
 Setting the viewport width to 320px, is similar to resizing your laptop browser window to be 320px wide, now the browser will render the page on a canvas that’s 320px wide. If your device is 320px, then you’re all set, the browser doesn’t have to do any scaling and you’re pretty much all set. Obviously not all devices are 320px wide, and your site most likely isn’t 320px wide.
 
 But what happens if you rotate the phone from portrait to landscape, and suddenly the device is now actually 480px wide? If this happens, the browser scales the content up by 50%, so that the 320px width, so that the 320px wide document is stretched to fit in the 480px wide browser window. Unfortunately, when this scaling is applied, less content will be displayed above the fold, and the content may look oversized.
 
-If you’ve designed a site for a fixed width desktop, for example, you know your page is 600px wide, then you can simply add `&lt;meta name="viewport" content="width=600" /&gt;` to the `&lt;head&gt;` of your document, which will scale the content to fit within the window. Depending on the density of your content, this may work well, but you’ll want to test it to make sure.
+If you’ve designed a site for a fixed width desktop, for example, you know your page is 600px wide, then you can simply add `<meta name="viewport" content="width=600" />` to the `<head>` of your document, which will scale the content to fit within the window. Depending on the density of your content, this may work well, but you’ll want to test it to make sure.
 
 Adding a specific width viewport, is discouraged unless you’re adding it to a legacy site as a stop-gap measure until you can build a more responsive site.
 
 ### Setting the viewport width to the device-width
 
+{% comment %}
 [caption id="attachment_2810" align="alignright" width="168"][![A page with width=device-width viewport.](/assets/vp-dw-168x300.png)](/assets/vp-dw.png) Figure 4 - A page with width=device-width viewport.[/caption]
+{% endcomment %}
 
 Consider the sustainability of a fixed width website and how it would look given the huge variety of mobile web devices, each with a different screen size, it becomes even more of a challenge when those devices are used in landscape mode. For that reason, building your site using a responsive approach and placing it within the viewport without any zooming will help to make your site look great across all of those devices. It doesn’t need to be responsive from phone all the way to desktop, but it should at least flex from a small portrait phone, to a mid-sized mobile tablet in landscape; about 320px to 640px.
 
@@ -108,7 +116,7 @@ In addition to setting the viewport width, you can also set the viewport height.
 
 ## Practices that are no longer recommended
 
-*   Adding a specific width viewport, is discouraged unless you’re adding it to a legacy site as a stop-gap measure until you can build a more responsive site (you’ll need to replace the 320 with the width of your site):`&lt;meta name="viewport" content="width=320" /&gt;`
+*   Adding a specific width viewport, is discouraged unless you’re adding it to a legacy site as a stop-gap measure until you can build a more responsive site (you’ll need to replace the 320 with the width of your site): `<meta name="viewport" content="width=320" />`
 *   The viewport property `target-densitydpi` has been removed from the [CSS Device Adaptation](http://dev.w3.org/csswg/css-device-adapt/) specification and should not be used. It has been deprecated in Chrome for Android, and has never been supported in Mobile Safari or Firefox for Android. For more information, see [Mozilla Bug 797090](https://bugzilla.mozilla.org/show_bug.cgi?id=737090) or [WebKit bug 88047](https://bugs.webkit.org/show_bug.cgi?id=88047).
 
 ## Best practice for using meta viewport

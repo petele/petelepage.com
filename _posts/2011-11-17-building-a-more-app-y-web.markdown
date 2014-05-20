@@ -23,7 +23,8 @@ One piece of the puzzle that hasn’t really solidified yet is what defines a we
 
 ### How do we define a web app then?
 
-<div>Many people have suggested different ways to define web apps in a single test or definition.  I enjoy reading [AppStorm](http://web.appstorm.net), I think they do a great job of highlighting awesome web apps, but a while ago, they tried to define web apps, and provided one of my favorite [non-answers](http://web.appstorm.net/general/opinion/what-is-a-web-app-heres-our-definition/):</div>
+Many people have suggested different ways to define web apps in a single test or definition.  I enjoy reading [AppStorm](http://web.appstorm.net), I think they do a great job of highlighting awesome web apps, but a while ago, they tried to define web apps, and provided one of my favorite [non-answers](http://web.appstorm.net/general/opinion/what-is-a-web-app-heres-our-definition/):
+
 > A web application is an application utilizing web and [web] browser technologies to accomplish one or more tasks over a network, typically through a [web] browser.
 
 That answer is almost as good as saying “because it’s not orange” to the question why is the sky blue.

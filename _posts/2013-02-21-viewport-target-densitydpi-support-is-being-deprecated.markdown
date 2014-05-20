@@ -55,10 +55,12 @@ In order to to best understand what’s changed, you need to remember that a dev
 
 In Android browser and early versions of Chrome for Android, developers could use `target-densitydpi=device-dpi` viewport value to force the browser to make a CSS pixel the same size as a device pixel, which may cause content to appear incorrectly scaled on screen (as seen in figure 1).
 
+{% comment %}
 [caption id="attachment_2839" align="aligncenter" width="520"][![Effects of target-densitydpi](/assets/targetdensitydpi.png)](/assets/targetdensitydpi.png) Figure 1 - The effects of `target-densitydpi`
 `&lt;meta name="viewport" content="width=device-width, target-densitydpi=device-dpi"&gt;`
 Left: Android Browser respects the `target-densitydpi` setting and causes content to be improperly scaled.
 Right: Chrome for Android ignores the `target-densitydpi` setting.[/caption]
+{% endcomment %}
 
 ## An Easy, Quick Fix
 
@@ -66,7 +68,7 @@ In most cases, if your site is affected by this change you can fix it easily by 
 
 ## Best Practices for Modern Mobile Web Sites
 
-When designing a new mobile site, or updating existing pages, you should use modern techniques for dealing with high DPI displays; including always using `&lt;meta name="viewport" content="width=device-width"&gt;` and a flexible layout for mobile sites. Remember, device sizes, orientations and pixel ratios vary which means that your site may be displayed on a screen ranging from 320 to over 600 CSS pixels wide.
+When designing a new mobile site, or updating existing pages, you should use modern techniques for dealing with high DPI displays; including always using `<meta name="viewport" content="width=device-width">` and a flexible layout for mobile sites. Remember, device sizes, orientations and pixel ratios vary which means that your site may be displayed on a screen ranging from 320 to over 600 CSS pixels wide.
 
 For more information about best practices for building websites that work well on high DPI displays, check out [Reda Lemeden’s](https://twitter.com/kaishin) [Towards a Rentina Web](http://coding.smashingmagazine.com/2012/08/20/towards-retina-web/) article on Smashing Magazine.
 

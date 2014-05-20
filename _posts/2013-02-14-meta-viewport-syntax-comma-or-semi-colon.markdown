@@ -37,9 +37,11 @@ The viewport meta tag seems to be one of those elements that’s a little bit pe
 
 If you want to see this in action and how bad things can look, use the remote debugger with Chrome for Android Beta to change the comma to a semi-colon in the viewport meta tag on Google.com.  The site will suddenly go from looking good, to looking awful.
 
+{% comment %}
 [![Good viewport syntax](/assets/vp-comma-180x300.png)](/assets/vp-comma.png)
 
 [![Invalid viewport syntax](/assets/vp-semicolon-180x300.png)](/assets/vp-semicolon.png)
+{% endcomment %}
 
 <div style="clear:both;"></div>
 
