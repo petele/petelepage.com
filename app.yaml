@@ -4,9 +4,6 @@ runtime: python27
 threadsafe: true
 api_version: 1
 
-builtins:
-- remote_api: on
-
 libraries:
 - name: webapp2
   version: latest
@@ -14,6 +11,9 @@ libraries:
   version: latest
 
 default_expiration: "30d"
+
+error_handlers:
+- file: /static/500.html
 
 handlers:
 
