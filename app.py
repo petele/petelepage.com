@@ -12,7 +12,7 @@ JINJA_ENVIRONMENT = jinja2.Environment(
 DEBUG = False
 
 
-def GetFile(request_path, use_cache=True):
+def GetHTML(request_path, use_cache=True):
   response = memcache.get(request_path)
   if response is None:
     try:
@@ -21,6 +21,20 @@ def GetFile(request_path, use_cache=True):
       if use_cache and not DEBUG:
         memcache.set(request_path, response)
     except jinja2.TemplateNotFound:
+      response = None
+  return response
+
+def GetFile(request_path, use_cache=False):
+  folder = os.path.dirname(os.path.realpath(__file__))
+  file_path = os.path.join(folder, request_path[1:])
+  response = memcache.get(request_path)
+  if response is None:
+    try:
+      f = open(file_path, 'r')
+      response = f.read()
+      if use_cache and not DEBUG:
+        memcache.set(request_path, response)
+    except:
       response = None
   return response
 
@@ -49,14 +63,13 @@ class PageNotFoundHandler(webapp2.RequestHandler):
 class PageHandler(webapp2.RequestHandler):
   def get(self):
     request_path = self.request.path
-    logging.info(request_path)
 
     if request_path.endswith("/"):
       request_path = request_path + "index.html"
 
     response = None
     if request_path.endswith(".html"):
-     response = GetFile(request_path)
+     response = GetHTML(request_path)
      content_type = "text/html"
     elif request_path.endswith(".js"):
       response = GetFile(request_path, False)
@@ -71,7 +84,7 @@ class PageHandler(webapp2.RequestHandler):
       content_type = "text/html"
 
     self.response.headers['Content-Type'] = content_type
-    self.response.write(response)    
+    self.response.write(response)
 
 
 class TagHandler(webapp2.RequestHandler):
@@ -80,7 +93,7 @@ class TagHandler(webapp2.RequestHandler):
     request_path = string.replace(request_path, "%20", "-")
     request_path = string.replace(request_path, " ", "-")
     request_path = request_path[:-1] + ".html"
-    response = GetFile(request_path)
+    response = GetHTML(request_path)
     if response is None:
       response = Get404()
       self.response.set_status(404)

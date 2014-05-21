@@ -144,11 +144,21 @@ handlers:
 - url: /presentations
   script: app.application
 
+- url: /presentations/(.*)/(.*\.(bmp|gif|ico|jpeg|jpg|png|js|css))
+  static_files: presentations/\1/\2
+  upload: presentations/(.*)/(.*\.(bmp|gif|ico|jpeg|jpg|png|js|css))
+  application_readable: true
+
 - url: /presentations/.*
   script: app.application
 
 - url: /scratch
   script: app.application
+
+- url: /scratch/(.*)/(.*\.(bmp|gif|ico|jpeg|jpg|png|js|css))
+  static_files: scratch/\1/\2
+  upload: scratch/(.*)/(.*\.(bmp|gif|ico|jpeg|jpg|png|js|css))
+  application_readable: true
 
 - url: /scratch/.*
   script: app.application
