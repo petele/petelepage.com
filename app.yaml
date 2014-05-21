@@ -72,14 +72,33 @@ handlers:
   upload: static/sitemap.xml
   expiration: "1h"
 
+- url: /blog/feed/
+  static_files: static/404.html
+  upload: static/404.html
+
+- url: /blog/wp-content/.*
+  static_files: static/404.html
+  upload: static/404.html
+
+- url: /blog/feed/atom/
+  static_files: static/404.html
+  upload: static/404.html
+
+- url: /blog/about/biography/
+  static_files: blog/2010/05/biography/index.html
+  upload: blog/2010/05/biography/index.html
+  application_readable: true
+
 - url: /blog/tag/
   static_files: blog/tag/index.html
   upload: blog/tag/index.html
+  application_readable: true
   expiration: "1d"
 
 - url: /blog/
   static_files: blog/index.html
   upload: blog/index.html
+  application_readable: true
   expiration: "1h"
 
 - url: /blog/index.html
@@ -94,13 +113,14 @@ handlers:
   script: app.application
 
 - url: /photography/
-  static_files: blog/index.html
-  upload: blog/index.html
+  static_files: photography/index.html
+  upload: photography/index.html
+  application_readable: true
   expiration: "1h"
 
 - url: /photography/index.html
-  static_files: blog/index.html
-  upload: blog/index.html
+  static_files: photography/index.html
+  upload: photography/index.html
   expiration: "1h"
 
 - url: /photography
