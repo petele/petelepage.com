@@ -16,6 +16,10 @@ libraries:
 default_expiration: "30d"
 
 handlers:
+
+- url: /assets
+  static_dir: assets
+
 - url: /css
   static_dir: css
 
@@ -28,15 +32,15 @@ handlers:
 - url: /js
   static_dir: js
 
-- url: /assets
-  static_dir: assets
+- url: /
+  static_files: index.html
+  upload: index.html
+  expiration: "60m"
 
-- url: /presentations/(.*)/(.*)/
-  static_files: presentations/\1/\2/index.html
-  upload: presentations/(.*)/(.*)/index.html
-
-- url: /presentations
-  static_dir: presentations
+- url: /index.html
+  static_files: index.html
+  upload: index.html
+  expiration: "60m"
 
 - url: /favicon.ico
   static_files: static/favicon.ico
@@ -68,5 +72,36 @@ handlers:
   upload: static/sitemap.xml
   expiration: "1h"
 
-- url: .*
+- url: /blog
   script: app.application
+
+- url: /blog/.*
+  script: app.application
+
+- url: /photography
+  script: app.application
+
+- url: /photography/.*
+  script: app.application
+
+- url: /presentations
+  script: app.application
+
+- url: /presentations/.*
+  script: app.application
+
+- url: /scratch
+  script: app.application
+
+- url: /scratch/.*
+  script: app.application
+
+- url: /flush/.*
+  script: app.application
+  login: admin
+
+- url: .*
+  static_files: static/404.html
+  upload: static/404.html
+  expiration: "10m"
+  application_readable: true
