@@ -1,0 +1,35 @@
+---
+layout: default
+title: Pong
+---
+<link href="myPong.css?v=0a" rel="Stylesheet" type="text/css" />
+<script src="pong_eng.js?v=0" type="text/javascript"></script>
+
+<span id="info"></span><br />
+ 	
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" id="pongCourt">
+  <circle id="ball" r="10" cx="0" cy="0" />
+</svg>
+
+<br /><br />
+<audio id="sndBounce" preload="auto">
+  <source src="/assets/boink.mp3?v=0" type="audio/mpeg"/>
+</audio>
+    
+<div class="gameControls">
+  <button type="button" onclick="startNewGame()" class="btn">Start New Game</button>
+  <button type="button" onclick="stopGame()" class="btn">Pause Game</button>
+  <button type="button" onclick="resetGame()" class="btn">Reset Game</button>
+  <button type="button" onclick="setPlayers(1)" class="btn">One Player</button>
+  <button type="button" onclick="setPlayers(2)" class="btn">Two Players</button>
+  <br />
+  <p>
+    The original blog post about this pong game is 
+    <a href="/blog/2011/04/1970s-retro-pong/">here</a>.
+  </p>
+</div>
+
+<script type="text/javascript">
+  players = 1;
+  pong_init();
+</script>
