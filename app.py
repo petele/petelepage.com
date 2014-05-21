@@ -9,10 +9,7 @@ from google.appengine.api import memcache
 JINJA_ENVIRONMENT = jinja2.Environment(
     loader=jinja2.FileSystemLoader(os.path.dirname(__file__)))
 
-if os.getenv('SERVER_SOFTWARE', '').startswith('Google App Engine'):
-  DEBUG = False
-else:
-  DEBUG = True
+DEBUG = False
 
 
 def GetFile(request_path, use_cache=True):
@@ -124,4 +121,4 @@ application = webapp2.WSGIApplication([
     ('/scratch/.*', PageHandler),
     ('/flush/.*', FlushHandler),
     ('.*', PageNotFoundHandler)
-], debug=True)
+], debug=DEBUG)

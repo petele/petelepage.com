@@ -72,11 +72,36 @@ handlers:
   upload: static/sitemap.xml
   expiration: "1h"
 
+- url: /blog/tag/
+  static_files: blog/tag/index.html
+  upload: blog/tag/index.html
+  expiration: "1d"
+
+- url: /blog/
+  static_files: blog/index.html
+  upload: blog/index.html
+  expiration: "1h"
+
+- url: /blog/index.html
+  static_files: blog/index.html
+  upload: blog/index.html
+  expiration: "1h"
+
 - url: /blog
   script: app.application
 
 - url: /blog/.*
   script: app.application
+
+- url: /photography/
+  static_files: blog/index.html
+  upload: blog/index.html
+  expiration: "1h"
+
+- url: /photography/index.html
+  static_files: blog/index.html
+  upload: blog/index.html
+  expiration: "1h"
 
 - url: /photography
   script: app.application
