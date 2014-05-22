@@ -79,17 +79,13 @@ handlers:
   upload: static/sitemap.xml
   expiration: "1h"
 
-- url: /blog/feed/
-  static_files: static/404.html
-  application_readable: true
-  upload: static/404.html
-
-- url: /blog/wp-content/.*
-  static_files: static/404.html
-  application_readable: true
-  upload: static/404.html
+- url: /blog/feed/?
+  script: app.application
 
 - url: /blog/feed/atom/
+  script: app.application
+
+- url: /blog/wp-content/.*
   static_files: static/404.html
   application_readable: true
   upload: static/404.html
