@@ -22,6 +22,7 @@ def GetHTML(request_path, use_cache=True):
         memcache.set(request_path, response)
     except jinja2.TemplateNotFound:
       response = None
+      logging.warn("File not found: %s", request_path)
   return response
 
 def GetFile(request_path, use_cache=False):
@@ -36,6 +37,7 @@ def GetFile(request_path, use_cache=False):
         memcache.set(request_path, response)
     except:
       response = None
+      logging.warn("File not found: %s", request_path)
   return response
 
 
@@ -50,6 +52,7 @@ def Get404():
         memcache.set(request_path, response)
     except jinja2.TemplateNotFound:
       response = None
+      logging.error("File not found: %s", request_path)
   return response
 
 
@@ -68,15 +71,17 @@ class PageHandler(webapp2.RequestHandler):
       request_path = request_path + "index.html"
 
     response = None
-    if request_path.endswith(".html"):
+    if request_path.lower().endswith(".html"):
      response = GetHTML(request_path)
      content_type = "text/html"
-    elif request_path.endswith(".js"):
+    elif request_path.lower().endswith(".js"):
       response = GetFile(request_path, False)
       content_type = "application/javascript"
-    elif request_path.endswith(".css"):
+    elif request_path.lower().endswith(".css"):
       response = GetFile(request_path, False)
       content_type = "text/css"
+    else:
+      logging.warn("Unknown extension: %s", request_path)
 
     if response is None:
       response = Get404()
@@ -103,7 +108,7 @@ class TagHandler(webapp2.RequestHandler):
 class TagRedirectHandler(webapp2.RedirectHandler):
   def get(self):
     request_path = self.request.path
-    if request_path.endswith(".html"):
+    if request_path.lower().endswith(".html"):
       request_path = request_path[:-5]
     request_path = request_path + "/"
     self.redirect(request_path, permanent=True)
@@ -122,6 +127,8 @@ class FlushHandler(webapp2.RequestHandler):
 
 
 application = webapp2.WSGIApplication([
+    ('/blog/feed', PageNotFoundHandler),
+    ('/blog/feed/.*', PageNotFoundHandler),
     ('/blog', RedirectHandler),
     ('/blog/tag/.*/', TagHandler),
     ('/blog/tag/.*', TagRedirectHandler),
