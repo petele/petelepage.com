@@ -1,13 +1,16 @@
 {
   "name": "petelepage.com",
   "version": "1.0.0",
-  "analytics_id": "UA-9988000-4",
-  "appengine_version": "20140519-1",
   "devDependencies": {
     "grunt": "~0.4.1",
-    "grunt-contrib-cssmin": "~0.7.0",
     "grunt-text-replace": "~0.3.9",
     "grunt-pagespeed": "~0.1.2",
-    "grunt-contrib-imagemin": "~0.7.0"
+    "grunt-contrib-imagemin": "~0.7.0",
+    "grunt-gae": "~0.2.3",
+    "grunt-jekyll": "~0.4.2",
+    "imagemin-gifsicle": "~0.1.1",
+    "imagemin-optipng": "~0.1.0",
+    "imagemin-svgo": "~0.1.0",
+    "imagemin-jpegtran": "~0.1.0"
   }
 }

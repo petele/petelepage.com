@@ -6,29 +6,36 @@ module.exports = function(grunt) {
     // Metadata.
     pkg: grunt.file.readJSON('package.json'),
     // Task configuration.
-    cssmin: {
-      combine: {
-        options: {
-          keepSpecialComments: 0
-        },
-        files: {
-          '_build/css/styles.min.css': [
-            '_build/css/bootstrap.css',
-            '_build/css/custom.css'
-          ]
+    jekyll: {                             // Task
+      options: {                          // Universal options
+        bundleExec: false
+      },
+      build: {                             // Target
+        options: {                        // Target options
+          config: '_config.yml'
         }
       }
+    },
+    gae: {
+      options: {
+        path: "_build/"
+      },
+      serve: {
+        action: 'run',
+        options: {
+          args: {
+            port: 13080
+          }
+        }
+      },
     },
     replace: {
       deploy: {
         overwrite: true,
-        src: ['_build/**/*.html'],
+        src: ['_build/app.py'],
         replacements: [{
-          from: '<link href="/css/bootstrap.css" rel="stylesheet">',
-          to: '<link href="/css/styles.min.css" rel="stylesheet">'
-        }, {
-          from: '<link href="/css/custom.css" rel="stylesheet">',
-          to: ''
+          from: 'DEBUG=True',
+          to: 'DEBUG=False'
         }]
       }
     },
@@ -37,7 +44,7 @@ module.exports = function(grunt) {
         files: [{
           expand: true,
           cwd: '_build/',
-          src: ['**/*.{png,jpg,gif}'],
+          src: ['**/*.{png,jpg,gif,svg}'],
           dest: '_build/'
         }]
       }
@@ -59,14 +66,18 @@ module.exports = function(grunt) {
     }
   });
 
-  grunt.loadNpmTasks('grunt-contrib-cssmin');
+  //'**/*.{png,jpg,gif}'
   grunt.loadNpmTasks('grunt-text-replace');
   grunt.loadNpmTasks('grunt-pagespeed');
   grunt.loadNpmTasks('grunt-contrib-imagemin');
+  grunt.loadNpmTasks('grunt-gae');
+  grunt.loadNpmTasks('grunt-jekyll');
 
 
   // Default task.
-  grunt.registerTask('default', ['cssmin', 'replace']);
-  grunt.registerTask('test', ['pagespeed']);
+  grunt.registerTask('default', ['jekyll:build', 'gae:serve']);
+  grunt.registerTask('build', ['jekyll:build']);
+  grunt.registerTask('serve', ['gae:serve']);
+  grunt.registerTask('deploy', ['imagemin:build', 'replace:deploy']);
 
 };
