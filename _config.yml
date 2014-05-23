@@ -6,6 +6,7 @@ paginate_path: "blog/page:num"
 permalink: /blog/:year/:month/:title/
 destination: _build/
 url: http://www.petelepage.com
+feed_url: http://feeds.feedburner.com/petelepage
 rss_path: static/
 rss_post_limit: 50
 sitemap:
