@@ -22,9 +22,6 @@ handlers:
 - url: /css
   static_dir: css
 
-- url: /fonts
-  static_dir: fonts
-
 - url: /img
   static_dir: img
 
