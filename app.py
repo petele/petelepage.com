@@ -64,6 +64,9 @@ class PageNotFoundHandler(webapp2.RequestHandler):
 
 
 class PageHandler(webapp2.RequestHandler):
+  def head(self):
+    self.get()
+
   def get(self):
     request_path = self.request.path
 
@@ -93,6 +96,9 @@ class PageHandler(webapp2.RequestHandler):
 
 
 class TagHandler(webapp2.RequestHandler):
+  def head(self):
+    self.get()
+
   def get(self):
     request_path = self.request.path
     request_path = string.replace(request_path, "%20", "-")
@@ -106,6 +112,9 @@ class TagHandler(webapp2.RequestHandler):
 
 
 class TagRedirectHandler(webapp2.RedirectHandler):
+  def head(self):
+    self.get()
+
   def get(self):
     request_path = self.request.path
     if request_path.lower().endswith(".html"):
@@ -115,9 +124,20 @@ class TagRedirectHandler(webapp2.RedirectHandler):
 
 
 class RedirectHandler(webapp2.RedirectHandler):
+  def head(self):
+    self.get()
+
   def get(self):
     request_path = self.request.path + "/"
     self.redirect(request_path, permanent=True)
+
+
+class FeedRedirectHandler(webapp2.RedirectHandler):
+  def head(self):
+    self.get()
+
+  def get(self):
+    self.redirect("http://feeds.feedburner.com/petelepage", permanent=True)
 
 
 class FlushHandler(webapp2.RequestHandler):
@@ -127,8 +147,8 @@ class FlushHandler(webapp2.RequestHandler):
 
 
 application = webapp2.WSGIApplication([
-    ('/blog/feed', PageNotFoundHandler),
-    ('/blog/feed/.*', PageNotFoundHandler),
+    ('/blog/feed', FeedRedirectHandler),
+    ('/blog/feed/.*', FeedRedirectHandler),
     ('/blog', RedirectHandler),
     ('/blog/tag/.*/', TagHandler),
     ('/blog/tag/.*', TagRedirectHandler),
