@@ -9,7 +9,7 @@ from google.appengine.api import memcache
 JINJA_ENVIRONMENT = jinja2.Environment(
     loader=jinja2.FileSystemLoader(os.path.dirname(__file__)))
 
-DEBUG = False
+DEBUG=False
 
 
 def GetHTML(request_path, use_cache=True):
