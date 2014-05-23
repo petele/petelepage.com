@@ -28,6 +28,9 @@ module.exports = function(grunt) {
           }
         }
       },
+      deploy: {
+        action: 'update'
+      }
     },
     replace: {
       deploy: {
@@ -56,7 +59,7 @@ module.exports = function(grunt) {
           url: "http://www.petelepage.com",
           paths: [
             "/",
-            "/blog"
+            "/blog/"
           ],
           locale: "en_US",
           strategy: "mobile",
@@ -78,6 +81,6 @@ module.exports = function(grunt) {
   grunt.registerTask('default', ['jekyll:build', 'gae:serve']);
   grunt.registerTask('build', ['jekyll:build']);
   grunt.registerTask('serve', ['gae:serve']);
-  grunt.registerTask('deploy', ['imagemin:build', 'replace:deploy']);
+  grunt.registerTask('deploy', ['imagemin:build', 'replace:deploy', 'gae:deploy']);
 
 };
