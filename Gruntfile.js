@@ -42,6 +42,12 @@ module.exports = function(grunt) {
         }]
       }
     },
+    open: {
+      flush: {
+        path: 'http://www.petelepage.com/flush/',
+        app: 'Google Chrome'
+      }
+    },
     imagemin: {
       build: {
         files: [{
@@ -75,12 +81,13 @@ module.exports = function(grunt) {
   grunt.loadNpmTasks('grunt-contrib-imagemin');
   grunt.loadNpmTasks('grunt-gae');
   grunt.loadNpmTasks('grunt-jekyll');
+  grunt.loadNpmTasks('grunt-open');
 
 
   // Default task.
   grunt.registerTask('default', ['jekyll:build', 'gae:serve']);
   grunt.registerTask('build', ['jekyll:build']);
   grunt.registerTask('serve', ['gae:serve']);
-  grunt.registerTask('deploy', ['replace:deploy', 'gae:deploy']);
+  grunt.registerTask('deploy', ['replace:deploy', 'gae:deploy', 'open:flush']);
 
 };
