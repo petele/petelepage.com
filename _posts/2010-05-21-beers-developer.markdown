@@ -10,68 +10,58 @@ tags:
 - chemistry
 comments: []
 ---
-<table style="width:100%;" border="1">
-<tr>
-<td>
 
-### 
-        Solution A
-
-        3000 mL Water (hot 100°F+)
-
-        32 g Metol
-
-        92 g Sodium Sulphite
-
-        94 g Sodium Carbonate, Anhydrous
-
-        Mix above ingredients one at a time until dissolved
-
-        Bring to 4000 mL with additional Water
-
-        Allow to cool to room temperature before using
-
-</td>
-<td>
-
-### 
-        Solution B
-
-        3000 mL Water (hot 100°F+)
-
-        32 g&nbsp; &nbsp;Hydroquinone
-
-        92 g&nbsp; &nbsp;Sodium Sulphite
-
-        124 g Sodium Carbonate, Anhydrous
-
-        Mix above ingredients one at a time until dissolved
-
-        Bring to 4000 mL with additional Water
-
-        Allow to cool to room temperature before using
-
-</td>
-</tr>
-<tr>
-<td colspan="2">
-
-### Solution C
-
-        1000 mL Water (room temperature)
-
-        10 g Benzotriazolate
-
-        Mix above until dissolved
-
-</td>
-</tr>
+<table class="table">
+  <thead>
+    <tr>
+      <th>Solution A</th>
+      <th>Solution B</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>
+        <ul>
+          <li>3000 mL Water (hot 100°F+)</li>
+          <li>32 g Metol</li>
+          <li>92 g Sodium Sulphite</li>
+          <li>94 g Sodium Carbonate, Anhydrous</li>
+        </ul>
+        <p>
+          Mix above ingredients one at a time until dissolved.<br>
+          Bring to 4000 mL with additional Water<br>
+          Allow to cool to room temperature before using.
+        </p>
+      </td>
+      <td>
+        <ul>
+          <li>3000 mL Water (hot 100°F+)</li>
+          <li>32 g Hydroquinone</li>
+          <li>92 gSodium Sulphite</li>
+          <li>124 g Sodium Carbonate, Anhydrous</li>
+        </ul>
+        <p>
+          Mix above ingredients one at a time until dissolved.<br>
+          Bring to 4000 mL with additional Water.<br>
+          Allow to cool to room temperature before using.</p>
+      </td>
+    </tr>
+    <tr>
+      <td colspan="2">
+        <b>Solution C</b>
+        <ul>
+          <li>1000 mL Water (room temperature)</li>
+          <li>10 g Benzotriazolate</li>
+        </ul>
+        <p>Mix above until dissolved</p>
+      </td>
+    </tr>
+  </tbody>
 </table>
 
-### 
-        Mixing Ratios
+## Mixing Ratios
 
-        8x10 Tray
+### 8x10 Tray
 
 <table border="single">
 <tr>
@@ -198,7 +188,7 @@ comments: []
 </tr>
 </table>
 
-    11x14 Tray
+### 11x14 Tray
 
 <table border="1">
 <tr>
@@ -325,7 +315,7 @@ comments: []
 </tr>
 </table>
 
-    16x20 Tray
+### 16x20 Tray
 
 <table border="1">
 <tr>
