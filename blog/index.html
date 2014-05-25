@@ -23,19 +23,28 @@ categories: blog
     </div>
     <hr />
     {% endfor %}
+
+    <!-- Pagination links -->
+    <ul class="pager">
+      {% if paginator.previous_page == 1 %}
+        <li class="previous"><a href="/blog/" class="previous">&larr; Previous</a></li>
+      {% elsif paginator.previous_page %}
+        <li class="previous"><a href="/blog/page{{ paginator.previous_page }}/" class="previous"> &larr;Previous</a></li>
+      {% endif %}
+      {% if paginator.next_page %}
+        <li class="next"><a href="/blog/page{{ paginator.next_page }}/" class="next">Next &rarr;</a></li>
+      {% endif %}
+    </ul>
+
   </div>
 
   <div class="col-md-4 hidden-xs hidden-sm">
+    {% comment %}
     <p class="text-muted">this space intentionally blank.</p>
+    {% endcomment %}
+
+    <!-- Place this tag where you want the widget to render. -->
+    <div class="g-person" data-href="//plus.google.com/117555368223516714643" data-rel="author"></div>
   </div>
 </div>
 
-<!-- Pagination links -->
-<div class="pagination">
-  {% if paginator.previous_page %}
-    <a href="/blog/page{{ paginator.previous_page }}" class="previous">Previous</a>
-  {% endif %}
-  {% if paginator.next_page %}
-    <a href="/blog/page{{ paginator.next_page }}" class="next">Next</a>
-  {% endif %}
-</div>

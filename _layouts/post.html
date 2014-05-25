@@ -14,15 +14,6 @@ blog: true
       {{ content }}
     </article>
 
-    <hr />
-
-    <div>
-      Share this on <a href="https://plus.google.com/share?url={{site.url}}{{page.url}}">
-        Google+
-      </a>
-      <br><br>
-    </div>
-
     <div class="pull-left">
       {% if page.previous %}
         <a href="{{ page.previous.url }}">&larr; {{page.previous.title}}</a>
@@ -36,25 +27,31 @@ blog: true
     </div>
     <div class="clearfix"></div>
 
-    {% comment %}
+    <hr />
 
-    <div id="disqus_thread"></div>
-    <script type="text/javascript">
-      var disqus_identifier = "{{page.url}}";
-      var disqus_title = "{{page.title}}";
-      var disqus_url = "{{page.url}}";
-      var disqus_shortname = 'petelepage'; // required: replace example with your forum shortname
+    <div>
+      {% comment %}
+      <!-- Place this tag where you want the share button to render. -->
+      <div class="g-plus" data-action="share" data-height="24"></div>
 
-      /* * * DON'T EDIT BELOW THIS LINE * * */
-      (function() {
-          var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
-          dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
-          (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
-      })();
-    </script>
-    <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-    <a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
-    {% endcomment %}
+      <!-- Place this tag after the last share tag. -->
+      <script type="text/javascript">
+        (function() {
+          var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
+          po.src = 'https://apis.google.com/js/platform.js';
+          var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
+        })();
+      </script>
+      {% endcomment %}
+      {% comment %}
+      <div class="g-plus" data-action="share" data-height="24" ></div>
+      {% endcomment %}
+    </div>
+
+    <div id="commentswrap">
+      <div id="comments"></div>
+    </div>
+
   </div>
 
   <div class="col-md-4">
@@ -65,7 +62,7 @@ blog: true
       <div class="panel-body">
         <dl>
           <dt>Posted</dt>
-          <dd><span class="glyphicon glyphicon-time"></span> {{ page.date | date_to_string }}X</dd>
+          <dd><span class="glyphicon glyphicon-time"></span> {{ page.date | date_to_string }}</dd>
         </dl>
         {% if page.updated %}
         <dl>
@@ -78,15 +75,25 @@ blog: true
           <dd>
             <ul class="list-inline">
               <li>
+                <div class="g-plus" data-action="share" data-annotation="none"></div>
+              </li>
+              <li>
+                <a href="https://twitter.com/share" class="twitter-share-button" data-count="none" data-lang="en"></a>
+              </li>
+              {% comment %}
+              <li>
                 <a href="https://plus.google.com/share?url={{site.url}}{{page.url}}">
                   Google+
                 </a>
               </li>
+              {% endcomment %}
+              {% comment %}
               <li>
                 <a href="http://www.twitter.com/share?url={{site.url}}{{page.url}}">
                   Twitter
                 </a>
               </li>
+              {% endcomment %}
             </ul>
           </dd>
         </dl>

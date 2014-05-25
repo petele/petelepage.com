@@ -81,6 +81,6 @@ module.exports = function(grunt) {
   grunt.registerTask('default', ['jekyll:build', 'gae:serve']);
   grunt.registerTask('build', ['jekyll:build']);
   grunt.registerTask('serve', ['gae:serve']);
-  grunt.registerTask('deploy', ['imagemin:build', 'replace:deploy', 'gae:deploy']);
+  grunt.registerTask('deploy', ['replace:deploy', 'gae:deploy']);
 
 };

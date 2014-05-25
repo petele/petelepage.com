@@ -1,5 +1,5 @@
 html {
-  overflow: -moz-scrollbars-vertical; 
+  overflow: -moz-scrollbars-vertical;
   overflow-y: scroll;
 }
 
@@ -25,7 +25,7 @@ footer {
   border: none;
 }
 
-.panel.post-details .panel-heading, 
+.panel.post-details .panel-heading,
 .panel.recent-posts .panel-heading {
   background: inherit;
 }
@@ -52,5 +52,9 @@ a.tag-cloud {
 
 .tag-cloud a::before {
   content: "#"
+}
+
+div[id^='comments'], div[id^='comments'] iframe {
+  width: 100% !important;
 }
 
