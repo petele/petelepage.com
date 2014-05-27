@@ -100,7 +100,7 @@ class TagHandler(webapp2.RequestHandler):
     self.get()
 
   def get(self):
-    request_path = self.request.path
+    request_path = self.request.path.lower()
     request_path = string.replace(request_path, "%20", "-")
     request_path = string.replace(request_path, " ", "-")
     request_path = request_path[:-1] + ".html"

@@ -81,7 +81,7 @@ module Jekyll
       self.content = data.delete('content') || ''
       self.data    = data
 
-      super(site, base, dir[-1, 1] == '/' ? dir : '/' + dir, name.gsub(/ /, "-"))
+      super(site, base, dir[-1, 1] == '/' ? dir : '/' + dir, name.downcase.gsub(/ /, "-"))
 
       data['tag'] ||= basename
     end
@@ -106,7 +106,7 @@ module Jekyll
     end
 
     def tag_url(tag, type = :page, site = Tagger.site)
-      tag = tag.gsub(/ /, "-")
+      tag = tag.downcase.gsub(/ /, "-")
       url = File.join('', site.config["tag_#{type}_dir"], ERB::Util.u(tag))
       # site.permalink_style == :pretty ? url : url << '.html'
       site.permalink_style == :pretty ? url : url << '/'
