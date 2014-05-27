@@ -123,6 +123,19 @@ class TagRedirectHandler(webapp2.RedirectHandler):
     self.redirect(request_path, permanent=True)
 
 
+class CommentPageRedirectHandler(webapp2.RedirectHandler):
+  def head(self):
+    self.get()
+
+  def get(self):
+    request_path = self.request.path
+
+    comment_page = request_path.find("comment-page-")
+    if comment_page > 0:
+      request_path = request_path[:comment_page]
+    self.redirect(request_path, permanent=True)
+
+
 class RedirectHandler(webapp2.RedirectHandler):
   def head(self):
     self.get()
@@ -147,8 +160,10 @@ class FlushHandler(webapp2.RequestHandler):
 
 
 application = webapp2.WSGIApplication([
-    ('/blog/feed', FeedRedirectHandler),
-    ('/blog/feed/.*', FeedRedirectHandler),
+    ('/blog/.*/.*/comment-page-.*/?', CommentPageRedirectHandler),
+    ('/blog/category/microsoft/feed/?', FeedRedirectHandler),
+    ('/blog/comments/feed.*', FeedRedirectHandler),
+    ('/blog/feed/?', FeedRedirectHandler),
     ('/blog', RedirectHandler),
     ('/blog/tag/.*/', TagHandler),
     ('/blog/tag/.*', TagRedirectHandler),
