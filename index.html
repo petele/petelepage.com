@@ -9,7 +9,7 @@ title: Home - Pete LePage
     {% for post in site.posts limit:5 %}
       <h2>
         <a href="{{ post.url }}">{{ post.title }}</a><br>
-        <small><span class="glyphicon glyphicon-time"></span> {{ post.date | date_to_string }}</small>
+        <small><span class="glyphicon glyphicon-time"></span> {{ post.date | betterdate_date }}</small>
       </h2>
       <article>
         {{ post.excerpt }}
