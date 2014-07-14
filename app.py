@@ -160,6 +160,7 @@ class FlushHandler(webapp2.RequestHandler):
 
 
 application = webapp2.WSGIApplication([
+    ('/blog/\d\d\d\d/\d\d/.*[^/]', RedirectHandler),
     ('/blog/.*/.*/comment-page-.*/?', CommentPageRedirectHandler),
     ('/blog/category/microsoft/feed/?', FeedRedirectHandler),
     ('/blog/comments/feed.*', FeedRedirectHandler),
