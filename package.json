@@ -13,6 +13,8 @@
     "imagemin-svgo": "~0.1.0",
     "imagemin-jpegtran": "~0.1.0",
     "grunt-http": "~1.4.0",
-    "grunt-open": "~0.2.3"
+    "grunt-open": "~0.2.3",
+    "grunt-contrib-copy": "~0.5.0",
+    "grunt-git": "~0.2.14"
   }
 }

@@ -72,6 +72,30 @@ module.exports = function(grunt) {
           threshold: 95
         }
       }
+    },
+    http: {
+      githubHead: {
+        options: {
+          url: "https://api.github.com/repos/petele/petelepage.com/git/refs/head",
+          headers: {"User-Agent": "petele"}
+        },
+        dest: "./sha-github.json"
+      }
+    },
+    copy: {
+      shaStatic: {
+        src: "./sha-github.json",
+        dest: "./_build/static/sha-live.json"
+      },
+      shaLive: {
+        src: "./sha-github.json",
+        dest: "./sha-live.json"
+      }
+    },
+    gitpull: {
+      your_target: {
+
+      }
     }
   });
 
@@ -82,12 +106,35 @@ module.exports = function(grunt) {
   grunt.loadNpmTasks('grunt-gae');
   grunt.loadNpmTasks('grunt-jekyll');
   grunt.loadNpmTasks('grunt-open');
+  grunt.loadNpmTasks('grunt-http');
+  grunt.loadNpmTasks('grunt-contrib-copy');
+  grunt.loadNpmTasks('grunt-git');
+
+  grunt.registerTask('cleanBuild', '', function() {
+    grunt.file.delete('./_build/README.md');
+    grunt.file.delete('./_build/sha-github.json');
+    grunt.file.delete('./_build/sha-live.json');
+  });
+
+  grunt.registerTask('pull', '', function() {
+    grunt.task.requires('http:githubHead');
+    var githubSHA = grunt.file.readJSON('./sha-github.json');
+    var deployedSHA = grunt.file.readJSON('./sha-live.json');
+    if (githubSHA[0].object.sha === deployedSHA[0].object.sha) {
+      grunt.log.writeln("Heads are identical, no update required.");
+    } else {
+      grunt.log.writeln("Heads are different, update required.");
+
+      grunt.task.run(['gitpull', 'build', 'copy:shaStatic', 'deploy', 'copy:shaLive']);
+    }
+  });
+
 
 
   // Default task.
   grunt.registerTask('default', ['jekyll:build', 'gae:serve']);
-  grunt.registerTask('build', ['jekyll:build']);
+  grunt.registerTask('build', ['jekyll:build', 'cleanBuild']);
   grunt.registerTask('serve', ['gae:serve']);
   grunt.registerTask('deploy', ['replace:deploy', 'gae:deploy', 'open:flush']);
-
+  grunt.registerTask('update', ['http:githubHead', 'pull']);
 };

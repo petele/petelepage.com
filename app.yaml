@@ -66,6 +66,11 @@ handlers:
   upload: static/robots.txt
   expiration: "90d"
 
+- url: /sha-live.json
+  static_files: static/sha-live.json
+  upload: static/sha-live.json
+  expiration: "1m"
+
 - url: /rss.xml
   static_files: static/rss.xml
   upload: static/rss.xml
