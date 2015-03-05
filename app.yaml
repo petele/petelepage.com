@@ -28,6 +28,9 @@ handlers:
 - url: /js
   static_dir: js
 
+- url: /webapp-codelab/images
+  static_dir: webapp-codelab/images
+
 - url: /
   static_files: index.html
   upload: index.html
@@ -137,6 +140,27 @@ handlers:
   script: app.application
 
 - url: /photography/.*
+  script: app.application
+
+- url: /webapp-codelab/images
+  static_dir: /webapp-codelab/images
+
+- url: /webapp-codelab/
+  static_files: webapp-codelab/index.html
+  upload: webapp-codelab/index.html
+  application_readable: true
+  expiration: "1h"
+
+- url: /webapp-codelab/index.html
+  static_files: webapp-codelab/index.html
+  upload: webapp-codelab/index.html
+  application_readable: true
+  expiration: "1h"
+
+- url: /webapp-codelab
+  script: app.application
+
+- url: /webapp-codelab/.*
   script: app.application
 
 - url: /presentations

@@ -175,6 +175,8 @@ application = webapp2.WSGIApplication([
     ('/presentations/.*', PageHandler),
     ('/scratch', RedirectHandler),
     ('/scratch/.*', PageHandler),
+    ('/webapp-codelab', RedirectHandler),
+    ('/webapp-codelab/.*', PageHandler),
     ('/flush/.*', FlushHandler),
     ('.*', PageNotFoundHandler)
 ], debug=DEBUG)
