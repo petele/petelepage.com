@@ -7,7 +7,7 @@
     <link rel="publisher" href="https://plus.google.com/+PeteLePage">
     <title>{{ page.title }}</title>
     <link rel="alternate" type="application/rss+xml" title="RSS" href="{{site.feed_url}}">
-
+    <meta name="theme-color" content="#607D8B">
     <link href="/css/styles.css" rel="stylesheet">
 
     <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
@@ -120,5 +120,20 @@
       </script>
       <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="https://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
     {% endif %}
+    <script type="application/ld+json">
+      { "@context" : "http://schema.org",
+        "@type" : "Person",
+        "name" : "Pete LePage",
+        "jobTitle": "Developer Advocate",
+        "worksFor": "Google",
+        "url" : "http://www.petelepage.com",
+        "sameAs" : [ 
+          "http://www.facebook.com/petel",
+          "https://twitter.com/petele",
+          "http://plus.google.com/+PeteLePage",
+          "https://www.linkedin.com/in/petelepage/"
+        ] 
+      }
+    </script>
   </body>
 </html>
