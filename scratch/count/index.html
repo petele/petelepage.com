@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Trip Countdown</title>
+  
+<style>
+
+  html, body {
+    height: 100%;
+    overflow: hidden;
+    font-family: 'Roboto', sans-serif;
+  }
+  body {
+    -webkit-app-region: drag;
+    background-image: url(assets/herobg3.png);
+    background-size: cover;
+  }
+  h1 {
+    font-size: 3.5em;
+    line-height: 1.2;
+    margin-bottom: 0px;
+  }
+  div#container {
+    height: 100%;
+    display: -webkit-box;
+    text-align: center;
+    -webkit-box-align: center;
+    -webkit-box-pack: center;
+    -webkit-transition: all 0.5s ease-in;
+    margin-top: -2em;
+  }
+  .hide {
+    opacity: 0;
+  }
+  p {
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 1.5em;
+  }
+
+  #close {
+    font-size: 2em;
+    position: absolute;
+    top: 0;
+    right: 0;
+    opacity: 0.6;
+    width: 2em;
+    height: 2em;
+    text-align: right;
+    padding-right: 10px;
+  }
+
+  #tripLabel {
+    font-weight: normal;
+    font-size: 0.9em;
+  }
+
+</style>
+
+</head>
+<body class="page">
+<div id="close">&times;</div>
+<div id="container" class="hide">
+  <hgroup>
+    <h1>
+      <span id="timer">
+        <span id="days">0</span> days,
+        <span id="hours">0</span>:<span id="minutes">00</span>:<span id="seconds">00</span>
+      </span>
+      <br>
+      <span id="tripLabel">until <span id="tripLocation"></span></span>
+    </h1>
+      
+      <p id="asHours"></p>
+      <p id="asMinutes"></p>
+  </hgroup>
+</div>
+
+  <script type="text/javascript" src="scripts/moment.js"></script>
+  <script type="text/javascript" src="scripts/numeral.min.js"></script>
+  <script type="text/javascript" src="scripts/app.js"></script>
+
+</body>
+</html>
