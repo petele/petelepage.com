@@ -1,0 +1,15 @@
+{
+  "title": "Pete LePage",
+  "url": "https://petelepage.com/",
+  "feed": {
+    "subtitle": "I am writing about my experiences as a naval navel-gazer.",
+    "filename": "feed.xml",
+    "path": "/feed/feed.xml",
+    "url": "https://petelepage.com/feed/feed.xml",
+    "id": "https://petelepage.com/"
+  },
+  "author": {
+    "name": "Pete LePage",
+    "email": "pete.lepage@pobox.com"
+  }
+}
