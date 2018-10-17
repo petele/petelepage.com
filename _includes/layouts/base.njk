@@ -31,22 +31,20 @@
     <meta property="og:url" content="{{ canonical }}">
     <meta property="og:description" content="{{ description }}">
 
-    <script>
-      /* eslint-disable */
-      window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
-      ga('create', 'UA-9988000-4', 'auto');
-      /* esline-enable */
-    </script>
-
     <!-- Styles -->
     <link rel="stylesheet" href="styles/style.css">
     <link href="https://fonts.googleapis.com/css?family=Roboto|Roboto+Condensed:400,700|Material+Icons" rel="stylesheet">
-    
+
+    <!-- page.url {{ page.url }} -->
+    <!-- url {{ url }} -->
+    <!-- metadata {{ metadata }} -->
+    <!-- collections {{ collections}} -->
+
     <!--<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">-->
 
 
     <!--<link rel="stylesheet" id="screen-css-1-1" href="https://s1.wp.com/wp-content/themes/pub/editor/inc/fontawesome/font-awesome.css?m=1404778013h&amp;cssminify=yes" type="text/css" media="screen">-->
-    
+
 </head>
 
 <body>
@@ -97,7 +95,7 @@
 	<div id="content" class="site-content animated-faster fadeIn">
 	  <div id="primary" class="content-area">
 		  <main id="main" class="site-main" role="main">
-		    
+
         <article class="post type-post status-publish format-standard hentry category-web tag-device-lab tag-googleio tag-mobile">
           <header class="entry-header">
 				    <div class="entry-date">
@@ -132,103 +130,7 @@
 							</li>
 						</ul>
           </div>
-	        <div class="entry-content">
-            <p>One of my highlights from Google I/O this year was the Device Lab that <a href="https://github.com/gauntface">Matt Gaunt</a> and I built to show developers how their site looks across the multi-device web. It was a really cool thing to see all kinds of different sites working on phones, phablets, tablets, computers and even TVs.</p>
-            <p><img data-attachment-id="41" data-permalink="https://petele.wordpress.com/2014/07/07/google-i-o-2014-device-lab/io14-devlab/" data-orig-file="https://petele.files.wordpress.com/2018/10/io14-devlab.jpg" data-orig-size="1600,626" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="io14-devlab" data-image-description="" data-medium-file="https://petele.files.wordpress.com/2018/10/io14-devlab.jpg?w=300" data-large-file="https://petele.files.wordpress.com/2018/10/io14-devlab.jpg?w=730&amp;h=286" class="alignnone size-large wp-image-41" src="https://petele.files.wordpress.com/2018/10/io14-devlab.jpg?w=730&amp;h=286" alt="" width="730" height="286" srcset="https://petele.files.wordpress.com/2018/10/io14-devlab.jpg?w=730&amp;h=286 730w, https://petele.files.wordpress.com/2018/10/io14-devlab.jpg?w=1460&amp;h=572 1460w, https://petele.files.wordpress.com/2018/10/io14-devlab.jpg?w=150&amp;h=59 150w, https://petele.files.wordpress.com/2018/10/io14-devlab.jpg?w=300&amp;h=117 300w, https://petele.files.wordpress.com/2018/10/io14-devlab.jpg?w=768&amp;h=300 768w, https://petele.files.wordpress.com/2018/10/io14-devlab.jpg?w=1024&amp;h=401 1024w" sizes="(max-width: 730px) 100vw, 730px"></p>
-            <p>A few folks have asked how we set things up, and how we did it, so I figured I’d document our process here!</p>
-            <h3>Device Selection</h3>
-            <p>We ended up with 46 different devices on the wall, including:</p>
-            <ul>
-            <li><a href="https://play.google.com/store/devices/details/Nexus_4_8GB?id=nexus_4_8gb&amp;hl=en">Nexus 4</a> (x2)</li>
-            <li><a href="https://play.google.com/store/devices/details?id=nexus_5_black_16gb">Nexus 5</a> (x10)</li>
-            <li><a href="https://play.google.com/store/devices/details?id=nexus_7_16gb_2013">Nexus 7 2013</a> (x4)</li>
-            <li><a href="https://play.google.com/store/devices/details?id=nexus_10_32gb">Nexus 10</a> (x8)</li>
-            <li><a href="https://play.google.com/store/devices/details?id=sony_z_ultra">Sony Z Ultra Google Play Edition</a> (x2)</li>
-            <li><a href="https://play.google.com/store/devices/details?id=htc_one">HTC One (2013) Google Play Edition</a> (x2)</li>
-            <li><a href="https://play.google.com/store/devices/details?id=htc_m8">HTC One M8 Google Play Edition</a> (x2)</li>
-            <li><a href="https://play.google.com/store/devices/details?id=lg_g_pad">LG G Pad 8.3 Google Play Edition</a> (x2)</li>
-            <li><a href="https://play.google.com/store/devices/details?id=samsung_galaxy_s4">Samsung Galaxy S4 Google Play Edition</a> (x2)</li>
-            <li><a href="http://www.amazon.com/Samsung-SM-G900H-Factory-Unlocked-International/dp/B00J4TK4B8">Samsung Galaxy S5</a> (x2)</li>
-            <li><a href="http://www.motorola.com/us/FLEXR1-1/Moto-X/FLEXR1.html">MotoX</a> (x2)</li>
-            <li><a href="http://www.apple.com/ipod-touch/">iPod Touch</a> (x1)</li>
-            <li><a href="http://www.apple.com/ipad-air/">iPad Air</a> (x1)</li>
-            <li><a href="http://www.apple.com/ipad-mini/">iPad Mini</a> (x1)</li>
-            <li><a href="http://promos.asus.com/us/chrome-os/chromebox/">ChromeBox</a> (x1)</li>
-            <li>Android TV (x1)</li>
-            </ul>
-            <p>We picked our devices mostly from Google Play Edition devices, and picked a few other fun and shiney net devices that would look cool on the wall. If you’re considering building something like this for your company or team, look at your analytics to understand what your users are using, and then regularly add new devices as the usage changes. In most cases we had at least two of every device, so that we could have one in portrait and one in landscape.</p>
-            <h3>Network connection</h3>
-            <p>When we ran the 46+ devices in the office prior to I/O, everything ran beautifully, but we knew with all the attendees, each with at least one, potentially two or three devices, the network would be a bit of a challenge.</p>
-            <p>We had hoped to use OTG Y-cables to both power and connect the devices to a wired network, but the cables we got gave us a network connection, but no power to the device, which means the screens wouldn’t stay on. So, at I/O, we connected all of the devices via WiFi to a dedicated access point with it’s own SSID, that way we could ensure that the devices were connecting to that access point, as opposed to one potentially several hundred feet away or even on another floor.</p>
-            <p>We tweaked a few settings on the Android devices to optimize the network connection. For example we disabled <em>Avoid poor network connections</em> and disabled <em>Wi-Fi optimization</em> to keep things working as well as possible.</p>
-            <h3>Power</h3>
-            <p>We kept all of the devices powered via USB at all times so that we could keep the screens on and also didn’t have to worry about recharging things. Rather than using the individual wall warts, we picked up a bunch of <a href="https://www.amazon.com/gp/product/B00IBDOB5I">Anker 40W 5-Port USB power supplies</a>. At full screen brightness, the N10s suck as much power from the USB port as they use, <a href="https://www.amazon.com/MagNector-N10-Nexus-Pogo-Cable/dp/B00B2166BS">Pogo cables</a> provided more.</p>
-            <h3>Screens</h3>
-            <p>To keep the screens on and to prevent dimming, we had to enabled <em>Stay awake</em> in the <em>Developer options</em> panel, that ensured that was long as they were plugged in, the screen would stay on. We also installed <a href="https://play.google.com/store/apps/details?id=it.android.keepscreenon">Keep Screen On LITE</a>, which prevented the screens from dimming after a period of time.</p>
-            <h3>Attaching devices to the wall</h3>
-            <p>This was the sort of easy part, we just used good ol’ velcro! To get the cool looking pattern, we cut out stencils of each device using colored paper, then taped them to the wall and kept rearranging them until we got the look we wanted. Once we knew where everything was going to go, then we started sticking them up.</p>
-            <h3>Pushing URLs to the devices</h3>
-            <p>The back end that sits on Compute Engine, and runs a little node app that pushes URLs out to the devices using Google Cloud Messaging. You can grab the source for the <a href="https://github.com/GoogleChrome/MiniMobileDeviceLab">Mini Mobile Device Lab from GitHub</a> and give it a shot yourself. Big props to Matt for doing most of the work here. We have a few ideas on how we can make this easier to set up, and potentially allow you to run it without any kind of back end infrastructure. More on that later <img draggable="false" class="emoji" alt="😉" src="https://s0.wp.com/wp-content/mu-plugins/wpcom-smileys/twemoji/2/svg/1f609.svg" scale="0"></p>
-            <h4>Android Devices</h4>
-            <p>Each device has a simple Cordova app running on it that listens for a Google Cloud Message, when it gets that message, it fires an intent to start the browser and open the URL in the message. This meant we can not only open Chrome, but any browser that’s installed on the device, Firefox, Opera, Android browser, etc.</p>
-            <p>With 40+ Android devices connected, we found out that the Play store gets a little cranky when there are too many devices connected to the same email address, so we ended up have to create three of four different email accounts that we used to sign into the devices and install the software.</p>
-            <h4>iOS and ChromeOS</h4>
-            <p>Since the software we used depending on Google Cloud Messaging and an app that fired Android Intents, we had to roll a different solution for non-Android devices. We wrote a simple AppEngine app that used the Channel API to push messages out to the devices. On the device, we opened a “background” page that listened for a message/URL and then simply did a <code>window.open()</code>.</p>
-            <h4>Android TV</h4>
-            <p>We built a custom one-off WebView app that had two WebViews running, one that was always hidden, connected to the AppEngine app we used for iOS and ChromeOS, and the one that showed the URL sent.</p>
-			    
-            <div id="jp-post-flair" class="sharedaddy sd-like-enabled sd-sharing-enabled">
-              <div class="sharedaddy sd-sharing-enabled">
-                <div class="robots-nocontent sd-block sd-social sd-social-icon-text sd-sharing">
-                  <h3 class="sd-title">Share this:</h3>
-                  <div class="sd-content">
-                    <ul>
-                      <li class="share-twitter">
-                        <a rel="nofollow noopener noreferrer" data-shared="sharing-twitter-40" class="share-twitter sd-button share-icon" href="https://petele.wordpress.com/2014/07/07/google-i-o-2014-device-lab/?share=twitter&amp;nb=1" target="_blank" title="Click to share on Twitter">
-                          <span>Twitter</span>
-                        </a>
-                      </li>
-                      <li class="share-facebook">
-                        <a rel="nofollow noopener noreferrer" data-shared="sharing-facebook-40" class="share-facebook sd-button share-icon" href="https://petele.wordpress.com/2014/07/07/google-i-o-2014-device-lab/?share=facebook&amp;nb=1" target="_blank" title="Click to share on Facebook">
-                          <span>Facebook</span>
-                        </a>
-                      </li>
-                    </ul>
-                  </div>
-                </div>
-              </div>
-              <div id="jp-relatedposts" class="jp-relatedposts" style="display: block;">
-	              <h3 class="jp-relatedposts-headline"><em>Related</em></h3>
-                <div class="jp-relatedposts-items jp-relatedposts-items-minimal">
-                  <p class="jp-relatedposts-post jp-relatedposts-post0" data-post-id="58" data-post-format="false">
-                    <span class="jp-relatedposts-post-title">
-                      <a class="jp-relatedposts-post-a" href="https://petele.wordpress.com/2010/05/21/paper-flashing/" title="…" rel="nofollow" data-origin="40" data-position="0">
-                        Paper Flashing
-                      </a>
-                    </span>
-                    <span class="jp-relatedposts-post-context">In "Photography"</span>
-                  </p>
-                  <p class="jp-relatedposts-post jp-relatedposts-post1" data-post-id="60" data-post-format="false">
-                    <span class="jp-relatedposts-post-title">
-                      <a class="jp-relatedposts-post-a" href="https://petele.wordpress.com/2010/05/21/f-stop-printing/" title="…" rel="nofollow" data-origin="40" data-position="1">
-                        F-Stop Printing
-                      </a>
-                    </span>
-                    <span class="jp-relatedposts-post-context">In "Photography"</span>
-                  </p>
-                  <p class="jp-relatedposts-post jp-relatedposts-post2" data-post-id="56" data-post-format="false">
-                    <span class="jp-relatedposts-post-title">
-                      <a class="jp-relatedposts-post-a" href="https://petele.wordpress.com/2010/05/23/pete-vs-pete/" title="…" rel="nofollow" data-origin="40" data-position="2">
-                        Pete vs PEte
-                      </a>
-                    </span>
-                    <span class="jp-relatedposts-post-context">In "Personal"</span>
-                  </p>
-                </div>
-              </div>
-            </div>
-			    </div>
-			    <!-- .entry-content -->
+          {{ content | safe }}
         </article>
 		  </main>
 		</div>
@@ -253,6 +155,14 @@
 	</footer><!-- #colophon -->
 </div><!-- #page -->
 
+<script>
+  /* eslint-disable */
+  window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+  // ga('create', 'UA-9988000-4', 'auto');
+  // ga('send', 'pageview', '{{ pageURL }}');
+  /* esline-enable */
+</script>
+<script async src="https://www.google-analytics.com/analytics.js"></script>
 
 </body>
 </html>

@@ -8,7 +8,6 @@ const fs = require('fs-extra');
 const csso = require('gulp-csso');
 const copy = require('gulp-copy');
 const babel = require('gulp-babel');
-const jsdoc = require('gulp-jsdoc3');
 const eslint = require('gulp-eslint');
 const uglify = require('gulp-uglify');
 const connect = require('gulp-connect');
