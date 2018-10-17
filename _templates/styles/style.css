@@ -142,7 +142,7 @@ input,
 select,
 textarea {
 	color:#404040;
-	font-family:"Source Sans Pro","Helvetica Neue",Helvetica,Arial,sans-serif;
+	font-family:"Roboto","Helvetica Neue",Helvetica,Arial,sans-serif;
 	font-size:20px;
 	line-height:1.5;
 }
@@ -735,7 +735,7 @@ a:active {
 	margin-bottom:10px;
 	width:100%;
 	color:#aaa;
-	font-family:"Source Sans Pro","Helvetica Neue",Helvetica,Arial,sans-serif;
+	font-family:"Roboto","Helvetica Neue",Helvetica,Arial,sans-serif;
 	font-size:14px;
 	font-style:normal;
 	letter-spacing:1px;
@@ -1084,7 +1084,7 @@ a:active {
 	-moz-box-sizing:border-box;
 	box-sizing:border-box;
 	color:#aaa;
-	font-family:"Source Sans Pro","Helvetica Neue",Helvetica,Arial,sans-serif;
+	font-family:"Roboto","Helvetica Neue",Helvetica,Arial,sans-serif;
 	font-size:14px;
 	font-style:normal;
 	letter-spacing:1px;
@@ -1425,7 +1425,7 @@ a:active {
 .comment-time,
 .comment-edit-link {
 	color:#aaa;
-	font-family:"Source Sans Pro","Helvetica Neue",Helvetica,Arial,sans-serif;
+	font-family:"Roboto","Helvetica Neue",Helvetica,Arial,sans-serif;
 	font-size:14px;
 	font-style:normal;
 	letter-spacing:1px;
@@ -1456,7 +1456,7 @@ a:active {
 	border:none;
 	border-radius:2px;
 	color:#fff;
-	font-family:"Source Sans Pro","Helvetica Neue",Helvetica,Arial,sans-serif;
+	font-family:"Roboto","Helvetica Neue",Helvetica,Arial,sans-serif;
 	font-size:12px;
 	letter-spacing:1px;
 	text-transform:uppercase;
@@ -1473,7 +1473,7 @@ a:active {
 
 .logged-in-as,.comment-notes {
 	color:#aaa;
-	font-family:"Source Sans Pro","Helvetica Neue",Helvetica,Arial,sans-serif;
+	font-family:"Roboto","Helvetica Neue",Helvetica,Arial,sans-serif;
 	font-size:14px;
 	font-style:normal;
 	letter-spacing:1px;
@@ -1649,7 +1649,7 @@ a:active {
 .gallery-caption {
 	color:#aaa;
 	display:inline-block;
-	font-family:"Source Sans Pro","Helvetica Neue",Helvetica,Arial,sans-serif;
+	font-family:"Roboto","Helvetica Neue",Helvetica,Arial,sans-serif;
 	font-size:13px;
 	font-style:normal;
 	letter-spacing:1px;
@@ -1771,7 +1771,7 @@ object {
 	top:0;
 	height:100%;
 	width:20%;
-	padding:90px 2% 2%;
+	padding:5% 2% 2%;
 	overflow:scroll;
 	overflow-x:hidden;
 	-webkit-overflow-scrolling:touch;
@@ -1866,7 +1866,7 @@ object {
 .site-description {
 	color:#aaa;
 	line-height:1.4;
-	font-family:"Source Sans Pro","Helvetica Neue",Helvetica,Arial,sans-serif;
+	font-family:"Roboto","Helvetica Neue",Helvetica,Arial,sans-serif;
 	font-size:16px;
 	font-weight:400;
 	margin:10px 0 0;
@@ -1877,19 +1877,32 @@ object {
 -------------------------------------------------------------- */
 .site-footer {
 	display:inline-block;
-	padding:0 6% 4% 26%;
+	background:#f5f5f5;
+	padding:0 0% 0% 20%;
 	width:100%;
 	color:#aaa;
-	font-family:"Source Sans Pro","Helvetica Neue",Helvetica,Arial,sans-serif;
-	font-size:14px;
+	font-family:"Roboto","Helvetica Neue",Helvetica,Arial,sans-serif;
+	/*font-size:14px;*/
 	font-style:normal;
-	letter-spacing:1px;
-	text-transform:uppercase;
+	/*letter-spacing:1px;*/
+	/*text-transform:uppercase;*/
+	font-size: small;
 }
 
-.site-footer .site-info {
-	background:#f5f5f5;
-	padding:2.5%;
+.site-footer div {
+  margin-bottom: 1em;
+}
+
+.site-footer .site-about {
+  color: #777;
+}
+
+.site-footer .site-inner {
+  padding: 2.5%;
+}
+
+.site-footer .site-views {
+  font-size: smaller;
 }
 
 @media (max-width: 840px) {
@@ -1939,15 +1952,15 @@ object {
 }
 
 @media (max-width: 840px) {
-.site-content {
-	padding:5%;
-}
+  .site-content {
+  	padding:5%;
+  }
 }
 
 .entry-date {
 	margin-bottom:2%;
 	color:#aaa;
-	font-family:"Source Sans Pro","Helvetica Neue",Helvetica,Arial,sans-serif;
+	font-family:"Roboto","Helvetica Neue",Helvetica,Arial,sans-serif;
 	font-size:14px;
 	font-style:normal;
 	letter-spacing:1px;
@@ -2038,7 +2051,7 @@ object {
 
 .taxonomy-description {
 	color:#aaa;
-	font-family:"Source Sans Pro","Helvetica Neue",Helvetica,Arial,sans-serif;
+	font-family:"Roboto","Helvetica Neue",Helvetica,Arial,sans-serif;
 	font-size:14px;
 	font-style:normal;
 	letter-spacing:1px;
@@ -2067,7 +2080,7 @@ object {
 
 .meta-list {
 	color:#aaa;
-	font-family:"Source Sans Pro","Helvetica Neue",Helvetica,Arial,sans-serif;
+	font-family:"Roboto","Helvetica Neue",Helvetica,Arial,sans-serif;
 	font-size:14px;
 	font-style:normal;
 	letter-spacing:1px;
@@ -2090,7 +2103,7 @@ object {
 
 .meta-list li:before {
 	display:block;
-	font-family:"FontAwesome";
+	font-family:'Material Icons';
 	left:0;
 	position:absolute;
 }
@@ -2121,15 +2134,19 @@ object {
 }
 
 .meta-list .meta-cat:before {
-	content:"\f0ca";
+	/*content:"\f0ca";*/
+	/*content: 'x';*/
+	content: '\e896';
+	/*background-image: url('../images/list-24px.svg');*/
+}
+
+.meta-list .meta-cat {
+	/*content:"\f0ca";*/
+	/*background-image: url('../images/list-24px.svg');*/
 }
 
 .meta-list .meta-tag:before {
-	content:"\f02b";
-}
-
-.meta-list .meta-tag:before {
-	content:"\f02b";
+	content:"\e54e";
 }
 
 .meta-list .meta-comment:before {
@@ -2150,7 +2167,7 @@ object {
 
 .entry-content {
 	font-size:20px;
-	font-family:"Source Sans Pro","Helvetica Neue",Helvetica,Arial,sans-serif;
+	font-family:"Roboto","Helvetica Neue",Helvetica,Arial,sans-serif;
 	display:inline-block;
 	width:72%;
 	vertical-align:top;
