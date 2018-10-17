@@ -1,8 +1,11 @@
-_site
-_build
-_deploy
-node_modules
-.sass-cache
-/sha-live.json
+/build/
+/bower_components/
+/node_modules/
+/scratch/
+/.firebase/
 
-/sha-github.json
+.DS_Store
+.log
+.tmp
+.sass-cache
+package-lock.json
