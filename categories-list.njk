@@ -1,0 +1,10 @@
+---
+permalink: /category/
+layout: layouts/home.njk
+---
+<h1>Categories</h1>
+
+{% for category in collections.categoryList %}
+  {% set categoryUrl %}/category/{{ category }}/{% endset %}
+  <a href="{{ categoryUrl | url }}" class="category">{{ category }}</a>
+{% endfor %}

@@ -1,0 +1,26 @@
+---
+pagination:
+  data: collections
+  size: 1
+  alias: category
+  filter:
+    - all
+    - nav
+    - post
+    - posts
+layout: layouts/home.njk
+renderData:
+  title: Tagged “{{ category }}”
+permalink: /category/{{ category }}/
+---
+<h1>Tagged “{{ category }}”</h1>
+
+yy
+
+{% for x in collections %}
+  {{x}} xx
+{% endfor %}
+
+{{category}}
+
+<p>See <a href="/category/">all categories</a>.</p>

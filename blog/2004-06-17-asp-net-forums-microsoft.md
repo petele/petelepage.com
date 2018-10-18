@@ -2,6 +2,7 @@
 layout: layouts/post.njk
 title: ASP.NET Forums @ Microsoft
 date: 2004-06-17T11:00:00-0400
+dateUpdated: 2018-06-17T11:00:00-0400
 categories: blog
 tags:
 - MSDNBlogPost

@@ -22,7 +22,7 @@ const inlinesource = require('gulp-inline-source');
 
 const SRC_DIR = 'src';
 const DEST_DIR = 'build';
-const TEMP_DIR = '.tmp';
+const TEMP_DIR = '_tmp';
 
 /** ***************************************************************************
  * Clean

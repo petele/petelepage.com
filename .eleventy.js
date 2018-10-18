@@ -1,8 +1,10 @@
 const { DateTime } = require('luxon');
+const moment = require('moment');
 const pluginRss = require('@11ty/eleventy-plugin-rss');
 const pluginSyntaxHighlight = require('@11ty/eleventy-plugin-syntaxhighlight');
 
 module.exports = function(eleventyConfig) {
+  eleventyConfig.lastUpdated = Date.now();
   eleventyConfig.addPlugin(pluginRss);
   eleventyConfig.addPlugin(pluginSyntaxHighlight);
 
@@ -10,6 +12,16 @@ module.exports = function(eleventyConfig) {
 
   eleventyConfig.addFilter('readableDate', dateObj => {
     return DateTime.fromJSDate(dateObj, {zone: 'utc'}).toFormat('dd LLL yyyy');
+  });
+
+  eleventyConfig.addFilter('shortDate', dateObj => {
+    return moment(dateObj).format('LL');
+  });
+
+  eleventyConfig.addFilter('tagClasses', (tags) => {
+    return tags.map((item) => {
+      return 'tag-' + eleventyConfig.handlebarsHelpers.slug(item);
+    }).join(' ');
   });
 
   // Get the first `n` elements of a collection.
@@ -34,7 +46,11 @@ module.exports = function(eleventyConfig) {
   });
 
   eleventyConfig.addCollection('tagList', require('./_11ty/getTagList'));
+  eleventyConfig.addCollection('categoryList', require('./_11ty/getCategoryList'));
 
+  eleventyConfig.addPassthroughCopy('styles');
+
+  // console.log(eleventyConfig);
 
 
   /* Markdown Plugins */
@@ -77,7 +93,7 @@ module.exports = function(eleventyConfig) {
       input: '.',
       includes: '_includes',
       data: '_data',
-      output: '.tmp'
+      output: '_tmp'
     }
   };
 };

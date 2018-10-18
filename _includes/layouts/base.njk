@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="utf-8">
-    <title>{{ title }}</title>
+    <title>{{ renderData.title or title or metadata.title }}</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <!-- Pre-connect to font server -->
@@ -10,7 +10,7 @@
 
     <!-- SEO description and info -->
     <meta name="description" content="{{ description }}">
-    <link rel="canonical" href="{{ canonical }}">
+    <link rel="canonical" href="{{ metadata.url }}{{ page.url | url }}">
 
     <!-- Manifest and icons -->
     <link rel="icon" href="/images/favicon.ico">
@@ -18,32 +18,25 @@
 
     <!-- Default twitter cards -->
     <meta name="twitter:card" content="summary">
-    <meta name="twitter:url" content="{{ canonical }}">
-    <meta name="twitter:title" content="{{ title }}">
+    <meta name="twitter:url" content="{{ metadata.url }}{{ page.url | url }}">
+    <meta name="twitter:title" content="{{ renderData.title or title or metadata.title }}">
     <meta name="twitter:description" content="{{ description }}">
     <meta name="twitter:image" content="{{ image }}">
     <meta name="twitter:creator" content="@petele">
 
     <!-- Other sharing -->
-    <meta property="og:title" content="{{ title }}">
+    <meta property="og:title" content="{{ renderData.title or title or metadata.title }}">
     <meta property="og:type" content="website">
     <meta property="og:image" content="{{ image }}">
-    <meta property="og:url" content="{{ canonical }}">
+    <meta property="og:url" content="{{ metadata.url }}{{ page.url | url }}">
     <meta property="og:description" content="{{ description }}">
 
     <!-- Styles -->
-    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="/styles/style.css">
     <link href="https://fonts.googleapis.com/css?family=Roboto|Roboto+Condensed:400,700|Material+Icons" rel="stylesheet">
 
-    <!-- page.url {{ page.url }} -->
-    <!-- url {{ url }} -->
-    <!-- metadata {{ metadata }} -->
-    <!-- collections {{ collections}} -->
-
-    <!--<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">-->
-
-
-    <!--<link rel="stylesheet" id="screen-css-1-1" href="https://s1.wp.com/wp-content/themes/pub/editor/inc/fontawesome/font-awesome.css?m=1404778013h&amp;cssminify=yes" type="text/css" media="screen">-->
+    <!-- RSS Feed -->
+    <link rel="alternate" href="{{ metadata.feed.path | url }}" type="application/atom+xml" title="{{ metadata.title }}">
 
 </head>
 
@@ -87,6 +80,19 @@
               </li>
             </ul>
           </div>
+
+          <nav id="my-apps-navigation" class="main-navigation" role="navigation">
+            <div class="menu-main-menu-container">
+              <ul id="menu-main-menu" class="menu">
+                <li class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home">
+                  <a href="https://gdrinker.com">Good Drinker</a>
+                </li>
+                <li class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home">
+                  <a href="https://sounddrown.app">Sound Drown</a>
+                </li>
+              </ul>
+            </div>
+          </nav><!-- #site-navigation -->
 				</div><!-- #tab-1 -->
 			</div><!-- .site-header-inside -->
 		</div><!-- #tabs -->
@@ -96,42 +102,8 @@
 	  <div id="primary" class="content-area">
 		  <main id="main" class="site-main" role="main">
 
-        <article class="post type-post status-publish format-standard hentry category-web tag-device-lab tag-googleio tag-mobile">
-          <header class="entry-header">
-				    <div class="entry-date">
-				      <span class="posted-on">
-				        <a href="/2014/07/07/google-i-o-2014-device-lab/" rel="bookmark">
-                  <time class="entry-date published" datetime="2014-07-07T15:51:07+00:00">July 7, 2014</time>
-                  <time class="updated" datetime="2018-10-16T16:24:19+00:00">October 16, 2018</time>
-                </a>
-              </span>
-              <span class="byline">
-                <span class="by">by</span>
-                <span class="author vcard">
-                  <a class="url fn n" href="/about/">Pete LePage</a>
-                </span>
-              </span>
-            </div><!-- .entry-meta -->
-		        <h1 class="entry-title">
-		          <a href="/2014/07/07/google-i-o-2014-device-lab/" rel="bookmark">
-		            Google I/O 2014 Device&nbsp;Lab
-		          </a>
-		        </h1>
-		      </header><!-- .entry-header -->
-          <div class="entry-meta">
-            <ul class="meta-list">
-						  <li class="meta-cat">
-						    <a href="https://petele.wordpress.com/category/web/" rel="category tag">Web</a>
-						  </li>
-							<li class="meta-tag">
-							  <a href="https://petele.wordpress.com/tag/device-lab/" rel="tag">device-lab</a>,
-							  <a href="https://petele.wordpress.com/tag/googleio/" rel="tag">googleio</a>,
-							  <a href="https://petele.wordpress.com/tag/mobile/" rel="tag">mobile</a>
-							</li>
-						</ul>
-          </div>
-          {{ content | safe }}
-        </article>
+        {{ content | safe }}
+
 		  </main>
 		</div>
 	</div>
