@@ -1,0 +1,15 @@
+---
+permalink: /tags/
+layout: layouts/page.njk
+title: Tag List
+eleventyExcludeFromCollections: true
+---
+
+<ul>
+{% for tag in collections.tagList | sort %}
+  {% set tagUrl %}/tags/{{ tag | slug }}/{% endset %}
+  <li>
+    <a href="{{ tagUrl | url }}" class="post-tag">{{ tag }}</a>
+  </li>
+{% endfor %}
+</ul>

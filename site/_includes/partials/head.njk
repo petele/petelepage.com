@@ -1,0 +1,50 @@
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="{% if content %}{{ content | excerpt | safe }}{% else %}{{ metadata.tagline }}{% endif %}">
+  <title>{{ title + ' | ' if title }}{{ metadata.title }}</title>
+  <link rel="canonical" href="{{ metadata.url + page.url | url }}">
+
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-9988000-4"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-9988000-4');
+  </script>
+
+  <link href="/css/main.css" rel="stylesheet">
+  <link href="/css/prism.css" rel="stylesheet">
+
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-touch-fullscreen" content="YES">
+  <meta name="apple-mobile-web-app-title" content="{{metadata.title}}">
+
+  <meta name="application-name" content="{{metadata.title}}">
+
+  <meta name="theme-color" content="{{metadata.themeColor}}">
+  <link rel="manifest" href="/manifest.json">
+
+  <link rel="icon" href="/img/h5g-sq-32.png" sizes="32x32">
+  <link rel="icon" href="/img/h5g-sq-192.png" sizes="192x192">
+
+  <meta property="og:locale" content="en_US">
+  <meta property="og:type" content="article">
+  <meta property="og:url" content="{{ metadata.url + page.url | url }}">
+  <meta property="og:site_name" content="{{metadata.title}}">
+  <meta property="og:title" content="{{ title + ' | ' if title }}{{ metadata.title }}">
+
+  <meta property="og:description" content="{% if content %}{{ content | excerpt | safe }}{% else %}{{ metadata.description }}{% endif %}">
+
+
+  {# <meta name="twitter:card" content="summary_large_image"> #}
+  <meta name="twitter:creator" content="@petele">
+  <meta name="twitter:site" content="@petele">
+
+  <link href="https://fonts.googleapis.com/css?family=Playfair&#43;Display:700,900&amp;display=swap" rel="stylesheet">
+
+  <link rel="alternate" href="{{ metadata.feed.path | url }}" type="application/atom+xml" title="{{ metadata.title }} » Feed">
+  <link rel="alternate" href="{{ metadata.jsonfeed.path | url }}" type="application/json" title="{{ metadata.title }} » Feed">
+</head>

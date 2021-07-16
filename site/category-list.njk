@@ -1,0 +1,15 @@
+---
+permalink: /categories/
+layout: layouts/page.njk
+title: Categories List
+eleventyExcludeFromCollections: true
+---
+
+<ul>
+{% for category in metadata.categories %}
+  {% set categoryUrl %}/categories/{{ category | slug }}/{% endset %}
+  <li>
+    <a href="{{ categoryUrl | url }}" class="post-tag">{{ category }}</a>
+  </li>
+{% endfor %}
+</ul>

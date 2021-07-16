@@ -1,0 +1,29 @@
+{
+  "title": "Pete LePage",
+  "url": "https://petelepage.com",
+  "language": "en",
+  "description": "Thoughts on web development, life, and photography.",
+  "themeColor": "#ca2017",
+  "bgColor": "#eeeeee",
+  "icons": {
+    "32px": "/img/h5g-sq-32.png",
+    "192px": "/img/h5g-sq-192.png",
+    "512px": "/img/h5g-sq-512.png"
+  },
+  "feed": {
+    "subtitle": "Thoughts on web development, life, and photography.",
+    "filename": "feed.xml",
+    "path": "/feed/feed.xml",
+    "id": "https://petelepage.com/"
+  },
+  "jsonfeed": {
+    "path": "/feed/feed.json",
+    "url": "https://petelepage.com/feed/feed.json"
+  },
+  "author": {
+    "name": "Pete LePage",
+    "email": "pete.lepage@pobox.com",
+    "url": "https://petelepage.com/about/"
+  },
+  "categories": ["home automation", "photography", "web development", "general"]
+}

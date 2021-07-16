@@ -1,0 +1,13 @@
+<div class="p-2 mb-2 category-list">
+  <h4>Categories</h4>
+  <ol class="list-unstyled">
+  {% for category in metadata.categories | sort %}
+    {% set categoryUrl %}/categories/{{ category | slug }}/{% endset %}
+    <li class="">
+      <a href="{{ categoryUrl | url }}">
+        <div class="text-capitalize text-body">{{ category }}</div>
+      </a>
+    </li>
+  {% endfor %}
+  </ol>
+</div>

@@ -1,0 +1,31 @@
+// _theme.scss
+
+/* Material Design Gray */
+$md-white:    #fff !default;
+$md-gray-100: #f5f5f5 !default;
+$md-gray-200: #eeeeee !default;
+$md-gray-300: #e0e0e0 !default;
+$md-gray-400: #bdbdbd !default;
+$md-gray-500: #9e9e9e !default;
+$md-gray-600: #757575 !default;
+$md-gray-700: #616161 !default;
+$md-gray-800: #424242 !default;
+$md-gray-900: #212121 !default;
+$md-black:    #000 !default;
+
+/* Override colors Material Design 500 */
+$md-blue:    #2196F3 !default;
+$md-indigo:  #3f51b5 !default;
+$md-purple:  #673ab7 !default;
+$md-pink:    #e91e63 !default;
+$md-red:     #f44336 !default;
+$md-orange:  #ff9800 !default;
+$md-yellow:  #ffeb3b !default;
+$md-green:   #4caf50 !default;
+$md-teal:    #009688 !default;
+$md-cyan:    #00bcd4 !default;
+
+$contrast: #ca2017;
+$body-bg:  $md-gray-200 !default;
+
+$heading-font: "Playfair Display", Georgia, "Times New Roman", serif/*rtl:Amiri, Georgia, "Times New Roman", serif*/;

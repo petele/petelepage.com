@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+  {% include "partials/head.njk" %}
+  <body>
+    {% block mast_head %}
+      {% include "partials/mast-head.njk" %}
+    {% endblock %}
+
+    <main class="container">
+      <div class="row g-5">
+        <div class="col-md-8">
+          {% block content %}{{ content | safe }}{% endblock %}
+        </div>
+
+        {% block sidebar %}
+          {% include 'partials/sidebar.njk' %}
+        {% endblock %}
+      </div>
+    </main>
+
+    {% include "partials/page-footer.njk" %}
+
+    {% block last_script %}
+    {% endblock %}
+
+    {#
+    <script>
+      if ('serviceWorker' in navigator) {
+        window.addEventListener('load', function() {
+          navigator.serviceWorker.register('/sw-offline.js');
+        });
+      }
+    </script>
+    #}
+
+    <script>
+      if ('serviceWorker' in navigator) {
+        navigator.serviceWorker.getRegistrations()
+          .then((registrations) => {
+            for (const registration of registrations) {
+              registration.unregister();
+            }
+          });
+      }
+    </script>
+  </body>
+</html>

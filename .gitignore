@@ -1,8 +1,5 @@
-_site
-_build
-_deploy
-node_modules
-.sass-cache
-/sha-live.json
-
-/sha-github.json
+.DS_Store
+dist/
+node_modules/
+site/css/main.css
+site/css/main.css.map

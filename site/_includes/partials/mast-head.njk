@@ -1,0 +1,19 @@
+<div class="container-fluid blog-header-title-container">
+  <header class="blog-header">
+    <div class="row flex-nowrap text-center">
+      <a class="blog-header-title" href="/">{{ metadata.title }}</a>
+    </div>
+    <div class="row flex-nowrap text-center">
+      <p class="blog-header-description lead">{{ metadata.description }}</p>
+    </div>
+  </header>
+</div>
+<div class="container-fluid blog-header-nav-container">
+  <div class="nav-scroller py-1 mb-2">
+    <nav class="nav d-flex justify-content-between">
+      {%- for item in collections.all | eleventyNavigation %}
+        <a class="p-2 {% if page.url == item.url %} active {% endif %}" href="{{ item.url }}">{{ item.title }}</a>
+      {%- endfor %}
+    </nav>
+  </div>
+</div>

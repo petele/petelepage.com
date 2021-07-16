@@ -1,0 +1,19 @@
+---
+permalink: /manifest.json
+eleventyExcludeFromCollections: true
+---
+{
+  "name":"{{metadata.title}}",
+  "start_url":"{{metadata.url}}",
+  "display":"minimal-ui",
+  "dir":"ltr",
+  "short_name":"{{metadata.title}}",
+  "lang":"en-US",
+  "background_color":"{{metadata.bgColor}}",
+  "theme_color":"{{metadata.themeColor}}",
+  "description":"{{metadata.description}}",
+  "icons":[
+    {"src": "{{metadata.icons.192px}}", "sizes": "192x192", "type":"image/png"},
+    {"src": "{{metadata.icons.512px}}", "sizes": "512x512", "type":"image/png"}
+  ]
+}

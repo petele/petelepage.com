@@ -1,0 +1,15 @@
+---
+layout: layouts/page.njk
+title: Photography
+eleventyNavigation:
+  key: Photography
+  order: 3
+---
+
+<p>
+  A collection of guides, recipes, how-to’s, tips, and tricks for developing
+  film, and making silver gelatin prints.
+</p>
+
+{% set postslist = collections.photography %}
+{% include "partials/postslist.njk" %}
