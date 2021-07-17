@@ -19,4 +19,4 @@ comments:
     it... so to speak! :)"
 ---
 
-[![](/assets/HTML5-Guy-237x300.png "HTML5-Guy")](/assets/HTML5-Guy.png)
+<a href="/img/HTML5-Guy.png"><img src="/img/HTML5-Guy.png" class="w-100"></a>

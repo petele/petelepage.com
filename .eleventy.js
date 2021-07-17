@@ -80,7 +80,7 @@ module.exports = function(eleventyConfig) {
   });
 
   // Copy the `img` and `css` folders to the output
-  eleventyConfig.addPassthroughCopy('site/**/*.{jpg,jpeg,png,webp,gif}');
+  eleventyConfig.addPassthroughCopy('site/**/*.{jpg,jpeg,png,webp,gif,svg,ai}');
   eleventyConfig.addPassthroughCopy('site/css');
 
   // Customize Markdown library and settings:

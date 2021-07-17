@@ -32,7 +32,7 @@ The viewport meta tag seems to be one of those elements that's a little bit pers
 ## Incorrect Syntax
 
 ``` html
-<meta name="viewport" content=width="device-width; initial-scale=1.0" />
+<meta name="viewport" content="width=device-width; initial-scale=1.0" />
 ```
 
 If you want to see this in action and how bad things can look, use the remote debugger with Chrome for Android Beta to change the comma to a semi-colon in the viewport meta tag on Google.com.  The site will suddenly go from looking good, to looking awful.
