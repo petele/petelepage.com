@@ -15,6 +15,9 @@ module.exports = {
   htmlDateString: (dateObj) => {
     return DateTime.fromJSDate(dateObj, {zone: 'utc'}).toFormat('yyyy-LL-dd');
   },
+  dtAsISO: (dateObj) => {
+    return DateTime.fromJSDate(dateObj, {zone: 'utc'}).toISO();
+  },
   dtNowISO: () => {
     return DateTime.now().toISO();
   },
