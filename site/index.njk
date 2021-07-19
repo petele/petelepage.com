@@ -28,7 +28,7 @@ eleventyNavigation:
           </time></a> <span class="text-muted">/</span>
         <span class="text-secondary">In</span>
         {% if post.data.category %}
-          <a href="/category/{{post.data.category | slug}}">
+          <a href="/categories/{{post.data.category | slug}}">
             {{post.data.category}}
           </a>
         {% else %}
