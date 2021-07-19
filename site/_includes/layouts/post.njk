@@ -115,7 +115,7 @@
         title: "{{ title }}",
         url: "{{ post.url }}"
       };
-      navigator.share(opts);
+      await navigator.share(opts);
       result = 'success';
       console.log('shared')
     } catch (ex) {
