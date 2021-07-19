@@ -1,12 +1,31 @@
 {% extends "layouts/base.njk" %}
 
+{% block head %}
+  <script type="application/ld+json">
+  {
+    "@context": "http://schema.org",
+    "@type": "NewsArticle",
+    "author": {
+      "@type": "Person",
+      "name": "{{ metadata.author.name }}"
+    },
+    "headline": "{{ title }}",
+    "datePublished": "{{ page.date | dtAsISO }}",
+  }
+  </script>
+  <meta name="twitter:title" content="{{ title }}">
+  <link rel="preconnect" href="https://platform.twitter.com/" crossorigin="">
+  <link rel="preconnect" href="https://syndication.twitter.com/" crossorigin="">
+
+{% endblock %}
+
 {% block content %}
 
   <article class="blog-post">
     <h2 class="blog-post-title">{{ title }}</h2>
     <p class="blog-post-meta mb-1">
       <span class="text-secondary">By</span>
-      <a href="/about/">Pete LePage</a> <span class="text-muted">/</span>
+      <a href="/about/">{{ metadata.author.name }}</a> <span class="text-muted">/</span>
       <span class="text-secondary">On</span>
       <a href="{{post.url}}">
         <time datetime="{{ page.date | htmlDateString }}">
@@ -35,9 +54,11 @@
 
     <div class="share-this-container">
       <h3>Share this</h3>
-      <a class="twitter-share-button"
+      <button class="btn btn-primary btn-sm align-top xhidden" id="web-share">Share</button>
+      <a class="twitter-share-button btn"
         href="https://twitter.com/intent/tweet?text=Hello%20world"
         data-size="large">Tweet</a>
+
     </div>
 
     {%- set nextPost = collections.posts | getNextCollectionItem(page) %}
@@ -85,4 +106,32 @@
 
   return t;
 }(document, "script", "twitter-wjs"));</script>
+
+<script>
+  async function onWebShare() {
+    let result;
+    try {
+      const opts = {
+        title: "{{ title }}",
+        url: "{{ post.url }}"
+      };
+      navigator.share(opts);
+      result = 'success';
+      console.log('shared')
+    } catch (ex) {
+      result = 'failed';
+      console.log('Share failed', ex);
+    }
+    gtag('event', 'share', {
+      'event_category': result,
+      'event_label': '{{ post.url }}'
+    });
+  }
+
+  if (navigator.share) {
+    const shareButton = document.getElementById('web-share');
+    shareButton.classList.remove('hidden');
+    shareButton.addEventListener('click', onWebShare);
+  }
+</script>
 {% endblock %}

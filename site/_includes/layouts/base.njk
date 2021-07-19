@@ -1,6 +1,10 @@
 <!doctype html>
 <html lang="en">
-  {% include "partials/head.njk" %}
+  <head>
+    {% include "partials/head.njk" %}
+    {% block head %}
+    {% endblock %}
+  </head>
   <body>
     {% block mast_head %}
       {% include "partials/mast-head.njk" %}
