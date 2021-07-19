@@ -1,7 +1,7 @@
 {
-  "name": "eleventy-base-blog",
+  "name": "petele-blog",
   "version": "0.0.1",
-  "description": "A starter repository for a blog web site using the Eleventy static site generator.",
+  "description": "My Blog",
   "scripts": {
     "build": "npm-run-all clean gulp eleventy",
     "clean": "rimraf dist",
@@ -17,18 +17,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/11ty/eleventy-base-blog.git"
+    "url": "https://github.com/petele/petelepage.com"
   },
   "author": {
-    "name": "Zach Leatherman",
-    "email": "zachleatherman@gmail.com",
-    "url": "https://zachleat.com/"
+    "name": "Pete LePage",
+    "email": "pete.lepage@pobox.com",
+    "url": "https://petelepage.com/"
   },
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/11ty/eleventy-base-blog/issues"
-  },
-  "homepage": "https://github.com/11ty/eleventy-base-blog#readme",
+  "license": "Apache2.0",
+  "homepage": "https://petelepage.com/",
   "devDependencies": {
     "@11ty/eleventy": "^0.12.1",
     "@11ty/eleventy-navigation": "^0.1.6",
@@ -66,8 +63,5 @@
   "browserslist": [
     "last 2 versions",
     "not ie <= 11"
-  ],
-  "dependencies": {
-    "mkdirp": "^0.5.5"
-  }
+  ]
 }
