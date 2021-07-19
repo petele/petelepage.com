@@ -54,7 +54,7 @@
 
     <div class="share-this-container">
       <h3>Share this</h3>
-      <button class="btn btn-primary btn-sm align-top xhidden" id="web-share">Share</button>
+      <button class="btn btn-primary btn-sm align-top hidden" id="web-share">Share</button>
       <a class="twitter-share-button btn"
         href="https://twitter.com/intent/tweet?text=Hello%20world"
         data-size="large">Tweet</a>
@@ -109,15 +109,14 @@
 
 <script>
   async function onWebShare() {
-    let result;
+    let result = 'success';
     try {
       const opts = {
         title: "{{ title }}",
         url: "{{ post.url }}"
       };
       await navigator.share(opts);
-      result = 'success';
-      console.log('shared')
+      console.log('Shared');
     } catch (ex) {
       result = 'failed';
       console.log('Share failed', ex);
