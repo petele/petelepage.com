@@ -1,0 +1,80 @@
+---
+pagination:
+  data: collections.posts
+  size: 6
+  alias: posts
+  reverse: true
+layout: layouts/base.njk
+permalink: "{% if pagination.pageNumber == 0 %}/index.html{% else %}/blog/{{ pagination.pageNumber }}/{% endif %}"
+tags: page
+eleventyNavigation:
+  key: Blog
+  order: 1
+---
+
+{%- for post in posts %}
+
+  <article class="blog-post">
+      <h2 class="blog-post-title">
+        <a href="{{post.url}}">{{ post.data.title }}</a>
+      </h2>
+      <p class="blog-post-meta">
+        <span class="text-secondary">By</span>
+        <a href="/about/">Pete LePage</a> <span class="text-muted">/</span>
+        <span class="text-secondary">On</span>
+        <a href="{{post.url}}">
+          <time datetime="{{ post.date | htmlDateString }}">
+            {{ post.date | readableDate }}
+          </time></a> <span class="text-muted">/</span>
+        <span class="text-secondary">In</span>
+        {% if post.data.category %}
+          <a href="/category/{{post.data.category}}">
+            {{post.data.category}}
+          </a>
+        {% else %}
+          <a href="/category/general/">
+            General
+          </a>
+        {% endif %}
+      </p>
+
+
+      {% if post.data.page.excerpt %}
+        {{ post.data.page.excerpt | toHTML | safe }}
+
+        <div class="mt-4">
+          <a class="btn btn-primary" href="{{post.url}}">Continue reading</a>
+        </div>
+
+      {% else %}
+        {{ post.templateContent | excerpt | safe }}
+
+        <div class="mt-4">
+          <a class="btn btn-primary" href="{{post.url}}">Continue reading</a>
+        </div>
+      {% endif %}
+
+    </article>
+
+{%- endfor %}
+
+{%- set urlOlder = pagination.href.next %}
+{%- set urlNewer = pagination.href.previous %}
+{%- if urlOlder or urlNewer %}
+<div class="row mb-4 bottom-nav-pagination">
+  <div class="col">
+    {%- if urlNewer %}
+      <div>
+        <a href="{{ urlNewer | url }}">&laquo; Forward</a>
+      </div>
+    {% endif %}
+  </div>
+  <div class="col text-end">
+    {%- if urlOlder %}
+      <div>
+        <a href="{{ urlOlder | url }}">Back &raquo;</a>
+      </div>
+    {% endif %}
+  </div>
+</div>
+{% endif %}

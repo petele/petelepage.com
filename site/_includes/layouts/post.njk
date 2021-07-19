@@ -1,0 +1,88 @@
+{% extends "layouts/base.njk" %}
+
+{% block content %}
+
+  <article class="blog-post">
+    <h2 class="blog-post-title">{{ title }}</h2>
+    <p class="blog-post-meta mb-1">
+      <span class="text-secondary">By</span>
+      <a href="/about/">Pete LePage</a> <span class="text-muted">/</span>
+      <span class="text-secondary">On</span>
+      <a href="{{post.url}}">
+        <time datetime="{{ page.date | htmlDateString }}">
+          {{ page.date | readableDate }}
+        </time></a> <span class="text-muted">/</span>
+      <span class="text-secondary">In</span>
+      {% if category %}
+        <a href="/categories/{{category | slug}}">
+          {{category}}
+        </a>
+      {% else %}
+        <a href="/categories/general/">
+          General
+        </a>
+      {% endif %}
+    </p>
+    <p class="blog-post-meta">
+      <span class="text-secondary hidden">Tagged </span>
+      {%- for tag in tags | filterTagList -%}
+        {%- set tagUrl %}/tags/{{ tag | slug }}/{% endset -%}
+        <a class="me-1" href="{{ tagUrl | url }}"><span class="badge rounded-pill bg-secondary">{{ tag }}</span></a>
+      {%- endfor %}
+    </p>
+
+    {{ content | safe }}
+
+    <div class="share-this-container">
+      <h3>Share this</h3>
+      <a class="twitter-share-button"
+        href="https://twitter.com/intent/tweet?text=Hello%20world"
+        data-size="large">Tweet</a>
+    </div>
+
+    {%- set nextPost = collections.posts | getNextCollectionItem(page) %}
+    {%- set previousPost = collections.posts | getPreviousCollectionItem(page) %}
+    {%- if nextPost or previousPost %}
+    <hr class="mt-4">
+    <div class="row post-pagination-container">
+      <div class="col">
+        {%- if nextPost %}
+          <div>Next</div>
+          <div>
+            <a href="{{ nextPost.url | url }}">{{ nextPost.data.title }}</a>
+          </div>
+        {% endif %}
+      </div>
+      <div class="col text-end">
+        {%- if previousPost %}
+          <div>Previous</div>
+          <div>
+            <a href="{{ previousPost.url | url }}">{{ previousPost.data.title }}</a>
+          </div>
+        {% endif %}
+      </div>
+    </div>
+    {% endif %}
+
+  </article>
+
+{% endblock %}
+
+{% block last_script %}
+<script>window.twttr = (function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0],
+    t = window.twttr || {};
+  if (d.getElementById(id)) return t;
+  js = d.createElement(s);
+  js.id = id;
+  js.src = "https://platform.twitter.com/widgets.js";
+  fjs.parentNode.insertBefore(js, fjs);
+
+  t._e = [];
+  t.ready = function(f) {
+    t._e.push(f);
+  };
+
+  return t;
+}(document, "script", "twitter-wjs"));</script>
+{% endblock %}

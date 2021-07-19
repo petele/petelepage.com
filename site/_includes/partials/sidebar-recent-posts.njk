@@ -1,0 +1,15 @@
+<div class="p-2 mb-2 recent-posts">
+  <h4>Recent Posts</h4>
+  <ul class="list-unstyled mb-0">
+    {%- for post in collections.posts | reverse | limit(5) %}
+      <li class="mb-2">
+        <a href="{{post.url}}">
+          <div class="recent-post-title text-body bbp-fun-font">{{post.data.title}}</div>
+          <div class="recent-post-date text-muted text-uppercase fw-light">
+            <time datetime="{{ post.date | htmlDateString }}">{{ post.date | readableDate }}</time>
+          </div>
+        </a>
+      </li>
+    {%- endfor %}
+  </ul>
+</div>

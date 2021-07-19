@@ -1,0 +1,22 @@
+
+{% for post in postslist | reverse %}
+  <div>
+    <a href="{{ post.url | url }}" class="postlist-link">{% if post.data.title %}{{ post.data.title }}{% else %}<code>{{ post.url }}</code>{% endif %}</a>
+  <div>
+  <div class="mb-4">
+    <span class="text-secondary">On</span>
+      <a href="{{post.url}}">
+        <time datetime="{{ page.date | htmlDateString }}">
+          {{ post.date | readableDate }}</time></a> <span class="text-muted">/</span>
+      <span class="text-secondary">In</span>
+      {% if post.data.category %}
+        <a href="/categories/{{post.data.category | slug}}">
+          {{post.data.category}}
+        </a>
+      {% else %}
+        <a href="/categories/general/">
+          General
+        </a>
+      {% endif %}
+  </div>
+{% endfor %}

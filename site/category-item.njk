@@ -1,0 +1,15 @@
+---
+pagination:
+  data: metadata.categories
+  size: 1
+  alias: category
+  addAllPagesToCollections: false
+layout: layouts/page.njk
+eleventyExcludeFromCollections: true
+permalink: /categories/{{ category | slug }}/
+---
+
+<h1 class="text-capitalize">{{category}}</h1>
+
+{% set postslist = collections[ category ] %}
+{% include "partials/postslist.njk" %}
