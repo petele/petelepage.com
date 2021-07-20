@@ -25,7 +25,7 @@
     "email": "pete.lepage@pobox.com",
     "url": "https://petelepage.com/"
   },
-  "license": "Apache2.0",
+  "license": "Apache-2.0",
   "homepage": "https://petelepage.com/",
   "devDependencies": {
     "@11ty/eleventy": "^0.12.1",
