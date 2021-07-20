@@ -1,4 +1,5 @@
 !/.*
 dist/*
 gulp-tasks/sass.js
+gulp-tasks/clean.js
 tools/linting/*.js

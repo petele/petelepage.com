@@ -5,7 +5,7 @@
   "scripts": {
     "build": "npm-run-all clean gulp eleventy",
     "build:prod": "NODE_ENV=production npm-run-all clean gulp eleventy",
-    "clean": "rimraf dist && rm site/css/main.css && rm site/css/main.css.map",
+    "clean": "gulp clean",
     "dev": "npm-run-all clean gulp --parallel --race gulp:watch eleventy:serve",
     "gulp": "gulp",
     "gulp:watch": "gulp watch",
