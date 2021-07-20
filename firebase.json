@@ -11,6 +11,10 @@
         "source": "/blog/",
         "destination": "/",
         "type": 301
+      }, {
+        "source": "/about/biography/",
+        "destination": "/about/",
+        "type": 301
       }
     ]
   }
