@@ -2,16 +2,16 @@
 
 {% block head %}
   <script type="application/ld+json">
-  {
-    "@context": "http://schema.org",
-    "@type": "NewsArticle",
-    "author": {
-      "@type": "Person",
-      "name": "{{ metadata.author.name }}"
-    },
-    "headline": "{{ title }}",
-    "datePublished": "{{ page.date | dtAsISO }}",
-  }
+    {
+      "@context": "http://schema.org",
+      "@type": "NewsArticle",
+      "author": {
+        "@type": "Person",
+        "name": "{{ metadata.author.name }}"
+      },
+      "headline": "{{ title }}",
+      "datePublished": "{{ page.date | dtAsISO }}"
+    }
   </script>
   <meta name="twitter:title" content="{{ title }}">
   <link rel="preconnect" href="https://platform.twitter.com/" crossorigin="">
