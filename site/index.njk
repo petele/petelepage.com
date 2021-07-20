@@ -20,12 +20,14 @@ eleventyNavigation:
       </h2>
       <p class="blog-post-meta">
         <span class="text-secondary">By</span>
-        <a href="/about/">Pete LePage</a> <span class="text-muted">/</span>
+        <a href="/about/">{{ metadata.author.name }}</a>
+        &nbsp;<span class="text-muted">|</span>&nbsp;
         <span class="text-secondary">On</span>
         <a href="{{post.url}}">
           <time datetime="{{ post.date | htmlDateString }}">
             {{ post.date | readableDate }}
-          </time></a> <span class="text-muted">/</span>
+          </time></a>
+        &nbsp;<span class="text-muted">|</span>&nbsp;
         <span class="text-secondary">In</span>
         {% if post.data.category %}
           <a href="/categories/{{post.data.category | slug}}">
@@ -37,7 +39,6 @@ eleventyNavigation:
           </a>
         {% endif %}
       </p>
-
 
       {% if post.data.page.excerpt %}
         {{ post.data.page.excerpt | toHTML | safe }}

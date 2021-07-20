@@ -5,6 +5,13 @@
       "firebase.json",
       "**/.*",
       "**/node_modules/**"
+    ],
+    "trailingSlash": true,
+    "redirects": [{
+        "source": "/blog/",
+        "destination": "/",
+        "type": 301
+      }
     ]
   }
 }
