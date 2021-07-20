@@ -121,9 +121,9 @@
       result = 'failed';
       console.log('Share failed', ex);
     }
-    gtag('event', 'share', {
-      'event_category': result,
-      'event_label': '{{ post.url }}'
+    gtag('event', result, {
+      event_category: 'share',
+      event_label: '{{ post.url }}'
     });
   }
 
