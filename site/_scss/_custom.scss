@@ -142,26 +142,28 @@ h1, h2, h3, h4, h5, h6 {
  * Side bar
  */
 .sidebar {
+  @include media-breakpoint-down(md) {
+    display: none;
+  }
+
   a {
+    color: $body-color;
     text-decoration: none;
 
     &:hover {
-      text-decoration: underline;
-      text-decoration-color: $contrast;
+      color: $contrast;
+    }
+  }
+
+  .around-the-web {
+    svg {
+      width: 18px;
     }
   }
 
   .recent-posts {
     .recent-post-date {
       font-size: 0.8em;
-    }
-  }
-
-  @include media-breakpoint-down(md) {
-    .my-links,
-    .recent-posts,
-    .category-list {
-      display: none;
     }
   }
 }
