@@ -1,11 +1,27 @@
-name: Lint all files on PR
+name: Lint and test
 
-'on': pull_request
+# By default, runs when a pull request is opened, synchronized, or reopened.
+on: pull_request
 
 jobs:
   lint_and_test:
-    if: '${{ github.event.pull_request.head.repo.full_name == github.repository }}'
+    name: Lint and test
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
-      - run: npm ci && npm run lint
+      - name: Checkout
+        uses: actions/checkout@v2
+      - name: Setup node
+        uses: actions/setup-node@v1
+        with:
+          node-version: '14.x'
+      - name: Cache node_modules
+        uses: actions/cache@v1
+        with:
+          path: ~/.npm
+          key: ${{ runner.os }}-node-${{ hashFiles('**/package-lock.json') }}
+          restore-keys: |
+            ${{ runner.os }}-node-
+      - name: Install
+        run: npm ci
+      - name: Lint Files
+        run: npm run lint

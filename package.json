@@ -4,7 +4,8 @@
   "description": "My Blog",
   "scripts": {
     "build": "npm-run-all clean gulp eleventy",
-    "clean": "rimraf dist",
+    "build:prod": "NODE_ENV=production npm-run-all clean gulp eleventy",
+    "clean": "gulp clean",
     "dev": "npm-run-all clean gulp --parallel --race gulp:watch eleventy:serve",
     "gulp": "gulp",
     "gulp:watch": "gulp watch",
