@@ -45,7 +45,7 @@ eleventyExcludeFromCollections: true
       // is offline or misbehaving.
       async function checkNetworkAndReload() {
         try {
-          const response = await fetch('.');
+          const response = await fetch('/manifest.json?v=1');
           console.log('resp', response);
           // Verify we get a valid response from the server
           if (response.status >= 200 && response.status < 500) {
