@@ -9,8 +9,15 @@
         "@type": "Person",
         "name": "{{ metadata.author.name }}"
       },
+      "publisher": {
+        "@type": "Organization",
+        "name": "{{ metadata.author.name }}",
+        "logo": "/img/h5g-sq-512.png"
+      },
       "headline": "{{ title }}",
-      "datePublished": "{{ page.date | dtAsISO }}"
+      "datePublished": "{{ page.date | dtAsISO }}",
+      "mainEntityOfPage": "{{ metadata.url }}",
+      "image": "{% if image %}{{ image | url }}{% else %}/img/h5g-sq-512.png{% endif %}"
     }
   </script>
   <meta name="twitter:title" content="{{ title }}">
