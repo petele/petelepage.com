@@ -193,6 +193,11 @@ h1, h2, h3, h4, h5, h6 {
   background-color: $md-gray-100;
   border-top: .05rem solid $md-gray-300;
 
+  a {
+    // Darker for contrast compliance
+    color: #0c67ed;
+  }
+
   p:last-child {
     margin-bottom: 0;
   }
