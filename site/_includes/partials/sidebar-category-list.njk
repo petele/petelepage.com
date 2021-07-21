@@ -1,5 +1,5 @@
 <div class="p-2 mb-2 category-list">
-  <h4>Categories</h4>
+  <h2 class="h4">Categories</h2>
   <ol class="list-unstyled">
   {% for category in metadata.categories | sort %}
     {% set categoryUrl %}/categories/{{ category | slug }}/{% endset %}

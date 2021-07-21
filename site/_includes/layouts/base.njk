@@ -27,7 +27,6 @@
     {% block last_script %}
     {% endblock %}
 
-    {#
     <script>
       if ('serviceWorker' in navigator) {
         window.addEventListener('load', function() {
@@ -35,8 +34,8 @@
         });
       }
     </script>
-    #}
 
+    {#
     <script>
       if ('serviceWorker' in navigator) {
         navigator.serviceWorker.getRegistrations()
@@ -47,6 +46,8 @@
           });
       }
     </script>
+    #}
+
     <!-- Built on {{ 'x' | dtNowISO }} -->
   </body>
 </html>
