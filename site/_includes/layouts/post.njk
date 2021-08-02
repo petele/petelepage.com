@@ -32,7 +32,7 @@
     <h2 class="blog-post-title">{{ title }}</h2>
     <p class="blog-post-meta mb-1">
       <span class="text-secondary">By</span>
-      <a href="/about/">{{ metadata.author.name }}</a> <span class="text-muted">/</span>
+      <a href="/about/" rel="author">{{ metadata.author.name }}</a> <span class="text-muted">/</span>
       <span class="text-secondary">On</span>
       <a href="{{post.url}}">
         <time datetime="{{ page.date | htmlDateString }}">
@@ -53,7 +53,7 @@
       <span class="text-secondary hidden">Tagged </span>
       {%- for tag in tags | filterTagList -%}
         {%- set tagUrl %}/tags/{{ tag | slug }}/{% endset -%}
-        <a class="me-1" href="{{ tagUrl | url }}"><span class="badge rounded-pill bg-secondary">{{ tag }}</span></a>
+        <a class="me-1" href="{{ tagUrl | url }}" rel="tag"><span class="badge rounded-pill bg-secondary">{{ tag }}</span></a>
       {%- endfor %}
     </p>
 
@@ -65,7 +65,6 @@
       <a class="twitter-share-button btn"
         href="https://twitter.com/intent/tweet?text=Hello%20world"
         data-size="large">Tweet</a>
-
     </div>
 
     {%- set nextPost = collections.posts | getNextCollectionItem(page) %}
@@ -77,7 +76,7 @@
         {%- if nextPost %}
           <div>Next</div>
           <div>
-            <a href="{{ nextPost.url | url }}">{{ nextPost.data.title }}</a>
+            <a href="{{ nextPost.url | url }}" rel="next">{{ nextPost.data.title }}</a>
           </div>
         {% endif %}
       </div>
@@ -85,13 +84,12 @@
         {%- if previousPost %}
           <div>Previous</div>
           <div>
-            <a href="{{ previousPost.url | url }}">{{ previousPost.data.title }}</a>
+            <a href="{{ previousPost.url | url }}" rel="prev">{{ previousPost.data.title }}</a>
           </div>
         {% endif %}
       </div>
     </div>
     {% endif %}
-
   </article>
 
 {% endblock %}
