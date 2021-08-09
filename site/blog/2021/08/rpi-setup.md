@@ -13,6 +13,8 @@ layout: layouts/post.njk
 I recently had to create a new Raspberry Pi image, and thankfully you can now
 do it without the need to ever plug the Pi into a keyboard or monitor!
 
+<!--more-->
+
 ## Create & configure the SD card
 
 1. Use the [Raspberry Pi Imager][imager] to create a _Raspberry Pi OS Lite_
