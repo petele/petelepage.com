@@ -15,6 +15,10 @@
         "source": "/about/biography/",
         "destination": "/about/",
         "type": 301
+      }, {
+        "source": "/blog/2013/08/raspberry-pi-quick-start/",
+        "destination": "/blog/2021/08/rpi-setup/",
+        "type": 301
       }
     ]
   }
