@@ -12,6 +12,14 @@
         "destination": "/",
         "type": 301
       }, {
+        "source": "/blog",
+        "destination": "/",
+        "type": 301
+      }, {
+        "source": "/blog/index.php",
+        "destination": "/",
+        "type": 301
+      }, {
         "source": "/about/biography/",
         "destination": "/about/",
         "type": 301
