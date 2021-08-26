@@ -136,7 +136,6 @@ Currently, the only consistent way to specify the viewport for a page is via the
 
 ## Additional Resources
 
-*   [http://dev.opera.com/articles/view/an-introduction-to-meta-viewport-and-viewport/](http://dev.opera.com/articles/view/an-introduction-to-meta-viewport-and-viewport/)
-*   [http://developer.apple.com/library/safari/#documentation/appleapplications/reference/safariwebcontent/usingtheviewport/usingtheviewport.html](http://developer.apple.com/library/safari/#documentation/appleapplications/reference/safariwebcontent/usingtheviewport/usingtheviewport.html)
-*   [https://developer.mozilla.org/en-US/docs/Mobile/Viewport_meta_tag](https://developer.mozilla.org/en-US/docs/Mobile/Viewport_meta_tag)
-*   [http://www.quirksmode.org/mobile/viewports.html](http://www.quirksmode.org/mobile/viewports.html)
+*   [An Introduction to Meta Viewport and @viewport](https://dev.opera.com/articles/view/an-introduction-to-meta-viewport-and-viewport/)
+*   [MDN Viewport Concepts](https://developer.mozilla.org/en-US/docs/Web/CSS/Viewport_concepts)
+*   [A tale of two viewports](https://www.quirksmode.org/mobile/viewports.html)
