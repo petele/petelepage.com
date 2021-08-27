@@ -11,6 +11,7 @@ const isProduction = process.env.NODE_ENV === 'production';
 // Techincally we're rendering synchronously so we don't need an async function,
 // but gulp requires all tasks to return a promise.
 const sass = async () => {
+  const outputStyle = isProduction ? 'compressed' : 'expanded';
   // nb. No need to catch errors because gulp handles that for us and logs them.
   const result = sassProcessor.renderSync({
     file: src,
@@ -20,6 +21,7 @@ const sass = async () => {
     // to the source map, and from the source map to the Sass source files.
     outFile: dest,
     sourceMap: !isProduction,
+    outputStyle: outputStyle,
     includePaths: ['.', 'node_modules'],
   });
 
