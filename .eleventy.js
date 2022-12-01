@@ -25,6 +25,7 @@ module.exports = function(eleventyConfig) {
   // Alias `layout: post` to `layout: layouts/post.njk`
   eleventyConfig.addLayoutAlias('post', 'layouts/post.njk');
   eleventyConfig.addLayoutAlias('page', 'layouts/page.njk');
+  eleventyConfig.addLayoutAlias('tweet', 'layouts/tweet.njk');
 
   eleventyConfig.setFrontMatterParsingOptions({
     excerpt: true,
@@ -52,7 +53,7 @@ module.exports = function(eleventyConfig) {
 
   // Filter tag list to remove ignored tags.
   function filterTagList(tags) {
-    const ignoredTags = ['all', 'nav', 'post', 'posts', 'page'];
+    const ignoredTags = ['all', 'nav', 'post', 'posts', 'page', 'xtweet'];
     const result = (tags || [])
         .filter((tag) => ignoredTags.indexOf(tag) === -1);
     return result;
@@ -66,6 +67,14 @@ module.exports = function(eleventyConfig) {
       (item.data.tags || []).forEach((tag) => tagSet.add(tag));
     });
     return filterTagList([...tagSet]);
+  });
+
+  // twitter
+  eleventyConfig.addCollection('tweets', function(collection) {
+    return collection.getAllSorted().filter((item) => {
+      const itemCategory = item.data.category;
+      return itemCategory && itemCategory.toLowerCase() === 'twitter';
+    });
   });
 
   // Create a collection for each category

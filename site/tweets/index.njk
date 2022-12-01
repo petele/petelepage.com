@@ -1,0 +1,82 @@
+---
+pagination:
+  data: collections.tweets
+  size: 125
+  alias: posts
+  reverse: true
+layout: layouts/base.njk
+permalink: "{% if pagination.pageNumber == 0 %}/tweets/index.html{% else %}/tweets/{{ pagination.pageNumber }}/{% endif %}"
+tags: page
+eleventyNavigation:
+  key: Tweets
+  order: 1
+---
+<style>
+  .blog-post img {
+    max-width: 100%;
+  }
+</style>
+
+{%- for post in posts %}
+
+  <article class="blog-post">
+      <p class="blog-post-meta">
+        <span class="text-secondary">By</span>
+        <a href="/about/" rel="author">{{ metadata.author.name }}</a>
+        &nbsp;<span class="text-muted">|</span>&nbsp;
+        <span class="text-secondary">On</span>
+        <a href="{{post.url}}">
+          <time datetime="{{ post.date | htmlDateString }}">
+            {{ post.date | readableDate }}
+          </time></a>
+        &nbsp;<span class="text-muted">|</span>&nbsp;
+        <span class="text-secondary">In</span>
+        <a href="/tweets/">
+          Tweets
+        </a>
+        <br>
+        <span class="text-secondary hidden">Tagged </span>
+        {% if post.data.is_reply %}
+          <a class="me-1" href="https://twitter.com/{{ post.data.in_reply_to_user }}/status/{{ post.data.in_reply_to_id }}"><span class="badge rounded-pill bg-primary">Reply</span></a>
+        {% endif %}
+        {% if post.data.is_retweet %}
+          <span class="badge rounded-pill bg-primary">Retweet</span>
+        {% endif %}
+        {%- for tag in post.data.hashtags -%}
+          <span class="badge rounded-pill bg-secondary">#{{ tag }}</span>&nbsp;
+        {%- endfor %}
+    </p>
+
+      {{ post.templateContent | toHTML | safe }}
+
+      <p class="blog-post-meta">
+        <span class="text-secondary">Retweets</span>
+        {{ post.data.retweet_count }}
+        &nbsp;<span class="text-muted">|</span>&nbsp;
+        <span class="text-secondary">Favorites</span>
+        {{ post.data.favorite_count }}
+      </p>
+    </article>
+
+{%- endfor %}
+
+{%- set urlOlder = pagination.href.next %}
+{%- set urlNewer = pagination.href.previous %}
+{%- if urlOlder or urlNewer %}
+<div class="row mb-4 bottom-nav-pagination">
+  <div class="col">
+    {%- if urlNewer %}
+      <div>
+        <a href="{{ urlNewer | url }}" rel="next">&laquo; Forward</a>
+      </div>
+    {% endif %}
+  </div>
+  <div class="col text-end">
+    {%- if urlOlder %}
+      <div>
+        <a href="{{ urlOlder | url }}" rel="prev">Back &raquo;</a>
+      </div>
+    {% endif %}
+  </div>
+</div>
+{% endif %}
