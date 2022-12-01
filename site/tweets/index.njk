@@ -11,16 +11,11 @@ eleventyNavigation:
   key: Tweets
   order: 1
 ---
-<style>
-  .blog-post img {
-    max-width: 100%;
-  }
-</style>
 
 {%- for post in posts %}
 
   <article class="blog-post">
-      <p class="blog-post-meta">
+      <p class="blog-post-meta mb-1">
         <span class="text-secondary">By</span>
         <a href="/about/" rel="author">{{ metadata.author.name }}</a>
         &nbsp;<span class="text-muted">|</span>&nbsp;
@@ -32,9 +27,10 @@ eleventyNavigation:
         &nbsp;<span class="text-muted">|</span>&nbsp;
         <span class="text-secondary">In</span>
         <a href="/tweets/">
-          Tweets
+          Archived Tweets
         </a>
-        <br>
+      </p>
+      <p class="blog-post-meta">
         <span class="text-secondary hidden">Tagged </span>
         {% if post.data.is_reply %}
           <a class="me-1" href="https://twitter.com/{{ post.data.in_reply_to_user }}/status/{{ post.data.in_reply_to_id }}"><span class="badge rounded-pill bg-primary">Reply</span></a>
@@ -45,7 +41,7 @@ eleventyNavigation:
         {%- for tag in post.data.hashtags -%}
           <span class="badge rounded-pill bg-secondary">#{{ tag }}</span>&nbsp;
         {%- endfor %}
-    </p>
+      </p>
 
       {{ post.templateContent | toHTML | safe }}
 
