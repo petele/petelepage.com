@@ -32,7 +32,7 @@ something he shot with a film camera!  He has studied and taught at the
 prestigious [Photographic Center Northwest](https://pcnw.org/) in Seattle where he completed his [Thesis in Fine Art Photography](https://bbpphoto.com).
 
 Pete keeps an irregular blog at [https://PeteLePage.com](https://petelepage.com/)
-and can be found occasionally on Twitter at [@petele](http://twitter.com/petele)
+and can be found occasionally on Mastadon at [@petele@techhub.social](https://techhub.social/@petele)
 
 ## Bonus
 
