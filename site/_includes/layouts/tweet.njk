@@ -14,72 +14,77 @@
         "name": "{{ metadata.author.name }}",
         "logo": "/img/h5g-sq-512.png"
       },
-      "headline": "{{ title }}",
+      "headline": "{{ content | excerpt }}",
       "datePublished": "{{ page.date | dtAsISO }}",
       "mainEntityOfPage": "{{ metadata.url }}",
       "image": "{% if image %}{{ image | url }}{% else %}/img/h5g-sq-512.png{% endif %}"
     }
   </script>
-  <meta name="twitter:title" content="{{ title }}">
+  <meta name="twitter:title" content="{{ content | excerpt }}">
 
 {% endblock %}
 
 {% block content %}
 
   <article class="blog-post">
-    <h2 class="blog-post-title">{{ title }}</h2>
     <p class="blog-post-meta mb-1">
       <span class="text-secondary">By</span>
-      <a href="/about/" rel="author">{{ metadata.author.name }}</a> <span class="text-muted">/</span>
+      <a href="/about/" rel="author">{{ metadata.author.name }}</a>
+      &nbsp;<span class="text-muted">|</span>&nbsp;
       <span class="text-secondary">On</span>
       <a href="{{page.url}}">
         <time datetime="{{ page.date | htmlDateString }}">
           {{ page.date | readableDate }}
-        </time></a> <span class="text-muted">/</span>
+        </time></a>
+      &nbsp;<span class="text-muted">|</span>&nbsp;
       <span class="text-secondary">In</span>
-      {% if category %}
-        <a href="/categories/{{category | slug}}">
-          {{category}}
-        </a>
-      {% else %}
-        <a href="/categories/general/">
-          General
-        </a>
-      {% endif %}
+      <a href="/tweets/">
+        Archived Tweets
+      </a>
     </p>
     <p class="blog-post-meta">
       <span class="text-secondary hidden">Tagged </span>
-      {%- for tag in tags | filterTagList -%}
-        {%- set tagUrl %}/tags/{{ tag | slug }}/{% endset -%}
-        <a class="me-1" href="{{ tagUrl | url }}" rel="tag"><span class="badge rounded-pill bg-secondary">{{ tag }}</span></a>
+      {% if is_reply %}
+        <a class="me-1" href="https://twitter.com/{{ in_reply_to_user }}/status/{{ in_reply_to_id }}"><span class="badge rounded-pill bg-primary">Reply</span></a>
+      {% endif %}
+      {% if is_retweet %}
+        <span class="badge rounded-pill bg-primary">Retweet</span>
+      {% endif %}
+      {%- for tag in hashtags -%}
+        <span class="badge rounded-pill bg-secondary">#{{ tag }}</span>&nbsp;
       {%- endfor %}
     </p>
 
     {{ content | safe }}
 
+    <p class="blog-post-meta">
+      <span class="text-secondary">Retweets</span>
+      {{ retweet_count }}
+      &nbsp;<span class="text-muted">|</span>&nbsp;
+      <span class="text-secondary">Favorites</span>
+      {{ favorite_count }}
+    </p>
+
     <div class="share-this-container hidden" id="web-share-container">
-      <h3>Share this</h3>
       <button class="btn btn-primary btn-sm align-top" id="web-share-button">Share</button>
     </div>
 
-    {%- set nextPost = collections.posts | getNextCollectionItem(page) %}
-    {%- set previousPost = collections.posts | getPreviousCollectionItem(page) %}
+    {%- set nextPost = collections.tweets | getNextCollectionItem(page) %}
+    {%- set previousPost = collections.tweets | getPreviousCollectionItem(page) %}
     {%- if nextPost or previousPost %}
     <hr class="mt-4">
     <div class="row post-pagination-container">
       <div class="col">
         {%- if nextPost %}
-          <div>Next</div>
           <div>
-            <a href="{{ nextPost.url | url }}" rel="next">{{ nextPost.data.title }}</a>
+            <a href="{{ nextPost.url | url }}" rel="next">Next</a>
           </div>
         {% endif %}
       </div>
       <div class="col text-end">
         {%- if previousPost %}
-          <div>Previous</div>
           <div>
-            <a href="{{ previousPost.url | url }}" rel="prev">{{ previousPost.data.title }}</a>
+            <a href="{{ previousPost.url | url }}" rel="prev">Previous</a>
           </div>
         {% endif %}
       </div>
@@ -95,8 +100,8 @@
     let result = 'success';
     try {
       const opts = {
-        title: "{{ title }}",
-        url: "{{ post.url }}"
+        title: "{{ content | excerpt }}",
+        url: window.location.toString(),
       };
       await navigator.share(opts);
       console.log('Shared');
@@ -106,7 +111,7 @@
     }
     gtag('event', result, {
       event_category: 'share',
-      event_label: '{{ post.url }}'
+      event_label: '{{ page.url }}'
     });
   }
 
