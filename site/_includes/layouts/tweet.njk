@@ -21,8 +21,6 @@
     }
   </script>
   <meta name="twitter:title" content="{{ title }}">
-  <link rel="preconnect" href="https://platform.twitter.com/" crossorigin="">
-  <link rel="preconnect" href="https://syndication.twitter.com/" crossorigin="">
 
 {% endblock %}
 
@@ -59,12 +57,9 @@
 
     {{ content | safe }}
 
-    <div class="share-this-container">
+    <div class="share-this-container hidden" id="web-share-container">
       <h3>Share this</h3>
-      <button class="btn btn-primary btn-sm align-top hidden" id="web-share">Share</button>
-      <a class="twitter-share-button btn"
-        href="https://twitter.com/intent/tweet?text=Hello%20world"
-        data-size="large">Tweet</a>
+      <button class="btn btn-primary btn-sm align-top" id="web-share-button">Share</button>
     </div>
 
     {%- set nextPost = collections.posts | getNextCollectionItem(page) %}
@@ -95,23 +90,6 @@
 {% endblock %}
 
 {% block last_script %}
-<script>window.twttr = (function(d, s, id) {
-  var js, fjs = d.getElementsByTagName(s)[0],
-    t = window.twttr || {};
-  if (d.getElementById(id)) return t;
-  js = d.createElement(s);
-  js.id = id;
-  js.src = "https://platform.twitter.com/widgets.js";
-  fjs.parentNode.insertBefore(js, fjs);
-
-  t._e = [];
-  t.ready = function(f) {
-    t._e.push(f);
-  };
-
-  return t;
-}(document, "script", "twitter-wjs"));</script>
-
 <script>
   async function onWebShare() {
     let result = 'success';
@@ -133,9 +111,10 @@
   }
 
   if (navigator.share) {
-    const shareButton = document.getElementById('web-share');
-    shareButton.classList.remove('hidden');
+    const shareButton = document.getElementById('web-share-button');
     shareButton.addEventListener('click', onWebShare);
+    const shareContainer = document.getElementById('web-share-container');
+    shareContainer.classList.remove('hidden');
   }
 </script>
 {% endblock %}
