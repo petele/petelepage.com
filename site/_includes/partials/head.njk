@@ -1,4 +1,5 @@
 <meta charset="utf-8">
+{% if meta_noindex %}<meta name="robots" content="noindex">{% endif %}
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="description" content="{% if content %}{{ content | excerpt | safe }}{% else %}{{ metadata.tagline }}{% endif %}">
 <title>{{ title + ' | ' if title }}{{ metadata.title }}</title>
