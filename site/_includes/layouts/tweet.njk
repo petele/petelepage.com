@@ -65,6 +65,17 @@
       {{ favorite_count }}
     </p>
 
+    <p class="blog-post-meta">
+      <span class="text-secondary">
+        This was a Tweet posted on Twitter, but has since been deleted from
+        that site and archived here for posterity.
+        {% if is_retweet %}
+        Content from re-tweets is not complete, and I haven't found a way to
+        improve that experience. Sorry.
+        {% endif %}
+      </span>
+    </p>
+
     <div class="share-this-container hidden" id="web-share-container">
       <button class="btn btn-primary btn-sm align-top" id="web-share-button">Share</button>
     </div>
