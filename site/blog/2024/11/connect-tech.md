@@ -2,11 +2,16 @@
 title: Slides from connect.tech
 date: 2024-11-20
 category: web development
-
 layout: layouts/post.njk
 ---
 
-Baseline ✅ - New web features ready to use across browsers today.
+Here are the slides from my presentation on
+[Baseline](https://web-platform-dx.github.io/web-features/) at
+[connect.tech](https://2024.connect.tech/) in Atlanta this week.
+
+<!--more-->
+
+## Baseline ✅ - New web features ready to use across browsers today.
 
 Knowing what new features and APIs you can safely use can be a challenge,
 will it work in the browsers you need to support? Baseline helps with that,
@@ -27,4 +32,4 @@ easier than ever to know whether a feature is ready to use.
 
 [Slides](https://docs.google.com/presentation/d/1ZwoyuZaxZ7pBKm-8h4Fb53wB3xGVgIKdyo6ihDmJMdw/preview)
 
-Presented at [connect.tech](https://connect.tech) November 20, 2024.
+Presented at [connect.tech](https://2024.connect.tech) November 20, 2024.
