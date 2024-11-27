@@ -1,0 +1,12 @@
+---
+title: Dive Sites
+layout: layouts/post.njk
+---
+
+# Dive Sites
+
+<ol>
+  {% for site in diveSites.Data %}
+  <li><a href="{{site.Data.name | slugify}}.html">{{ site.Data.name }}</a><li>
+  {% endfor %}
+</ol>

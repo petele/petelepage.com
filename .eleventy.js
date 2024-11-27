@@ -60,6 +60,12 @@ module.exports = function(eleventyConfig) {
   }
   eleventyConfig.addFilter('filterTagList', filterTagList);
 
+  // Stringify
+  function jsonStringify(obj) {
+    return JSON.stringify(obj, null, 2);
+  }
+  eleventyConfig.addFilter('stringify', jsonStringify);
+
   // Create an array of all tags
   eleventyConfig.addCollection('tagList', function(collection) {
     const tagSet = new Set();

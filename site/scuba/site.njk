@@ -1,0 +1,32 @@
+---
+pagination:
+  data: diveSites.Data
+  size: 1
+  alias: diveSite
+layout: layouts/post.njk
+permalink: "scuba/{{ diveSite.Data.name | slugify }}.html"
+eleventyComputed:
+  title: "{{ diveSite.Data.name }}"
+---
+
+{% set site = diveSite.Data %}
+
+<h1>{{ site.name }}</h1>
+
+{% if site.waterName %}
+<div><b>Location:</b> {{ site.waterName }}</div>
+{% endif %}
+{% if site.maxDepth %}
+<div><b>Max Depth:</b> {{ site.maxDepth}}m</div>
+{% endif %}
+{% if site.altitude %}
+<div><b>Altitude:</b> {{ site.altitude}}</div>
+{% endif %}
+
+{% if site.comments %}
+<p>{{ site.comments }}</p>
+{% endif %}
+
+<!--
+{{ diveSite | stringify | safe }}
+-->
