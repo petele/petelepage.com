@@ -18,39 +18,41 @@ eleventyComputed:
 <img src="data:image/jpeg;base64,{{site.photo}}" />
 {% endif %}
 
+<p>
 {% if site.waterName %}
-<div><b>Body of Water:</b> {{ site.waterName }}</div>
+<b>Body of Water:</b> {{ site.waterName }}<br>
 {% endif %}
 {% if site.maxDepth %}
-<div><b>Max Depth:</b> {{ site.maxDepth | round }}m</div>
+<b>Max Depth:</b> {{ site.maxDepth | round }}m<br>
 {% endif %}
 {% if site.altitude %}
-<div><b>Altitude:</b> {{ site.altitude }}</div>
+<b>Altitude:</b> {{ site.altitude }}<br>
 {% endif %}
 {% if site.difficulty %}
-<div><b>Difficulty:</b> {{ site.difficulty }}</div>
+<b>Difficulty:</b> {{ site.difficulty }}<br>
 {% endif %}
 {% if site.rating %}
-<div><b>Rating:</b> {{ site.rating }}</div>
+<b>Rating:</b> {{ site.rating }}<br>
 {% endif %}
+</p>
 
 {% if site.gpsLocation %}
-<div>
+<p>
   <b>GPS Coordinates</b><br>
   <b>Lat:</b> {{ site.gpsLocation.latitude | round(6) }}<br>
   <b>Lon:</b> {{ site.gpsLocation.longitude | round(6) }}<br>
   <a href="https://www.google.com/maps/search/?api=1&query={{ site.gpsLocation.latitude }},{{ site.gpsLocation.longitude }}" target="_blank">
     View on Google Maps
   </a>
-</div>
+</p>
 {% endif %}
 
 {% if site.comments %}
-<p>{{ site.comments }}</p>
+  <p>{{ site.comments }}</p>
 {% endif %}
 
 <p>
-<a id="dlJSON">Download DiveLog DiveExchange file</a>
+  <a id="dlJSON">Download DiveLog DiveExchange file</a>
 </p>
 
 <script>
@@ -59,14 +61,10 @@ eleventyComputed:
     "Version": 1,
     "FileType": "DiveLogExchange",
     "Program": "DiveLog",
-    "Data": {{ diveSite | stringify | safe }},
+    "Data": [{{ diveSite | stringify | safe }}],
   };
   const siteString = JSON.stringify(siteJSON);
   const blob = new Blob([siteString], {type: "application/json"});
   elem.href = URL.createObjectURL(blob);
-  elem.download = "site.json";
+  elem.download = "{{ site.name | slugify }}.json";
 </script>
-
-<!--
-{{ diveSite | stringify | safe }}
--->
