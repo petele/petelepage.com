@@ -67,7 +67,7 @@ eleventyComputed:
       }
     ]
   };
-  const filename = "{{ site.name | slugify }}.json";
+  const filename = "{{ site.name | slugify }}.dlexch";
   const siteString = JSON.stringify(siteJSON);
   const blob = new Blob([siteString], {type: "application/json"});
   blob.name = filename;
