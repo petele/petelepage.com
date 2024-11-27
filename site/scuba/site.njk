@@ -22,7 +22,7 @@ eleventyComputed:
 <div><b>Body of Water:</b> {{ site.waterName }}</div>
 {% endif %}
 {% if site.maxDepth %}
-<div><b>Max Depth:</b> {{ site.maxDepth }}m</div>
+<div><b>Max Depth:</b> {{ site.maxDepth | round }}m</div>
 {% endif %}
 {% if site.altitude %}
 <div><b>Altitude:</b> {{ site.altitude }}</div>
@@ -35,10 +35,13 @@ eleventyComputed:
 {% endif %}
 
 {% if site.gpsLocation %}
-<div><b>Lat:</b> {{ site.gpsLocation.latitude }}</div>
-<div><b>Lon:</b> {{ site.gpsLocation.longitude }}</div>
 <div>
-  <a href="https://www.google.com/maps/search/?api=1&query={{ site.gpsLocation.latitude }},{{ site.gpsLocation.longitude }}" target="_blank">Map it</a>
+  <b>GPS Coordinates</b><br>
+  <b>Lat:</b> {{ site.gpsLocation.latitude | round(6) }}<br>
+  <b>Lon:</b> {{ site.gpsLocation.longitude | round(6) }}<br>
+  <a href="https://www.google.com/maps/search/?api=1&query={{ site.gpsLocation.latitude }},{{ site.gpsLocation.longitude }}" target="_blank">
+    View on Google Maps
+  </a>
 </div>
 {% endif %}
 
