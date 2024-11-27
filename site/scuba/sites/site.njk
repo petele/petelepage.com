@@ -20,7 +20,13 @@ eleventyComputed:
 
 <p>
 {% if site.waterName %}
-<b>Body of Water:</b> {{ site.waterName }}<br>
+
+  <b>Body of Water:</b>
+  {% if site.gpsLocation %}
+    <a href="https://www.google.com/maps/search/?api=1&query={{ site.gpsLocation.latitude }},{{ site.gpsLocation.longitude }}" target="_blank">{{ site.waterName }}</a>
+  {% else %}
+    {{ site.waterName }}
+  {% endif %}<br>
 {% endif %}
 {% if site.maxDepth %}
 <b>Max Depth:</b> {{ site.maxDepth | round }}m<br>
@@ -40,10 +46,7 @@ eleventyComputed:
 <p>
   <b>GPS Coordinates</b><br>
   <b>Lat:</b> {{ site.gpsLocation.latitude | round(6) }}<br>
-  <b>Lon:</b> {{ site.gpsLocation.longitude | round(6) }}<br>
-  <a href="https://www.google.com/maps/search/?api=1&query={{ site.gpsLocation.latitude }},{{ site.gpsLocation.longitude }}" target="_blank">
-    View on Google Maps
-  </a>
+  <b>Lon:</b> {{ site.gpsLocation.longitude | round(6) }}
 </p>
 {% endif %}
 
@@ -65,7 +68,7 @@ eleventyComputed:
   };
   console.log(siteJSON);
   const filename = "{{ site.name | slugify }}.dlexch";
-  const siteString = JSON.stringify(siteJSON);
+  const siteString = JSON.stringify(siteJSON, null, 2);
   const blob = new Blob([siteString], {type: "application/json"});
   blob.name = filename;
   elem.href = URL.createObjectURL(blob);

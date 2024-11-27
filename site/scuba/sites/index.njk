@@ -6,6 +6,11 @@ tags:
 category: Scuba
 ---
 
+<p>
+  Here's a list of sites I've been diving on. Where possible, I've
+  included info about the dive site, GPS coordinates, depth, and such.
+</p>
+
 <ul>
   {% for site in diveSites.Data | sort(false, true, 'Data.name') %}
   <li><a href="/scuba/sites/{{site.Data.name | slugify}}.html">{{ site.Data.name }}</a></li>
