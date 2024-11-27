@@ -14,8 +14,6 @@ eleventyComputed:
 
 {% set site = diveSite.Data %}
 
-<h1>{{ site.name }}</h1>
-
 {% if site.photo %}
 <img src="data:image/jpeg;base64,{{site.photo}}" />
 {% endif %}
