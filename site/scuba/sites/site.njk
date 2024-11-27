@@ -55,6 +55,11 @@ eleventyComputed:
   <a id="dlJSON">Download DiveLog DiveExchange file</a>
 </p>
 
+<p>
+  <a href="{{ pagination.href.previous }}">prev</a><br>
+  <a href="{{ pagination.href.next }}">next</a>
+</p>
+
 <script>
   const elem = document.getElementById("dlJSON");
   const siteJSON = {
@@ -63,8 +68,10 @@ eleventyComputed:
     "Program": "DiveLog",
     "Data": [{{ diveSite | stringify | safe }}],
   };
+  const filename = "{{ site.name | slugify }}.json";
   const siteString = JSON.stringify(siteJSON);
   const blob = new Blob([siteString], {type: "application/json"});
+  blob.name = filename;
   elem.href = URL.createObjectURL(blob);
-  elem.download = "{{ site.name | slugify }}.json";
+  elem.download = filename;
 </script>

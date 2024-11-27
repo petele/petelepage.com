@@ -6,8 +6,8 @@ tags:
 category: Scuba
 ---
 
-<ol>
-  {% for site in diveSites.Data %}
+<ul>
+  {% for site in diveSites.Data | sort(false, true, 'Data.name') %}
   <li><a href="/scuba/sites/{{site.Data.name | slugify}}.html">{{ site.Data.name }}</a></li>
   {% endfor %}
-</ol>
+</ul>
