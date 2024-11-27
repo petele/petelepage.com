@@ -61,12 +61,9 @@ eleventyComputed:
     "Version": 1,
     "FileType": "DiveLogExchange",
     "Program": "DiveLog",
-    "Data": [{
-        "ItemType" : "Place",
-        "Data": {{ diveSite | stringify | safe }}
-      }
-    ]
+    "Data": [{{ diveSite | stringify | safe }}]
   };
+  console.log(siteJSON);
   const filename = "{{ site.name | slugify }}.dlexch";
   const siteString = JSON.stringify(siteJSON);
   const blob = new Blob([siteString], {type: "application/json"});
