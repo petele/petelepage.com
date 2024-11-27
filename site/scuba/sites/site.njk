@@ -48,16 +48,11 @@ eleventyComputed:
 {% endif %}
 
 {% if site.comments %}
-  <p>{{ site.comments }}</p>
+  <p>{{ site.comments | htmlify | safe }}</p>
 {% endif %}
 
 <p>
-  <a id="dlJSON">Download DiveLog DiveExchange file</a>
-</p>
-
-<p>
-  <a href="{{ pagination.href.previous }}">prev</a><br>
-  <a href="{{ pagination.href.next }}">next</a>
+  <a id="dlJSON">Download DiveLog Exchange file</a>
 </p>
 
 <script>
@@ -66,7 +61,11 @@ eleventyComputed:
     "Version": 1,
     "FileType": "DiveLogExchange",
     "Program": "DiveLog",
-    "Data": [{{ diveSite | stringify | safe }}],
+    "Data": [{
+        "ItemType" : "Place",
+        "Data": {{ diveSite | stringify | safe }}
+      }
+    ]
   };
   const filename = "{{ site.name | slugify }}.json";
   const siteString = JSON.stringify(siteJSON);

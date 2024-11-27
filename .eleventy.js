@@ -66,6 +66,13 @@ module.exports = function(eleventyConfig) {
   }
   eleventyConfig.addFilter('stringify', jsonStringify);
 
+  // HTMLify
+  function htmlify(str) {
+    const result = str.replaceAll(/\n/gm, '<br>');
+    return result;
+  }
+  eleventyConfig.addFilter('htmlify', htmlify);
+
   // Create an array of all tags
   eleventyConfig.addCollection('tagList', function(collection) {
     const tagSet = new Set();
