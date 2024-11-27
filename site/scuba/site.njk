@@ -4,6 +4,9 @@ pagination:
   size: 1
   alias: diveSite
 layout: layouts/post.njk
+tags:
+  - dive site
+category: Scuba
 permalink: "scuba/{{ diveSite.Data.name | slugify }}.html"
 eleventyComputed:
   title: "{{ diveSite.Data.name }}"
@@ -13,19 +16,53 @@ eleventyComputed:
 
 <h1>{{ site.name }}</h1>
 
+{% if site.photo %}
+<img src="data:image/jpeg;base64,{{site.photo}}" />
+{% endif %}
+
 {% if site.waterName %}
-<div><b>Location:</b> {{ site.waterName }}</div>
+<div><b>Body of Water:</b> {{ site.waterName }}</div>
 {% endif %}
 {% if site.maxDepth %}
-<div><b>Max Depth:</b> {{ site.maxDepth}}m</div>
+<div><b>Max Depth:</b> {{ site.maxDepth }}m</div>
 {% endif %}
 {% if site.altitude %}
-<div><b>Altitude:</b> {{ site.altitude}}</div>
+<div><b>Altitude:</b> {{ site.altitude }}</div>
+{% endif %}
+{% if site.difficulty %}
+<div><b>Difficulty:</b> {{ site.difficulty }}</div>
+{% endif %}
+{% if site.rating %}
+<div><b>Rating:</b> {{ site.rating }}</div>
+{% endif %}
+
+{% if site.gpsLocation %}
+<div><b>Lat:</b> {{ site.gpsLocation.latitude }}</div>
+<div><b>Lon:</b> {{ site.gpsLocation.longitude }}</div>
+<div>
+  <a href="https://www.google.com/maps/search/?api=1&query={{ site.gpsLocation.latitude }},{{ site.gpsLocation.longitude }}" target="_blank">Map it</a>
+</div>
 {% endif %}
 
 {% if site.comments %}
 <p>{{ site.comments }}</p>
 {% endif %}
+
+<a id="dlJSON">download</a>
+
+<script>
+  const elem = document.getElementById("dlJSON");
+  const siteJSON = {
+    "Version": 1,
+    "FileType": "DiveLogExchange",
+    "Program": "DiveLog",
+    "Data": {{ diveSite | stringify | safe }},
+  };
+  const siteString = JSON.stringify(siteJSON);
+  const blob = new Blob([siteString], {type: "application/json"});
+  elem.href = URL.createObjectURL(blob);
+  elem.download = "site.json";
+</script>
 
 <!--
 {{ diveSite | stringify | safe }}
