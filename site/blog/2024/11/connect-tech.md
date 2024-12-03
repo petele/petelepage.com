@@ -11,7 +11,7 @@ Here are the slides from my presentation on
 
 <!--more-->
 
-## Baseline ✅ - New web features ready to use across browsers today.
+## Baseline ✅ - New web features ready to use across browsers today
 
 Knowing what new features and APIs you can safely use can be a challenge,
 will it work in the browsers you need to support? Baseline helps with that,
