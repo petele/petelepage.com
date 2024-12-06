@@ -2,6 +2,8 @@
 title: Slides from connect.tech
 date: 2024-11-20
 category: web development
+tags:
+  - conferences
 layout: layouts/post.njk
 ---
 
