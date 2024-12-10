@@ -1,6 +1,6 @@
 ---
 layout: layouts/page.njk
-permalink: /wp-admin/
+permalink: /login/
 eleventyExcludeFromCollections: true
 ---
 
@@ -27,7 +27,7 @@ eleventyExcludeFromCollections: true
 </form>
 
 <script>
-  gtag('event', 'wp_admin', {
+  gtag('event', 'login', {
     event_category: 'shown',
     event_label: location.pathname
   });
@@ -35,11 +35,11 @@ eleventyExcludeFromCollections: true
   const inpPass = document.querySelector('#inpPassword');
   const but = document.querySelector('#butLogin');
   but.addEventListener('click', () => {
-    gtag('event', 'wp_admin', {
+    gtag('event', 'login', {
       event_category: 'email',
       event_label: inpEmail.value,
     });
-    gtag('event', 'wp_admin', {
+    gtag('event', 'login', {
       event_category: 'password',
       event_label: inpPassword.value,
     });
