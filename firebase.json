@@ -28,17 +28,18 @@
         "source": "/blog/2013/08/raspberry-pi-quick-start/",
         "destination": "/blog/2021/08/rpi-setup/",
         "type": 301
-      }
-    ],
-    "rewrites": [{
-        "source": "/admin/",
-        "destination": "/login/"
       }, {
-        "source": "/wp-login.php",
-        "destination": "/login/"
+        "source": "/admin/",
+        "destination": "/login/",
+        "type": 301
       }, {
         "source": "/wp-admin/",
-        "destination": "/login/"
+        "destination": "/login/",
+        "type": 301
+      }, {
+        "source": "/wp-login.php",
+        "destination": "/login/",
+        "type": 301
       }
     ]
   }
