@@ -28,7 +28,7 @@
   "license": "Apache-2.0",
   "homepage": "https://petelepage.com/",
   "devDependencies": {
-    "@11ty/eleventy": "^1.0.2",
+    "@11ty/eleventy": "^3.0.0",
     "@11ty/eleventy-navigation": "^0.1.6",
     "@11ty/eleventy-plugin-rss": "^1.1.1",
     "@11ty/eleventy-plugin-syntaxhighlight": "^3.1.0",
@@ -57,9 +57,6 @@
     "remark-preset-lint-recommended": "^5.0.0",
     "rimraf": "^2.7.1",
     "sass": "^1.35.2"
-  },
-  "engines": {
-    "node": "16.x"
   },
   "browserslist": [
     "last 2 versions",

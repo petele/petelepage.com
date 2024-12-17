@@ -6,6 +6,10 @@ eleventyNavigation:
   order: 4
 ---
 
-The best way to get ahold of me is via [@petele@techhub.social](https://techhub.social/@petele)
-on Mastadon. If I don't know the answer, it's much easier to tag in other
-peeps there, and the knowledge is shared with everyone.
+The best way to get ahold of me is via <a id="contact" href="">email</a>.
+
+<script>
+  const enc = 'cGV0ZS5sZXBhZ2VAcG9ib3guY29t';
+  const elem = document.getElementById('contact');
+  elem.setAttribute('href', 'mailto:'.concat(atob(enc)));
+</script>
