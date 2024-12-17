@@ -40,6 +40,10 @@
         "source": "/wp-login.php",
         "destination": "/login/",
         "type": 301
+      }, {
+        "source": "/wp-admin.php",
+        "destination": "/login/",
+        "type": 301
       }
     ]
   }
