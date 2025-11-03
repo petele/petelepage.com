@@ -4,6 +4,7 @@
       "ItemType" : "Place",
       "Data" : {
         "waterName" : "North Pacific Ocean",
+        "altitude" : "Sea Level",
         "gpsLocation" : {
           "longitude" : -157.83514166666669,
           "latitude" : 21.272391666666667
@@ -17,11 +18,40 @@
       "ItemType" : "Place",
       "Data" : {
         "waterName" : "Caribbean Sea",
+        "altitude" : "Sea Level",
         "gpsLocation" : {
           "longitude" : -86.580641666666665,
           "latitude" : 16.326388888888889
         },
         "name" : "Alabama Point",
+        "comments" : "",
+        "waterType" : 1
+      }
+    },
+    {
+      "ItemType" : "Place",
+      "Data" : {
+        "waterName" : "Caribbean Sea",
+        "altitude" : "Sea Level",
+        "gpsLocation" : {
+          "longitude" : -86.50599722222222,
+          "latitude" : 16.368733333333335
+        },
+        "name" : "Alaina’s Sandy Bottom",
+        "comments" : "",
+        "waterType" : 1
+      }
+    },
+    {
+      "ItemType" : "Place",
+      "Data" : {
+        "waterName" : "Caribbean Sea",
+        "altitude" : "Sea Level",
+        "gpsLocation" : {
+          "longitude" : -86.604438888888879,
+          "latitude" : 16.28979166666667
+        },
+        "name" : "Alice’s Wonderland ",
         "comments" : "",
         "waterType" : 1
       }
@@ -38,21 +68,23 @@
         "maxDepth" : 20,
         "waterType" : 1,
         "waterName" : "Caribbean Sea",
+        "altitude" : "Sea Level",
         "name" : "Alien Nation"
       }
     },
     {
       "ItemType" : "Place",
       "Data" : {
-        "waterName" : "Caribbean Sea",
-        "maxDepth" : 30.479999542236328,
+        "comments" : "Anchor Point is in front of Barefoot Beach, a rare low-lying beach on the northeastern coastline that is mainly comprised of steep and sharp cliffs. As a result, this area was ideal for anchoring ships and tendering ashore in the days of old during the early settlement of the Cayman Islands. It was marked on old maritime charts as 'Anchor Point' - a notation given to partially sheltered coves.\n\nAnchor Point begins with a relatively easy yet thrilling swim-through that leads straight onto the wall. The roof of the swim-through is a gradually narrowing cone with a crack at the top, allowing constant light inside, so no problem if you don't like dark spaces. Look up for the Sea Plumes as you head through it – they remind us of snow-covered fir trees! Also, don't miss the brightly colored sponges at the exit of the swim-through, one of which is a vivid orange color even before you shine your light on it!   \n\nDivers can head west for a series of closely spaced headlands and valleys with small ledges covered in small fish life. Blue and Brown Chromis love these little ledges, over which they hang near the deep blue drop-off.  \n\nRemember that the Cayman Islands were originally known as 'Las Tortugas,' and the north wall is one of the best places to spot turtles. Look for the Hawkbill's larger and its rarer cousin – the Green Turtle. As the latter's name suggests, it is noticeably greener than the muted brown of the Hawksbills. Also, their shell plates sit flush against each other, and the turtles' faces are rounder without any overlapping of the beak. ",
         "gpsLocation" : {
           "longitude" : -81.131866666666653,
           "latitude" : 19.358166666666669
         },
-        "name" : "Anchor Point",
-        "comments" : "Anchor Point is in front of Barefoot Beach, a rare low-lying beach on the northeastern coastline that is mainly comprised of steep and sharp cliffs. As a result, this area was ideal for anchoring ships and tendering ashore in the days of old during the early settlement of the Cayman Islands. It was marked on old maritime charts as 'Anchor Point' - a notation given to partially sheltered coves.\n\nAnchor Point begins with a relatively easy yet thrilling swim-through that leads straight onto the wall. The roof of the swim-through is a gradually narrowing cone with a crack at the top, allowing constant light inside, so no problem if you don't like dark spaces. Look up for the Sea Plumes as you head through it – they remind us of snow-covered fir trees! Also, don't miss the brightly colored sponges at the exit of the swim-through, one of which is a vivid orange color even before you shine your light on it!   \n\nDivers can head west for a series of closely spaced headlands and valleys with small ledges covered in small fish life. Blue and Brown Chromis love these little ledges, over which they hang near the deep blue drop-off.  \n\nRemember that the Cayman Islands were originally known as 'Las Tortugas,' and the north wall is one of the best places to spot turtles. Look for the Hawkbill's larger and its rarer cousin – the Green Turtle. As the latter's name suggests, it is noticeably greener than the muted brown of the Hawksbills. Also, their shell plates sit flush against each other, and the turtles' faces are rounder without any overlapping of the beak. ",
-        "waterType" : 1
+        "waterType" : 1,
+        "maxDepth" : 30.479999542236328,
+        "waterName" : "Caribbean Sea",
+        "altitude" : "Sea Level",
+        "name" : "Anchor Point"
       }
     },
     {
@@ -67,6 +99,7 @@
         "maxDepth" : 20.270000457763672,
         "waterType" : 1,
         "waterName" : "North Pacific Ocean",
+        "altitude" : "Sea Level",
         "name" : "Arch Cave"
       }
     },
@@ -90,6 +123,7 @@
       "ItemType" : "Place",
       "Data" : {
         "waterName" : "Caribbean Sea",
+        "altitude" : "Sea Level",
         "gpsLocation" : {
           "longitude" : -86.570502777777776,
           "latitude" : 16.335730555555553
@@ -102,29 +136,31 @@
     {
       "ItemType" : "Place",
       "Data" : {
-        "waterName" : "Caribbean Sea",
-        "maxDepth" : 30.479999542236328,
+        "comments" : "Babylon. The name alone elicits smiles and twinkles in the eye from those who know. It is named after the famous Hanging Gardens of Babylon - one of the seven wonders of the ancient world, but what makes this dive site special? Why is it rated one of the Top 10 dives in the Caribbean?\n\nFirstly, don't let the distance from the dock and its reputation fool you; Babylon is an easy dive. Really easy. We even bring first-timers here to breathe their first breaths in the ocean. We know, we spoil them! \n\nA towering freestanding pinnacle is Babylon's main feature. It is an awe-inspiring sight to behold, rising from the depths at over 100 feet and topping out just 45 feet at its peak. One of our most regular divers even photographed the entirety of its height to feature as a mural in an elevator shaft. Users of the elevator can pretend they are diving in the Cayman Islands, rising from the deep ocean to a dazzling shallow coral reef as they ascend. Certainly, a unique commute to work! \n\nDivers should circle the pinnacle a few times at different depths to fully appreciate the height of this looming column. Swimming between the pinnacle and the wall is a thrilling experience; the corals and sponges on both sides grow towards the other side, leaving a gap just large enough to swim through. You know those front cover magazine photos of divers swimming amongst abundant coral? You bet some of those were taken here!   \n\nHaving dizzied yourself circling up the pinnacle, the shallow top of the wall is a perfect place to extend your dive time. Enjoy the wide-open expanses of sand and coral fingers and the plethora of marine life that inhabit this bright, sun-filled environment.  ",
         "gpsLocation" : {
           "longitude" : -81.164316666666679,
           "latitude" : 19.353316666666668
         },
-        "name" : "Babylon",
-        "comments" : "Babylon. The name alone elicits smiles and twinkles in the eye from those who know. It is named after the famous Hanging Gardens of Babylon - one of the seven wonders of the ancient world, but what makes this dive site special? Why is it rated one of the Top 10 dives in the Caribbean?\n\nFirstly, don't let the distance from the dock and its reputation fool you; Babylon is an easy dive. Really easy. We even bring first-timers here to breathe their first breaths in the ocean. We know, we spoil them! \n\nA towering freestanding pinnacle is Babylon's main feature. It is an awe-inspiring sight to behold, rising from the depths at over 100 feet and topping out just 45 feet at its peak. One of our most regular divers even photographed the entirety of its height to feature as a mural in an elevator shaft. Users of the elevator can pretend they are diving in the Cayman Islands, rising from the deep ocean to a dazzling shallow coral reef as they ascend. Certainly, a unique commute to work! \n\nDivers should circle the pinnacle a few times at different depths to fully appreciate the height of this looming column. Swimming between the pinnacle and the wall is a thrilling experience; the corals and sponges on both sides grow towards the other side, leaving a gap just large enough to swim through. You know those front cover magazine photos of divers swimming amongst abundant coral? You bet some of those were taken here!   \n\nHaving dizzied yourself circling up the pinnacle, the shallow top of the wall is a perfect place to extend your dive time. Enjoy the wide-open expanses of sand and coral fingers and the plethora of marine life that inhabit this bright, sun-filled environment.  ",
-        "waterType" : 1
+        "waterType" : 1,
+        "maxDepth" : 30.479999542236328,
+        "waterName" : "Caribbean Sea",
+        "altitude" : "Sea Level",
+        "name" : "Babylon"
       }
     },
     {
       "ItemType" : "Place",
       "Data" : {
-        "difficulty" : "Novice",
-        "waterName" : "Philippine Sea",
+        "comments" : "This lively and beautiful wall is often overshadowed by Turtle Cove, its closest neighbor. It is close to German Channel and offers good protection in foul weather.\n\nEven though this reef is sometimes wild and resembles a sea-life circus, it is not named after the famous Barnum and Bailey Circus. During WWII a young US Navy Lieutenant named Barnum was in charge of keeping Japanese boats from reaching the inner lagoons of Palau. Huge floating steel spheres connected by heavy chain was strung from Barnum's Wall across to Ngemelis Reef effectively blocking the area approaching German Channel. In 1986 Admiral Barnum returned to Palau and subsequently revealed the story behind the reef's name. Some of those steel spheres can still be found along the reef at Big Drop Off.\n\nReef\nThis sloping reef runs northeast to southwest parallel to Ngercheu Island. The reef shares a corner and a shallow plateau with Turtle Cove. The northeast section of the reef starts near the surface, moderately slopes down to 70 to 120 feet (23 to 40 meters) and then changes its formation to a rough sandy run off. Canyons and caverns cut through from the top of the reef. Before the reef reaches the corner it changes to a sheer wall. The reef wall drops down to 450 to 900 feet (150 to 300 meters). The plateau at the corner is 10 to 30 feet (3 to 10 meters) deep; it is decorated with small coral heads and rock canyons.\n\nMarine Life\nBarnum's wall offers a large variety of colorful soft and hard corals. During descent look for White Tip Shark and Rays sleeping on the reef. The reef drop off and the corner are covered with carpets of yellow and green tubastrea corals. Large clouds of Pyramid Butterflyfish and Red tooth Triggerfish float in the current along the edges of the reef. When the conditions are right (strong incoming current and good visibility) schools of Gray Reef sharks, Barracudas, Snappers, Jacks, Wahoo and other predatory fish will be dancing all around you. If the current is not running, the top of the reef is a great place to find Scorpion Leaf Fish and other macro critters hiding among the corals.",
         "gpsLocation" : {
           "longitude" : 134.25611111111112,
           "latitude" : 7.0886111111111108
         },
-        "name" : "Barnum’s Wall",
-        "comments" : "This lively and beautiful wall is often overshadowed by Turtle Cove, its closest neighbor. It is close to German Channel and offers good protection in foul weather.\n\nEven though this reef is sometimes wild and resembles a sea-life circus, it is not named after the famous Barnum and Bailey Circus. During WWII a young US Navy Lieutenant named Barnum was in charge of keeping Japanese boats from reaching the inner lagoons of Palau. Huge floating steel spheres connected by heavy chain was strung from Barnum's Wall across to Ngemelis Reef effectively blocking the area approaching German Channel. In 1986 Admiral Barnum returned to Palau and subsequently revealed the story behind the reef's name. Some of those steel spheres can still be found along the reef at Big Drop Off.\n\nReef\nThis sloping reef runs northeast to southwest parallel to Ngercheu Island. The reef shares a corner and a shallow plateau with Turtle Cove. The northeast section of the reef starts near the surface, moderately slopes down to 70 to 120 feet (23 to 40 meters) and then changes its formation to a rough sandy run off. Canyons and caverns cut through from the top of the reef. Before the reef reaches the corner it changes to a sheer wall. The reef wall drops down to 450 to 900 feet (150 to 300 meters). The plateau at the corner is 10 to 30 feet (3 to 10 meters) deep; it is decorated with small coral heads and rock canyons.\n\nMarine Life\nBarnum's wall offers a large variety of colorful soft and hard corals. During descent look for White Tip Shark and Rays sleeping on the reef. The reef drop off and the corner are covered with carpets of yellow and green tubastrea corals. Large clouds of Pyramid Butterflyfish and Red tooth Triggerfish float in the current along the edges of the reef. When the conditions are right (strong incoming current and good visibility) schools of Gray Reef sharks, Barracudas, Snappers, Jacks, Wahoo and other predatory fish will be dancing all around you. If the current is not running, the top of the reef is a great place to find Scorpion Leaf Fish and other macro critters hiding among the corals.",
-        "waterType" : 1
+        "difficulty" : "Novice",
+        "waterType" : 1,
+        "waterName" : "Philippine Sea",
+        "altitude" : "Sea Level",
+        "name" : "Barnum’s Wall"
       }
     },
     {
@@ -139,6 +175,7 @@
         "maxDepth" : 27.430000305175781,
         "waterType" : 1,
         "waterName" : "South China Sea",
+        "altitude" : "Sea Level",
         "name" : "Barracuda Lake"
       }
     },
@@ -146,6 +183,7 @@
       "ItemType" : "Place",
       "Data" : {
         "waterName" : "Caribbean Sea",
+        "altitude" : "Sea Level",
         "gpsLocation" : {
           "longitude" : -86.563041666666663,
           "latitude" : 16.340630555555553
@@ -175,6 +213,7 @@
       "ItemType" : "Place",
       "Data" : {
         "waterName" : "Caribbean Sea",
+        "altitude" : "Sea Level",
         "gpsLocation" : {
           "longitude" : -86.568894444444439,
           "latitude" : 16.336649999999999
@@ -219,6 +258,7 @@
       "ItemType" : "Place",
       "Data" : {
         "waterName" : "North Pacific Ocean",
+        "altitude" : "Sea Level",
         "gpsLocation" : {
           "longitude" : -156.04065,
           "latitude" : 19.691202777777779
@@ -231,14 +271,29 @@
     {
       "ItemType" : "Place",
       "Data" : {
-        "difficulty" : "Novice",
-        "waterName" : "Philippine Sea",
+        "comments" : "Big Drop-Off is one of the most amazing walls dives in Palau and a must for all divers who enjoy endless colorful corals dropping from the surface to depths way beyond a diver’s reach. In this blog, we will give you a detailed look at the dive site Big Drop-Off, its location, formation, and marine life.\n\nBig Drop-Off, just what the name implies is “really big”. About 30 feet (10 meters) from the mooring buoy to the east at 35 feet (12 meters) a large chain connected to a 6 foot (2 meter) steel sphere can be seen. This chain and ball was used during WWII to prevent the Japanese from entering the waterway leading to German Channel. Lieutenant Barnum from the US Navy conducted the Operation. The chain and ball on Big Drop Off was a mystery for 40 years until newly appointed Admiral Barnum returned to Palau in 1986 and told his story.\n\nMarine Life\nPyramid Butterflyfish, Square Anthias, Moorish Idols, Sargent Major's, Yellowtail Fusiliers are among the myriad of fish found all along the edge and top of the reef. Blue Face, Regal, and Emperor Angelfish are easily spotted. Dwarf angelfish, such as Coral Beauty, Keyhole, and Gray's dart in and around the coral heads at the top of the reef. Clark and Blue Striped Clownfish with their host anemones are also scattered along the reef. Hawksbill Turtles like to feed and rest at the top of the reef. Turtles can be approached if you move slowly. White Tip and Nurse Sharks sleep on the sandy bottom.",
         "gpsLocation" : {
           "longitude" : 134.24599999999998,
           "latitude" : 7.1053805555555556
         },
-        "name" : "Big Drop Off",
-        "comments" : "Big Drop-Off is one of the most amazing walls dives in Palau and a must for all divers who enjoy endless colorful corals dropping from the surface to depths way beyond a diver’s reach. In this blog, we will give you a detailed look at the dive site Big Drop-Off, its location, formation, and marine life.\n\nBig Drop-Off, just what the name implies is “really big”. About 30 feet (10 meters) from the mooring buoy to the east at 35 feet (12 meters) a large chain connected to a 6 foot (2 meter) steel sphere can be seen. This chain and ball was used during WWII to prevent the Japanese from entering the waterway leading to German Channel. Lieutenant Barnum from the US Navy conducted the Operation. The chain and ball on Big Drop Off was a mystery for 40 years until newly appointed Admiral Barnum returned to Palau in 1986 and told his story.\n\nMarine Life\nPyramid Butterflyfish, Square Anthias, Moorish Idols, Sargent Major's, Yellowtail Fusiliers are among the myriad of fish found all along the edge and top of the reef. Blue Face, Regal, and Emperor Angelfish are easily spotted. Dwarf angelfish, such as Coral Beauty, Keyhole, and Gray's dart in and around the coral heads at the top of the reef. Clark and Blue Striped Clownfish with their host anemones are also scattered along the reef. Hawksbill Turtles like to feed and rest at the top of the reef. Turtles can be approached if you move slowly. White Tip and Nurse Sharks sleep on the sandy bottom.",
+        "difficulty" : "Novice",
+        "waterType" : 1,
+        "waterName" : "Philippine Sea",
+        "altitude" : "Sea Level",
+        "name" : "Big Drop Off"
+      }
+    },
+    {
+      "ItemType" : "Place",
+      "Data" : {
+        "waterName" : "Caribbean Sea",
+        "altitude" : "Sea Level",
+        "gpsLocation" : {
+          "longitude" : -86.600577777777772,
+          "latitude" : 16.298261111111113
+        },
+        "name" : "Bikini Bottom",
+        "comments" : "",
         "waterType" : 1
       }
     },
@@ -261,14 +316,44 @@
     {
       "ItemType" : "Place",
       "Data" : {
-        "waterName" : "Caribbean Sea",
-        "maxDepth" : 30.479999542236328,
+        "comments" : "Our captains love to spin stories about how this dive site got its name. From tall tales of piracy on the high seas to the ancient cannonballs that were used to sink mutinous crew deep into Davy Jones' locker, there are certainly some colorful variations on the true story, which is sadly a little tamer. The site is named for a large black rock on the shoreline that was used to help find the place in the days before mooring balls.   \n\nA steep ridge separates the inky depths from a vast sand patch that resembles a lunar landscape. In the eastern section of the site, the ridge ends abruptly, which allows the sand to flow down the wall in a steadily winding channel. As divers follow this winding channel, they can hug the western edge bringing them to a gorgeous overhang with many sponges and corals hanging from it. Inch your way under this balancing roof of rock and shine your light into the dark recesses to see what you might find. Green Morays love these holes! Don't be alarmed by them showing off rows of razor-sharp teeth; this opening and closing of their mouth is how they draw water into their gills.   \n\nThe wall at Black Rock Drop-Off is varied and exciting; no straight-lined linear swims here! Divers move up and down the undulating terrain, around headlands, into valleys, behind buttresses, and over platforms.    \n\nLook for the Bash Brothers, an affectionate name given to three male Caribbean Reef Sharks by local dive staff. These handsome young men love to strut their stuff for the divers! The best way to get great photographs is to allow the sharks to approach you; chasing them with a camera only spooks them.",
         "gpsLocation" : {
           "longitude" : -81.105416666666656,
           "latitude" : 19.357600000000001
         },
-        "name" : "Black Rock Drop Off",
-        "comments" : "Our captains love to spin stories about how this dive site got its name. From tall tales of piracy on the high seas to the ancient cannonballs that were used to sink mutinous crew deep into Davy Jones' locker, there are certainly some colorful variations on the true story, which is sadly a little tamer. The site is named for a large black rock on the shoreline that was used to help find the place in the days before mooring balls.   \n\nA steep ridge separates the inky depths from a vast sand patch that resembles a lunar landscape. In the eastern section of the site, the ridge ends abruptly, which allows the sand to flow down the wall in a steadily winding channel. As divers follow this winding channel, they can hug the western edge bringing them to a gorgeous overhang with many sponges and corals hanging from it. Inch your way under this balancing roof of rock and shine your light into the dark recesses to see what you might find. Green Morays love these holes! Don't be alarmed by them showing off rows of razor-sharp teeth; this opening and closing of their mouth is how they draw water into their gills.   \n\nThe wall at Black Rock Drop-Off is varied and exciting; no straight-lined linear swims here! Divers move up and down the undulating terrain, around headlands, into valleys, behind buttresses, and over platforms.    \n\nLook for the Bash Brothers, an affectionate name given to three male Caribbean Reef Sharks by local dive staff. These handsome young men love to strut their stuff for the divers! The best way to get great photographs is to allow the sharks to approach you; chasing them with a camera only spooks them.",
+        "waterType" : 1,
+        "maxDepth" : 30.479999542236328,
+        "waterName" : "Caribbean Sea",
+        "altitude" : "Sea Level",
+        "name" : "Black Rock Drop Off"
+      }
+    },
+    {
+      "ItemType" : "Place",
+      "Data" : {
+        "comments" : "When the captain announces Black Rock Reef, watch the reactions of our regular divers as their faces light up – it's a popular dive site!   \n\nSitting a short distance closer to shore than its sister site Black Rock Drop-Off, this area offers a beautiful combination of sandy channels, rolling coral gardens, shallow hardpan, and freestanding coral heads separated by narrow channels. The area right below the boat is where the most action happens. The low ridges and coral heads attract large schools of fish such as Bermuda Chubb, Yellowtail Snapper, Barracudas, and countless more. Look under the overhanging ledges at the bottom at around 45 – 50 feet for lobsters, crabs, shrimp, and other little critters.    \n\nA short swim to the north brings you to the rolling coral gardens. Look for a resident school of color-changing Caribbean Reef Squid. They swim in formation in the water column and will warn you off getting any closer by turning vibrant white and waving their tentacles in a defensive display.   Further north still, you will see a vast expanse of sand fading into the deep blue of the wall. There is a giant barrel sponge on the long coral ridge that comes down from the shallows. This sponge is impressive in its size and the way it clings to the rock, looking like it could fall at any time.",
+        "gpsLocation" : {
+          "longitude" : -81.105033333333324,
+          "latitude" : 19.356350000000003
+        },
+        "waterType" : 1,
+        "maxDepth" : 21.336000442504883,
+        "waterName" : "Caribbean Sea",
+        "altitude" : "Sea Level",
+        "name" : "Black Rock Reef"
+      }
+    },
+    {
+      "ItemType" : "Place",
+      "Data" : {
+        "waterName" : "Caribbean Sea",
+        "altitude" : "Sea Level",
+        "gpsLocation" : {
+          "longitude" : -86.583580555555557,
+          "latitude" : 16.279880555555554
+        },
+        "name" : "Blue Cave",
+        "comments" : "",
         "waterType" : 1
       }
     },
@@ -276,13 +361,13 @@
       "ItemType" : "Place",
       "Data" : {
         "waterName" : "Caribbean Sea",
-        "maxDepth" : 21.336000442504883,
+        "altitude" : "Sea Level",
         "gpsLocation" : {
-          "longitude" : -81.105033333333324,
-          "latitude" : 19.356350000000003
+          "longitude" : -86.600041666666655,
+          "latitude" : 16.300822222222223
         },
-        "name" : "Black Rock Reef",
-        "comments" : "When the captain announces Black Rock Reef, watch the reactions of our regular divers as their faces light up – it's a popular dive site!   \n\nSitting a short distance closer to shore than its sister site Black Rock Drop-Off, this area offers a beautiful combination of sandy channels, rolling coral gardens, shallow hardpan, and freestanding coral heads separated by narrow channels. The area right below the boat is where the most action happens. The low ridges and coral heads attract large schools of fish such as Bermuda Chubb, Yellowtail Snapper, Barracudas, and countless more. Look under the overhanging ledges at the bottom at around 45 – 50 feet for lobsters, crabs, shrimp, and other little critters.    \n\nA short swim to the north brings you to the rolling coral gardens. Look for a resident school of color-changing Caribbean Reef Squid. They swim in formation in the water column and will warn you off getting any closer by turning vibrant white and waving their tentacles in a defensive display.   Further north still, you will see a vast expanse of sand fading into the deep blue of the wall. There is a giant barrel sponge on the long coral ridge that comes down from the shallows. This sponge is impressive in its size and the way it clings to the rock, looking like it could fall at any time.",
+        "name" : "Blue Channel",
+        "comments" : "",
         "waterType" : 1
       }
     },
@@ -290,6 +375,7 @@
       "ItemType" : "Place",
       "Data" : {
         "waterName" : "Philippine Sea",
+        "altitude" : "Sea Level",
         "gpsLocation" : {
           "longitude" : 134.22027777777777,
           "latitude" : 7.1336111111111116
@@ -302,14 +388,43 @@
     {
       "ItemType" : "Place",
       "Data" : {
-        "difficulty" : "Intermediate",
-        "waterName" : "Philippine Sea",
+        "comments" : "Recognizable from the air, early divers in the late 1950’s considered Blue Holes as one of the first dive sites in Palau.\n\nReef\nA vertical wall runs from north to south and merges with Ngemelis wall at Blue Corner. Four holes on top the shallow reef 3-6 feet (1-2 m) deep, about 1000 feet (305 m) north of Blue Corner marks the ceiling of a very large cavern. There is a huge opening stretching from 85-140 feet (26-42 m). A window, 15 feet (5 m) in diameter at 55 feet (17 m) is an alternative way to swim out. At 85 feet (26 m) on the north part of the site, there is a narrow entrance at 80 feet (24 m) that leads to an even larger cave called “The Temple of Doom”.  Special preparation and gear is needed in order to penetrate this cave. The wall outside the cavern is vertical and ends at Blue Corner.\n\nMarine Life\nInside of the cavern you will find many soft corals and Tubastraea decorating the walls, along with many species of nudibranchs and shells that can be found on the sandy bottom. Schools of fish patrol the large opening (with dark blue ambient light as a background). On the way out, the wall is vertical and offers just about any type of coral and fish you can imagine! The 7-10 minutes swim to Blue Corner is rewarding.",
         "gpsLocation" : {
           "longitude" : 134.226,
           "latitude" : 7.1388805555555557
         },
-        "name" : "Blue Holes",
-        "comments" : "Recognizable from the air, early divers in the late 1950’s considered Blue Holes as one of the first dive sites in Palau.\n\nReef\nA vertical wall runs from north to south and merges with Ngemelis wall at Blue Corner. Four holes on top the shallow reef 3-6 feet (1-2 m) deep, about 1000 feet (305 m) north of Blue Corner marks the ceiling of a very large cavern. There is a huge opening stretching from 85-140 feet (26-42 m). A window, 15 feet (5 m) in diameter at 55 feet (17 m) is an alternative way to swim out. At 85 feet (26 m) on the north part of the site, there is a narrow entrance at 80 feet (24 m) that leads to an even larger cave called “The Temple of Doom”.  Special preparation and gear is needed in order to penetrate this cave. The wall outside the cavern is vertical and ends at Blue Corner.\n\nMarine Life\nInside of the cavern you will find many soft corals and Tubastraea decorating the walls, along with many species of nudibranchs and shells that can be found on the sandy bottom. Schools of fish patrol the large opening (with dark blue ambient light as a background). On the way out, the wall is vertical and offers just about any type of coral and fish you can imagine! The 7-10 minutes swim to Blue Corner is rewarding.",
+        "difficulty" : "Intermediate",
+        "waterType" : 1,
+        "waterName" : "Philippine Sea",
+        "altitude" : "Sea Level",
+        "name" : "Blue Holes"
+      }
+    },
+    {
+      "ItemType" : "Place",
+      "Data" : {
+        "waterName" : "Caribbean Sea",
+        "altitude" : "Sea Level",
+        "gpsLocation" : {
+          "longitude" : -86.602249999999998,
+          "latitude" : 16.273566666666667
+        },
+        "name" : "Boba’s Bommie ",
+        "comments" : "",
+        "waterType" : 1
+      }
+    },
+    {
+      "ItemType" : "Place",
+      "Data" : {
+        "waterName" : "Caribbean Sea",
+        "altitude" : "Sea Level",
+        "gpsLocation" : {
+          "longitude" : -86.601900000000001,
+          "latitude" : 16.296550000000003
+        },
+        "name" : "Buck Stops Here",
+        "comments" : "",
         "waterType" : 1
       }
     },
@@ -331,6 +446,7 @@
       "ItemType" : "Place",
       "Data" : {
         "waterName" : "Caribbean Sea",
+        "altitude" : "Sea Level",
         "gpsLocation" : {
           "longitude" : -86.603844444444434,
           "latitude" : 16.285669444444448
@@ -352,6 +468,7 @@
         "maxDepth" : 28.379999160766602,
         "waterType" : 1,
         "waterName" : "Caribbean Sea",
+        "altitude" : "Sea Level",
         "name" : "Cantarel Wall"
       }
     },
@@ -367,6 +484,7 @@
         "maxDepth" : 29.870000839233398,
         "waterType" : 1,
         "waterName" : "North Pacific Ocean",
+        "altitude" : "Sea Level",
         "name" : "Carthaginan"
       }
     },
@@ -382,6 +500,7 @@
         "maxDepth" : 18.110000610351562,
         "waterType" : 1,
         "waterName" : "North Pacific Ocean",
+        "altitude" : "Sea Level",
         "name" : "Casa Cave"
       }
     },
@@ -389,6 +508,7 @@
       "ItemType" : "Place",
       "Data" : {
         "waterName" : "Caribbean Sea",
+        "altitude" : "Sea Level",
         "gpsLocation" : {
           "longitude" : -86.745788888888896,
           "latitude" : 20.693830555555557
@@ -410,6 +530,7 @@
         "maxDepth" : 16.5,
         "waterType" : 1,
         "waterName" : "Coral Sea",
+        "altitude" : "Sea Level",
         "name" : "Caves, Norman Reef"
       }
     },
@@ -417,6 +538,7 @@
       "ItemType" : "Place",
       "Data" : {
         "waterName" : "Philippine Sea",
+        "altitude" : "Sea Level",
         "gpsLocation" : {
           "longitude" : 134.45064166666666,
           "latitude" : 7.3407888888888886
@@ -430,6 +552,7 @@
       "ItemType" : "Place",
       "Data" : {
         "waterName" : "Caribbean Sea",
+        "altitude" : "Sea Level",
         "gpsLocation" : {
           "longitude" : -86.999469444444443,
           "latitude" : 20.446302777777777
@@ -443,6 +566,7 @@
       "ItemType" : "Place",
       "Data" : {
         "waterName" : "Caribbean Sea",
+        "altitude" : "Sea Level",
         "gpsLocation" : {
           "longitude" : -86.543097222222215,
           "latitude" : 16.351850000000002
@@ -455,14 +579,29 @@
     {
       "ItemType" : "Place",
       "Data" : {
-        "waterName" : "Caribbean Sea",
-        "maxDepth" : 18.288000106811523,
+        "comments" : "This area is a fisherman's nightmare as they only ever catch Bermuda Chubb - not a tasty fish to eat! Thus, this site is avoided in favor of other areas. However, their nightmare is our dream!\n\nTo the southeast of the pin, the miniwall is a mishmash of tunnels, canyons, and archways. Abundant schools of the namesake Bermuda Chubb are everywhere but remember to look in the narrow canyons for Tarpon. With shiny scales and grumpy faces, these benevolent fish are easy to photograph as they are in no way bothered by the divers' presence. Within the gloomy recesses of the reef, you should look for rarer critters, such as the slipper lobster, a creepy-looking throwback to prehistoric times!\n\nTo the north, the reef is less restricted, with large open-sided overhangs and tall fingers of coral standing on the seabed. In the right season, vast numbers of tiny juvenile fish swim just inches from the bottom and on every coral head. \n\nLook out into the blue from time to time; Colliers Bay has an excellent record for sightings of giant Loggerhead turtles; there is nothing quite like seeing these dinosaurs cruising about the reef! ",
         "gpsLocation" : {
           "longitude" : -81.084283333333332,
           "latitude" : 19.350466666666669
         },
-        "name" : "Chub Hole",
-        "comments" : "This area is a fisherman's nightmare as they only ever catch Bermuda Chubb - not a tasty fish to eat! Thus, this site is avoided in favor of other areas. However, their nightmare is our dream!\n\nTo the southeast of the pin, the miniwall is a mishmash of tunnels, canyons, and archways. Abundant schools of the namesake Bermuda Chubb are everywhere but remember to look in the narrow canyons for Tarpon. With shiny scales and grumpy faces, these benevolent fish are easy to photograph as they are in no way bothered by the divers' presence. Within the gloomy recesses of the reef, you should look for rarer critters, such as the slipper lobster, a creepy-looking throwback to prehistoric times!\n\nTo the north, the reef is less restricted, with large open-sided overhangs and tall fingers of coral standing on the seabed. In the right season, vast numbers of tiny juvenile fish swim just inches from the bottom and on every coral head. \n\nLook out into the blue from time to time; Colliers Bay has an excellent record for sightings of giant Loggerhead turtles; there is nothing quite like seeing these dinosaurs cruising about the reef! ",
+        "waterType" : 1,
+        "maxDepth" : 18.288000106811523,
+        "waterName" : "Caribbean Sea",
+        "altitude" : "Sea Level",
+        "name" : "Chub Hole"
+      }
+    },
+    {
+      "ItemType" : "Place",
+      "Data" : {
+        "waterName" : "Caribbean Sea",
+        "altitude" : "Sea Level",
+        "gpsLocation" : {
+          "longitude" : -86.573355555555551,
+          "latitude" : 16.288500000000003
+        },
+        "name" : "Church Wall",
+        "comments" : "",
         "waterType" : 1
       }
     },
@@ -470,6 +609,7 @@
       "ItemType" : "Place",
       "Data" : {
         "waterName" : "Philippine Sea",
+        "altitude" : "Sea Level",
         "gpsLocation" : {
           "longitude" : 134.43899999999999,
           "latitude" : 7.328180555555555
@@ -483,6 +623,7 @@
       "ItemType" : "Place",
       "Data" : {
         "waterName" : "Philippine Sea",
+        "altitude" : "Sea Level",
         "gpsLocation" : {
           "longitude" : 134.22562222222223,
           "latitude" : 7.1300527777777774
@@ -496,6 +637,7 @@
       "ItemType" : "Place",
       "Data" : {
         "waterName" : "Caribbean Sea",
+        "altitude" : "Sea Level",
         "gpsLocation" : {
           "longitude" : -87.026461111111104,
           "latitude" : 20.317988888888888
@@ -517,6 +659,7 @@
         "maxDepth" : 29.170000076293945,
         "waterType" : 1,
         "waterName" : "Caribbean Sea",
+        "altitude" : "Sea Level",
         "name" : "Colombia: Deep"
       }
     },
@@ -524,6 +667,7 @@
       "ItemType" : "Place",
       "Data" : {
         "waterName" : "Caribbean Sea",
+        "altitude" : "Sea Level",
         "gpsLocation" : {
           "longitude" : -87.025811111111111,
           "latitude" : 20.314380555555555
@@ -545,6 +689,7 @@
         "maxDepth" : 29.260000228881836,
         "waterType" : 1,
         "waterName" : "Caribbean Sea",
+        "altitude" : "Sea Level",
         "name" : "Colombia: Shallows"
       }
     },
@@ -552,6 +697,7 @@
       "ItemType" : "Place",
       "Data" : {
         "waterName" : "Caribbean Sea",
+        "altitude" : "Sea Level",
         "gpsLocation" : {
           "longitude" : -86.574433333333332,
           "latitude" : 16.332280555555556
@@ -573,6 +719,7 @@
         "maxDepth" : 14.939999580383301,
         "waterType" : 1,
         "waterName" : "Coral Sea",
+        "altitude" : "Sea Level",
         "name" : "Coral Garden, Saxon Reef"
       }
     },
@@ -596,6 +743,7 @@
       "ItemType" : "Place",
       "Data" : {
         "waterName" : "North Pacific Ocean",
+        "altitude" : "Sea Level",
         "gpsLocation" : {
           "longitude" : -156.02937500000002,
           "latitude" : 19.667691666666666
@@ -609,6 +757,7 @@
       "ItemType" : "Place",
       "Data" : {
         "waterName" : "Caribbean Sea",
+        "altitude" : "Sea Level",
         "name" : "Cubones",
         "comments" : "",
         "waterType" : 1
@@ -618,6 +767,7 @@
       "ItemType" : "Place",
       "Data" : {
         "waterName" : "North Pacific Ocean",
+        "altitude" : "Sea Level",
         "gpsLocation" : {
           "longitude" : -157.86449999999999,
           "latitude" : 21.287830555555558
@@ -630,21 +780,23 @@
     {
       "ItemType" : "Place",
       "Data" : {
-        "waterName" : "Caribbean Sea",
-        "maxDepth" : 18.288000106811523,
+        "comments" : "Delwin is a Cayman Islands legend! Not only the site but the man who named it – Delwin! A long-since retired Ocean Frontiers Divemaster and Boat Captain, Delwin was instrumental in setting up and installing the mooring balls in the Cayman Islands. As a result of his efforts and hard work, he was given an opportunity to name a site, and he named this one after himself.   \n\nJust like the man, Delwin's Delight is true Caymanian! It boasts rolling fields of coral in the form of the iconic 'Spur and Groove' formations for which the island is so well known, they are covered in large sponges, sea plumes, hard corals, fans, fish, macro life, and more. Delwin's Delight is an underwater garden showcasing Cayman diving at its best.  \n\nLook for the coral head just in front of the pin, a favorite local hangout for all sorts of fish. Angel Fish are a beautiful sighting all over these reefs and can often be found in pairs, usually near sponges that a feeding turtle has recently broken open. The Angel Fish use this fresh opening to get to the delicious sponge's insides! Note the French Angel Fish with their dark scales and yellow highlights compared to the more muted colors of the Gray Angel Fish. Of course, Queen Angelfish always get pulses racing with their resplendent colors and patterns! ",
         "gpsLocation" : {
           "longitude" : -81.114999999999995,
           "latitude" : 19.357850000000003
         },
-        "name" : "Delwin’s Delight",
-        "comments" : "Delwin is a Cayman Islands legend! Not only the site but the man who named it – Delwin! A long-since retired Ocean Frontiers Divemaster and Boat Captain, Delwin was instrumental in setting up and installing the mooring balls in the Cayman Islands. As a result of his efforts and hard work, he was given an opportunity to name a site, and he named this one after himself.   \n\nJust like the man, Delwin's Delight is true Caymanian! It boasts rolling fields of coral in the form of the iconic 'Spur and Groove' formations for which the island is so well known, they are covered in large sponges, sea plumes, hard corals, fans, fish, macro life, and more. Delwin's Delight is an underwater garden showcasing Cayman diving at its best.  \n\nLook for the coral head just in front of the pin, a favorite local hangout for all sorts of fish. Angel Fish are a beautiful sighting all over these reefs and can often be found in pairs, usually near sponges that a feeding turtle has recently broken open. The Angel Fish use this fresh opening to get to the delicious sponge's insides! Note the French Angel Fish with their dark scales and yellow highlights compared to the more muted colors of the Gray Angel Fish. Of course, Queen Angelfish always get pulses racing with their resplendent colors and patterns! ",
-        "waterType" : 1
+        "waterType" : 1,
+        "maxDepth" : 18.288000106811523,
+        "waterName" : "Caribbean Sea",
+        "altitude" : "Sea Level",
+        "name" : "Delwin’s Delight"
       }
     },
     {
       "ItemType" : "Place",
       "Data" : {
         "waterName" : "Caribbean Sea",
+        "altitude" : "Sea Level",
         "gpsLocation" : {
           "longitude" : -86.596572222222221,
           "latitude" : 16.309191666666667
@@ -674,6 +826,7 @@
       "ItemType" : "Place",
       "Data" : {
         "waterName" : "Caribbean Sea",
+        "altitude" : "Sea Level",
         "name" : "Eagle Ray",
         "comments" : "",
         "waterType" : 1
@@ -683,11 +836,26 @@
       "ItemType" : "Place",
       "Data" : {
         "waterName" : "Caribbean Sea",
+        "altitude" : "Sea Level",
         "gpsLocation" : {
           "longitude" : -86.578841666666662,
           "latitude" : 16.327191666666668
         },
         "name" : "El Aguila",
+        "comments" : "",
+        "waterType" : 1
+      }
+    },
+    {
+      "ItemType" : "Place",
+      "Data" : {
+        "waterName" : "Caribbean Sea",
+        "altitude" : "Sea Level",
+        "gpsLocation" : {
+          "longitude" : -86.459852777777783,
+          "latitude" : 16.390049999999999
+        },
+        "name" : "El Rancho",
         "comments" : "",
         "waterType" : 1
       }
@@ -752,6 +920,7 @@
         "maxDepth" : 21.700000762939453,
         "waterType" : 1,
         "waterName" : "Caribbean Sea",
+        "altitude" : "Sea Level",
         "name" : "Filipe Xicotencatl (C-53)"
       }
     },
@@ -767,20 +936,23 @@
         "maxDepth" : 20.120000839233398,
         "waterType" : 1,
         "waterName" : "North Pacific Ocean",
+        "altitude" : "Sea Level",
         "name" : "First Cathedral"
       }
     },
     {
       "ItemType" : "Place",
       "Data" : {
-        "waterName" : "Caribbean Sea",
+        "comments" : "",
         "gpsLocation" : {
           "longitude" : -86.587830555555556,
           "latitude" : 16.318180555555557
         },
-        "name" : "Fish Den",
-        "comments" : "",
-        "waterType" : 1
+        "waterType" : 1,
+        "maxDepth" : 27.432001113891602,
+        "waterName" : "Caribbean Sea",
+        "altitude" : "Sea Level",
+        "name" : "Fish Den"
       }
     },
     {
@@ -795,6 +967,7 @@
         "maxDepth" : 20.120000839233398,
         "waterType" : 1,
         "waterName" : "North Pacific Ocean",
+        "altitude" : "Sea Level",
         "name" : "Fish Rain"
       }
     },
@@ -810,27 +983,30 @@
         "maxDepth" : 17.979999542236328,
         "waterType" : 1,
         "waterName" : "North Pacific Ocean",
+        "altitude" : "Sea Level",
         "name" : "Fish Rock"
       }
     },
     {
       "ItemType" : "Place",
       "Data" : {
-        "waterName" : "Caribbean Sea",
-        "maxDepth" : 18.288000106811523,
+        "comments" : "The dive site's name may be simple, but it's wholly appropriate. The edge of the miniwall attracts a multitude of fish life and is a hive of activity. It's easy to visualize the reef as a city with its inhabitants scurrying about carrying out their respective roles.  \n\nA short way east of the pin is a large formation of Pillar Coral. This fantastic hard coral grows in columns vertically from the bottom and is unique among hard corals in that it feeds during daylight hours. A close look reveals its tiny polyps with extended tentacles picking up tasty morsels from the water. Careful though, despite its fuzzy appearance, it is very delicate so resist the temptation to touch it! Pillar Corals grow exceptionally slowly, and this formation is between 8 – 10 feet tall. It does not take a mathematician to realize this is an ancient example of an incredible species.   \n\nLarge schools of French and Bluestriped Grunts inhabit the little grooves just east of the Pillars and make for beautiful photos as they gently move back and forth with the water. Eagle-eyed (and patient) divers can look in the shallow hardpan areas for little Lettuce Sea Slugs that are between an inch to two inches long. Their frilly backs are reminiscent of lettuce leaves, and they use them to store algal chloroplasts from the algae in their diet. These chloroplasts allow the animal to absorb energy from the sun to photosynthesize. They are sometimes known as Solar-Powered Slugs!  ",
         "gpsLocation" : {
           "longitude" : -81.106966666666665,
           "latitude" : 19.356750000000002
         },
-        "name" : "Fish Tank",
-        "comments" : "The dive site's name may be simple, but it's wholly appropriate. The edge of the miniwall attracts a multitude of fish life and is a hive of activity. It's easy to visualize the reef as a city with its inhabitants scurrying about carrying out their respective roles.  \n\nA short way east of the pin is a large formation of Pillar Coral. This fantastic hard coral grows in columns vertically from the bottom and is unique among hard corals in that it feeds during daylight hours. A close look reveals its tiny polyps with extended tentacles picking up tasty morsels from the water. Careful though, despite its fuzzy appearance, it is very delicate so resist the temptation to touch it! Pillar Corals grow exceptionally slowly, and this formation is between 8 – 10 feet tall. It does not take a mathematician to realize this is an ancient example of an incredible species.   \n\nLarge schools of French and Bluestriped Grunts inhabit the little grooves just east of the Pillars and make for beautiful photos as they gently move back and forth with the water. Eagle-eyed (and patient) divers can look in the shallow hardpan areas for little Lettuce Sea Slugs that are between an inch to two inches long. Their frilly backs are reminiscent of lettuce leaves, and they use them to store algal chloroplasts from the algae in their diet. These chloroplasts allow the animal to absorb energy from the sun to photosynthesize. They are sometimes known as Solar-Powered Slugs!  ",
-        "waterType" : 1
+        "waterType" : 1,
+        "maxDepth" : 18.288000106811523,
+        "waterName" : "Caribbean Sea",
+        "altitude" : "Sea Level",
+        "name" : "Fish Tank"
       }
     },
     {
       "ItemType" : "Place",
       "Data" : {
         "waterName" : "Caribbean Sea",
+        "altitude" : "Sea Level",
         "gpsLocation" : {
           "longitude" : -86.559738888888887,
           "latitude" : 16.343030555555554
@@ -886,6 +1062,7 @@
         "maxDepth" : 18.559999465942383,
         "waterType" : 1,
         "waterName" : "North Pacific Ocean",
+        "altitude" : "Sea Level",
         "name" : "Garden Eel Cove"
       }
     },
@@ -907,6 +1084,7 @@
       "ItemType" : "Place",
       "Data" : {
         "waterName" : "Philippine Sea",
+        "altitude" : "Sea Level",
         "gpsLocation" : {
           "longitude" : 134.268,
           "latitude" : 7.1191194444444443
@@ -920,6 +1098,7 @@
       "ItemType" : "Place",
       "Data" : {
         "waterName" : "Philippine Sea",
+        "altitude" : "Sea Level",
         "gpsLocation" : {
           "longitude" : 134.268,
           "latitude" : 7.1191194444444443
@@ -933,6 +1112,7 @@
       "ItemType" : "Place",
       "Data" : {
         "waterName" : "Caribbean Sea",
+        "altitude" : "Sea Level",
         "gpsLocation" : {
           "longitude" : -86.588897222222215,
           "latitude" : 16.317511111111109
@@ -946,6 +1126,7 @@
       "ItemType" : "Place",
       "Data" : {
         "waterName" : "North Pacific Ocean",
+        "altitude" : "Sea Level",
         "gpsLocation" : {
           "longitude" : -156.04979722222222,
           "latitude" : 19.703044444444444
@@ -959,6 +1140,21 @@
       "ItemType" : "Place",
       "Data" : {
         "waterName" : "Caribbean Sea",
+        "altitude" : "Sea Level",
+        "gpsLocation" : {
+          "longitude" : -86.594013888888881,
+          "latitude" : 16.312019444444445
+        },
+        "name" : "Grape Escape",
+        "comments" : "",
+        "waterType" : 1
+      }
+    },
+    {
+      "ItemType" : "Place",
+      "Data" : {
+        "waterName" : "Caribbean Sea",
+        "altitude" : "Sea Level",
         "gpsLocation" : {
           "longitude" : -86.582038888888889,
           "latitude" : 16.324619444444444
@@ -971,14 +1167,29 @@
     {
       "ItemType" : "Place",
       "Data" : {
-        "waterName" : "Philippine Sea",
-        "maxDepth" : 27.432001113891602,
+        "comments" : "Cargo vessel sunk while at anchor. In the lagoon, so visibility was 10-20’",
         "gpsLocation" : {
           "longitude" : 134.44439722222222,
           "latitude" : 7.3201888888888886
         },
-        "name" : "Hafa Adai",
-        "comments" : "Cargo vessel sunk while at anchor. In the lagoon, so visibility was 10-20’",
+        "waterType" : 1,
+        "maxDepth" : 27.432001113891602,
+        "waterName" : "Philippine Sea",
+        "altitude" : "Sea Level",
+        "name" : "Hafa Adai"
+      }
+    },
+    {
+      "ItemType" : "Place",
+      "Data" : {
+        "waterName" : "Caribbean Sea",
+        "altitude" : "Sea Level",
+        "gpsLocation" : {
+          "longitude" : -86.59611388888888,
+          "latitude" : 16.309191666666667
+        },
+        "name" : "Half Moon Bay Wall",
+        "comments" : "",
         "waterType" : 1
       }
     },
@@ -994,6 +1205,7 @@
         "maxDepth" : 30,
         "waterType" : 1,
         "waterName" : "Caribbean Sea",
+        "altitude" : "Sea Level",
         "name" : "Haunted Wrecks"
       }
     },
@@ -1047,11 +1259,26 @@
       "ItemType" : "Place",
       "Data" : {
         "waterName" : "Caribbean Sea",
+        "altitude" : "Sea Level",
         "gpsLocation" : {
           "longitude" : -86.592019444444446,
           "latitude" : 16.315711111111113
         },
         "name" : "Hole In The Wall",
+        "comments" : "",
+        "waterType" : 1
+      }
+    },
+    {
+      "ItemType" : "Place",
+      "Data" : {
+        "waterName" : "Caribbean Sea",
+        "altitude" : "Sea Level",
+        "gpsLocation" : {
+          "longitude" : -86.600311111111111,
+          "latitude" : 16.301013888888889
+        },
+        "name" : "Holler Deep",
         "comments" : "",
         "waterType" : 1
       }
@@ -1068,6 +1295,7 @@
         "maxDepth" : 17.5,
         "waterType" : 1,
         "waterName" : "North Pacific Ocean",
+        "altitude" : "Sea Level",
         "name" : "Horseshoe Reef"
       }
     },
@@ -1152,6 +1380,7 @@
       "ItemType" : "Place",
       "Data" : {
         "waterName" : "Philippine Sea",
+        "altitude" : "Sea Level",
         "gpsLocation" : {
           "longitude" : 134.28,
           "latitude" : 7.21
@@ -1179,14 +1408,29 @@
     {
       "ItemType" : "Place",
       "Data" : {
-        "waterName" : "Caribbean Sea",
-        "maxDepth" : 30.479999542236328,
+        "comments" : "Named after Julie, a local nurse who used to love going shore diving at this site on the weekends. While not as well-known as its neighbors, it's a fantastic dive site that is not to be missed. Julie's Wall is the last of our northern dive sites; any further west becomes a government-protected no-dive zone.  \n\nJulie's Wall delivers a feature seen on only one other dive site, the unique opportunity to swim underneath the overhanging wall! Breaker's Cutback is the only other site where this phenomenon occurs. This continually twilight environment is favorable to the sponges that usually live much deeper. Despite the shallow depths, the comparative lack of light is ideal for these deep-loving sponges. Their large sizes, vibrant colors, and strange forms are an absolute delight to see.    \n\nThe miniwall at Julie's sits close to the main wall, and divers can enjoy both worlds in one dive. The shadowy realms of the deep overhang are just a short swim from the bright, sunlit mini wall. Look for Porcupine Puffer Fish that swim just above the reef and often allow divers a slow approach. They have such lovably blunt faces with bulging eyes and tiny mouths! They can also grow surprisingly large, over two feet long in some cases. Look for the small spines covering their bodies which earn them the 'porcupine' moniker.  ",
         "gpsLocation" : {
           "longitude" : -81.166050000000013,
           "latitude" : 19.369316666666666
         },
-        "name" : "Julie’s Wall",
-        "comments" : "Named after Julie, a local nurse who used to love going shore diving at this site on the weekends. While not as well-known as its neighbors, it's a fantastic dive site that is not to be missed. Julie's Wall is the last of our northern dive sites; any further west becomes a government-protected no-dive zone.  \n\nJulie's Wall delivers a feature seen on only one other dive site, the unique opportunity to swim underneath the overhanging wall! Breaker's Cutback is the only other site where this phenomenon occurs. This continually twilight environment is favorable to the sponges that usually live much deeper. Despite the shallow depths, the comparative lack of light is ideal for these deep-loving sponges. Their large sizes, vibrant colors, and strange forms are an absolute delight to see.    \n\nThe miniwall at Julie's sits close to the main wall, and divers can enjoy both worlds in one dive. The shadowy realms of the deep overhang are just a short swim from the bright, sunlit mini wall. Look for Porcupine Puffer Fish that swim just above the reef and often allow divers a slow approach. They have such lovably blunt faces with bulging eyes and tiny mouths! They can also grow surprisingly large, over two feet long in some cases. Look for the small spines covering their bodies which earn them the 'porcupine' moniker.  ",
+        "waterType" : 1,
+        "maxDepth" : 30.479999542236328,
+        "waterName" : "Caribbean Sea",
+        "altitude" : "Sea Level",
+        "name" : "Julie’s Wall"
+      }
+    },
+    {
+      "ItemType" : "Place",
+      "Data" : {
+        "waterName" : "Caribbean Sea",
+        "altitude" : "Sea Level",
+        "gpsLocation" : {
+          "longitude" : -86.604774999999989,
+          "latitude" : 16.283180555555553
+        },
+        "name" : "Jumping Jack",
+        "comments" : "",
         "waterType" : 1
       }
     },
@@ -1249,15 +1493,16 @@
     {
       "ItemType" : "Place",
       "Data" : {
-        "waterName" : "Caribbean Sea",
-        "maxDepth" : 18.288000106811523,
+        "comments" : "Sitting just in front of Barefoot Beach, Kathleen's Reef is named for the wreck of the Geneva Kathleen, a three-masted schooner that met her watery end in 1930 en route from Gulfport to Curacao. Her wooden remains have long since rotted away. Still, snorkelers entering the ocean from Barefoot Beach can swim a short distance east to see various parts of her equipment sitting in just a few feet of water. However, the area is too shallow for diving, unfortunately.   \n\nThe namesake dive site is a little further out from shore beyond the barrier reef. Kathleen's Reef can sometimes suffer poor visibility due to the outflow from the nearby lagoon, but catch it on a good day, and you will be rewarded. Divers can expect extensive and varied sponges, huge feather plumes, and the beautiful spur and groove reef formations typical of the north side.    \n\nMake sure to look inside the roomy barrel sponges for lobsters! If you approach gently, these surprisingly inquisitive little guys will often edge slowly from their hiding places to investigate you, waving their antennae as they do so. The Yellow Tube Sponges often have little schools of juvenile Bluehead Wrasse teeming around them. These youngsters are yellow (not blue like the adults) and will swarm toward any disturbances in the sand to pick out the tasty treats it holds. \n\nJust a little east of the mooring pin, there is a large overhang for divers to pass underneath. Spotted Drums are a regular sighting here. If you accidentally spook one and it disappears into a hole, don't worry! Hang tight nice and still, and it will come back out again.",
         "gpsLocation" : {
           "longitude" : -81.123483333333326,
           "latitude" : 19.358450000000001
         },
-        "name" : "Kathleen’s Reef",
-        "comments" : "Sitting just in front of Barefoot Beach, Kathleen's Reef is named for the wreck of the Geneva Kathleen, a three-masted schooner that met her watery end in 1930 en route from Gulfport to Curacao. Her wooden remains have long since rotted away. Still, snorkelers entering the ocean from Barefoot Beach can swim a short distance east to see various parts of her equipment sitting in just a few feet of water. However, the area is too shallow for diving, unfortunately.   \n\nThe namesake dive site is a little further out from shore beyond the barrier reef. Kathleen's Reef can sometimes suffer poor visibility due to the outflow from the nearby lagoon, but catch it on a good day, and you will be rewarded. Divers can expect extensive and varied sponges, huge feather plumes, and the beautiful spur and groove reef formations typical of the north side.    \n\nMake sure to look inside the roomy barrel sponges for lobsters! If you approach gently, these surprisingly inquisitive little guys will often edge slowly from their hiding places to investigate you, waving their antennae as they do so. The Yellow Tube Sponges often have little schools of juvenile Bluehead Wrasse teeming around them. These youngsters are yellow (not blue like the adults) and will swarm toward any disturbances in the sand to pick out the tasty treats it holds. \n\nJust a little east of the mooring pin, there is a large overhang for divers to pass underneath. Spotted Drums are a regular sighting here. If you accidentally spook one and it disappears into a hole, don't worry! Hang tight nice and still, and it will come back out again.",
-        "waterType" : 1
+        "waterType" : 1,
+        "maxDepth" : 18.288000106811523,
+        "waterName" : "Caribbean Sea",
+        "altitude" : "Sea Level",
+        "name" : "Kathleen’s Reef"
       }
     },
     {
@@ -1318,6 +1563,7 @@
         "maxDepth" : 29.870000839233398,
         "waterType" : 1,
         "waterName" : "South China Sea",
+        "altitude" : "Sea Level",
         "name" : "Kogyo Maru"
       }
     },
@@ -1325,11 +1571,26 @@
       "ItemType" : "Place",
       "Data" : {
         "waterName" : "North Pacific Ocean",
+        "altitude" : "Sea Level",
         "gpsLocation" : {
           "longitude" : -156.03471111111111,
           "latitude" : 19.683175000000002
         },
         "name" : "Koloko Canyons (Shallow)",
+        "comments" : "",
+        "waterType" : 1
+      }
+    },
+    {
+      "ItemType" : "Place",
+      "Data" : {
+        "waterName" : "Caribbean Sea",
+        "altitude" : "Sea Level",
+        "gpsLocation" : {
+          "longitude" : -86.579819444444439,
+          "latitude" : 16.282986111111111
+        },
+        "name" : "Kristi’s Cove",
         "comments" : "",
         "waterType" : 1
       }
@@ -1346,7 +1607,22 @@
         "maxDepth" : 20.120000839233398,
         "waterType" : 1,
         "waterName" : "Caribbean Sea",
+        "altitude" : "Sea Level",
         "name" : "La Francesa"
+      }
+    },
+    {
+      "ItemType" : "Place",
+      "Data" : {
+        "waterName" : "Caribbean Sea",
+        "altitude" : "Sea Level",
+        "gpsLocation" : {
+          "longitude" : -86.595505555555548,
+          "latitude" : 16.310549999999999
+        },
+        "name" : "Lara’s Rainbow ",
+        "comments" : "",
+        "waterType" : 1
       }
     },
     {
@@ -1376,6 +1652,20 @@
     {
       "ItemType" : "Place",
       "Data" : {
+        "waterName" : "Caribbean Sea",
+        "altitude" : "Sea Level",
+        "gpsLocation" : {
+          "longitude" : -86.597602777777766,
+          "latitude" : 16.304530555555555
+        },
+        "name" : "Lighthouse",
+        "comments" : "",
+        "waterType" : 1
+      }
+    },
+    {
+      "ItemType" : "Place",
+      "Data" : {
         "waterName" : "Banda Sea",
         "altitude" : "Sea Level",
         "gpsLocation" : {
@@ -1390,21 +1680,23 @@
     {
       "ItemType" : "Place",
       "Data" : {
-        "waterName" : "Caribbean Sea",
-        "maxDepth" : 18.288000106811523,
+        "comments" : "It was named after 'Bluff Bay' on the shoreline and surrounding area. Little Bluff is the Caribbean diving you dreamed of from TV and movies, books and magazines, and jaw-dropping nature documentaries.    \n\nWhile there is no doubt that we love the thrill of adventure offered by some of our other dives, sometimes you need to simply drop down 20 – 40 feet onto rolling meadows of coral teeming with life! Little Bluff rarely suffers from currents or surge - it's so easy! Feel the calm wash over you as you move effortlessly through the still water seeing the stunning aquatic scenery.   \n\nFor those who want more adventure, head north and follow the long fingers of coral toward the deeper sections of the site. Little Bluff is an easy site to navigate, these low spines of rock offer divers a natural compass. They almost always run north\/south, formed over millennia by the waves' erosion. As a result, they sit perpendicular to the shoreline. Divers can follow one north for a while, hop to the next one and follow it back, easy! \n\nFor you fish collectors out there, keep a beady eye out for all the different types of Hamlet that can easily be found here. Hamlets are small fish that swim close to the reef. They are unique because many color variations exist, yet they are all the same shape and size. They all share the characteristic blue 'lightning bolts' around the eyes, but everything else varies significantly. The most familiar are Barred Hamlets, the pale stripy ones you see on most dives. Rarer, however, are the Batman-looking Masked Hamlets and the strikingly blue\/purple Indigo Hamlets. The real holy grail is to find the 'rarer than rare' Golden Hamlet. This specimen features on the front cover of the fish ID book for a reason – they are just so beautiful.   \n\nWe are not 'bluffing' when we say that Little Bluff is an absolute favorite!  ",
         "gpsLocation" : {
           "longitude" : -81.138716666666667,
           "latitude" : 19.356433333333335
         },
-        "name" : "Little Bluff Reef",
-        "comments" : "It was named after 'Bluff Bay' on the shoreline and surrounding area. Little Bluff is the Caribbean diving you dreamed of from TV and movies, books and magazines, and jaw-dropping nature documentaries.    \n\nWhile there is no doubt that we love the thrill of adventure offered by some of our other dives, sometimes you need to simply drop down 20 – 40 feet onto rolling meadows of coral teeming with life! Little Bluff rarely suffers from currents or surge - it's so easy! Feel the calm wash over you as you move effortlessly through the still water seeing the stunning aquatic scenery.   \n\nFor those who want more adventure, head north and follow the long fingers of coral toward the deeper sections of the site. Little Bluff is an easy site to navigate, these low spines of rock offer divers a natural compass. They almost always run north\/south, formed over millennia by the waves' erosion. As a result, they sit perpendicular to the shoreline. Divers can follow one north for a while, hop to the next one and follow it back, easy! \n\nFor you fish collectors out there, keep a beady eye out for all the different types of Hamlet that can easily be found here. Hamlets are small fish that swim close to the reef. They are unique because many color variations exist, yet they are all the same shape and size. They all share the characteristic blue 'lightning bolts' around the eyes, but everything else varies significantly. The most familiar are Barred Hamlets, the pale stripy ones you see on most dives. Rarer, however, are the Batman-looking Masked Hamlets and the strikingly blue\/purple Indigo Hamlets. The real holy grail is to find the 'rarer than rare' Golden Hamlet. This specimen features on the front cover of the fish ID book for a reason – they are just so beautiful.   \n\nWe are not 'bluffing' when we say that Little Bluff is an absolute favorite!  ",
-        "waterType" : 1
+        "waterType" : 1,
+        "maxDepth" : 18.288000106811523,
+        "waterName" : "Caribbean Sea",
+        "altitude" : "Sea Level",
+        "name" : "Little Bluff Reef"
       }
     },
     {
       "ItemType" : "Place",
       "Data" : {
         "waterName" : "Caribbean Sea",
+        "altitude" : "Sea Level",
         "gpsLocation" : {
           "longitude" : -81.072449999999989,
           "latitude" : 19.317933333333333
@@ -1426,6 +1718,7 @@
         "maxDepth" : 18.290000915527344,
         "waterType" : 1,
         "waterName" : "South China Sea",
+        "altitude" : "Sea Level",
         "name" : "Luson Gun Boat"
       }
     },
@@ -1471,6 +1764,7 @@
         "maxDepth" : 11,
         "waterType" : 1,
         "waterName" : "North Pacific Ocean",
+        "altitude" : "Sea Level",
         "name" : "Mala Boat Ramp"
       }
     },
@@ -1494,6 +1788,21 @@
       "ItemType" : "Place",
       "Data" : {
         "waterName" : "Caribbean Sea",
+        "altitude" : "Sea Level",
+        "gpsLocation" : {
+          "longitude" : -86.602127777777767,
+          "latitude" : 16.27247222222222
+        },
+        "name" : "Mandy’s Eel Garden",
+        "comments" : "",
+        "waterType" : 1
+      }
+    },
+    {
+      "ItemType" : "Place",
+      "Data" : {
+        "waterName" : "Caribbean Sea",
+        "altitude" : "Sea Level",
         "gpsLocation" : {
           "longitude" : -86.578819444444434,
           "latitude" : 16.283980555555559
@@ -1507,13 +1816,42 @@
       "ItemType" : "Place",
       "Data" : {
         "waterName" : "Caribbean Sea",
-        "maxDepth" : 30.479999542236328,
+        "altitude" : "Sea Level",
+        "gpsLocation" : {
+          "longitude" : -86.468352777777781,
+          "latitude" : 16.337633333333333
+        },
+        "name" : "Mary’s Place",
+        "comments" : "",
+        "waterType" : 1
+      }
+    },
+    {
+      "ItemType" : "Place",
+      "Data" : {
+        "comments" : "This site is named after McCurley Greene, who lives in the house directly onshore. He owns and runs a car rental and airport transfer business.    \n\nLike its Old Man Bay neighbors, McCurley's wall is shallow on top, with just 40 feet in places, but the drop-off is just as steep and magnificent as you would expect from Grand Cayman's eastern dives. This shallow top makes the dive easy and accessible for all levels of diver, but it's perfect for the seasoned pros too! Not only can you maximize your bottom time by coming up shallow for the latter part of the dive, but you can also enjoy the visually mind-blowing effect of dropping down to 80+ feet and having the wall extending up far above your head. It feels so much deeper than it is!    \n\nLook closely at the black coral and deep-sea fans for Neck Crabs, a type of decorator crab. These crabs take pieces of their habitat, such as algae and detritus, and place them upon their bodies as camouflage. Don't try this trick yourself; placing office stationery on your head to hide from your boss doesn't work!    \n\nEast of the pin, a narrow chimney is accessible from a crack in the wall at around 80 feet depth. This chimney makes for an exciting way to shallow up from the dive and gives divers a real sense of change as they transition from the deep blue wall below to the dazzling reef shelf above.  ",
         "gpsLocation" : {
           "longitude" : -81.163566666666668,
           "latitude" : 19.354066666666668
         },
-        "name" : "McCurley’s Wall",
-        "comments" : "This site is named after McCurley Greene, who lives in the house directly onshore. He owns and runs a car rental and airport transfer business.    \n\nLike its Old Man Bay neighbors, McCurley's wall is shallow on top, with just 40 feet in places, but the drop-off is just as steep and magnificent as you would expect from Grand Cayman's eastern dives. This shallow top makes the dive easy and accessible for all levels of diver, but it's perfect for the seasoned pros too! Not only can you maximize your bottom time by coming up shallow for the latter part of the dive, but you can also enjoy the visually mind-blowing effect of dropping down to 80+ feet and having the wall extending up far above your head. It feels so much deeper than it is!    \n\nLook closely at the black coral and deep-sea fans for Neck Crabs, a type of decorator crab. These crabs take pieces of their habitat, such as algae and detritus, and place them upon their bodies as camouflage. Don't try this trick yourself; placing office stationery on your head to hide from your boss doesn't work!    \n\nEast of the pin, a narrow chimney is accessible from a crack in the wall at around 80 feet depth. This chimney makes for an exciting way to shallow up from the dive and gives divers a real sense of change as they transition from the deep blue wall below to the dazzling reef shelf above.  ",
+        "waterType" : 1,
+        "maxDepth" : 30.479999542236328,
+        "waterName" : "Caribbean Sea",
+        "altitude" : "Sea Level",
+        "name" : "McCurley’s Wall"
+      }
+    },
+    {
+      "ItemType" : "Place",
+      "Data" : {
+        "waterName" : "Caribbean Sea",
+        "altitude" : "Sea Level",
+        "gpsLocation" : {
+          "longitude" : -86.602525,
+          "latitude" : 16.29729166666667
+        },
+        "name" : "Mickeys Place",
+        "comments" : "",
         "waterType" : 1
       }
     },
@@ -1521,6 +1859,7 @@
       "ItemType" : "Place",
       "Data" : {
         "waterName" : "Caribbean Sea",
+        "altitude" : "Sea Level",
         "gpsLocation" : {
           "longitude" : -86.576605555555545,
           "latitude" : 16.328408333333332
@@ -1573,6 +1912,7 @@
         "maxDepth" : 21.639999389648438,
         "waterType" : 1,
         "waterName" : "South China Sea",
+        "altitude" : "Sea Level",
         "name" : "Morazan Maru"
       }
     },
@@ -1602,6 +1942,7 @@
         "maxDepth" : 12.369999885559082,
         "waterType" : 1,
         "waterName" : "North Pacific Ocean",
+        "altitude" : "Sea Level",
         "name" : "Nautilus Reef"
       }
     },
@@ -1609,6 +1950,7 @@
       "ItemType" : "Place",
       "Data" : {
         "waterName" : "Philippine Sea",
+        "altitude" : "Sea Level",
         "gpsLocation" : {
           "longitude" : 133.333,
           "latitude" : 6.2032694444444445
@@ -1636,6 +1978,7 @@
       "ItemType" : "Place",
       "Data" : {
         "waterName" : "Philippine Sea",
+        "altitude" : "Sea Level",
         "gpsLocation" : {
           "longitude" : 134.24600277777776,
           "latitude" : 7.0577638888888883
@@ -1665,11 +2008,17 @@
     {
       "ItemType" : "Place",
       "Data" : {
+        "comments" : "",
+        "gpsLocation" : {
+          "longitude" : -155.5097638888889,
+          "latitude" : 19.587594444444445
+        },
         "difficulty" : "",
         "maxDepth" : 24.5,
-        "name" : "No Name Paradise",
-        "comments" : "",
-        "waterType" : 1
+        "waterType" : 1,
+        "waterName" : "North Pacific Ocean",
+        "altitude" : "Sea Level",
+        "name" : "No Name Paradise"
       }
     },
     {
@@ -1689,21 +2038,23 @@
     {
       "ItemType" : "Place",
       "Data" : {
-        "waterName" : "Caribbean Sea",
-        "maxDepth" : 30.479999542236328,
+        "comments" : "This site is named after the condo development directly onshore and also because it is found on the island's northern shore. Ignore any yarns spun by the crew about seeing the Aurora Borealis – we are too far south for that down here in Cayman! \n\nA gently sloping bottom leads from the pin to the drop-off, which starts around 55 – 60 ft. The slope is composed of alternating channels of sand and fingers of coral and sponge-encrusted rock. Divers make their way down this slope at the beginning of the dive and back up again at the end, looking for a free-swimming Green Moray Eel that frequents this area. Careful, though; he's a curious one! \n\nDivers should look far below them while swimming along the drop-off; you can make out the faint outline of a shelf around 200 feet deep. This vertigo-inducing experience gives you a dizzying sense of scale; Grand Cayman may lack above-water terrain, but it certainly makes up for it underwater!  \n\nTake advantage of the narrow channels and overhangs along the wall with abundant sponge growth. The long and stringy Rope Sponges are particularly distinctive, growing together in such numbers as to appear as a tangled mess of shapes and colors. Some glow neon green which is incredibly alien! Northern Lights is a site where a dive light comes in handy. Due to light absorption by the water, we lose color the deeper we go. Replacing this lost light is the key to appreciating the vividness of the sponges and algae. ",
         "gpsLocation" : {
           "longitude" : -81.162000000000006,
           "latitude" : 19.354916666666668
         },
-        "name" : "Northern Lights",
-        "comments" : "This site is named after the condo development directly onshore and also because it is found on the island's northern shore. Ignore any yarns spun by the crew about seeing the Aurora Borealis – we are too far south for that down here in Cayman! \n\nA gently sloping bottom leads from the pin to the drop-off, which starts around 55 – 60 ft. The slope is composed of alternating channels of sand and fingers of coral and sponge-encrusted rock. Divers make their way down this slope at the beginning of the dive and back up again at the end, looking for a free-swimming Green Moray Eel that frequents this area. Careful, though; he's a curious one! \n\nDivers should look far below them while swimming along the drop-off; you can make out the faint outline of a shelf around 200 feet deep. This vertigo-inducing experience gives you a dizzying sense of scale; Grand Cayman may lack above-water terrain, but it certainly makes up for it underwater!  \n\nTake advantage of the narrow channels and overhangs along the wall with abundant sponge growth. The long and stringy Rope Sponges are particularly distinctive, growing together in such numbers as to appear as a tangled mess of shapes and colors. Some glow neon green which is incredibly alien! Northern Lights is a site where a dive light comes in handy. Due to light absorption by the water, we lose color the deeper we go. Replacing this lost light is the key to appreciating the vividness of the sponges and algae. ",
-        "waterType" : 1
+        "waterType" : 1,
+        "maxDepth" : 30.479999542236328,
+        "waterName" : "Caribbean Sea",
+        "altitude" : "Sea Level",
+        "name" : "Northern Lights"
       }
     },
     {
       "ItemType" : "Place",
       "Data" : {
         "waterName" : "Caribbean Sea",
+        "altitude" : "Sea Level",
         "gpsLocation" : {
           "longitude" : -86.544486111111112,
           "latitude" : 16.352408333333333
@@ -1725,6 +2076,7 @@
         "maxDepth" : 11,
         "waterType" : 1,
         "waterName" : "North Pacific Ocean",
+        "altitude" : "Sea Level",
         "name" : "Olowalu"
       }
     },
@@ -1740,21 +2092,23 @@
         "maxDepth" : 28.959999084472656,
         "waterType" : 1,
         "waterName" : "South China Sea",
+        "altitude" : "Sea Level",
         "name" : "Olympia Maru"
       }
     },
     {
       "ItemType" : "Place",
       "Data" : {
-        "waterName" : "Caribbean Sea",
-        "maxDepth" : 18.288000106811523,
+        "comments" : "Before dive boat captains on East End had the luxury of GPS and mooring balls, they would line up the boat with a palm tree on shore that had grown crooked and looked like the omega symbol to know they were in the right place.    \n\nOmega Reef starts strong right under the boat with a miniwall crammed with life. Its sheltered location allows coral and sponges to proliferate, even in the shallows. Less protected areas usually only have bare rock and hardpan where only the hardiest little sea fans typically survive the passing storms. At Omega Reef, however, the coral has far fewer problems. At just 25 feet in places, there is no loss of color from light absorption in the water, so the reef is a kaleidoscope of color!  \n\nIf you can resist the temptation to spend your entire dive below the boat, Omega Reef offers a special two-for-one deal; head due north for just a few minutes, and you will arrive at the main wall at just 60 feet on top. Although this is not considered a 'true' wall dive, a leisurely cruise to the wall and back is a great way to explore the site. Look for the occasional Cero speeding its way through the water. Sometimes known as Kingfish, we wonder where these silvery streamlined guys are headed in such a hurry! ",
         "gpsLocation" : {
           "longitude" : -81.142566666666667,
           "latitude" : 19.356350000000003
         },
-        "name" : "Omega Reef",
-        "comments" : "Before dive boat captains on East End had the luxury of GPS and mooring balls, they would line up the boat with a palm tree on shore that had grown crooked and looked like the omega symbol to know they were in the right place.    \n\nOmega Reef starts strong right under the boat with a miniwall crammed with life. Its sheltered location allows coral and sponges to proliferate, even in the shallows. Less protected areas usually only have bare rock and hardpan where only the hardiest little sea fans typically survive the passing storms. At Omega Reef, however, the coral has far fewer problems. At just 25 feet in places, there is no loss of color from light absorption in the water, so the reef is a kaleidoscope of color!  \n\nIf you can resist the temptation to spend your entire dive below the boat, Omega Reef offers a special two-for-one deal; head due north for just a few minutes, and you will arrive at the main wall at just 60 feet on top. Although this is not considered a 'true' wall dive, a leisurely cruise to the wall and back is a great way to explore the site. Look for the occasional Cero speeding its way through the water. Sometimes known as Kingfish, we wonder where these silvery streamlined guys are headed in such a hurry! ",
-        "waterType" : 1
+        "waterType" : 1,
+        "maxDepth" : 18.288000106811523,
+        "waterName" : "Caribbean Sea",
+        "altitude" : "Sea Level",
+        "name" : "Omega Reef"
       }
     },
     {
@@ -1774,15 +2128,16 @@
     {
       "ItemType" : "Place",
       "Data" : {
-        "difficulty" : "Easy",
-        "waterName" : "Caribbean Sea",
+        "comments" : "",
         "gpsLocation" : {
           "longitude" : -81.390650000000008,
           "latitude" : 19.338038888888889
         },
-        "name" : "Oro Verde",
-        "comments" : "",
-        "waterType" : 1
+        "difficulty" : "Easy",
+        "waterType" : 1,
+        "waterName" : "Caribbean Sea",
+        "altitude" : "Sea Level",
+        "name" : "Oro Verde"
       }
     },
     {
@@ -1803,6 +2158,7 @@
       "ItemType" : "Place",
       "Data" : {
         "waterName" : "Caribbean Sea",
+        "altitude" : "Sea Level",
         "gpsLocation" : {
           "longitude" : -86.583633333333324,
           "latitude" : 16.323119444444444
@@ -1815,15 +2171,16 @@
     {
       "ItemType" : "Place",
       "Data" : {
-        "difficulty" : "Easy",
-        "waterName" : "Caribbean Sea",
+        "comments" : "",
         "gpsLocation" : {
           "longitude" : -81.388419444444452,
           "latitude" : 19.306080555555557
         },
-        "name" : "Pageant Reef",
-        "comments" : "",
-        "waterType" : 1
+        "difficulty" : "Easy",
+        "waterType" : 1,
+        "waterName" : "Caribbean Sea",
+        "altitude" : "Sea Level",
+        "name" : "Pageant Reef"
       }
     },
     {
@@ -1852,6 +2209,7 @@
         "maxDepth" : 25.020000457763672,
         "waterType" : 1,
         "waterName" : "Caribbean Sea",
+        "altitude" : "Sea Level",
         "name" : "Palancar: Bricks"
       }
     },
@@ -1867,6 +2225,7 @@
         "maxDepth" : 25.120000839233398,
         "waterType" : 1,
         "waterName" : "Caribbean Sea",
+        "altitude" : "Sea Level",
         "name" : "Palancar: Caves"
       }
     },
@@ -1882,6 +2241,7 @@
         "maxDepth" : 22.649999618530273,
         "waterType" : 1,
         "waterName" : "Caribbean Sea",
+        "altitude" : "Sea Level",
         "name" : "Palancar: Gardens"
       }
     },
@@ -1889,6 +2249,7 @@
       "ItemType" : "Place",
       "Data" : {
         "waterName" : "Caribbean Sea",
+        "altitude" : "Sea Level",
         "gpsLocation" : {
           "longitude" : -87.027655555555555,
           "latitude" : 20.327611111111111
@@ -1902,6 +2263,7 @@
       "ItemType" : "Place",
       "Data" : {
         "waterName" : "Caribbean Sea",
+        "altitude" : "Sea Level",
         "gpsLocation" : {
           "longitude" : -86.983291666666673,
           "latitude" : 20.468991666666664
@@ -1923,6 +2285,7 @@
         "maxDepth" : 21.209999084472656,
         "waterType" : 1,
         "waterName" : "Caribbean Sea",
+        "altitude" : "Sea Level",
         "name" : "Paso del Cedral"
       }
     },
@@ -1930,6 +2293,7 @@
       "ItemType" : "Place",
       "Data" : {
         "waterName" : "Philippine Sea",
+        "altitude" : "Sea Level",
         "gpsLocation" : {
           "longitude" : 134.21799999999999,
           "latitude" : 6.996261111111111
@@ -1943,6 +2307,7 @@
       "ItemType" : "Place",
       "Data" : {
         "waterName" : "Philippine Sea",
+        "altitude" : "Sea Level",
         "gpsLocation" : {
           "longitude" : 134.22800000000001,
           "latitude" : 6.9734611111111109
@@ -1955,15 +2320,16 @@
     {
       "ItemType" : "Place",
       "Data" : {
-        "waterName" : "Caribbean Sea",
-        "maxDepth" : 21.336000442504883,
+        "comments" : "",
         "gpsLocation" : {
           "longitude" : -86.569549999999992,
           "latitude" : 16.338341666666665
         },
-        "name" : "Peter’s Place",
-        "comments" : "",
-        "waterType" : 1
+        "waterType" : 1,
+        "maxDepth" : 21.336000442504883,
+        "waterName" : "Caribbean Sea",
+        "altitude" : "Sea Level",
+        "name" : "Peter’s Place"
       }
     },
     {
@@ -1997,6 +2363,20 @@
     {
       "ItemType" : "Place",
       "Data" : {
+        "waterName" : "Caribbean Sea",
+        "altitude" : "Sea Level",
+        "gpsLocation" : {
+          "longitude" : -86.603666666666655,
+          "latitude" : 16.285347222222224
+        },
+        "name" : "Puncher’s Paradise",
+        "comments" : "",
+        "waterType" : 1
+      }
+    },
+    {
+      "ItemType" : "Place",
+      "Data" : {
         "comments" : "",
         "gpsLocation" : {
           "longitude" : -87.028205555555559,
@@ -2006,6 +2386,7 @@
         "maxDepth" : 18.649999618530273,
         "waterType" : 1,
         "waterName" : "Caribbean Sea",
+        "altitude" : "Sea Level",
         "name" : "Punta Dalila"
       }
     },
@@ -2021,6 +2402,7 @@
         "maxDepth" : 19.870000839233398,
         "waterType" : 1,
         "waterName" : "Caribbean Sea",
+        "altitude" : "Sea Level",
         "name" : "Punta Tunich"
       }
     },
@@ -2050,6 +2432,7 @@
         "maxDepth" : 12,
         "waterType" : 1,
         "waterName" : "Coral Sea",
+        "altitude" : "Sea Level",
         "name" : "Ralph Rocks, Norman Reef"
       }
     },
@@ -2082,6 +2465,7 @@
         "maxDepth" : 28.040000915527344,
         "waterType" : 1,
         "waterName" : "Caribbean Sea",
+        "altitude" : "Sea Level",
         "name" : "RMS Rhone"
       }
     },
@@ -2089,20 +2473,36 @@
       "ItemType" : "Place",
       "Data" : {
         "waterName" : "Caribbean Sea",
-        "maxDepth" : 21.336000442504883,
+        "altitude" : "Sea Level",
         "gpsLocation" : {
-          "longitude" : -81.098416666666665,
-          "latitude" : 19.355483333333336
+          "longitude" : -86.554269444444444,
+          "latitude" : 16.34684722222222
         },
-        "name" : "Roger's Reef",
-        "comments" : "Named after where 'Roger' wrecked his small craft on the shoreline, this point became known locally as 'Roger's Wreck' - this site is the reef directly off from this point. This site sits right where the northern stretch of the coastline rounds the corner and starts to head south. This prominent point is in a dynamic area, and we dive here less often than other sites due to often more challenging conditions.  \n\nThe edge of the miniwall is a circus of marine life; you can imagine the scene playing out like the scene under a big top. A beguiling array of colors and shapes in a frantically moving waltz competing for attention. It captivates and charms the crowd; it's only missing the cheesy music! Divers can have a great time making their way back and forth along this coral-covered slope. The flat ledge at the top is where Sailfin Blennies make their burrows. Look for the males rising out of their holes and doing a special dance!   \n\nHead down a little deeper to the 'spur and groove' sand\/reef channels that begin at the bottom of the slope for potential sightings of turtles, rays, sharks, and larger fish species. If you see an old conch shell on the bottom, see if there is a corkscrew anemone inside. They are often accompanied by Pederson Cleaner Shrimp – identifiable by their purple and white antennae. If they frantically wave their antennae, it means they are offering to clean – perhaps you have time for a manicure?  ",
+        "name" : "Rocky’s Reef",
+        "comments" : "",
         "waterType" : 1
       }
     },
     {
       "ItemType" : "Place",
       "Data" : {
+        "comments" : "Named after where 'Roger' wrecked his small craft on the shoreline, this point became known locally as 'Roger's Wreck' - this site is the reef directly off from this point. This site sits right where the northern stretch of the coastline rounds the corner and starts to head south. This prominent point is in a dynamic area, and we dive here less often than other sites due to often more challenging conditions.  \n\nThe edge of the miniwall is a circus of marine life; you can imagine the scene playing out like the scene under a big top. A beguiling array of colors and shapes in a frantically moving waltz competing for attention. It captivates and charms the crowd; it's only missing the cheesy music! Divers can have a great time making their way back and forth along this coral-covered slope. The flat ledge at the top is where Sailfin Blennies make their burrows. Look for the males rising out of their holes and doing a special dance!   \n\nHead down a little deeper to the 'spur and groove' sand\/reef channels that begin at the bottom of the slope for potential sightings of turtles, rays, sharks, and larger fish species. If you see an old conch shell on the bottom, see if there is a corkscrew anemone inside. They are often accompanied by Pederson Cleaner Shrimp – identifiable by their purple and white antennae. If they frantically wave their antennae, it means they are offering to clean – perhaps you have time for a manicure?  ",
+        "gpsLocation" : {
+          "longitude" : -81.098416666666665,
+          "latitude" : 19.355483333333336
+        },
+        "waterType" : 1,
+        "maxDepth" : 21.336000442504883,
+        "waterName" : "Caribbean Sea",
+        "altitude" : "Sea Level",
+        "name" : "Roger's Reef"
+      }
+    },
+    {
+      "ItemType" : "Place",
+      "Data" : {
         "waterName" : "North Pacific Ocean",
+        "altitude" : "Sea Level",
         "gpsLocation" : {
           "longitude" : -157.86449999999999,
           "latitude" : 21.287830555555558
@@ -2134,6 +2534,20 @@
         "waterName" : "Caribbean Sea",
         "altitude" : "Sea Level",
         "gpsLocation" : {
+          "longitude" : -86.588124999999991,
+          "latitude" : 16.275991666666666
+        },
+        "name" : "Ryan’s Rope Swing",
+        "comments" : "",
+        "waterType" : 1
+      }
+    },
+    {
+      "ItemType" : "Place",
+      "Data" : {
+        "waterName" : "Caribbean Sea",
+        "altitude" : "Sea Level",
+        "gpsLocation" : {
           "longitude" : -81.133902777777791,
           "latitude" : 19.357416666666669
         },
@@ -2146,6 +2560,7 @@
       "ItemType" : "Place",
       "Data" : {
         "waterName" : "Caribbean Sea",
+        "altitude" : "Sea Level",
         "gpsLocation" : {
           "longitude" : -87.029799999999994,
           "latitude" : 20.363250000000001
@@ -2167,6 +2582,7 @@
         "maxDepth" : 17.040000915527344,
         "waterType" : 1,
         "waterName" : "Caribbean Sea",
+        "altitude" : "Sea Level",
         "name" : "San Francisco Wall"
       }
     },
@@ -2174,6 +2590,7 @@
       "ItemType" : "Place",
       "Data" : {
         "waterName" : "Caribbean Sea",
+        "altitude" : "Sea Level",
         "gpsLocation" : {
           "longitude" : -86.931780555555562,
           "latitude" : 20.548950000000001
@@ -2187,6 +2604,7 @@
       "ItemType" : "Place",
       "Data" : {
         "waterName" : "North Pacific Ocean",
+        "altitude" : "Sea Level",
         "gpsLocation" : {
           "longitude" : -156.05778611111111,
           "latitude" : 19.732663888888887
@@ -2208,6 +2626,7 @@
         "maxDepth" : 12,
         "waterType" : 1,
         "waterName" : "Coral Sea",
+        "altitude" : "Sea Level",
         "name" : "Sandras, Norman Reef"
       }
     },
@@ -2232,6 +2651,7 @@
       "ItemType" : "Place",
       "Data" : {
         "waterName" : "Caribbean Sea",
+        "altitude" : "Sea Level",
         "gpsLocation" : {
           "longitude" : -87.037777777777777,
           "latitude" : 20.311111111111114
@@ -2253,6 +2673,7 @@
         "maxDepth" : 20.540000915527344,
         "waterType" : 1,
         "waterName" : "Caribbean Sea",
+        "altitude" : "Sea Level",
         "name" : "Santa Rosa Wall"
       }
     },
@@ -2275,7 +2696,22 @@
     {
       "ItemType" : "Place",
       "Data" : {
+        "waterName" : "Caribbean Sea",
+        "altitude" : "Sea Level",
+        "gpsLocation" : {
+          "longitude" : -86.603605555555546,
+          "latitude" : 16.287044444444447
+        },
+        "name" : "Sea Quest ",
+        "comments" : "",
+        "waterType" : 1
+      }
+    },
+    {
+      "ItemType" : "Place",
+      "Data" : {
         "waterName" : "North Pacific Ocean",
+        "altitude" : "Sea Level",
         "gpsLocation" : {
           "longitude" : -157.83860000000001,
           "latitude" : 21.270711111111112
@@ -2289,6 +2725,7 @@
       "ItemType" : "Place",
       "Data" : {
         "waterName" : "North Pacific Ocean",
+        "altitude" : "Sea Level",
         "gpsLocation" : {
           "longitude" : -157.86449999999999,
           "latitude" : 21.287830555555558
@@ -2301,7 +2738,22 @@
     {
       "ItemType" : "Place",
       "Data" : {
+        "waterName" : "Caribbean Sea",
+        "altitude" : "Sea Level",
+        "gpsLocation" : {
+          "longitude" : -86.490194444444441,
+          "latitude" : 16.321863888888888
+        },
+        "name" : "Shark Bait Shallows ",
+        "comments" : "",
+        "waterType" : 1
+      }
+    },
+    {
+      "ItemType" : "Place",
+      "Data" : {
         "waterName" : "North Pacific Ocean",
+        "altitude" : "Sea Level",
         "gpsLocation" : {
           "longitude" : -158.06405277777779,
           "latitude" : 21.651230555555554
@@ -2315,6 +2767,7 @@
       "ItemType" : "Place",
       "Data" : {
         "waterName" : "North Pacific Ocean",
+        "altitude" : "Sea Level",
         "gpsLocation" : {
           "longitude" : -158.06356666666667,
           "latitude" : 21.653422222222222
@@ -2345,6 +2798,7 @@
       "ItemType" : "Place",
       "Data" : {
         "waterName" : "Philippine Sea",
+        "altitude" : "Sea Level",
         "gpsLocation" : {
           "longitude" : 133.333,
           "latitude" : 6.2032694444444445
@@ -2358,6 +2812,7 @@
       "ItemType" : "Place",
       "Data" : {
         "waterName" : "Philippine Sea",
+        "altitude" : "Sea Level",
         "gpsLocation" : {
           "longitude" : 134.285,
           "latitude" : 7.3056000000000001
@@ -2371,6 +2826,7 @@
       "ItemType" : "Place",
       "Data" : {
         "waterName" : "North Pacific Ocean",
+        "altitude" : "Sea Level",
         "gpsLocation" : {
           "longitude" : -156.04259444444443,
           "latitude" : 19.690561111111112
@@ -2399,13 +2855,29 @@
     {
       "ItemType" : "Place",
       "Data" : {
-        "maxDepth" : 30.479999542236328,
+        "comments" : "Named for a narrow canyon that divides the reef, Split Rock is great wall dive. Divers can begin by dropping down through the split that appears as if gouged through the rock. Heading east after passing through brings them to a ledge profuse with black coral. On a morning dive, the rising sun shines through these dark forests of coral, creating soporific silhouettes. Afternoon dives are ideal for photography as the western sun shows all the small details of these fascinating corals.   \n\nWest of the pin, the site has several headlands that jut away from the wall. The western faces of each of these points also have prolific black coral formations. It is not unusual to feel a little current as you round each headland, and it is fascinating to watch the corals' polyps twitching as they catch plankton in the moving water that passes through the branches of the coral. The deep sponges, including Brain Sponges and Tubulate Sponges, often have resident Brittle Stars – hairy-legged and freaky looking; these crazy critters can reproduce by splitting themselves in half and regrowing their arms!\n\nLike any site, divers find that Split Rock needs several dives to get a feel for it. Numerous swim-throughs and tunnels bisect the reef wall, choosing a different one each time will show you something new.  ",
         "gpsLocation" : {
           "longitude" : -81.112549999999999,
           "latitude" : 19.358733333333333
         },
-        "name" : "Split Rock",
-        "comments" : "Named for a narrow canyon that divides the reef, Split Rock is great wall dive. Divers can begin by dropping down through the split that appears as if gouged through the rock. Heading east after passing through brings them to a ledge profuse with black coral. On a morning dive, the rising sun shines through these dark forests of coral, creating soporific silhouettes. Afternoon dives are ideal for photography as the western sun shows all the small details of these fascinating corals.   \n\nWest of the pin, the site has several headlands that jut away from the wall. The western faces of each of these points also have prolific black coral formations. It is not unusual to feel a little current as you round each headland, and it is fascinating to watch the corals' polyps twitching as they catch plankton in the moving water that passes through the branches of the coral. The deep sponges, including Brain Sponges and Tubulate Sponges, often have resident Brittle Stars – hairy-legged and freaky looking; these crazy critters can reproduce by splitting themselves in half and regrowing their arms!\n\nLike any site, divers find that Split Rock needs several dives to get a feel for it. Numerous swim-throughs and tunnels bisect the reef wall, choosing a different one each time will show you something new.  ",
+        "waterType" : 1,
+        "maxDepth" : 30.479999542236328,
+        "waterName" : "Caribbean Sea",
+        "altitude" : "Sea Level",
+        "name" : "Split Rock"
+      }
+    },
+    {
+      "ItemType" : "Place",
+      "Data" : {
+        "waterName" : "Caribbean Sea",
+        "altitude" : "Sea Level",
+        "gpsLocation" : {
+          "longitude" : -86.564452777777774,
+          "latitude" : 16.339397222222221
+        },
+        "name" : "Spooky Channel",
+        "comments" : "",
         "waterType" : 1
       }
     },
@@ -2453,6 +2925,7 @@
         "maxDepth" : 18.930000305175781,
         "waterType" : 1,
         "waterName" : "North Pacific Ocean",
+        "altitude" : "Sea Level",
         "name" : "Suck 'em Up"
       }
     },
@@ -2513,6 +2986,7 @@
         "maxDepth" : 15.850000381469727,
         "waterType" : 1,
         "waterName" : "South China Sea",
+        "altitude" : "Sea Level",
         "name" : "Teru Kaze Maru"
       }
     },
@@ -2528,6 +3002,7 @@
         "maxDepth" : 29.319999694824219,
         "waterType" : 1,
         "waterName" : "North Pacific Ocean",
+        "altitude" : "Sea Level",
         "name" : "The YO257 and St Pedro"
       }
     },
@@ -2535,6 +3010,21 @@
       "ItemType" : "Place",
       "Data" : {
         "waterName" : "Caribbean Sea",
+        "altitude" : "Sea Level",
+        "gpsLocation" : {
+          "longitude" : -86.604469444444433,
+          "latitude" : 16.289536111111111
+        },
+        "name" : "Three Brothers",
+        "comments" : "",
+        "waterType" : 1
+      }
+    },
+    {
+      "ItemType" : "Place",
+      "Data" : {
+        "waterName" : "Caribbean Sea",
+        "altitude" : "Sea Level",
         "gpsLocation" : {
           "longitude" : -86.788349999999994,
           "latitude" : 20.655430555555554
@@ -2548,6 +3038,7 @@
       "ItemType" : "Place",
       "Data" : {
         "waterName" : "Caribbean Sea",
+        "altitude" : "Sea Level",
         "gpsLocation" : {
           "longitude" : -87.041944444444439,
           "latitude" : 20.373333333333335
@@ -2595,6 +3086,7 @@
         "maxDepth" : 28.040000915527344,
         "waterType" : 1,
         "waterName" : "Coral Sea",
+        "altitude" : "Sea Level",
         "name" : "Troppos, Norman Reef"
       }
     },
@@ -2626,6 +3118,7 @@
         "maxDepth" : 10,
         "waterType" : 1,
         "waterName" : "Coral Sea",
+        "altitude" : "Sea Level",
         "name" : "Turtle Bay, Norman Reef"
       }
     },
@@ -2641,6 +3134,7 @@
         "maxDepth" : 22.489999771118164,
         "waterType" : 1,
         "waterName" : "North Pacific Ocean",
+        "altitude" : "Sea Level",
         "name" : "Turtle Canyon"
       }
     },
@@ -2648,6 +3142,7 @@
       "ItemType" : "Place",
       "Data" : {
         "waterName" : "Philippine Sea",
+        "altitude" : "Sea Level",
         "gpsLocation" : {
           "longitude" : 134.24599999999998,
           "latitude" : 7.1053805555555556
@@ -2669,6 +3164,7 @@
         "maxDepth" : 11.890000343322754,
         "waterType" : 1,
         "waterName" : "North Pacific Ocean",
+        "altitude" : "Sea Level",
         "name" : "Turtle Reef"
       }
     },
@@ -2676,6 +3172,7 @@
       "ItemType" : "Place",
       "Data" : {
         "waterName" : "Philippine Sea",
+        "altitude" : "Sea Level",
         "gpsLocation" : {
           "longitude" : 134.47900000000001,
           "latitude" : 7.3419388888888886
@@ -2697,6 +3194,7 @@
         "maxDepth" : 17.979999542236328,
         "waterType" : 1,
         "waterName" : "Coral Sea",
+        "altitude" : "Sea Level",
         "name" : "Twin Peaks, Saxon Reef"
       }
     },
@@ -2704,6 +3202,7 @@
       "ItemType" : "Place",
       "Data" : {
         "waterName" : "Philippine Sea",
+        "altitude" : "Sea Level",
         "gpsLocation" : {
           "longitude" : 134.29400000000001,
           "latitude" : 7.2776305555555556
@@ -2717,6 +3216,7 @@
       "ItemType" : "Place",
       "Data" : {
         "waterName" : "Philippine Sea",
+        "altitude" : "Sea Level",
         "gpsLocation" : {
           "longitude" : 134.29400000000001,
           "latitude" : 7.2776305555555556
@@ -2746,29 +3246,33 @@
     {
       "ItemType" : "Place",
       "Data" : {
-        "difficulty" : "",
-        "maxDepth" : 28.040000915527344,
+        "comments" : "",
         "gpsLocation" : {
           "longitude" : -86.915338888888897,
           "latitude" : 20.445350000000001
         },
-        "name" : "Unknown (Cozumel)",
-        "comments" : "",
-        "waterType" : 1
+        "difficulty" : "",
+        "maxDepth" : 28.040000915527344,
+        "waterType" : 1,
+        "waterName" : "Caribbean Sea",
+        "altitude" : "Sea Level",
+        "name" : "Unknown (Cozumel)"
       }
     },
     {
       "ItemType" : "Place",
       "Data" : {
-        "difficulty" : "",
-        "maxDepth" : 17.979999542236328,
+        "comments" : "",
         "gpsLocation" : {
           "longitude" : -90.283455555555548,
           "latitude" : 0
         },
-        "name" : "Unknown (Galapagos)",
-        "comments" : "",
-        "waterType" : 1
+        "difficulty" : "",
+        "maxDepth" : 17.979999542236328,
+        "waterType" : 1,
+        "waterName" : "Pacific Ocean",
+        "altitude" : "Sea Level",
+        "name" : "Unknown (Galapagos)"
       }
     },
     {
@@ -2783,6 +3287,7 @@
         "maxDepth" : 21.030000686645508,
         "waterType" : 1,
         "waterName" : "Caribbean Sea",
+        "altitude" : "Sea Level",
         "name" : "Unknown (St. Martin)"
       }
     },
@@ -2798,6 +3303,7 @@
         "maxDepth" : 24.440000534057617,
         "waterType" : 1,
         "waterName" : "Caribbean Sea",
+        "altitude" : "Sea Level",
         "name" : "Villa Aldora"
       }
     },
@@ -2805,6 +3311,7 @@
       "ItemType" : "Place",
       "Data" : {
         "waterName" : "Caribbean Sea",
+        "altitude" : "Sea Level",
         "gpsLocation" : {
           "longitude" : -86.955108333333342,
           "latitude" : 20.509394444444446
@@ -2818,6 +3325,7 @@
       "ItemType" : "Place",
       "Data" : {
         "waterName" : "Philippine Sea",
+        "altitude" : "Sea Level",
         "gpsLocation" : {
           "longitude" : 133.333,
           "latitude" : 6.2032694444444445
@@ -2877,6 +3385,7 @@
       "ItemType" : "Place",
       "Data" : {
         "waterName" : "Caribbean Sea",
+        "altitude" : "Sea Level",
         "gpsLocation" : {
           "longitude" : -86.602836111111102,
           "latitude" : 16.269869444444442
@@ -2890,6 +3399,7 @@
       "ItemType" : "Place",
       "Data" : {
         "waterName" : "Caribbean Sea",
+        "altitude" : "Sea Level",
         "gpsLocation" : {
           "longitude" : -86.56742222222222,
           "latitude" : 16.337530555555553
@@ -2935,6 +3445,7 @@
       "ItemType" : "Place",
       "Data" : {
         "waterName" : "Caribbean Sea",
+        "altitude" : "Sea Level",
         "gpsLocation" : {
           "longitude" : -87.023427777777783,
           "latitude" : 20.426816666666667
